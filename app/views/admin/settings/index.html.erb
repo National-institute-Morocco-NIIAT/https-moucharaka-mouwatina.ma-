@@ -1,0 +1,36 @@
+<h1><%= t("admin.settings.index.title") %></h1>
+<div class="tabs-content" data-tabs-content="settings-tabs">
+  <%= render "filter_subnav" %>
+
+  <div class="tabs-panel is-active" id="tab-configuration">
+    <%= render Admin::Settings::ConfigurationTabComponent.new %>
+  </div>
+
+  <div class="tabs-panel" id="tab-participation-processes">
+    <%= render Admin::Settings::ParticipationProcessesTabComponent.new %>
+  </div>
+
+  <div class="tabs-panel" id="tab-feature-flags">
+    <%= render Admin::Settings::FeaturesTabComponent.new %>
+  </div>
+
+  <div class="tabs-panel" id="tab-map-configuration">
+    <%= render Admin::Settings::MapTabComponent.new %>
+  </div>
+
+  <div class="tabs-panel" id="tab-images-and-documents">
+    <%= render Admin::Settings::ImagesAndDocumentsTabComponent.new %>
+  </div>
+
+  <div class="tabs-panel" id="tab-proposals">
+    <%= render Admin::Settings::ProposalsDashboardTabComponent.new %>
+  </div>
+
+  <div class="tabs-panel" id="tab-remote-census-configuration">
+    <%= render Admin::Settings::RemoteCensusTabComponent.new %>
+  </div>
+
+  <div class="tabs-panel" id="tab-sdg-configuration">
+    <%= render Admin::Settings::SDGConfigurationTabComponent.new %>
+  </div>
+</div>

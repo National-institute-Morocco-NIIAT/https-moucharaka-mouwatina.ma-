@@ -1,0 +1,68 @@
+tr:
+  valuation:
+    header:
+      title: Değerlendirme
+    menu:
+      title: Değerlendirme
+      budgets: Katılımcı bütçeler
+    budgets:
+      index:
+        title: Katılımcı bütçeler
+        filters:
+          current: Açık
+          finished: Tamamlanmış
+        table_name: Ad
+        table_phase: Aşama
+        table_assigned_investments_valuation_open: Açık değerlendirme ile belirlenmiş yatırım projeleri
+        table_actions: Yapılacaklar
+        evaluate: Değerlendir
+        no_budgets: "Herhangi bir bütçe yok"
+    budget_investments:
+      index:
+        headings_filter_all: Tüm bütçe kalemleri
+        filters:
+          valuation_open: Açık
+          valuating: Değerlendiriliyor
+          valuation_finished: Değerlendirildi
+        assigned_to: "%{valuator} bilirkişisi görevlendirildi"
+        title: Yatırım projeleri
+        edit: Dosyayı düzenle
+        table_id: Kimlik
+        table_title: Başlık
+        table_heading_name: Bütçe kalemi adı
+        table_actions: Yapılacaklar
+        no_investments: "Herhangi bir yatırım projesi yok."
+      show:
+        back: Geri
+        title: Yatırım projesi
+        info: Sahip bilgileri
+        by: Gönderen
+        sent: Gönderilme zamanı
+        heading: Bütçe kalemi
+        dossier: Dosya
+        edit_dossier: Dosyayı düzenle
+        price: Maliyet
+        price_first_year: İlk yılın maliyeti
+        currency: "€"
+        feasibility: Uygulanabilirlik
+        feasible: Uygulanabilir bulunmuş
+        unfeasible: Uygulanabilir bulunmamış
+        undefined: Tanımlanmamış
+        valuation_finished: Değerlendirildi
+        duration: Zaman aralığı
+        responsibles: Sorumlular
+        assigned_admin: Görevlendirilmiş yönetici
+        assigned_valuators: Görevlendirilmiş bilirkişiler
+        preview: Yatırım ön izlemesi
+      edit:
+        dossier: Dosya
+        price: "Maliyet (%{currency})"
+        price_first_year: "İlk yılın maliyeti (%{currency}) <small>(isteğe bağlı, veri kamuya açık değil)</small>"
+        feasibility: Uygulanabilirlik
+        valuation_finished_alert: "Bu raporu tamamlanmış olarak işaretlemek istediğinize emin misiniz? Bu yapıldığında rapor artık değiştirilemez."
+        not_feasible_alert: "Proje sahibine hemen uygulanabilir bulunmama raporunun bulunduğu bir e-posta gönderilecek."
+        save: Değişiklikleri kaydet
+      notice:
+        valuate: "Dosya güncellendi"
+      valuation_comments: Değerlendirmeler
+      not_in_valuating_phase: Yatırımlar yalnızca bütçe değerlendirme aşamasındayken değerlendirilebilir

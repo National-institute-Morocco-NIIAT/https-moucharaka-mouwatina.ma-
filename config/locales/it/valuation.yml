@@ -1,0 +1,68 @@
+it:
+  valuation:
+    header:
+      title: Valutazione
+    menu:
+      title: Valutazione
+      budgets: Bilanci partecipativi
+    budgets:
+      index:
+        title: Bilanci partecipativi
+        filters:
+          current: Aperti
+          finished: Terminati
+        table_name: Nominativo
+        table_phase: Fase
+        table_assigned_investments_valuation_open: Proposte di investimento assegnate in valutazione
+        table_actions: Azioni
+        evaluate: Valutare
+        no_budgets: "Nessun budget"
+    budget_investments:
+      index:
+        headings_filter_all: Tutte le voci
+        filters:
+          valuation_open: Aperti
+          valuating: Valutazione in corso
+          valuation_finished: Stima conclusa
+        assigned_to: "Assegnate a %{valuator}"
+        title: Progetti di investimento
+        edit: Modificare il dossier
+        table_id: ID
+        table_title: Titolo
+        table_heading_name: Denominazione della voce di bilancio
+        table_actions: Azioni
+        no_investments: "Non esistono progetti d'investimento."
+      show:
+        back: Indietro
+        title: Progetto di investimento
+        info: Info sull'autore
+        by: Inviato da
+        sent: Inviato alle
+        heading: Intestazione
+        dossier: Dossier
+        edit_dossier: Modificare il dossier
+        price: Costi
+        price_first_year: Costo del primo anno
+        currency: "€"
+        feasibility: Fattibilità
+        feasible: Fattibile
+        unfeasible: Irrealizzabile
+        undefined: Non definito
+        valuation_finished: Stima conclusa
+        duration: Tempo massimo di esecuzione
+        responsibles: Responsabili
+        assigned_admin: Admin assegnato
+        assigned_valuators: Stimatori assegnati
+        preview: Anteprima investimento
+      edit:
+        dossier: Dossier
+        price: "Prezzo (%{currency})"
+        price_first_year: "Costo durante il primo anno (%{currency}) <small>(dati facoltativi, non pubblici)</small>"
+        feasibility: Fattibilità
+        valuation_finished_alert: "Sei sicuro di voler contrassegnare questo rapporto come completo? Se lo fai, non sarà più modificabile."
+        not_feasible_alert: "Un'email sarà immediatamente inviata all'autore del progetto con il rapporto di irrealizzabilità."
+        save: Salva modifiche
+      notice:
+        valuate: "Dossier aggiornato"
+      valuation_comments: Commenti valutativi
+      not_in_valuating_phase: Gli investimenti sono valutabili solo quando il Budget è nella fase valutativa

@@ -1,0 +1,1051 @@
+// Table of Contents
+//
+// 01. Global styles
+// 02. Sidebar
+// 03. List elements
+// 04. Stats
+// 05. Management
+// 06. Polls
+// 07. Legislation
+// 08. CMS
+// 09. Map
+// 10. Budgets
+// 11. Newsletters
+//
+
+// 01. Global styles
+// -----------------
+
+$admin-border-color: #d3d9dd;
+$admin-border:   2px solid $admin-border-color;
+$admin-color:    #245b80;
+$admin-text:     #434d54;
+
+$sidebar:        $admin-color;
+$sidebar-hover:  #25597c;
+$sidebar-active: #f4fcd0;
+
+$table-border:   $admin-border;
+$table-header:   #ecf1f6;
+
+.admin {
+  @include admin-layout;
+
+  main {
+    &.admin-site-customization-pages-new,
+    &.admin-site-customization-pages-edit {
+      > header {
+        @include grid-row;
+      }
+    }
+  }
+
+  h2 {
+    font-weight: 100;
+    margin-bottom: $line-height;
+
+    small {
+      color: $text-medium;
+    }
+  }
+
+  h3 {
+    margin: $line-height 0;
+  }
+
+  .back {
+    float: none;
+  }
+
+  .notifications.unread-notifications::after {
+    color: $admin-color;
+  }
+
+  .fieldset {
+
+    select {
+      height: $line-height * 2;
+    }
+
+    [type="text"] {
+      border-radius: 0;
+      margin-bottom: 0 !important;
+    }
+  }
+
+  th,
+  td {
+    text-align: left;
+
+    &.text-center {
+      text-align: center;
+    }
+
+    &.text-right {
+      padding-right: $line-height;
+      text-align: right;
+    }
+
+    &.with-button {
+      line-height: $line-height * 2;
+    }
+  }
+
+  table {
+
+    caption {
+      font-style: italic;
+      font-weight: normal;
+      padding: 0;
+      text-align: $global-left;
+    }
+
+    thead {
+
+      &,
+      tr {
+        border: 0;
+      }
+
+      th:first-of-type {
+        border-top-left-radius: rem-calc(8);
+      }
+
+      th:last-of-type {
+        border-top-right-radius: rem-calc(8);
+      }
+    }
+
+    th {
+      background: $table-header;
+      color: $admin-text;
+      padding: calc(#{$line-height} / 2);
+
+      a {
+        color: inherit;
+        white-space: nowrap;
+      }
+    }
+
+    tr {
+      border: $table-border;
+
+      &:hover {
+        background: adjust-color(darken($table-background, 2%), $red: -4, $green: -1);
+      }
+    }
+
+    .break {
+      word-break: break-word;
+    }
+
+    &.fixed {
+      table-layout: fixed;
+    }
+
+    [type="submit"] ~ a {
+      margin-left: calc(#{$line-height} / 2);
+    }
+
+    [type="checkbox"] {
+      margin-bottom: 0;
+      vertical-align: middle;
+    }
+  }
+
+  hr {
+    max-width: none;
+  }
+
+  form {
+
+    .input-group-label {
+      height: $line-height * 2;
+    }
+
+    .checkbox,
+    .radio {
+      font-weight: bold;
+    }
+
+    select {
+      height: $input-height;
+    }
+
+    [type]:not([type="button"], [type=checkbox], [type=file], [type=radio], [type=submit]),
+    select {
+      background-color: $white;
+      border: $admin-border;
+      border-radius: rem-calc(6);
+      box-shadow: none;
+
+      &:focus {
+        border: $input-border-focus;
+      }
+    }
+  }
+
+  .form-label {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .menu.simple,
+  .order-links {
+    margin-bottom: calc(#{$line-height} / 2);
+
+    h2 {
+      font-weight: bold;
+      margin-bottom: calc(#{$line-height} / 3);
+    }
+
+    .is-active {
+      color: $admin-color;
+      font-weight: bold;
+    }
+  }
+
+  .order-links {
+    margin-bottom: $line-height;
+  }
+
+  .tabs-panel {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .button.secondary {
+    margin-right: rem-calc(12);
+  }
+
+  .admin-content {
+    .proposal-new {
+      padding-top: 0;
+    }
+  }
+
+  .is-featured {
+    margin-top: rem-calc(36);
+  }
+}
+
+.for-print-only {
+  display: none;
+}
+
+@include breakpoint(medium) {
+
+  tr {
+
+    .on-hover-block {
+      display: none;
+    }
+
+    &:hover .on-hover-block {
+      display: block;
+      margin: 0;
+      margin-top: calc(#{$line-height} / 2);
+      width: 100%;
+    }
+  }
+}
+
+@include breakpoint(medium) {
+
+  tr {
+
+    .on-hover {
+      display: none;
+    }
+
+    &:hover .on-hover {
+      display: inline;
+    }
+  }
+}
+
+.input-group {
+
+  .input-group-button {
+    padding-bottom: rem-calc(16);
+    vertical-align: top;
+  }
+}
+
+.sortable thead th:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.enabled {
+  color: $color-success;
+}
+
+.disabled {
+  color: $text-medium;
+}
+
+.icon-sortable {
+  font-family: "Font Awesome 5 Free";
+  font-size: $small-font-size;
+  position: relative;
+
+  &::before,
+  &::after {
+    left: 6px;
+    opacity: 0.5;
+    position: absolute;
+  }
+
+  &::before {
+    bottom: 0;
+    content: "\f0d8";
+  }
+
+  &::after {
+    content: "\f0d7";
+    top: 0;
+  }
+
+  &.asc {
+
+    &::after {
+      opacity: 1;
+    }
+  }
+
+  &.desc {
+
+    &::before {
+      opacity: 1;
+    }
+  }
+}
+
+code {
+  word-break: break-all;
+}
+
+.content-type {
+  padding-right: $line-height;
+  white-space: nowrap;
+
+  label {
+    margin-left: 0 !important;
+  }
+}
+
+// 02. Sidebar
+// -----------
+
+// See admin/menu.scss
+
+// 03. List elements
+// -----------------
+
+.delete {
+  border-bottom: 1px dotted;
+  color: $delete;
+  font-size: $small-font-size;
+
+  &:hover,
+  &:active,
+  &:focus {
+    border-bottom-color: transparent;
+    color: darken($delete, 10%);
+  }
+}
+
+[class^="icon-"].delete {
+  border: 0;
+  font-size: $base-font-size;
+}
+
+.archived {
+  color: $text-medium;
+  font-size: rem-calc(12);
+}
+
+.ignored {
+  color: $text-medium;
+  font-size: rem-calc(12);
+}
+
+.rejected {
+  color: $delete;
+}
+
+.date {
+  color: $text-medium;
+  font-size: rem-calc(12);
+  font-style: italic;
+}
+
+.official {
+  background-color: #e7e7e7;
+  border-radius: rem-calc(3);
+  font-weight: normal;
+  padding: rem-calc(6) rem-calc(12);
+}
+
+.button.small.success {
+  margin-left: rem-calc(12);
+
+  &.no-margin {
+    margin-left: 0;
+  }
+}
+
+.moderation-description {
+  max-height: rem-calc(65);
+  max-width: rem-calc(700);
+  overflow: hidden;
+
+  &:hover {
+    max-height: rem-calc(1000);
+    transition: max-height 0.9s;
+  }
+}
+
+// 04. Stats
+// ---------
+
+.stats-numbers {
+  p {
+    color: $text-medium;
+    font-size: rem-calc(13);
+    padding: rem-calc(6);
+    text-transform: uppercase;
+
+    &.featured {
+      background: $info-bg;
+      border: 1px solid $info-border;
+      font-weight: bold;
+    }
+
+    .number {
+      color: $body-font-color;
+      font-size: rem-calc(30);
+      font-weight: bold;
+    }
+  }
+}
+
+// 05. Management
+// --------------
+
+.account-info,
+.login-as {
+  background-color: $highlight;
+  border-radius: rem-calc(3);
+  font-size: rem-calc(16);
+  font-weight: normal;
+  margin-bottom: $line-height;
+  padding: calc(#{$line-height} / 2);
+
+  strong {
+    font-size: rem-calc(18);
+  }
+}
+
+.extra-info {
+  background: #fafafa;
+  border-bottom-left-radius: rem-calc(6);
+  border-bottom-right-radius: rem-calc(6);
+  border-top: 2px solid;
+  font-size: $small-font-size;
+  padding: calc(#{$line-height} / 2);
+}
+
+.admin-budget-investment-info {
+  background: $highlight-soft;
+  border: 2px solid $highlight;
+  border-radius: rem-calc(4);
+  margin-bottom: $line-height;
+  padding: calc(#{$line-height} / 2);
+
+  p {
+    font-size: $small-font-size;
+    margin-bottom: 0;
+  }
+}
+
+.investment-projects-summary {
+
+  th,
+  td {
+    text-align: center;
+
+    &:first-child {
+      font-weight: bold;
+      text-align: left;
+    }
+
+    &:last-child {
+      font-weight: bold;
+    }
+  }
+
+  tr {
+    &:nth-child(even) td:last-child {
+      background: $success-border;
+    }
+
+    &:nth-child(odd) td:last-child {
+      background: $success-bg;
+    }
+  }
+}
+
+.admin-content > header {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+
+  a,
+  button,
+  form {
+    margin-#{$global-left}: auto;
+  }
+
+  a,
+  button {
+    &:not(.delete) {
+      @include regular-button;
+      margin-#{$global-left}: auto;
+    }
+  }
+}
+
+.admin-content .select-heading {
+
+  a {
+    color: inherit;
+    display: block;
+
+    &.is-active {
+      @include brand-color;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+}
+
+.investment-projects-summary {
+
+  .total-price {
+    white-space: nowrap;
+  }
+}
+
+.management-list {
+  max-width: rem-calc(1200);
+}
+
+// 06. Polls
+// -----------------
+
+.count-error {
+  background: $alert-bg !important;
+  color: $color-alert;
+  font-weight: bold;
+}
+
+table {
+
+  .callout {
+    height: $line-height * 2;
+    line-height: $line-height * 2;
+    margin: 0;
+    padding: 0 calc(#{$line-height} / 2);
+  }
+}
+
+// 07. Legislation
+// --------------
+
+// Markdown Editor
+// ---------------
+
+.markdown-editor {
+  background-color: $body-background;
+
+  .markdown-area,
+  .markdown-preview {
+    display: none;
+  }
+}
+
+.markdown-editor .markdown-preview {
+  height: 15em;
+  overflow-y: auto;
+}
+
+.markdown-editor textarea {
+  height: 15em;
+}
+
+.markdown-editor.fullscreen {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.markdown-editor.fullscreen .markdown-preview {
+  height: 99%;
+}
+
+.edit-legislation-draft-version .row {
+  margin-bottom: 2rem;
+}
+
+.legislation-admin {
+  .menu .is-active > a {
+    background: none;
+  }
+}
+
+.legislation-process-save {
+  @include breakpoint(medium) {
+    float: right;
+  }
+}
+
+.legislation-question-delete {
+  @include breakpoint(medium) {
+    text-align: right;
+  }
+}
+
+// 08. CMS
+// --------------
+.cms-page-list {
+
+  [class^="icon-"] {
+    padding-right: $menu-icon-spacing;
+    vertical-align: middle;
+  }
+}
+
+.legislation-process-edit {
+
+  .edit-legislation-process {
+
+    small {
+      color: $text-medium;
+    }
+
+    .legislation-process-start,
+    .legislation-process-end {
+      @include breakpoint(medium) {
+        line-height: 3rem;
+      }
+    }
+
+    .legislation-process-end {
+      @include breakpoint(medium) {
+        text-align: right;
+      }
+    }
+  }
+}
+
+.legislation-draft-versions-index {
+
+  .legislation-process-question,
+  .legislation-process-version {
+    @include breakpoint(medium) {
+      text-align: right;
+    }
+  }
+
+  table tr td {
+    padding: 0.25rem 0.375rem;
+  }
+}
+
+.legislation-questions-form {
+
+  [type]:not([type="submit"]):not([type="file"]):not([type="checkbox"]):not([type="radio"]) {
+    margin-bottom: 0;
+
+    @include breakpoint(medium) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  input::placeholder {
+    font-style: italic;
+  }
+
+  .legislation-questions-answers {
+    margin-bottom: 1rem;
+  }
+}
+
+.field {
+  margin-bottom: 1rem;
+
+  @include breakpoint(medium) {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: $delete;
+    line-height: 3rem;
+
+    span {
+      text-decoration: underline;
+    }
+
+    .icon-x {
+      line-height: 0;
+      text-decoration: none;
+      vertical-align: sub;
+    }
+
+    &:active,
+    &:focus,
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.fullscreen-container {
+
+  a {
+    line-height: 8rem;
+
+    &:active,
+    &:focus,
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.fullscreen {
+
+  .fullscreen-container {
+    color: color-pick-contrast($admin-color);
+
+    a {
+      line-height: 3rem;
+
+      @include breakpoint(medium) {
+        float: right;
+      }
+    }
+
+    .markdown-editor-header {
+      display: inline-block;
+      vertical-align: top;
+
+      @include breakpoint(medium) {
+        line-height: 3rem;
+      }
+    }
+
+    .truncate {
+      @include breakpoint(medium) {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 40vw;
+      }
+    }
+
+    .markdown-editor-buttons {
+      display: block;
+
+      @include breakpoint(medium) {
+        display: inline-block;
+        float: right;
+        padding-left: 1rem;
+      }
+    }
+
+    input {
+      font-size: $small-font-size;
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-top: 1rem;
+      padding: 0.5em 1em;
+
+      @include breakpoint(medium) {
+        margin: 0.5rem;
+      }
+    }
+
+    a {
+      color: inherit;
+    }
+  }
+}
+
+.legislation-draft-versions-form {
+
+  .legislation-process-version {
+    @include breakpoint(medium) {
+      text-align: right;
+    }
+  }
+
+  .control {
+    cursor: pointer;
+    margin-bottom: 1rem;
+
+    small {
+      color: $text-medium;
+      display: block;
+      margin-top: -1rem;
+
+      @include breakpoint(medium) {
+        display: inline-block;
+        margin-left: 0.25rem;
+        margin-top: 0;
+      }
+    }
+  }
+
+  .fullscreen-container {
+    background: #ccdbe6;
+    text-align: center;
+
+    .markdown-editor-header,
+    .markdown-editor-buttons {
+      display: none;
+    }
+
+    span {
+      font-size: $small-font-size;
+      text-decoration: none;
+    }
+
+    .icon-expand {
+      line-height: 0;
+      margin-left: 0.25rem;
+      text-decoration: none;
+      vertical-align: sub;
+    }
+  }
+
+  .markdown-preview {
+    border: 1px solid #cacaca;
+    font-family: $font-family-serif;
+    margin-bottom: 2rem;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: $font-family-serif !important;
+      font-size: 1rem;
+      line-height: 1.625rem;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.625rem;
+    }
+  }
+
+  .fullscreen {
+
+    .markdown-area,
+    .markdown-preview {
+      display: block;
+    }
+
+    .column {
+      padding: 0;
+    }
+
+    .fullscreen-container {
+      background: $admin-color;
+      margin-bottom: 0;
+      padding: 0.5rem 1rem;
+      text-align: left;
+    }
+
+    .legislation-draft-version-body {
+      border-radius: 0;
+
+      @include breakpoint(medium) {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+
+      &:focus {
+        box-shadow: inset 0 1px 2px rgba(34, 34, 34, 0.1);
+      }
+    }
+
+    .markdown-preview {
+      border: 0;
+      padding: 1rem;
+
+      @include breakpoint(medium) {
+        padding: 1rem 2rem;
+      }
+    }
+  }
+}
+
+// 09. Map
+// --------------
+
+.map {
+  height: 350px;
+  width: 100%;
+
+  .map-marker {
+    left: 50%;
+    margin-top: -5px;
+    position: absolute;
+    top: 50%;
+    visibility: visible;
+
+    .map-icon {
+      background: #00cae9;
+      border-radius: 50% 50% 50% 0;
+      height: 30px;
+      transform: rotate(-45deg);
+      width: 30px;
+    }
+
+    .map-icon::after {
+      background: #fff;
+      border-radius: 50%;
+      content: "";
+      height: 14px;
+      margin: 8px 0 0 8px;
+      position: absolute;
+      width: 14px;
+    }
+  }
+
+  .map-attributtion {
+    height: auto;
+    visibility: visible;
+  }
+}
+
+.map-marker {
+  visibility: hidden;
+}
+
+.map-attributtion {
+  height: 0;
+  visibility: hidden;
+}
+
+// 10. Budgets
+// -----------------
+
+.advanced-filters {
+  margin: $line-height 0;
+
+  @include breakpoint(medium) {
+    margin: calc(#{$line-height} / 2) 0 0;
+  }
+}
+
+.advanced-filters-content {
+  background: $highlight;
+  clear: both;
+  margin: $line-height 0;
+  padding: calc(#{$line-height} / 2);
+
+  .filter {
+    display: inline-block;
+    margin: 0 calc(#{$line-height} / 2);
+
+    label {
+      font-weight: normal;
+      margin: 0;
+    }
+  }
+
+  .button {
+    margin-top: calc(#{$line-height} / 2);
+  }
+}
+
+.columns-selector {
+
+  [class^="icon-"] {
+    vertical-align: middle;
+  }
+
+  &[aria-expanded="false"] {
+    @include hollow-button;
+
+    + .columns-selector-wrapper {
+      display: none;
+    }
+  }
+
+  &[aria-expanded="true"] {
+    @include regular-button;
+  }
+}
+
+.columns-selector-wrapper {
+  background: $light-gray;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 2rem;
+
+  .column-selector-item {
+    display: inline-block;
+
+    &.hidden {
+      display: none;
+    }
+
+    label {
+      font-size: $base-font-size;
+      line-height: 1.5rem;
+    }
+  }
+}
+
+.column-selectable {
+
+  .hidden {
+    display: none;
+  }
+}
+
+// 11. Newsletters
+// -----------------
+
+.admin .newsletter-body-content {
+
+  table,
+  tbody,
+  tr,
+  th,
+  td {
+    border: 0;
+
+    &:nth-child(even),
+    &:nth-child(even) td:last-child,
+    &:nth-child(odd) td:last-child,
+    &:hover {
+      background: none;
+    }
+  }
+}

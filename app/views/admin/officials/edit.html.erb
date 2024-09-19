@@ -1,0 +1,29 @@
+<%= back_link_to admin_officials_path %>
+
+<div class="clear"></div>
+
+<h2 class="inline-block"><%= t("admin.officials.edit.title") %></h2>
+
+<div class="callout highlight">
+  <strong><%= @user.name %></strong><br>
+  <%= @user.email %>
+</div>
+
+<div class="small-12 medium-6">
+  <%= form_for @user, url: admin_official_path(@user)  do |f| %>
+    <%= f.text_field :official_position %>
+    <%= f.select :official_level, official_level_options %>
+    <%= f.submit class: "button" %>
+  <% end %>
+
+  <% if @user.official? %>
+    <br>
+    <%= render Admin::ActionComponent.new(
+      :destroy,
+      @user,
+      text: t("admin.officials.edit.destroy"),
+      path: admin_official_path(@user),
+      class: "delete"
+    ) %>
+  <% end %>
+</div>

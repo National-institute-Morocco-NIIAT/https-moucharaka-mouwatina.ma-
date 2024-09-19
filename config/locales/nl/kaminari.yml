@@ -1,0 +1,22 @@
+nl:
+  helpers:
+    page_entries_info:
+      entry:
+        zero: Bijdragen
+        one: Bijdrage
+        other: Bijdragen
+      more_pages:
+        display_entries: <strong>%{first}&nbsp;-&nbsp;%{last}</strong> van <strong>%{total} %{entry_name}</strong> getoond
+      one_page:
+        display_entries:
+          zero: "%{entry_name} niet gevonden"
+          one: Er is <strong>1 %{entry_name}</strong>
+          other: Er zijn <strong>%{count} %{entry_name}</strong>
+  views:
+    pagination:
+      current: Je bent op pagina
+      first: Eerste
+      last: Laatste
+      next: Volgende
+      previous: Vorige
+      truncate: "&hellip;"

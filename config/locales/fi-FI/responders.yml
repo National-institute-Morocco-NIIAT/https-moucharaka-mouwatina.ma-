@@ -1,0 +1,5 @@
+fi:
+  flash:
+    actions:
+      destroy:
+        topic: "Aihe poistettu onnistuneesti."

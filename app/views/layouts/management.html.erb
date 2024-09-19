@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html <%= common_html_attributes %>>
+  <head>
+    <%= render "layouts/common_head", default_title: "Management" %>
+    <%= stylesheet_link_tag "print", media: "print" %>
+    <%= content_for :head %>
+  </head>
+
+  <body class="admin">
+    <%= render Layout::SkipToMainContentComponent.new %>
+    <%= render Layout::AdminHeaderComponent.new(manager_logged_in) %>
+
+    <div class="menu-and-content">
+      <%= check_box_tag :show_menu, nil, false, role: "switch" %>
+
+      <nav class="admin-sidebar">
+        <%= render Management::MenuComponent.new %>
+      </nav>
+
+      <main id="main" class="admin-content <%= yield(:main_class) %>">
+        <%= label_tag :show_menu, t("admin.menu.admin"),
+                      "aria-hidden": true, class: "button hollow expanded" %>
+
+        <%= render "management/account_info" %>
+        <%= render "layouts/flash" %>
+        <%= yield %>
+      </main>
+    </div>
+  </body>
+</html>

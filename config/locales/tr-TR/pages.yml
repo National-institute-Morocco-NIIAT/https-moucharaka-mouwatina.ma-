@@ -1,0 +1,173 @@
+tr:
+  pages:
+    census_terms:
+      title: "Seçmen bilgi sistemine erişim hüküm ve koşulları"
+      description: "Seçmen bilgi sistemine erişim hüküm ve koşullarının bulunduğu bilgi sayfası."
+    conditions:
+      title: Kullanım hüküm ve koşulları
+      subtitle: AÇIK HÜKÜMET PORTALİNİN KİŞİSEL VERİLERİNİN KULLANIM KOŞULLARI, GİZLİLİĞİ VE KORUNMASI HAKKINDA YASAL BİLDİRİMİ
+      description: Kişisel verilerin kullanım koşulları, gizliliği ve korunmasına ile ilgili bilgilendirme sayfası.
+    help:
+      title: "%{org} yurttaşların katılımını sağlayan bir platformdur"
+      guide: "Bu rehber, %{org} platformunun farklı bölümlerini ve nasıl kullanıldıklarını açıklar."
+      menu:
+        debates: "Tartışmalar"
+        proposals: "Önergeler"
+        budgets: "Katılımcı bütçeler"
+        polls: "Oylamalar"
+        other: "Diğer ilgi çekici alanlar"
+        processes: "Süreçler"
+      debates:
+        title: "Tartışmalar"
+        description: "%{link} bölümünde, şehirde sizi ilgilendiren konularla ilgili görüşlerinizi sunabilir ve başkalarıyla paylaşabilirsiniz. Aynı zamanda, diğer %{org} bölümleri ile Belediye Meclisi tarafından somut işlere dönüştürülebilecek fikirlerinizi paylaşabilirsiniz."
+        link: "yurttaş tartışmaları"
+        feature: "Tartışmalar başlatabilir, var olan tartışmalara yorum yaparak <strong>Katılıyorum</strong> ya da <strong>Katılmıyorum</strong> düğmeleri ile değerlendirebilirsiniz. Bunun için %{link}."
+        feature_link: "%{org} üzerinde hesap açın"
+        image_alt: "Tartışmaları değerlendirme düğmeleri"
+        figcaption: 'Tartışmaları değerlendirmek için "Katılıyorum" ve "Katılmıyorum" düğmeleri.'
+      proposals:
+        title: "Önergeler"
+        description: "%{link} bölümünden, Belediye Meclisi'ne önergeler sunabilirsiniz. Önergelerin desteklenmesi gerekir ve yeterli desteğe ulaşan önergeler için halka açık bir oylama yapılır. Böylece yurttaşların oylarıyla destekledikleri önergeler Belediye Meclisi tarafından kabul edilerek yürürlüğe konur."
+        link: "yurttaş önergeleri"
+        image_alt: "Bir önergeyi destekleme düğmesi"
+        figcaption: 'Bir önergeyi "Destekle" düğmesi.'
+      budgets:
+        title: "Katılımcı bütçeleme"
+        description: "%{link} bölümü, insanların belediye bütçesinin nereye harcanacağı konusunda doğrudan bir karar vermelerine yardımcı olur."
+        link: "katılımcı bütçeler"
+        image_alt: "Bir katılımcı bütçenin farklı aşamaları"
+        figcaption: 'Katılımcı bütçelerin "Destek" ve "Oylama" aşamaları.'
+      polls:
+        title: "Oylamalar"
+        description: "Bir önerge 1% destek alarak oylamaya gittiğinde veya Belediye Meclisi bir konuyu insanların değerlendirmesine sunduğunda %{link} bölümü etkin olur."
+        link: "oylama"
+        feature_1: "Oylamaya katılmak için %{link}manız ve hesabınızı doğrulamanız gerekir."
+        feature_1_link: "%{org_name} hesabı aç"
+      processes:
+        title: "Süreçler"
+        description: "%{link} bölümünde, yurttaşlar şehri etkileyen düzenlemelerin hazırlanmasına ve değiştirilmesine katılabilir ve öncesinde tartışmalarla belediye politikaları hakkında düşüncelerini paylaşabilir."
+        link: "süreçler"
+        feature: "Sürece katılmak için şu bağlantıya tıklayarak hesabınızı doğrulamanız gerekir: %{link}."
+        feature_link: "%{org_name} platformunda hesap açın"
+      faq:
+        title: "Teknik sorunlar?"
+        description: "Sık Sorulan sorular bölümünde sorularınıza yanıt bulabilirsiniz."
+        button: "Sık sorulan soruları göster"
+        page:
+          title: "Sık sorulan sorular"
+          description: "Site kullanıcılarının sık sorduğu soruları çözümlemek için bu sayfayı kullanın."
+      other:
+        title: "Diğer ilgi çekici alanlar"
+        how_to_use: "Şehriniz için %{org_name} kullanın"
+        sdg: "Sürdürülebilir Kalkınma Amaçları yardım"
+      how_to_use:
+        text: |-
+          Yerel yönetiminizde kullanın ve geliştirmemize yardım edin. Bu yazılım ücretsizdir.
+
+          Bu Açık Hükümet sitesi, [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ) koşulları altında dağıtılan ve ücretsiz bir yazılım olan [CONSUL DEMOCRACY uygulaması](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') ile çalışıyor. Basit bir anlatımla, isteyen herkes kodu özgürce kullanabilir, kopyalayabilir, ayrıntılı olarak inceleyebilir, değiştirebilir ve yaptığı değişikliklerle dünyaya yeniden dağıtabilir (başkalarının da aynı şeyi yapmasına izin vererek). Biz kültürün, serbest bırakıldığında daha iyi ve zengin olacağını düşünüyoruz.
+
+          Yazılım geliştirebilen bir kişiyseniz kodu görebilir ve [CONSUL DEMOCRACY uygulaması](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') için geliştirme çalışmalarımıza yardımcı olabilirsiniz.
+      titles:
+        how_to_use: Yerel yönetimde kullanın
+    privacy:
+      title: Gizlilik ilkesi
+      subtitle: "Gizlilik ile ilgili bilgiler sayfası"
+    accessibility:
+      title: Erişilebilirlik
+      description: |-
+        İnternet erişilebilirliği, doğabilecek engellerden (fiziksel, zihinsel veya teknik) bağımsız olarak veya kullanım bağlamından (teknolojik veya çevresel) elde edilenlerden bağımsız olarak, internete ve içeriğine tüm insanlar tarafından erişilebilme olasılığını ifade eder.
+
+        İnternet siteleri erişilebilirliği göz önünde bulundurarak tasarlandığından, tüm kullanıcılar içeriğe eşit koşullarda erişebilir. Örneğin:
+      examples:
+        - Görsellere alternatif metinler yazmak, görme engelli veya görsel bozukluğu olan kullanıcıların bilgiye erişmesinde özel okuyucular kullanabilmesini sağlar.
+        - Videoların alt yazıları olduğunda, işitme güçlüğü çeken kullanıcılar bunları tam olarak anlayabilir.
+        - İçerikler basit ve görsel bir dilde yazılmışsa, öğrenme sorunu olan kullanıcılar onları daha iyi anlayabilir.
+        - Kullanıcının hareket sorunları varsa ve fareyi kullanmakta zorlanıyorsa, klavyedeki alternatifler gezinmeye yardımcı olur.
+      keyboard_shortcuts:
+        title: Klavye kısayolları
+        navigation_table:
+          description: Bu sitede erişilebilirliği sağlayarak gezinebilmek için sitenin düzenlendiği genel ilgi alanlarının ana bölümlerini kapsayan bazı kısayol tuşları programlanmıştır.
+          caption: Gezinme menüsü için klavye kısayolları
+          key_header: Tuş
+          page_header: Sayfa
+          rows:
+            - 
+              key_column: 0
+              page_column: Giriş
+            - 
+              key_column: 1
+              page_column: Tartışmalar
+            - 
+              key_column: 2
+              page_column: Önergeler
+            - 
+              key_column: 3
+              page_column: Oylar
+            - 
+              key_column: 4
+              page_column: Katılımcı bütçeler
+            - 
+              key_column: 5
+              page_column: Yasama süreçleri
+        browser_table:
+          description: "İşletim sistemine ve kullanılan tarayıcıya bağlı olarak, tuş kombinasyonu şu şekilde olur:"
+          caption: İşletim sistemine ve tarayıcıya bağlı olarak tuş kombinasyonu
+          browser_header: Tarayıcı
+          key_header: Tuş kombinasyonu
+          rows:
+            - 
+              browser_column: Explorer
+              key_column: ALT + kısayol sonra ENTER
+            - 
+              browser_column: Firefox
+              key_column: ALT + CAPS + kısayol
+            - 
+              browser_column: Chrome
+              key_column: ALT + kısayol (CTRL + ALT + MAC için kısayolları)
+            - 
+              browser_column: Safari
+              key_column: ALT + kısayol (CMD + MAC için kısayol)
+            - 
+              browser_column: Opera
+              key_column: CAPS + ESC + kısayol
+      textsize:
+        title: Metin boyutu
+        browser_settings_table:
+          description: Bu sitenin erişilebilir tasarımı, kullanıcının kendisine uygun metnin boyutunu seçmesini sağlar. Bu işlem, kullanılan tarayıcıya bağlı olarak farklı şekillerde yapılabilir.
+          browser_header: Tarayıcı
+          action_header: Yapılacak işlem
+          rows:
+            - 
+              browser_column: Explorer
+              action_column: Görünüm > Metin boyutu
+            - 
+              browser_column: Firefox
+              action_column: Görünüm > Boyut
+            - 
+              browser_column: Chrome
+              action_column: Ayarlar (simge) > Seçenekler > Gelişmiş > Web içeriği > Metin boyutu
+            - 
+              browser_column: Safari
+              action_column: Görünüm > Yakınlaştır/Uzaklaştır
+            - 
+              browser_column: Opera
+              action_column: Görünüm > Ölçek
+        browser_shortcuts_table:
+          description: "Metin boyutunu değiştirmenin başka bir yolu, tarayıcılarda tanımlanan klavye kısayollarını, özellikle de tuş kombinasyonunu kullanmaktır:"
+          rows:
+            - 
+              shortcut_column: CTRL ve + (MAC için CMD ve +)
+              description_column: Metin boyutunu büyütür
+            - 
+              shortcut_column: CTRL ve - (MAC için CMD ve -)
+              description_column: Metin boyutunu küçültür
+      compatibility:
+        title: Standartlara ve görsel tasarıma uygunluk
+        description: 'Bu sitenin tüm sayfaları, <strong>Erişilebilirlik Rehberleri</strong> veya W3C <abbr title="Web Accessibility Initiative" lang="en">WAI</abbr> Çalışma Grubu tarafından yayınlanmış Genel Erişilebilirlik Tasarım İlkeleri ile uyumludur.'
+    titles:
+      help: "%{org} nedir? - Yurttaş katılımı"
+    verify:
+      info: "Hesabınızı doğrulamak için erişim bilgilerinizi yazın:"
+      info_code: "Şimdi mektupla aldığınız kodu yazın:"
+      submit: Hesabımı doğrula
+      title: Hesabınızı doğrulayın

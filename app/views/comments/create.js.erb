@@ -1,0 +1,10 @@
+<% if @comment.root? -%>
+  var parent_id = "";
+<% else -%>
+  var parent_id = "#" + "<%= "comment_#{@comment.parent_id}" %>";
+  var responses_count_html = "<%= j(render "comments/responses_count", count: @comment.parent.children.size) %>"
+  App.Comments.update_responses_count(parent_id, responses_count_html);
+<% end -%>
+
+App.Comments.reset_form(parent_id);
+App.Comments.add_comment(parent_id, "<li><%= j(render @comment) %></li>");

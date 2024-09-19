@@ -1,0 +1,24 @@
+@mixin orbit-bullets {
+  @include disable-mouse-outline;
+  margin-bottom: $orbit-bullet-margin-bottom;
+  margin-top: $orbit-bullet-margin-top;
+  position: relative;
+  text-align: center;
+
+  button {
+    background-color: $orbit-bullet-background;
+
+    border-radius: 50%;
+    height: $orbit-bullet-diameter;
+    margin: $orbit-bullet-margin;
+    width: $orbit-bullet-diameter;
+
+    &:hover {
+      background-color: $orbit-bullet-background-active;
+    }
+
+    &.is-active {
+      background-color: $orbit-bullet-background-active;
+    }
+  }
+}

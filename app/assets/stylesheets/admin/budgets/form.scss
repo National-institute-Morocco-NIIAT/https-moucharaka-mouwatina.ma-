@@ -1,0 +1,20 @@
+.admin .budgets-form {
+  @include full-width-form;
+  @include direct-uploads;
+
+  .button {
+    &.upload-image {
+      margin-bottom: calc(#{$line-height} / 2);
+    }
+  }
+
+  > fieldset {
+    @include admin-fieldset-separator;
+    clear: both;
+    margin-top: $line-height * 1.5;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+}

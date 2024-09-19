@@ -1,0 +1,17 @@
+<div class="admin-sidebar">
+  <ul id="officing_menu">
+    <% if vote_collection_shift? %>
+      <li class="<%= "js-vote-collection" %>
+                 <%= " is-active" if controller_name == "voters" %>
+                 <%= " is-hidden" if controller_name == "voters" && Poll.votable_by(@user).any? %>">
+        <%= link_to t("officing.menu.voters"), new_officing_residence_path, class: "users-link" %>
+      </li>
+    <% end %>
+
+    <% if final_recount_shift? %>
+      <li <%= "class=is-active" if ["results", "ballot_sheets"].include?(controller_name) || (controller_name == "polls" && action_name == "final") %>>
+        <%= link_to t("officing.menu.total_recounts"), final_officing_polls_path, class: "users-link" %>
+      </li>
+    <% end %>
+  </ul>
+</div>

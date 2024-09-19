@@ -1,0 +1,19 @@
+.investments-filters {
+  border-top: 1px solid $border;
+
+  ul {
+    font-size: $small-font-size;
+    list-style: none;
+    margin-left: 0;
+
+    a {
+      display: inline-block;
+      padding-bottom: calc(#{$line-height} / 4);
+      padding-top: calc(#{$line-height} / 4);
+    }
+
+    [aria-current] {
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<% if documents.any? %>
+  <div class="document-divider no-margin-top margin-bottom padding">
+    <div class="row">
+      <div class="small-12 column">
+        <div class="additional-document-link">
+          <p>
+            <strong><%= t("documents.additional") %></strong>
+          </p>
+          <% documents.each do |document| %>
+            <%= render Documents::DocumentComponent.new(document) %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>

@@ -1,0 +1,111 @@
+en:
+  moderation:
+    actions:
+      confirm_action: "Are you sure? %{action}"
+    comments:
+      index:
+        block_authors: Block authors
+        filter: Filter
+        filters:
+          all: All
+          pending_flag_review: Pending
+          with_ignored_flag: Marked as viewed
+        headers:
+          comment: Comment
+          moderate: Moderate
+        hide: Hide comments
+        ignore_flags: Mark as viewed
+        orders:
+          flags: Most flagged
+          newest: Newest
+        title: Comments
+    dashboard:
+      index:
+        title: Moderation
+    debates:
+      index:
+        block_authors: Block authors
+        filter: Filter
+        filters:
+          all: All
+          pending_flag_review: Pending
+          with_ignored_flag: Marked as viewed
+        headers:
+          debate: Debate
+          moderate: Moderate
+        hide: Hide debates
+        ignore_flags: Mark as viewed
+        orders:
+          created_at: Newest
+          flags: Most flagged
+        title: Debates
+    header:
+      title: Moderation
+    menu:
+      flagged_comments: Comments
+      flagged_debates: Debates
+      flagged_investments: Budget investments
+      proposals: Proposals
+      proposal_notifications: Proposals notifications
+      users: Block users
+    proposals:
+      index:
+        block_authors: Block authors
+        filter: Filter
+        filters:
+          all: All
+          pending_flag_review: Pending review
+          with_ignored_flag: Mark as viewed
+        headers:
+          moderate: Moderate
+          proposal: Proposal
+        hide: Hide proposals
+        ignore_flags: Mark as viewed
+        orders:
+          created_at: Most recent
+          flags: Most flagged
+        title: Proposals
+    budget_investments:
+      index:
+        block_authors: Block authors
+        filter: Filter
+        filters:
+          all: All
+          pending_flag_review: Pending
+          with_ignored_flag: Marked as viewed
+        headers:
+          moderate: Moderate
+          budget_investment: Budget investment
+        hide: Hide budget investments
+        ignore_flags: Mark as viewed
+        orders:
+          created_at: Most recent
+          flags: Most flagged
+        title: Budget investments
+    proposal_notifications:
+      index:
+        block_authors: Block authors
+        filter: Filter
+        filters:
+          all: All
+          pending_review: Pending review
+          ignored: Mark as viewed
+        headers:
+          moderate: Moderate
+          proposal_notification: Proposal notification
+        hide: Hide proposals
+        ignore_flags: Mark as viewed
+        orders:
+          created_at: Most recent
+          moderated: Moderated
+        title: Proposal notifications
+    users:
+      index:
+        block: Block
+        confirm_block: "Are you sure? This will hide the user \"%{name}\" and all their contents."
+        confirm_hide: "Are you sure? This will hide the user \"%{name}\" without hiding their contents."
+        hide: Hide
+        search_placeholder: email or name of user
+        title: Block users
+      notice_block: The user has been blocked. All contents authored by this user have been hidden.
+      notice_hide: The user has been hidden. Contents authored by this user are still available.

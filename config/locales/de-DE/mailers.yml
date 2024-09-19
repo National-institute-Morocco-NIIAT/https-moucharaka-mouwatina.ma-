@@ -1,0 +1,129 @@
+de:
+  mailers:
+    title: "Open Government"
+    no_reply: "Diese Nachricht wurde von einer E-Mail-Adresse gesendet, die keine Antworten akzeptiert."
+    already_confirmed:
+      info: "Wir haben eine Anfrage erhalten, Ihnen Anweisungen zur Bestätigung Ihres Kontos zu senden. Ihr Konto ist jedoch bereits bestätigt, sodass Sie dies nicht erneut tun müssen."
+      new_password: "Wenn Sie Ihr Passwort vergessen haben, können Sie es unter dem folgenden Link zurücksetzen:"
+      subject: Ihr Konto ist bereits bestätigt.
+    comment:
+      hi: Hallo
+      new_comment_by: Es gibt einen neuen Kommentar von <strong>%{commenter}</strong>
+      subject: Jemand hat Ihre %{commentable} kommentiert.
+      title: Neuer Kommentar
+    config:
+      notifications_link: Benachrichtigung
+      unsubscribe_text: 'Um sich von diesen E-Mails abzumelden, besuchen Sie %{notifications} und deaktivieren Sie "%{notification}".'
+    email_verification:
+      click_here_to_verify: diesen Link
+      instructions_2: Diese E-Mail dient dazu Ihr Konto mit <b>%{document_type} %{document_number}</b>zu verifizieren. Wenn es sich hierbei nicht um Ihre Daten handelt, klicken Sie bitte nicht auf den vorherigen Link und ignorieren Sie diese E-Mail.
+      instructions: Um die Überprüfung Ihres Benutzerkontos abzuschließen, müssen Sie auf %{verification_link} klicken.
+      subject: Bestätigen Sie Ihre E-Mail-Adresse
+      thanks: Vielen Dank.
+      title: "Bestätigen Sie Ihr Konto über den folgenden Link"
+      text: "Bestätigen Sie Ihr Konto über den folgenden Link."
+    reply:
+      hi: Hallo
+      new_reply_by: Es gibt eine neue Antwort von <strong>%{commenter}</strong> auf Ihren Kommentar
+      subject: Jemand hat auf Ihren Kommentar geantwortet
+      title: Neue Antwort auf Ihren Kommentar
+    proposal_notification_digest:
+      info: "Hier sind die neuen Benachrichtigungen, die von Autoren, für den Antrag von %{org_name}, den Sie unterstützen, veröffentlicht wurden."
+      title: "Antrags-Benachrichtigungen von %{org_name}"
+      share: Vorschlag teilen
+      comment: Vorschlag kommentieren
+      unsubscribe_text: "Wenn Sie keine Vorschlagsbenachrichtigungen erhalten möchten, besuchen Sie %{notifications} und deaktivieren Sie die Option \"Receive a summary of proposal notifications\"."
+      unfollow: "Rufen Sie diesen Vorschlag auf und entflogen Sie ihn um keine weiteren Benachrichtigungen zu erhalten."
+    direct_message_for_receiver:
+      subject: "Sie haben eine neue persönliche Nachricht erhalten"
+      reply: Auf %{sender} antworten
+      unsubscribe_text: "Wenn Sie keine Direktnachrichten erhalten möchten, gehen Sie zu %{notifications} und deaktivieren Sie die Option \"E-Mails über Direktnachrichten erhalten\"."
+    direct_message_for_sender:
+      subject: "Sie haben eine neue persönliche Nachricht gesendet"
+      title: "Sie haben eine neue persönliche Nachricht gesendet"
+      text: "Sie haben eine neue persönliche Nachricht versendet an <strong>%{receiver}</strong> mit dem Inhalt:"
+    user_invite:
+      ignore: "Wenn Sie diese Einladung nicht angefordert haben, können Sie diese E-Mail einfach ignorieren."
+      text: "Danke für Ihre Anmeldung bei %{org}! In wenigen Sekunden können Sie beginnen Ihre Stadt mitzugestalten. Füllen Sie einfach vorher das untenstehende Formular aus:"
+      thanks: "Vielen Dank."
+      title: "Willkommen zu %{org}"
+      button: Registrierung abschließen
+      subject: "Einladung an %{org_name}"
+    budget_investment_created:
+      subject: "Danke, dass Sie einen Budgetvorschlag erstellt haben!"
+      title: "Danke, dass Sie einen Budgetvorschlag erstellt haben!"
+      intro: "Hallo <strong>%{author}</strong>,"
+      text: "Vielen Dank, dass Sie einen Budgetvorschlag <strong>%{investment}</strong> für den Bürgerhaushalt erstellt haben <strong>%{budget}</strong>."
+      follow: "Wir werden Sie über den Fortgang des Prozesses informieren, dem Sie auch über folgenden <strong>%{link}</strong> folgen können."
+      follow_link: "Bürgerhaushalte"
+      sincerely: "Mit freundlichen Grüßen,"
+      share: "Teilen Sie Ihr Projekt"
+    budget_investment_unfeasible:
+      title: "Ihr Investitionsprojekt wurde als nicht durchführbar eingestuft."
+      hi: "Liebe*r Benutzer*in,"
+      new: "Hierfür laden wir Sie ein, eine <strong>neue Investition</strong> auszuarbeiten, die an die Konditionen dieses Prozesses angepasst sind. Sie können dies über folgenden Link tun: %{url}."
+      new_href: "neuer Ausgabenvorschlag"
+      sincerely: "Mit freundlichen Grüßen"
+      sorry: "Entschuldigung für die Unannehmlichkeiten und vielen Dank für Ihre wertvolle Beteiligung."
+      subject: "Ihr Ausgabenvorschlag '%{code}' wurde als undurchführbar markiert"
+    budget_investment_selected:
+      subject: "Ihr Investitionsprojekt %{code} wurde ausgewählt"
+      title: "Ihr Investitionsprojekt wurde ausgewählt."
+      hi: "Liebe*r Benutzer*in,"
+      share: "Fangen Sie an Stimmen zu bekommen, indem sie Ihr Investitionsprojekt auf sozialen Netzwerken teilen. Teilen ist wichtig, um Ihr Projekt zu verwirklichen."
+      share_button: "Teilen Sie Ihr Investitionsprojekt"
+      thanks: "Vielen Dank für Ihre Teilnahme."
+      sincerely: "Mit freundlichen Grüßen"
+    budget_investment_unselected:
+      subject: "Ihr Investitionsprojekt %{code} wurde nicht ausgewählt"
+      title: "Ihr Investitionsprojekt wurde nicht ausgewählt."
+      hi: "Liebe*r Benutzer*in,"
+      thanks: "Vielen Dank für Ihre Teilnahme."
+      sincerely: "Mit freundlichen Grüßen"
+    evaluation_comment:
+      subject: "Neuer Bewertungs-Kommentar"
+      title: Neuer Bewertungs-Kommentar für %{investment}
+      hi: Hallo
+      new_comment_by: Es gibt einen neuen Bewertungs-Kommentar <strong>%{commenter}</strong> für den Bürgerhaushalt %{investment}
+      commenter_info: "%{commenter}, %{time}:"
+    machine_learning_error:
+      link: "Panel Maschinelles Lernen besuchen."
+      subject: "Maschinelles Lernen - Bei der Ausführung des Skripts ist ein Fehler aufgetreten."
+      text: "Bei der Ausführung des Skripts für maschinelles Lernen ist ein Fehler aufgetreten."
+      title: "Skript für maschinelles Lernen."
+    machine_learning_success:
+      link: "Panel Maschinelles Lernen besuchen."
+      subject: "Maschinelles Lernen - Inhalt wurde erfolgreich generiert."
+      text: "Der Inhalt wurde erfolgreich erstellt."
+      title: "Skript für maschinelles Lernen"
+    new_actions_notification_on_create:
+      subject: "Ihr Entwurf eines Bürger-Vorschlags ist erstellt"
+      hi: "Hallo %{name}!"
+      introduction: "Ihr %{title} Vorschlag wurde erfolgreich angelegt."
+      text_1: "Nutzen Sie den Vorteil, dass Ihr Vorschlag noch nicht öffentlich ist und kontaktieren Sie viele Leute."
+      text_2: "Wenn Sie bereit sind, veröffentlichen Sie Ihren Bürger-Vorschlag hier <a href='%{link}'>link</a>."
+      text_3: "Wir wissen, dass die Erstellung eines Vorschlags und die notwendige Unterstützung kompliziert erscheinen kann. Aber machen Sie sich keine Sorgen, denn wir werden Ihnen helfen!"
+      text_4: "Du hast ein Werkzeug, das dein neuer bester Verbündeter sein wird: Das Bürger-Vorschlag Panel."
+      list_1: "Tragen Sie sich jeden Tag in das Panel Ihres Vorschlags ein, um die Tipps und Ressourcen zu nutzen, die wir mit Ihnen teilen werden."
+      list_2: "Diese Tipps, Aktionen und Ressourcen geben Ihnen Ideen und auch praktische Lösungen, um mehr Unterstützung und eine größere Gemeinschaft zu erhalten. Vergessen Sie sie nicht!"
+      list_3: "Wenn Sie mehr Unterstützung erhalten, werden Sie neue und bessere Ressourcen freisetzen. Im Moment haben Sie eine E-Mail-Vorlage, die Sie an alle Ihre Kontakte senden können, ein Poster zum Ausdrucken, unter anderem Funktionen und Belohnungen, die Sie entdecken werden. Hören Sie nicht auf, Unterstützung hinzuzufügen, und wir werden nicht aufhören, Sie zu unterstützen und Ihnen zu helfen!"
+      list_4: "Sie haben %{max_month} Monate Zeit, seit Sie den Vorschlag veröffentlicht haben, um %{max_votes} Unterstützung zu erhalten, und Ihr Vorschlag kann Realität werden. Aber die ersten Tage sind die wichtigsten. Es ist eine Herausforderung. Machen Sie sich bereit!"
+      text_5: "Und dass Sie mit der größtmöglichen Motivation beginnen,"
+      text_6: "hier haben Sie mehrere Ressourcen und eine ganze Liste von Tipps, die Ihnen jeden Tag zur Vorbereitung der Sendung helfen werden!"
+      dashboard_button: "Nur zu, es gibt viel zu entdecken!"
+    new_actions_notification_on_published:
+      subject: "Ihr Bürger-Vorschlag ist bereits veröffentlicht. Hören Sie nicht auf, es zu verbreiten!"
+      hi: "Glückwunsch %{name}! Ihr Vorschlag %{title} wurde erfolgreich angelegt."
+      text_1: "Und jetzt, auf zu den ersten 100 Unterstützungen!"
+      text_2: "Warum 100?"
+      text_3: "Unsere Erfahrung zeigt uns, dass der erste Tag von grundlegender Bedeutung ist. Denn zu der Energie, etwas Neues auf den Weg zu bringen, kommt die Möglichkeit größerer Sichtbarkeit, da Sie unter den neuen Vorschlägen zu sehen sind."
+      text_4: "Erreichen Sie 100 Unterstützer am ersten Tag und Sie haben eine erste Community, die Sie unterstützen kann."
+      text_5: "Deshalb fordern wir Sie auf, es zu schaffen, aber nicht ohne eine Menge Hilfe!"
+      text_6: "Denken Sie daran, dass Sie in Ihrem Vorschlagspanel über neue Ressourcen und Empfehlungen für Verbreitungsmaßnahmen verfügen."
+      list_1: "Kommen Sie jeden Tag vorbei, um Ihre Fortschritte zu sehen und nutzen Sie die Tipps und Ressourcen, die wir mit Ihnen teilen werden. Es sind Ideen und auch praktische Lösungen, um die Unterstützung zu erhalten, die Sie benötigen."
+      list_2: "Wenn Sie mehr Unterstützung erhalten, werden Sie neue und bessere Ressourcen freisetzen. Hören nicht auf, um Unterstützung zu werben und wir werden nicht aufhören, Sie zu unterstützen und Ihnen zu helfen!"
+      text_7: "Und für einen Start mit vollem Tempo..."
+      text_8: "Hier steht Ihnen eine großartige Ressource zur Verfügung!"
+      text_9: "Sie werden auch diese neue empfohlene Verbreitungsaktion finden..."
+      text_10: "Sie haben mit Sicherheit mehr Ressourcen zur Verfügung!"
+      dashboard_button: "Nur zu, es gibt viel zu entdecken!"

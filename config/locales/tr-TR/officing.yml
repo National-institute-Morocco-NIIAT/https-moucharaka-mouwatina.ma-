@@ -1,0 +1,89 @@
+tr:
+  officing:
+    header:
+      title: Oylanıyor
+    dashboard:
+      index:
+        title: Oylama görevi
+        info: Burada kullanıcı belgelerini doğrulayabilir ve oylama sonuçlarını saklayabilirsiniz
+        no_shifts: Bugün görev vardiyanız yok.
+    menu:
+      voters: Belgeyi doğrula
+      total_recounts: Yeniden sayımlar toplamı ve sonuçlar
+    polls:
+      final:
+        title: Son yeniden sayıma hazır oylamalar
+        no_polls: Herhangi bir etkin oylamada son sayım göreviniz yok
+        select_poll: Oylama seçin
+        add_results: Sonuçları ekle
+    poll_budgets:
+      see_ballot_sheets: Oy pusulası listesini göster
+      index:
+        title: "%{poll_budget} - Oy pusulası listesi"
+        ballot_sheet: "%{id} oy pusulası"
+        ballot_sheet_name: Ad
+        ballot_sheet_author: Sahibi
+        ballot_sheet_creation_date: Oluşturulma tarihi
+        empty_results: Bu oylamanın henüz bir oy pusulası yok
+      new:
+        title: "%{poll_budget} - Yeni oy pusulası"
+        booth: Kabin
+        select_booth: Kabin seçin
+        csv_data: CSV verileri
+        submit: Kaydet
+      show:
+        created_at: Oluşturulma tarihi
+        author: Sahibi
+        data: CSV verileri
+    booth:
+      new:
+        title: "Kabininizi seçin"
+    results:
+      flash:
+        create: "Sonuçlar kaydedildi"
+        error_create: "Sonuçlar KAYDEDİLMEDİ. Veriler hatalı."
+        error_wrong_booth: "Kabin doğru değil. Sonuçlar KAYDEDİLMEDİ."
+      new:
+        title: "%{poll} - Sonuçları ekle"
+        not_allowed: "Bu oylama için sonuç ekleme izniniz yok"
+        booth: "Kabin"
+        date: "Tarih"
+        select_booth: "Kabin seçin"
+        ballots_white: "Boş oy"
+        ballots_null: "Geçersiz oy"
+        ballots_total: "Toplam oy"
+        submit: "Kaydet"
+        results_list: "Sonuçlarınız"
+        see_results: "Sonuçları göster"
+      index:
+        no_results: "Henüz bir sonuç yok"
+        results: Sonuçlar
+        table_answer: Yanıt
+        table_votes: Oylar
+        table_whites: "Boş oy"
+        table_nulls: "Geçersiz oy"
+        table_total: "Toplam oy"
+    residence:
+      flash:
+        create: "Seçmen bilgi sistemi belgeyi doğruladı"
+        not_allowed: "Bugün görev vardiyanız yok"
+      new:
+        title: Belgeyi doğrula
+        submit: Belgeyi doğrula
+        error_verifying_census: "Seçmen bilgi sistemi bu belgeyi doğrulayamadı."
+        form_errors: bu belgenin doğrulanmasını engelledi
+    voters:
+      new:
+        title: Oylamalar
+        table_poll: Oylama
+        table_status: Oylama durumu
+        table_actions: İşlemler
+        not_to_vote: Kişi şimdi oy kullanmamaya karar verdi
+      show:
+        can_vote: Oy verebilir
+        cannot_vote: Kişi oylamanın yapılacağı bölgelerde kayıtlı olmadığından oy kullanamaz.
+        error_already_voted: Bu oylamaya zaten katılmış
+        submit: Oyu onayla
+        success: "Oy verildi!"
+      can_vote:
+        submit_disable_with: "Oy onaylanırken bekleyin..."

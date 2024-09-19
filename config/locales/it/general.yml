@@ -1,0 +1,927 @@
+it:
+  account:
+    show:
+      change_credentials_link: Modifica le mie credenziali
+      erase_account_link: Cancella il mio account
+      finish_verification: Completa la verifica
+      notifications: Notifiche
+      personal: Dettagli personali
+      public_interests_my_title_list: Etichette di elementi che segui
+      public_interests_user_title_list: Etichette degli elementi che segue questo utente
+      save_changes_submit: Salvare le modifiche
+      recommendations: Raccomandazioni
+      title: Il mio account
+      user_permission_info: Con il tuo account puoi...
+      user_permission_title: Partecipazione
+      user_permission_verify: Per eseguire poter eseguire tutte le azioni occorre verificare la tua utenza.
+      verified_account: Utenza verificata
+      verify_my_account: Verificare la mia utenza
+  application:
+    close: Chiudere
+    menu: Menu
+  comments:
+    actions:
+      confirm_delete: "Sei sicuro? Quest'azione eliminerà questo commento. Non puoi annullarla."
+      delete: "Elimina commento"
+    comments_closed: I commenti sono chiusi
+    verified_only: Per partecipare %{verify_account}
+    comment:
+      admin: Amministratore
+      author: Autore
+      deleted: Questo commento è stato cancellato
+      moderator: Moderatore
+      responses:
+        zero: Nessuna risposta
+        one: 1 risposta
+        other: "%{count} risposte"
+      responses_show:
+        zero: Nessuna risposta
+        one: "1 risposta (mostra)"
+        other: "%{count} risposte (mostra)"
+      responses_collapse:
+        zero: Nessuna risposta
+        one: "1 risposta (comprimi)"
+        other: "%{count} risposte (comprimi)"
+      user_deleted: Utente cancellato
+      votes:
+        zero: Nessun voto
+        one: 1 voto
+        other: "%{count} voti"
+    form:
+      comment_as_admin: Commenta come admin
+      comment_as_moderator: Commenta come moderatore
+      leave_comment: Lascia il tuo commento
+    orders:
+      most_voted: Più votati
+      newest: Prima i più recenti
+      oldest: Prima i meno recenti
+      most_commented: Più commentati
+    show:
+      return_to_commentable: "Torna indietro a "
+  comments_helper:
+    comment_button: Pubblica il commento
+    comment_link: Commentare
+    comments_title: Commenti
+    reply_button: Pubblicare la risposta
+    reply_link: Rispondere
+  debates:
+    create:
+      form:
+        submit_button: Avviare un dibattito
+    debate:
+      votes:
+        zero: Nessun voto
+        one: 1 voto
+        other: "%{count} voti"
+    edit:
+      editing: Modificare il dibattito
+      form:
+        submit_button: Salva modifiche
+      show_link: Vedi il dibattito
+    form:
+      tags_instructions: Etichetta questo dibatto.
+      tags_placeholder: "Inserisci i tag che desideri utilizzare, separati da virgole (',')"
+    index:
+      featured_debates: In primo piano
+      orders:
+        confidence_score: più apprezzati
+        created_at: più recenti
+        hot_score: più attivi oggi
+        most_commented: più commentati
+        relevance: rilevanza
+        recommendations: consigli
+      recommendations:
+        without_results: Non ci sono dibattiti legati ai tuoi interessi
+        without_interests: Seguire proposte così possiamo darvi consigli
+        disable: "Le raccomandazioni per i dibattiti smetteranno di apparire se scegli di ignorarle. Puoi riattivarle dalla pagina “Il mio account”"
+        actions:
+          success: "Le raccomandazioni per i dibattiti risultano ora disabilitate per questo account"
+          error: "Si è verificato un errore. Si prega di andare alla pagina “Il mio account” per disabilitare manualmente le raccomandazioni per i dibattiti"
+      search_form:
+        button: Ricercare
+        placeholder: Ricerca dibattiti...
+        title: Ricercare
+      start_debate: Avvia un dibattito
+      title: Dibattiti
+      section_header:
+        icon_alt: Icona di dibattiti
+        title: Dibattiti
+        help: Aiuto sui dibattiti
+      section_footer:
+        title: Aiuto sui dibattiti
+        description: Inizia un dibattito per condividere opinioni con gli altri sugli argomenti che ti interessano.
+        help_text_1: "Lo spazio per i dibattiti dei cittadini è rivolto a chiunque sia in grado di esporre questioni relative alla propria preoccupazione e a coloro che desiderano condividere opinioni con altre persone."
+        help_text_2: 'Per aprire un dibattito devi registrarti su %{org}. Gli utenti possono anche commentare i dibattiti aperti e valutarli con i pulsanti "Accetto" o "Non sono d''accordo" in ognuno di essi.'
+    new:
+      form:
+        submit_button: Avvia un dibattito
+      more_info: Ulteriori informazioni
+      recommendation_four: Goditi questo spazio e le voci che lo riempiono. Appartiene anche a te.
+      recommendation_one: Non utilizzare lettere maiuscole per il titolo del dibattito o per frasi intere. Su internet, questo è considerato gridare. E a nessuno piace che gli si urli contro.
+      recommendation_three: La critica spietata è benvenuta. Questo è uno spazio di riflessione. Ma si consiglia di attenersi a criteri di eleganza e intelligenza. Il mondo è un luogo migliore in presenza di tali virtù.
+      recommendation_two: Qualsiasi dibattito o commento che suggerisca azioni illegali sarà cancellato, così come coloro che intendano sabotare gli spazi del dibattito. Tutto il resto è permesso.
+      recommendations_title: Raccomandazioni per la creazione di un dibattito
+      start_new: Avvia un dibattito
+    show:
+      author_deleted: Utente cancellato
+      comments_title: Commenti
+      edit_debate_link: Modificare
+      flag: Questo dibattito è stato contrassegnato come inappropriato da diversi utenti.
+      share: Condividere
+      author: Autore
+    update:
+      form:
+        submit_button: Salva modifiche
+  errors:
+    messages:
+      allowed_file_content_types: "il tipo di contenuto dev'essere uno di %{types}"
+      user_not_found: Utente non trovato
+      invalid_date_range: "Intervallo di date non valido"
+      past_date: "Non deve essere una data passata"
+      cannot_change_date:
+        poll_started: "Impossibile modificare se il voto è già iniziato"
+        poll_ended: "Impossibile modificare se il voto è già terminato"
+  form:
+    accept_terms: Acconsento alle %{policy} e alle %{conditions}
+    conditions: Termini e condizioni d'uso
+    debate: Dibattito
+    direct_message: messaggio privato
+    error: errore
+    errors: errori
+    not_saved: "impedito il salvataggio di questa %{resource}. <br>Sei pregato di controllare i campi contrassegnati per sapere come correggerli:"
+    policy: Informativa sulla privacy
+    banner: banner
+    proposal: Proposta
+    proposal_notification: "Notifica"
+    budget/investment: Investimento
+    budget/group: Gruppo del Budget
+    budget/heading: Voce di bilancio
+    geozone: geozona
+    legislation/draft_version: bozza
+    legislation/process: processo
+    legislation/question: questione
+    poll/shift: Turno
+    user: Account
+    verification/sms: telefono
+    signature_sheet: Foglio firme
+    document: Documento
+    topic: Argomento
+    image: Immagine
+    local_census_record: Registro del Censo Locale
+    local_census_records/import: Importazione dei Registri del Censo Locale
+    site_customization/content_block: blocco di contenuto
+    site_customization/page: pagina
+    sdg/local_target: obiettivo locale
+  geozones:
+    none: Tutta la città
+  layouts:
+    dashboard:
+      proposal_header:
+        published: Pubblicato
+        draft: Bozza
+        retired: Ritirato
+      proposal_totals:
+        active_resources: Risorse attive
+        community: Partecipanti nella tua community
+        show_proposal: Mostra la proposta
+        preview_proposal: Anteprima della proposta
+        current_goal: Obiettivo corrente
+        supports:
+          zero: Nessun sostegno
+          one: 1 Supporto
+          other: "Supporti"
+    footer:
+      accessibility: Accessibilità
+      conditions: Termini e condizioni d'uso
+      consul: app CONSUL DEMOCRACY
+      consul_url: https://github.com/consuldemocracy/consuldemocracy
+      copyright: CONSUL DEMOCRACY, %{year}
+      description: Questo portale utilizza %{consul} che è %{open_source}.
+      open_source: software open-source
+      open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
+      participation_text: Decidi come modellare la città in cui vuoi vivere.
+      participation_title: Partecipazione
+      privacy: Informativa sulla privacy
+    header:
+      administration_menu: Admin
+      administration: Amministrazione
+      collaborative_legislation: Procedimenti legislativi
+      debates: Dibattiti
+      locale: "Lingua:"
+      management: Gestione
+      moderation: Moderare
+      valuation: Valutazione
+      officing: Ufficiali di votazione
+      help: Aiuto
+      my_account_link: Il mio account
+      my_activity_link: La mia attività
+      open_gov: Governo aperto
+      proposals: Proposte
+      poll_questions: Voto
+      budgets: Bilancio partecipativo
+      notification_item:
+        new_notifications:
+          zero: "Non hai nuove notifiche"
+          one: Hai una nuova notifica
+          other: Hai %{count} nuove notifiche
+        notifications: Notifiche
+      sdg: "SDG"
+  notifications:
+    index:
+      empty_notifications: Non hai nuove notifiche.
+      mark_all_as_read: Contrassegnare tutti come letti
+      read: Letto
+      title: Notifiche
+      unread: Da leggere
+    notification:
+      action:
+        comments_on:
+          one: "Qualcuno ha commentato\nCi sono% {count} nuovi commenti su"
+          other: "Qualcuno ha commentato\nCi sono %{count} nuovi commenti su"
+        proposal_notification:
+          one: "C'è una nuova notifica su\nCi sono% {count} nuove notifiche su"
+          other: "C'è una nuova notifica su\nCi sono %{count} nuove notifiche su"
+        replies_to:
+          one: Qualcuno ha risposto al tuo commento
+          other: Ci sono %{count} nuove risposte al tuo commento
+      mark_as_read: Contrassegna come leggo
+      mark_as_unread: Contrassegna come da leggere
+      notifiable_hidden: Questa risorsa non è più disponibile.
+  map:
+    title: "Distretti"
+    proposal_for_district: "Avviare una proposta per il vostro distretto"
+    start_proposal: Creare una proposta
+  omniauth:
+    facebook:
+      sign_in: Accedi con Facebook
+      sign_up: Registrati con Facebook
+      name: Facebook
+    finish_signup:
+      title: "Ulteriori dettagli"
+      username_warning: "A causa di un cambiamento nel modo in cui interagiamo con i social network, è possibile che il tuo nome utente venga ora visualizzato come 'già in uso'. Se capita, si prega di scegliere un nome utente diverso."
+    google_oauth2:
+      sign_in: Accedi con Google
+      sign_up: Registrati con Google
+      name: Google
+    wordpress_oauth2:
+      sign_in: Accedi con Wordpress
+      sign_up: Registrati con Wordpress
+      name: Wordpress
+    twitter:
+      sign_in: Accedi con Twitter
+      sign_up: Registrati con Twitter
+      name: Twitter
+    info:
+      sign_in: "Accedi con:"
+      sign_up: "Registrati con:"
+    or_fill: "Oppure compila il seguente modulo:"
+  proposals:
+    create:
+      form:
+        submit_button: Creare una proposta
+    created:
+      title: Congratulazioni! Hai compiuto il primo passo.
+      motivation: "È importante preparare la campagna di lancio perché la tua proposta sia di successo. I primi pochi giorni sono decisivi."
+      motivation_2: "<strong>Se desideri consigli per preparare la pubblicazione, lascia la tua proposta come una bozza e ti guideremo.</strong>"
+      publish: No, desidero pubblicare la proposta
+      dashboard: Sì, desidero aiuto e pubblicherò in seguito
+      preview_title: Questo è l'aspetto che la tua proposta avrà quando la pubblicherai
+    share:
+      improve_it: Migliora la tua campagna e ricevi più supporto.
+      dashboard: Visualizza ulteriori informazioni
+      message: "Ho supportato la proposta %{title} in %{handle}. Se sei interessato, supportala anche tu!"
+    edit:
+      editing: Modifica proposta
+      form:
+        submit_button: Salva modifiche
+      show_link: Visualizza proposta
+    retire_form:
+      title: Ritira proposta
+      warning: "Anche se ritirata la proposta potrà ricevere comunque sostegni, ma sarà rimossa dall’elenco principale e tutti gli utenti visualizzeranno il messaggio che l’autore ritiene che la proposta non debba più essere sostenuta"
+      retired_reason_blank: Scegli un'opzione
+      retired_explanation_placeholder: Spiega brevemente perché ritieni che questa proposta non debba ricevere ulteriori sostegni
+      submit_button: Ritira proposta
+    retire_options:
+      duplicated: Duplicati
+      started: Già in corso
+      unfeasible: Non realizzabile
+      done: Fatto
+      other: Altri
+    form:
+      proposal_responsible_name_note: "(individualmente o come rappresentante di un’associazione; non sarà reso pubblico)"
+      proposal_summary_note: "(massimo 200 caratteri)"
+      proposal_video_url_note: È possibile aggiungere un link a YouTube o Vimeo
+      tag_category_label: "Categorie"
+      tags_instructions: "Taggare questa proposta. Si può scegliere tra le categorie riportate oppure aggiungerne una"
+      tags_label: Tag
+      tags_placeholder: "Inserisci i tag che desideri utilizzare, separati da virgole (',')"
+      map_location: "Posizione sulla mappa"
+      map_location_instructions: "Scorrete la mappa sino a individuare il luogo giusto e posizionare il segnaposto."
+      map_remove_marker: "Rimuovere segnaposto"
+    index:
+      featured_proposals: In primo piano
+      orders:
+        confidence_score: più apprezzati
+        created_at: più recenti
+        hot_score: più attivi
+        most_commented: più commentati
+        relevance: rilevanza
+        archival_date: archiviato
+        recommendations: consigli
+      recommendations:
+        without_results: Non ci sono dibattiti legati ai tuoi interessi
+        without_interests: Segui le proposte così potremo darti maggiori consigli
+        disable: "Le raccomandazioni per le proposte smetteranno di apparire se scegli di ignorarle. Puoi riattivarle dalla pagina “Il mio account”"
+        actions:
+          success: "Le raccomandazioni per le proposte risultano ora disabilitate per questo account"
+          error: "Si è verificato un errore. Si prega di andare alla pagina “Il mio account” per disabilitare manualmente le raccomandazioni per le proposte"
+      retired_proposals: Proposte ritirate
+      retired_proposals_link: "Proposte ritirate dall'autore"
+      selected_proposals: Proposte selezionate
+      selected_proposals_link: Visualizza le proposte selezionate
+      archived_proposals: Proposte archiviate
+      proposals_lists: Elenchi di proposte
+      retired_links:
+        all: Tutti
+        duplicated: Duplicazione
+        started: In corso
+        unfeasible: Irrealizzabile
+        done: Fatto
+        other: Altro
+      search_form:
+        button: Ricercare
+        placeholder: Cerca proposte...
+        title: Ricercare
+      search_results:
+        one: " contenenti il termine <strong>'%{search_term}'</strong>"
+        other: " contenenti il termine <strong>'%{search_term}'</strong>"
+      select_order_long: "Stai visualizzando le proposte in base a:"
+      start_proposal: Crea una proposta
+      title: Proposte
+      top_link_proposals: Le proposte più sostenute per categoria
+      section_header:
+        icon_alt: Icona di proposte
+        title: Proposte
+        help: Aiuto sulle proposte
+      section_footer:
+        title: Aiuto sulle proposte
+        description: Le proposte dei cittadini sono un’opportunità per gli abitanti e le associazioni locali di decidere di persona come vogliono che sia la propria città, dopo aver raccolto sufficiente sostegno e aver passato il vaglio del voto cittadino.
+    new:
+      form:
+        submit_button: Crea proposta
+      more_info: Come funzionano le proposte dei cittadini?
+      recommendation_one: Non utilizzare lettere maiuscole per il titolo della proposta o per frasi intere. Su internet, questo è considerato gridare. E a nessuno piace essere urlato.
+      recommendation_three: Goditi questo spazio e le voci che lo riempiono. Appartiene anche a te.
+      recommendation_two: Qualsiasi proposta o commento che suggerisca azioni illegali sarà cancellato, così come coloro che intendono sabotare gli spazi del dibattito. Tutto il resto è permesso.
+      recommendations_title: Consigli per la creazione di una proposta
+      start_new: Creare una nuova proposta
+    notice:
+      retired: Proposta ritirata
+      published: La proposta è stata pubblicata
+    proposal:
+      created: "Hai creato una proposta!"
+      share:
+        guide: "Ora puoi condividerlo in modo che le persone possano iniziare a supportare."
+        edit: "Prima che venga condiviso, potrai modificare il testo come preferisci."
+        view_proposal: Non ora, vai alla mia proposta
+      already_supported: Hai già sostenuto questa proposta. Condividila!
+      support: Sostenere
+      support_label: "Supporta %{proposal}"
+      support_title: Sostieni questa proposta
+      supports:
+        zero: Nessun sostegno
+        one: 1 sostegno
+        other: "%{count} sostegni"
+      votes:
+        zero: Nessun voto
+        one: 1 voto
+        other: "%{count} voti"
+      supports_necessary: "%{number} sostegni necessari"
+      total_percent: 100%
+      archived: "Questa proposta è stata archiviata e non può raccogliere appoggi."
+      successful: "Questa proposta ha raggiunto gli appoggi richiesti."
+      selected: "Proposta selezionata"
+    show:
+      author_deleted: Utente cancellato
+      code: "Codice proposta:"
+      comments_tab: Commenti
+      dashboard_proposal_link: Pannello di Controllo
+      flag: Questa proposta è stata contrassegnata come inappropriata da diversi utenti.
+      notifications_tab: Notifiche
+      milestones_tab: Traguardi
+      retired_warning: "L'autore ritiene che questa proposta non debba ricevere ulteriori appoggi."
+      retired_warning_link_to_explanation: Leggi la spiegazione prima di votarla.
+      retired: Proposta ritirata dall'autore
+      share: Condividere
+      no_notifications: "Questa proposta non ha notifiche."
+      embed_video_title: "Video su %{proposal}"
+      title_video_url: "Video esterno"
+      author: Autore
+      draft: Proposta nelle bozze. Non può ancora ricevere supporto, né appare nell'elenco delle proposte.
+    update:
+      form:
+        submit_button: Salva modifiche
+  dashboard:
+    menu:
+      my_proposal: Modifica la mia proposta
+      progress: Progresso
+      resources: Risorse
+      community: Community
+      polls: Votazioni
+      mailing: Email
+      poster: Poster
+      recommended_actions: Azioni consigliate
+      messages: Messaggio agli utenti
+      related_content: Contenuti correlati
+    form:
+      request: Richiesta
+    create_request:
+      success: La richiesta è stata inviata correttamente. Ti contatteremo appena possibile per informarti a riguardo.
+      archived: Questa proposta è archiviata e non può richiedere risorse.
+    progress:
+      title: Grafica
+      group_by_month: Mensile
+      group_by_week: Settimanale
+      group_by_date: Giornaliero
+      progress: Progresso accumulato
+      supports: Sostegni
+      success: Progresso ideale
+      new_action: Nuovo
+    index:
+      title: Edizione
+      edit_proposal_link: Modifica proposta
+      publish: Pubblica la proposta
+      retire: Ritira proposta
+    new_request:
+      links: Link
+    resources:
+      available_resources: Risorse disponibili
+    resource:
+      required_days: "%{days} giorni necessari"
+      required_supports: "%{supports} supporti necessari"
+      and: e
+      view_resource: Visualizza la risorsa
+      resource_requested: Risorsa già richiesta
+      request_resource: Richiedi la risorsa
+      resource_locked: Risorsa bloccata
+    recommended_actions:
+      title: Azioni consigliate
+      goto_proposed_actions: Vai alle azioni consigliate
+      see_proposed_actions: Da' un'occhiata alle azioni consigliate
+      hide_proposed_actions: Nascondi le azioni consigliate
+      pending_title: In sospeso
+      show_description: Mostra la descrizione
+      without_pending_actions: Nessun'azione consigliata in sospeso
+      done_title: Fatto
+      without_done_actions: Nessun'azione consigliata eseguita
+    next_goal:
+      title: Obiettivo
+      see_complete_course: Dai un'occhiata al corso completo
+      hide_course: Nascondi il corso
+    goal:
+      target_supports:
+        one: Ottieni %{count} supporto per la tua proposta
+        other: Ottieni %{count} supporti per la tua proposta
+      days:
+        one: "%{count} giorno"
+        other: "%{count} giorni"
+      locked_resource: Risorsa bloccata
+      ideal_time: Orario ideale
+    community:
+      access_community: Accedi alla comunità
+      latest_activity: "Ultima attività della community: %{at}"
+      participants: Partecipanti
+      debates: Dibattiti
+      comments: Commenti
+      latest_comments: Ultimi messaggi
+    messages:
+      send_notification: Invia notifica ai follower della proposta
+      previous_notifications: Vedi notifiche precedenti
+    polls:
+      index:
+        title: Sondaggi
+        create: Crea sondaggio
+        count:
+          one: Hai creato %{count} sondaggio.
+          other: Avete creato %{count} sondaggi.
+        links: Link
+        additiontal_information: Informazioni Aggiuntive
+      new:
+        title: Nuovo sondaggio
+        submit: Crea sondaggio
+      edit:
+        submit: Aggiorna sondaggio
+      poll:
+        responses:
+          one: "%{count} risposta"
+          other: "%{count} risposte"
+        view_results: Vedi risultati
+        edit_poll: Modifica sondaggio
+        show_results_help: Se spunti questa casella i risultati saranno pubblici e tutti gli utenti potranno vederli
+        delete: Elimina sondaggio
+        alert_notice: Quest'azione rimuoverà il sondaggio e tutte le domande associate.
+        success_notice: Sondaggio eliminato con successo
+        unable_notice: Non puoi distruggere un sondaggio avente risposte
+      form:
+        name: Titolo sondaggio
+        add_question: Aggiungi domanda
+      question_fields:
+        remove_question: Rimuovi domanda
+        add_answer: Aggiungi risposta
+      question_answer_fields:
+        remove_answer: Rimuovi risposta
+    poster:
+      index:
+        title: Anteprima poster
+        poster_title: "Non continuare a guardare,"
+        poster_subtitle: "avvisami! ;)"
+        intro_text: "<strong>Sto partecipando alla %{org}</strong> mia proposta cittadino e solo se anche tu aggiungi puoi avere il supporto necessario per rendere la città quella che noi tutti vogliamo."
+        proposal_code: "Codice della proposta: %{code}"
+        support: Supporta la mia proposta
+        footer: "<strong>Visita %{link} e supporta questa proposta.</strong> Più sono e meglio è. Facciamo la nostra parte. Grazie!"
+      new:
+        title: Poster della tua proposta
+      options:
+        preview: Anteprima
+        download: Scarica
+    mailing:
+      index:
+        title: Anteprima E-mail
+      new:
+        title: Modello email da condividere
+      mailing_options:
+        send: Invia a %{address}
+        preview: Anteprima
+      create:
+        sent: L'email è stata inviata
+    mailer:
+      forward:
+        subtitle: "Se mi supporti, <br>ce la faremo."
+        support_button: Sostieni questa proposta
+        share_in: Condividi su
+        hi: "Ciao!"
+        introduction: 'Ti sto scrivendo per farti sapere che sto partecipando a %{org}, la piattaforma che ci permette di decidere sulla città che vogliamo. E per farlo, ho creato la mia proposta cittadina e, ora, ho bisogno del tuo supporto! Ma non preoccuparti: è molto semplice.'
+        support: "Devi solo cliccare sul pulsante seguente 'Supporta questa proposta' e puoi informarti prima di promuoverla. Solo le proposte che ricevono il massimo supporto arriveranno in Comune e ho pensato che tu potessi aiutarmi a farcela!"
+        share: "E se mi facessi anche il grande favore di condividere la mia proposta coi tuoi amici, la tua famiglia e i tuoi contatti, sarebbe perfetto!"
+  polls:
+    all: "Tutti"
+    dates: "Dal %{open_at} al %{closed_at}"
+    final_date: "Scrutinio finale/Risultati"
+    index:
+      filters:
+        current: "Aperti"
+        expired: "Scadute"
+      title: "Sondaggi"
+      participate_button: "Partecipa a questa votazione"
+      participate_button_expired: "Votazione conclusa"
+      no_geozone_restricted: "Tutta la città"
+      geozone_restricted: "Distretti"
+      geozone_info: "Possono partecipare persone nel censimento di: "
+      already_answer: "Hai già partecipato a questa votazione"
+      not_logged_in: "È necessario accedere o registrarsi per partecipare"
+      unverified: "È necessario verificare il tuo account per partecipare"
+      cant_answer: "Questa votazione non è disponibile nella tua zona"
+      section_header:
+        icon_alt: Icona di voto
+        title: Voto
+        help: Aiuto sul voto
+      section_footer:
+        title: Aiuto sul voto
+        description: Le votazioni cittadine sono un meccanismo partecipativo attraverso il quale i cittadini con diritto di voto possono prendere decisioni in maniera diretta
+      no_polls: "Non ci sono votazioni aperte."
+    show:
+      already_voted_in_booth: "Hai già partecipato a una votazione. Non puoi partecipare di nuovo."
+      already_voted_in_web: "Hai già partecipato a questo sondaggio. Se si vota di nuovo, verrà sovrascritto."
+      back: Ritorno al voto
+      cant_answer_not_logged_in: "È necessario %{signin} o %{signup} per partecipare."
+      comments_tab: Commenti
+      cant_answer_verify: "È necessario %{verify_link} per rispondere."
+      verify_link: "verifica la tua utenza"
+      cant_answer_expired: "Questa votazione è conclusa."
+      cant_answer_wrong_geozone: "Questo quesito non è disponibile nella tua zona."
+      more_info_title: "Ulteriori informazioni"
+      documents: Documenti
+      zoom_plus: Espandi immagine
+      read_more: "Leggi di più in merito a %{answer}"
+      read_less: "Leggi di meno in merito a %{answer}"
+      videos: "Video esterno"
+      info_menu: "Informazione"
+      stats_menu: "Statistiche di partecipazione"
+      results_menu: "Risultati di voto"
+      stats:
+        total_votes: "Totale complessivo di voti dati"
+        votes: "VOTI"
+        web: "WEB"
+        mail: "MAIL"
+        booth: "SEGGIO"
+        total: "TOTALE"
+        valid: "Validi"
+        white: "Schede bianche"
+        null_votes: "Non validi"
+      results:
+        title: "Quesiti"
+        most_voted_answer: "Risposta più votata: "
+    poll_header:
+      back_to_proposal: Torna alla proposta
+  poll_questions:
+    show:
+      vote_answer: "Voto %{answer}"
+      voted: "Hai votato %{answer}"
+    description:
+      unique: "Puoi selezionare un massimo di 1 risposta."
+      multiple: "Puoi selezionare un massimo di %{maximum} risposte."
+    read_more_about: "Leggi di più su:"
+  proposal_notifications:
+    new:
+      title: "Invia messaggio"
+      submit_button: "Invia messaggio"
+      info_about_receivers: "Questa notifica sarà inviata a <strong>%{count} persone</strong> e sarà visibile in %{proposal_page}.<br> Le notifiche non sono inviate immediatamente, gli utenti riceveranno periodicamente un'email con le notifiche di tutte le proposte."
+      proposal_page: "pagina della proposta"
+    show:
+      back: "Torna alle mie attività"
+  shared:
+    edit: "Modificare"
+    filter: "Filtro"
+    save: "Salvare"
+    delete: "Eliminare"
+    "yes": "Sì"
+    "no": "No"
+    search_results: "Risultati della ricerca"
+    advanced_search:
+      date: "Per data"
+      date_placeholder: "GG/MM/AAAA"
+      date_range_blank: "Scegli una data"
+      date_1: "Ultime 24 ore"
+      date_2: "Settimana scorsa"
+      date_3: "Mese scorso"
+      date_4: "Anno scorso"
+      date_5: "Personalizzata"
+      from: "Da"
+      general: "Con il testo"
+      goal: "Di SDG"
+      goal_blank: "Seleziona un obiettivo"
+      search: "Filtra"
+      target: "Per scopo"
+      target_blank: "Seleziona uno scopo"
+      title: "Ricerca avanzata"
+      to: "A"
+    author_info:
+      author_deleted: Utente cancellato
+      email_deleted: Email eliminata
+    back: Indietro
+    check_all: Tutti
+    check_none: Nessuno
+    collective: Associazione
+    flag: Contrassegna come inappropriato
+    follow: "Segui"
+    following: "Seguendo"
+    follow_entity: "Segui %{entity}"
+    followable:
+      budget_investment:
+        create:
+          notice: "Non stai seguendo questo progetto d'investimento! <br> Ti notificheremo delle modifiche come si verificano, così che tu sia aggiornato."
+        destroy:
+          notice: "Hai smesso di seguire questo progetto d'investimento! <br> Non riceverai più le notifiche correlate a questo progetto."
+      proposal:
+        create:
+          notice: "Stai ora seguendo questa proposta cittadina! <br> Ti notificheremo delle notifiche come si verificano, così che tu sia aggiornato."
+        destroy:
+          notice: "Hai smesso di seguire questa proposta cittadina! <br> Non riceverai più le notifiche correlate a questa proposta."
+    print:
+      print_button: Stampare questa informazione
+    search: Ricercare
+    show: Mostra
+    suggest:
+      debate:
+        found:
+          one: "Esiste già un dibattito col termine '%{query}', puoi partecipare a quello invece che aprirne un altro."
+          other: "Esistono già altri dibattiti col termine '%{query}', puoi partecipare a quelli invece che aprirne un altro."
+        message: "Stai visualizzando %{limit} di %{count} dibattiti contenenti il termine '%{query}'"
+        see_all: "Vedi tutte"
+      budget_investment:
+        found:
+          one: "Esiste già un investimento col termine '%{query}', puoi partecipare a quello invece che aprirne un altro."
+          other: "Esistono già altri investimenti col termine '%{query}', puoi partecipare a quelli invece che aprirne un altro."
+        message: "Stai visualizzando %{limit} di %{count} investimenti contenenti il termine '%{query}'"
+        see_all: "Vedi tutte"
+      proposal:
+        found:
+          one: "Esiste già una proposta col termine '%{query}', puoi partecipare a quella invece che crearne un’altra"
+          other: "Esistono già altre proposte col termine '%{query}', puoi partecipare a quelle invece che crearne un’altra"
+        message: "Stai visualizzando %{limit} di %{count} proposte contenenti il termine '%{query}'"
+        see_all: "Vedi tutti"
+    tags_cloud:
+      tags: Di tendenza
+      districts: "Distretti"
+      districts_list: "Lista dei distretti"
+      categories: "Categorie"
+    target_blank: " (il link si apre in una nuova finestra)"
+    you_are_in: "Sei entrato"
+    unflag: Rimuovi il flag
+    unfollow_entity: "Non seguire più %{entity}"
+    outline:
+      searcher: Motore di ricerca
+    go_to_page: "Vai alla pagina di "
+    share: Condividere
+    orbit:
+      previous_slide: Diapositiva Precedente
+      next_slide: Diapositiva Successiva
+    documentation: Documentazione aggiuntiva
+    view_mode:
+      title: Modalità di visualizzazione
+      cards: Schede
+      list: Elenco
+    recommended_index:
+      title: Raccomandazioni
+      see_more: Visualizza ulteriori raccomandazioni
+      hide: Nascondi raccomandazioni
+    translations:
+      select_language_prompt: Scegli la lingua
+      remove_language: Rimuovi lingua
+      add_language: Aggiungi lingua
+      languages_in_use:
+        zero: "0 lingue in uso"
+        one: "1 lingua in uso"
+        other: "%{count} lingue in uso"
+    optional: "Opzionale"
+    required: "Obbligatorio"
+    comments:
+      zero: "Nessun commento"
+      one: "1 commento"
+      other: "%{count} commenti"
+  social:
+    facebook: "Facebook di %{org}"
+    twitter: "Twitter di %{org}"
+    youtube: "YouTube di %{org}"
+    telegram: "Telegram di %{org}"
+    instagram: "Instagram di %{org}"
+  unauthorized:
+    default: Non hai l’autorizzazione per accedere a questa pagina.
+    manage:
+      all: "Non hai l’autorizzazione per eseguire l’azione '%{action}' su %{subject}."
+  users:
+    login_to_comment: "È necessario %{signin} o %{signup} per lasciare un commento."
+    login_to_continue: "È necessario %{signin} o %{signup} per continuare."
+    signin: "accedere"
+    signup: "registrarsi"
+    verify_account: "verifica il tuo account"
+    direct_messages:
+      new:
+        direct_messages_bloqued: "Questo utente ha deciso di non ricevere messaggi diretti"
+        submit_button: Invia messaggio
+        title: Invia un messaggio privato a %{receiver}
+        verified_only: Per inviare un messaggio privato %{verify_account}
+      show:
+        receiver: Messaggio inviato a %{receiver}
+    show:
+      deleted: Eliminato
+      deleted_debate: Questo dibattito è stato eliminato
+      deleted_proposal: Questa proposta è stata eliminata
+      deleted_budget_investment: Questo progetto di investimento è stato eliminato
+      proposals: Proposte
+      proposals_status: Status
+      debates: Dibattiti
+      budget_investments: Investimenti del bilancio
+      comments: Commenti
+      actions: Azioni
+      filters:
+        comments:
+          one: 1 Commento
+          other: "%{count} Commenti"
+        debates:
+          one: 1 Dibattito
+          other: "%{count} Dibattiti"
+        proposals:
+          one: 1 Proposta
+          other: "%{count} Proposte"
+        budget_investments:
+          one: 1 Investimento
+          other: "%{count} Investimenti"
+        follows:
+          one: 1 Follower
+          other: "%{count} Follower"
+      no_activity: L’utente non ha alcuna attività pubblica
+      no_private_messages: "Questo utente non accetta messaggi privati."
+      private_activity: Questo utente ha deciso di mantenere l'elenco di attività privato.
+      send_private_message: "Invia messaggio privato"
+      delete_alert: "Sei sicuro di voler eliminare il tuo progetto di investimento? Questa azione non può essere annullata"
+    proposals:
+      retired: "Ritira proposta"
+      draft: Bozza
+      published: Pubblicato
+      see: "Visualizza proposta"
+      actions: Azioni
+      retired_help_text: Pannello di controllo non disponibile per le proposte ritirate
+  votes:
+    agree: Sono d'accordo
+    agree_label: "Acconsento con %{title}"
+    anonymous: Troppi voti anonimi per ammettere il voto %{verify_account}.
+    disagree: Non sono d'accordo
+    disagree_label: "Non acconsento con %{title}"
+    organizations: Le organizzazioni non sono ammesse a votare
+    supports: Supporti
+    verified_only: Solo gli utenti verificati possono votare le proposte; %{verify_account}.
+    budget_investments:
+      not_verified: Solo gli utenti verificati possono votare i progetti di investimento; %{verify_account}.
+      unfeasible: I progetti di investimento irrealizzabili non possono essere sostenuti
+      not_voting_allowed: La fase di votazione è chiusa
+      different_heading_assigned:
+        one: "Puoi supportare i progetti d'investimento solo in %{count} distretto. Hai già supportato investimenti in %{supported_headings}."
+        other: "Puoi supportare i progetti d'investimento solo in %{count} distretti. Hai già supportato investimenti in %{supported_headings}."
+  welcome:
+    feed:
+      most_active:
+        debates: "Dibattiti più attivi"
+        proposals: "Proposte più attive"
+        processes: "Procedimenti aperti"
+      see_all:
+        debates: Vedi tutti i dibattiti
+        proposals: Vedi tutte le proposte
+        processes: Vedi tutti i procedimenti
+      no_items:
+        debates: Non c'è alcun dibattito al momento
+        proposals: Non c'è alcuna proposta al momento
+        processes: Non c'è alcun processo aperto al momento
+      process_label: Procedimento
+      see_process: Vedi procedimento
+    cards:
+      title: In primo piano
+    recommended:
+      title: Consigli che potrebbero interessarti
+      help: "Questi consigli vengono generati in base alle etichette dei dibattiti e delle proposte che stai seguendo."
+      debates:
+        title: Dibattiti consigliati
+        btn_text_link: Tutti i dibattiti consigliati
+      proposals:
+        title: Proposte consigliate
+        btn_text_link: Tutte le proposte consigliate
+      budget_investments:
+        title: Investimenti consigliati
+      slide: "Vedi %{title}"
+    welcome:
+      go_to_index: Vedi proposte e dibattiti
+      start_using_consul: Vai alla pagina dell'indice
+      title: Partecipa
+      user_permission_info: Con il tuo account puoi...
+      user_permission_verify: "Per eseguire poter eseguire tutte le azioni occorre verificare la tua utenza."
+      user_permission_verify_my_account: Verifica il tuo account
+  invisible_captcha:
+    sentence_for_humans: "Se sei una persona fisica, ignora questo campo"
+    timestamp_error_message: "Siamo spiacenti, troppo veloce! Si prega di inviare nuovamente."
+  related_content:
+    title: "Contenuti correlati"
+    add: "Aggiungi contenuti correlati"
+    label: "Link ai contenuti correlati"
+    placeholder: "%{url}"
+    help: "È possibile aggiungere collegamenti di %{models} all'interno di %{org}."
+    submit: "Aggiungi"
+    error: "Link non valido. Ricordarsi di iniziare con %{url}."
+    error_duplicate: "Il contenuto correlato che stai aggiungendo esiste già."
+    error_itself: "Link non valido. Non puoi correlate un contenuto a se stesso."
+    success: "Hai aggiunto un nuovo contenuto correlato"
+    is_related: "È un contenuto correlato?"
+    score_positive: "Sì"
+    score_negative: "No"
+    content_title:
+      proposal: "Proposta"
+      debate: "Dibattito"
+      budget_investment: "Investimento di bilancio"
+  admin/widget:
+    header:
+      title: Amministrazione
+  annotator:
+    help:
+      alt: Selezionare il testo che si desidera commentare e premere il pulsante con la matita.
+      text: Per commentare questo documento è necessario %{sign_in} o %{sign_up}. Quindi selezionare il testo che si desidera commentare e premere il pulsante con la matita.
+      title: Come posso commentare questo documento?
+  links:
+    form:
+      delete_button: Eliminare
+      cancel_button: Cancella
+    nested_links:
+      title: Link
+      note: Aggiungi i link di tuo interesse
+      add_new_link: Aggiungi un nuovo link
+  communities:
+    show:
+      surveys: Sondaggi
+      complete_survey: Completa il sondaggio
+    subnav:
+      surveys: Sondaggi
+    poll:
+      take_part: Prendi parte da %{from} a %{to}
+  remote_translations:
+    text: Il contenuto di questa pagina non è disponibile nella tua lingua
+    all_remote_translations_enqueued_text: In un breve periodo di tempo aggiornando la pagina potrai vedere tutto il contenuto nella tua lingua.
+    create:
+      enqueue_remote_translation: Le traduzioni sono state richieste correttamente.
+    button: Traduci pagina
+  tags:
+    list:
+      filter:
+        more:
+          one: "Un altro tag"
+          other: "%{count} altri tag"
+  machine_learning:
+    comments_summary: "Riepilogo dei commenti"
+    info_text: "Contenuto generato dall'IA / Apprendimento Automatico"

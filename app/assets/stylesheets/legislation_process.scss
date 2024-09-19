@@ -1,0 +1,992 @@
+// Table of Contents
+//
+// 01. Hero
+// 02. Legislation process navigation
+// 03. Debate list
+// 04. Debate quiz
+// 05. Legislation allegations
+// 06. Legislation changes
+// 07. Legislation comments
+// 08. Legislation draft comment
+// 09. Legislation proposals
+//
+
+// 01. Hero
+// --------
+
+.legislation-hero {
+  @include full-width-background;
+
+  .title {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .description li p {
+    display: inline;
+  }
+}
+
+// 02. Legislation process navigation
+// ----------------------------------
+
+.legislation-process-list {
+  @include full-width-border(bottom, 1px solid $border);
+}
+
+.key-dates {
+  list-style-type: none;
+  margin: 0 rem-calc(-10);
+
+  @include breakpoint(large) {
+    margin: 0;
+  }
+
+  li {
+    border: 1px solid $border;
+    display: block;
+    margin: rem-calc(-1) 0;
+    min-height: $line-height * 3;
+    position: relative;
+    vertical-align: top;
+
+    @include breakpoint(large down) {
+
+      &::after {
+        content: "\63";
+        font-family: "icons" !important;
+        font-size: rem-calc(24);
+        pointer-events: none;
+        position: absolute;
+        right: 12px;
+        top: 12px;
+      }
+    }
+
+    @include breakpoint(large) {
+      background: #fafafa;
+      border-bottom: 0;
+      border-top-left-radius: rem-calc(6);
+      border-top-right-radius: rem-calc(6);
+      display: inline-block;
+      margin-bottom: 0;
+      margin-right: calc(#{$line-height} / 4);
+      margin-top: 0;
+
+      &:hover:not(.is-active) {
+        background: $highlight;
+      }
+
+      &::after {
+        content: "";
+      }
+    }
+
+    a {
+      display: block;
+      padding: calc(#{$line-height} / 4) calc(#{$line-height} / 2);
+
+      @include breakpoint(large) {
+        display: inline-block;
+      }
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      h4 {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  span {
+    color: $text-medium;
+    font-size: $small-font-size;
+  }
+
+  .is-active {
+    background: $highlight;
+    position: relative;
+
+    @include breakpoint(large) {
+      background: none;
+      border: 1px solid $border;
+      border-bottom-color: $body-background;
+      z-index: 1;
+    }
+  }
+}
+
+// 03. Debate list
+// ----------------
+
+.debate-chooser {
+  padding: rem-calc(32) rem-calc(16);
+
+  @include breakpoint(medium) {
+    .debate-chooser {
+      padding: rem-calc(32) rem-calc(48);
+    }
+  }
+
+  .debate-block {
+    margin-bottom: rem-calc(40);
+
+    .debate-type {
+      @include brand-color;
+      font-size: $small-font-size;
+      font-weight: 700;
+      text-transform: uppercase;
+
+      .icon-debates {
+        margin-left: rem-calc(3);
+      }
+    }
+
+    .debate-title a {
+      @include brand-color;
+    }
+  }
+
+  .debate-meta,
+  .debate-meta a {
+    color: #6d6d6d;
+    font-size: $small-font-size;
+  }
+
+  .debate-info {
+    background: #f4f4f4;
+    padding: rem-calc(16);
+  }
+}
+
+// 04. Debate quiz
+// ---------------
+
+.debate-questions {
+
+  .comments {
+    margin-top: $line-height * 2.5;
+  }
+
+  .quiz-header {
+    margin-bottom: $line-height;
+
+    .quiz-title,
+    .quiz-next {
+      padding: $line-height;
+
+      @include breakpoint(medium) {
+        height: $line-height * 4;
+      }
+    }
+
+    .quiz-title {
+      background: $highlight;
+
+      .quiz-header-title {
+        font-size: $small-font-size;
+        font-weight: 700;
+        margin-bottom: 0;
+        text-transform: uppercase;
+      }
+
+      a {
+        @include brand-color;
+        @include header-font-size(h4);
+        text-decoration: none;
+      }
+    }
+
+    .quiz-next-link {
+      display: block;
+
+      &:hover,
+      &:active {
+        text-decoration: none;
+      }
+    }
+
+    .quiz-next {
+      @include brand-color;
+      background: #ccdbe5;
+      font-size: $small-font-size;
+      font-weight: bold;
+      text-align: right;
+      text-transform: uppercase;
+      transition: background 0.25s ease-out, background 0.25s ease-out;
+
+      .icon-angle-right {
+        vertical-align: middle;
+      }
+
+      &:hover,
+      &:active {
+        @extend %brand-background;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .quiz-question {
+    @include header-font-size(h2);
+    margin-bottom: $line-height;
+  }
+
+  .debate-questions {
+    list-style: none;
+    position: relative;
+
+    .control {
+      background: #fff;
+      border: 1px solid $border;
+      border-radius: rem-calc(4);
+      color: #555;
+      cursor: pointer;
+      display: inline-block;
+      margin-bottom: calc(#{$line-height} / 2);
+      margin-right: $line-height;
+      padding: calc(#{$line-height} / 2)  $line-height * 2;
+      position: relative;
+    }
+
+    .is-active {
+      background: #ccdbe6;
+      border: 0;
+    }
+
+    .control input {
+      opacity: 0;
+      position: absolute;
+      z-index: -1;
+    }
+
+    .control input:checked ~ .control-indicator {
+      @include brand-background;
+      border: 0;
+    }
+
+    .radio .control-indicator {
+      border-radius: 50%;
+    }
+
+    .control-indicator {
+      border: 2px solid #9c9c9c;
+      display: block;
+      font-size: 65%;
+      height: rem-calc(16);
+      left: 15px;
+      line-height: rem-calc(16);
+      pointer-events: none;
+      position: absolute;
+      text-align: center;
+      top: 15px;
+      user-select: none;
+      width: rem-calc(16);
+    }
+  }
+}
+
+// 05. Legislation allegations
+// ---------------------------
+
+.draft-panels {
+  padding: rem-calc(32) 0;
+  position: relative;
+
+  .draft-chooser {
+
+    h3 {
+      display: inline-block;
+      font-weight: 400;
+      margin-right: rem-calc(8);
+      vertical-align: top;
+    }
+
+    span {
+      color: $text-medium;
+      font-size: $small-font-size;
+      font-style: italic;
+      line-height: rem-calc(37);
+      margin-left: rem-calc(4);
+      vertical-align: top;
+    }
+
+    .select-box {
+      position: relative;
+
+      @include breakpoint(medium) {
+        display: inline-block;
+      }
+
+      select {
+        display: block;
+        margin-bottom: 0;
+      }
+
+      span {
+        font-style: normal;
+        vertical-align: inherit;
+      }
+
+      .see-changes {
+        color: $text-medium;
+        text-decoration: underline;
+      }
+    }
+
+    .button {
+      margin-top: rem-calc(16);
+
+      @include breakpoint(medium) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .draft-allegation {
+
+    @include breakpoint(medium) {
+      display: flex;
+
+      .calc-index {
+        max-width: calc(35% - 25px);
+
+        .draft-index {
+          @supports (position: sticky) {
+            max-height: 100vh;
+            overflow-y: auto;
+            position: sticky;
+            top: $line-height;
+          }
+        }
+
+        > * {
+          padding-right: rem-calc(20);
+        }
+      }
+
+      .calc-text {
+        flex: 1;
+      }
+
+      .calc-comments {
+        min-width: 15rem;
+        width: calc(35% - 25px);
+
+        > * {
+          padding-left: rem-calc(20);
+        }
+      }
+    }
+
+    .border-right {
+      @include breakpoint(medium) {
+        border-right: 1px solid $border;
+      }
+    }
+
+    .border-left {
+      @include breakpoint(medium) {
+        border-left: 1px solid $border;
+      }
+    }
+
+    .draft-panel {
+      background: #f2f2f2;
+      color: #696969;
+      font-size: $small-font-size;
+      font-weight: 700;
+      padding: rem-calc(8) rem-calc(16);
+      text-transform: uppercase;
+
+      .icon-comments {
+        margin-right: rem-calc(4);
+      }
+
+      .icon-banner {
+        color: $text-medium;
+        line-height: 0;
+        vertical-align: sub;
+      }
+    }
+
+    .draft-index {
+      ul:first-child {
+        font-size: rem-calc(16);
+        margin-left: rem-calc(36);
+        margin-top: $line-height;
+        text-decoration: underline;
+      }
+
+      ul {
+        list-style: none;
+
+        li {
+          margin-bottom: rem-calc(16);
+        }
+
+        .open::before {
+          content: "\58";
+          cursor: pointer;
+          font-family: "icons";
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          margin-left: rem-calc(-20);
+          position: absolute;
+        }
+
+        .closed::before {
+          content: "\5a";
+          cursor: pointer;
+          font-family: "icons";
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          margin-left: rem-calc(-20);
+          position: absolute;
+        }
+      }
+    }
+
+    .draft-text {
+      padding: rem-calc(16);
+      position: relative;
+
+      @include breakpoint(medium) {
+        margin: 0 auto;
+        max-width: calc(3 * #{$grid-row-width} / 4);
+        padding: rem-calc(32) rem-calc(32) rem-calc(32) rem-calc(48);
+      }
+
+      table {
+        @include table-scroll;
+      }
+
+      h2 {
+        font-weight: 400;
+        margin-bottom: rem-calc(32);
+        margin-top: rem-calc(32);
+      }
+
+      h3 {
+        font-weight: 400;
+        margin-bottom: rem-calc(16);
+      }
+
+      .anchor::before {
+        color: $text-medium;
+        content: "#";
+        display: none;
+        left: 0;
+        position: absolute;
+
+        @include breakpoint(medium) {
+          left: 24px;
+        }
+      }
+
+      a {
+        color: inherit;
+
+        &:hover,
+        &:active,
+        &:focus {
+          text-decoration: none;
+
+          h3 {
+            color: inherit;
+          }
+
+          .anchor::before {
+            display: block;
+          }
+        }
+      }
+    }
+
+    .calc-comments {
+      position: relative;
+    }
+
+    summary {
+      cursor: pointer;
+      list-style: none;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+    }
+
+    details:not([open]) {
+      background: #f2f2f2;
+
+      @include breakpoint(small only) {
+        border-bottom: 1px solid #d4d4d4;
+      }
+
+      @include breakpoint(medium) {
+        min-width: auto;
+        width: rem-calc(50);
+
+        .draft-panel {
+          color: #696969;
+          display: block;
+          font-size: $small-font-size;
+          font-weight: 700;
+          line-height: 1;
+          padding: 0;
+          text-align: center;
+          text-transform: uppercase;
+
+          .icon-banner::before,
+          .icon-comments::before {
+            display: block;
+            margin: rem-calc(24) auto rem-calc(36);
+          }
+
+          .panel-title {
+            display: block;
+            filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+            transform: rotate(-90deg);
+          }
+        }
+      }
+    }
+
+    .calc-text {
+      border-right: 0;
+
+      .show-comments {
+        background: #fafafa;
+        border: 1px solid $border;
+        margin-bottom: rem-calc(16);
+        padding: rem-calc(4) rem-calc(40) rem-calc(4) rem-calc(4);
+        width: 105%;
+
+        p {
+          margin-bottom: 0;
+        }
+      }
+
+    }
+
+    .calc-comments {
+      cursor: auto;
+
+      @include breakpoint(small only) {
+        summary {
+          display: none;
+        }
+      }
+
+      &:not([open]) {
+        border-left: 1px solid #d4d4d4;
+      }
+
+      .comments-box-container {
+        position: relative;
+        top: rem-calc(180);
+      }
+
+      .comment-box {
+        background: #f9f9f9;
+        border: 1px solid $border;
+        display: block;
+        margin-bottom: rem-calc(32);
+        padding: rem-calc(4);
+
+        .button {
+          font-size: $small-font-size;
+          padding: rem-calc(10) rem-calc(20);
+        }
+
+        .publish-comment {
+          float: right;
+        }
+
+        .comment-header {
+          border-bottom: 1px solid $border;
+          margin-bottom: rem-calc(16);
+          padding-bottom: rem-calc(8);
+
+          a .icon-expand {
+            color: #838383;
+            float: right;
+            font-size: $small-font-size;
+          }
+        }
+
+        .comments-wrapper {
+          position: relative;
+        }
+
+        .comment-input {
+          border-bottom: 1px solid $border;
+          margin-bottom: rem-calc(16);
+          margin-top: rem-calc(16);
+          padding-bottom: rem-calc(64);
+
+          .comment-advice {
+            background: #dfdfdf;
+            border-left: 1px solid #d0d0d0;
+            border-right: 1px solid #d0d0d0;
+            border-top: 1px solid #d0d0d0;
+            display: inline-block;
+            font-size: $small-font-size;
+            padding: rem-calc(8);
+            width: 100%;
+
+            .icon-proposals {
+              color: #838383;
+            }
+
+            a {
+              color: #87a3b9;
+              text-decoration: underline;
+            }
+          }
+
+          textarea {
+            border-bottom: 1px solid #d0d0d0;
+            border-left: 1px solid #d0d0d0;
+            border-radius: 0;
+            border-right: 1px solid #d0d0d0;
+            box-shadow: none;
+            height: rem-calc(200);
+            margin-bottom: rem-calc(8);
+            width: 100%;
+          }
+
+          .comment-actions {
+            .cancel-comment {
+              color: #87a3b9;
+              display: inline-block;
+              font-size: $small-font-size;
+              text-decoration: underline;
+            }
+          }
+        }
+
+        .comment {
+          border-bottom: 1px solid $border;
+          font-size: $small-font-size;
+          margin-bottom: rem-calc(16);
+          padding-bottom: calc(#{$line-height} / 2);
+
+          .comment-text {
+            margin-bottom: rem-calc(8);
+
+            p {
+              font-size: $small-font-size;
+              line-height: 1.5;
+
+              &:last-child {
+                margin-bottom: rem-calc(8);
+              }
+            }
+          }
+
+          .comment-meta {
+
+            .comment-more-info {
+              display: inline-block;
+
+              .comment-expand {
+                display: inline-block;
+
+                &::after {
+                  color: #838383;
+                  content: "|";
+                }
+              }
+
+              .comment-replies {
+                display: inline-block;
+              }
+            }
+
+            .comment-votes {
+              color: #838383;
+              display: inline-block;
+              float: right;
+
+              .comment-votes-number {
+                display: inline-block;
+                margin-right: rem-calc(4);
+
+                &::after {
+                  content: "|";
+                  margin-left: rem-calc(4);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// 06. Legislation changes
+// -----------------
+
+.legislation-changes {
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+
+    li {
+      margin-bottom: rem-calc(16);
+
+      &::before {
+        content: "—";
+        margin-right: rem-calc(4);
+      }
+    }
+  }
+
+  .changes-link {
+    display: block;
+    font-size: $small-font-size;
+    margin-left: rem-calc(16);
+
+    @include breakpoint(medium) {
+      display: inline-block;
+    }
+
+    a {
+
+      span {
+        text-decoration: underline;
+      }
+
+      .icon-external {
+        color: #999;
+        line-height: 0;
+        margin-left: rem-calc(8);
+        text-decoration: none;
+        vertical-align: sub;
+      }
+
+      &:active,
+      &:focus,
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// 07. Legislation comments
+// -----------------
+
+.legislation-comments {
+
+  .comment-section {
+    background: #fafafa;
+    border: 1px solid #dee0e3;
+    margin-bottom: rem-calc(16);
+    margin-top: rem-calc(4);
+    padding: rem-calc(16);
+  }
+
+  .comment {
+    margin-bottom: rem-calc(48);
+
+    .expand-context a {
+      span {
+        text-decoration: underline;
+      }
+
+      .icon-expand {
+        color: #999;
+        line-height: 0;
+        text-decoration: none;
+      }
+
+      .icon-expand {
+        margin-left: rem-calc(4);
+      }
+
+      &:active,
+      &:focus,
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// 08. Legislation draft comment
+// -----------------
+
+.legislation-comment {
+
+  .annotation-share-comment {
+    margin-bottom: rem-calc(32);
+  }
+
+  .comment-section {
+    background: #fafafa;
+    border: 1px solid #dee0e3;
+    margin-bottom: rem-calc(16);
+    margin-top: rem-calc(4);
+    padding: rem-calc(16);
+  }
+
+  .comment {
+
+    a {
+      span {
+        text-decoration: underline;
+      }
+
+      .icon-expand,
+      .icon-comments {
+        color: #999;
+        line-height: 0;
+        text-decoration: none;
+      }
+
+      .icon-expand {
+        margin-left: rem-calc(4);
+      }
+
+      .icon-comments {
+        margin-right: rem-calc(4);
+      }
+
+      &:active,
+      &:focus,
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// 09. Legislation proposals
+// -------------------------
+
+.proposal-show {
+
+  &.legislation-proposal-show h1 {
+    font-size: rem-calc(24);
+
+    @include breakpoint(medium) {
+      font-size: rem-calc(36);
+    }
+  }
+}
+
+.legislation-proposals {
+  margin-top: rem-calc(-6);
+
+  .proposal h3 {
+    font-size: rem-calc(20);
+    margin-top: 0;
+  }
+}
+
+.process-proposal {
+  margin-bottom: $line-height;
+
+  .header {
+    background: $highlight;
+    padding: $line-height;
+
+    @include breakpoint(medium) {
+      height: $line-height * 4;
+    }
+  }
+
+  .process-title {
+    font-size: $small-font-size;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  .process-link {
+    font-size: rem-calc(19);
+    font-weight: bold;
+  }
+}
+
+// 10. Legislation summary
+// -------------------------
+
+.process-summary {
+  > section {
+    margin-top: $line-height * 1.5;
+    padding: 0 rem-calc(16);
+  }
+
+  h4,
+  p {
+    margin-bottom: 0;
+  }
+
+  > section > header,
+  .question-title,
+  .annotation-title,
+  .comment-summary,
+  .proposal-summary {
+    @include breakpoint(medium) {
+      align-items: center;
+      display: flex;
+
+      > :first-child {
+        $margin: rem-calc(map-get($grid-column-gutter, "medium"));
+
+        margin-right: $margin;
+        width: calc(75% - #{$margin});
+      }
+    }
+  }
+
+  .debate-summary,
+  .proposal-summary,
+  .annotation-summary {
+    @extend %panel;
+    min-height: auto;
+    padding-bottom: rem-calc(16);
+    padding-top: rem-calc(16);
+
+    &:not(:last-child) {
+      margin-bottom: calc(#{$line-height} / 2);
+    }
+  }
+
+  .question-title:not(:only-child) {
+    margin-bottom: calc(#{$line-height} / 2);
+  }
+
+  .annotation-title {
+    margin-bottom: calc(#{$line-height} / 2);
+    margin-top: calc(#{$line-height} / 2);
+  }
+
+  .annotation-quote {
+    border: 1px solid $black;
+    padding: rem-calc(10);
+  }
+
+  .comment-summary {
+    margin-bottom: calc(#{$line-height} / 2);
+
+    > :first-child {
+      background-color: rgba(217, 216, 243, 0.2);
+      border-radius: rem-calc(10);
+      padding: rem-calc(12);
+    }
+  }
+
+  .download-button {
+    margin-bottom: 0;
+    margin-left: 50%;
+    margin-top: $line-height;
+    transform: translateX(-50%);
+  }
+}

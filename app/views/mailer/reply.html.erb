@@ -1,0 +1,34 @@
+<td style="<%= css_for_mailer_content %>">
+
+  <h1 style="<%= css_for_mailer_heading %>">
+    <%= t("mailers.reply.title") %>
+  </h1>
+
+  <p style="<%= css_for_mailer_text %>">
+    <%= t("mailers.reply.hi") %> <strong><%= @email.recipient.name %></strong>,
+  </p>
+
+  <p style="<%= css_for_mailer_text %>">
+    <%= sanitize(t("mailers.reply.new_reply_by", commenter: @email.reply.author.name)) %>
+    <%= link_to @email.commentable.title, comment_url(@email.reply.id), style: css_for_mailer_link %>
+  </p>
+
+  <div style="<%= css_for_mailer_text + css_for_mailer_quote %>">
+    <%= mailer_simple_format(@email.reply.body) %>
+  </div>
+
+  <p style="<%= css_for_mailer_text %>">
+    <%= sanitize(
+      t(
+        "mailers.config.unsubscribe_text",
+        notifications: link_to(
+          t("mailers.config.notifications_link"),
+          edit_subscriptions_url(token: @token),
+          style: css_for_mailer_link
+        ),
+        notification: User.human_attribute_name(:email_on_comment_reply)
+      ),
+      attributes: %w[href style]
+    ) %>
+  </p>
+</td>

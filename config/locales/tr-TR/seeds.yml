@@ -1,0 +1,90 @@
+tr:
+  seeds:
+    admin_notifications:
+      budget:
+        title: "Katılımcı bütçeyi kapatıyoruz!"
+        body: "Acele edin ve birkaç gün içinde başvuru süresi bitmeden önce bir önerge oluşturun!"
+      help:
+        title: "Consul Democracy uygulamasını dilinize çevirmemize yardımcı olun"
+        body: "Bir dili iyi biliyorsanız, Consul Democracy uygulamasını çevirmemize yardımcı olun!"
+      map:
+        title: "Artık önerge ve yatırımların coğrafi konumunu belirtebilirsiniz"
+        body: "Oluşturacağınız önerge veya yatırımlar için harita üzerinde bir nokta belirtebilirsiniz."
+      proposal:
+        title: "Bir önergeniz mi var?"
+        body: "Fikirlerinizle bir önerge oluşturabileceğinizi ve insanların bunu tartışıp destekleyebileceğini unutmayın."
+    settings:
+      official_level_1_name: 1. resmi konum
+      official_level_2_name: 2. resmi konum
+      official_level_3_name: 3. resmi konum
+      official_level_4_name: 4. resmi konum
+      official_level_5_name: 5. resmi konum
+    geozones:
+      north_district: Kuzey Bölgesi
+      west_district: Batı Bölgesi
+      east_district: Doğu Bölgesi
+      central_district: Merkez Bölge
+    organizations:
+      human_rights: İnsan Hakları
+      neighborhood_association: Mahalle Meclisi
+    cards:
+      budget:
+        title: "Katılımcı bütçe nasıl işler?"
+        description: "Katılımcı bütçeler, yurttaşların bütçenin bir kısmının nasıl harcanacağına doğrudan karar vermesini, kurumun yurttaş önergelerini titiz bir şekilde izlemesini ve değerlendirmesini sağlar. Herkes için en iyi etki ve kontrol etkinliği sağlanır."
+        link_text: "Katılımcı bütçeler hakkında bilgi alın"
+        label: "Katılımcı bütçeler"
+      debate:
+        title: "Tartışmalar nasıl işler?"
+        description: "İsteyen herkes herhangi bir konu açarak insanların önerge konusunu tartışabileceği alanlar oluşturabilir. Tartışmalar, herkes için önemli konulara değinilmesini sağladığından değerlidir."
+        link_text: "Tartışmalar hakkında ayrıntılı bilgi"
+        label: "Tartışmalar"
+      header:
+        title: "CONSUL DEMOCRACY"
+        description: "Yurttaş katılımı için ücretsiz yazılım."
+        link_text: "Ayrıntılı bilgi"
+        label: "Hoş geldiniz"
+      proposal:
+        title: "Yurttaş önergeleri nasıl işler?"
+        description: "Herkesin, bir yurttaş önergesi oluşturup destek alabileceği bir platform. Yeterli desteği alan önergeler oylanır ve böylece hepimiz için önemli olan sorunlara birlikte karar verebiliriz."
+        link_text: "Önergeler hakkında ayrıntılı bilgi"
+        label: "Yurttaş önergeleri"
+    categories:
+      associations: Dernekler
+      culture: Kültür
+      sports: Spor
+      social_rights: Sosyal haklar
+      economy: Ekonomi
+      employment: İstihdam
+      equity: Eşitlik
+      sustainability: Sürdürülebilirlik
+      participation: Katılım
+      mobility: Hareketlilik
+      media: Medya
+      health: Sağlık
+      transparency: Şeffaflık
+      security_emergencies: Güvenlik ve acil durumlar
+      environment: Çevre
+    budgets:
+      budget: Katılımcı bütçe
+      currency: '€'
+      groups:
+        all_city: Tüm şehir
+        districts: Bölgeler
+      phases:
+        description: "%{language} açıklama"
+        summary: "%{language} özet"
+      statuses:
+        studying_project: Proje üzerinde çalışılıyor
+        bidding: Teklifler alınıyor
+        executing_project: Proje yürütülüyor
+        executed: Gerçekleştirildi
+    legislation:
+      draft_versions:
+        title: "%{number}. sürüm"
+        body: "%{language} taslak sürümü"
+    polls:
+      current_poll: "Geçerli oylama"
+      current_poll_geozone_restricted: "Geçerli oylamanın coğrafi bölge sınırı var"
+      recounting_poll: "Oylama yeniden sayılıyor"
+      expired_poll_without_stats: "İstatistikleri ve sonuçları olmayan süresi dolmuş oylama"
+      expired_poll_with_stats: "İstatistikleri ve sonuçları olan süresi dolmuş oylama"

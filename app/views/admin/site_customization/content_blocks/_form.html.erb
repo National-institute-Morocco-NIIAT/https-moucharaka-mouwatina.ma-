@@ -1,0 +1,5 @@
+<% if @is_heading_content_block %>
+  <%= render Admin::SiteCustomization::ContentBlocks::FormHeadingContentBlockComponent.new(@content_block) %>
+<% else %>
+  <%= render Admin::SiteCustomization::ContentBlocks::FormContentBlockComponent.new(@content_block) %>
+<% end %>

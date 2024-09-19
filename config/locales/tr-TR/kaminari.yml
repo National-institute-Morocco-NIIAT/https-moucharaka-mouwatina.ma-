@@ -1,0 +1,22 @@
+tr:
+  helpers:
+    page_entries_info:
+      entry:
+        zero: Kayıtlar
+        one: Kayıt
+        other: Kayıtlar
+      more_pages:
+        display_entries: <strong>%{first}&nbsp;-&nbsp;%{last}</strong> / <strong>%{total}%{entry_name}</strong> görüntüleniyor
+      one_page:
+        display_entries:
+          zero: "%{entry_name} bulunamadı"
+          one: <strong>1 %{entry_name}</strong> var
+          other: <strong>%{count} %{entry_name}</strong> var
+  views:
+    pagination:
+      current: Şu sayfadasınız
+      first: İlk
+      last: Son
+      next: Sonraki
+      previous: Önceki
+      truncate: "&hellip;"

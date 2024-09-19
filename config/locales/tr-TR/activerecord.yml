@@ -1,0 +1,623 @@
+tr:
+  attributes:
+    geozone_id: "İşlem kapsamı"
+    results_enabled: "Sonuçları göster"
+    stats_enabled: "İstatistikleri göster"
+    advanced_stats_enabled: "Gelişmiş istatistikleri göster"
+    name: Ad
+    email: E-posta
+    description: Açıklama
+    related_sdg_list: Amaçlar ve hedefler
+  activerecord:
+    models:
+      activity:
+        one: "işlem"
+        other: "işlemler"
+      budget:
+        one: "Bütçe"
+        other: "Bütçeler"
+      budget/investment:
+        one: "Yatırım"
+        other: "Yatırımlar"
+      milestone:
+        one: "aşama"
+        other: "aşama"
+      milestone/status:
+        one: "Aşama durumu"
+        other: "Aşama durumları"
+      progress_bar:
+        one: "İlerleme çubuğu"
+        other: "İlerleme çubukları"
+      comment:
+        one: "Yorum"
+        other: "Yorumlar"
+      debate:
+        one: "Tartışma"
+        other: "Tartışmalar"
+      tag:
+        one: "Etiket"
+        other: "Etiketler"
+      user:
+        one: "Kullanıcı"
+        other: "Kullanıcılar"
+      moderator:
+        one: "Sorumlu"
+        other: "Sorumlular"
+      administrator:
+        one: "Yönetici"
+        other: "Yöneticiler"
+      valuator:
+        one: "Bilirkişi"
+        other: "Bilirkişiler"
+      valuator_group:
+        one: "Bilirkişi grubu"
+        other: "Bilirkişi grupları"
+      manager:
+        one: "Müdür"
+        other: "Müdürler"
+      newsletter:
+        one: "Bülten"
+        other: "Bültenler"
+      vote:
+        one: "Oy"
+        other: "Oylar"
+      organization:
+        one: "Kuruluş"
+        other: "Kuruluşlar"
+      poll/booth:
+        one: "kabin"
+        other: "kabin"
+      poll/officer:
+        one: "görevli"
+        other: "görevli"
+      poll/ballot_sheet:
+        one: Oy pusulası
+        other: Oy pusulaları
+      proposal:
+        one: "Yurttaş önergesi"
+        other: "Yurttaş önergeleri"
+      sdg/goal:
+        one: "amaç"
+        other: "amaç"
+      sdg/local_target:
+        one: "yerel hedef"
+        other: "yerel hedef"
+      sdg/manager:
+        one: "SGH yöneticisi"
+        other: "SGH yöneticileri"
+      sdg/target:
+        one: "hedef"
+        other: "hedef"
+      site_customization/page:
+        one: Özel sayfa
+        other: Özel sayfalar
+      site_customization/image:
+        one: Özel görsel
+        other: Özel görseller
+      site_customization/content_block:
+        one: Özel içerik bloğu
+        other: Özel içerik blokları
+      document:
+        one: Belge
+        other: Belgeler
+      legislation/process:
+        one: "Süreç"
+        other: "Süreçler"
+      legislation/proposal:
+        one: "Önerge"
+        other: "Önergeler"
+      legislation/draft_versions:
+        one: "Taslak sürüm"
+        other: "Taslak sürümler"
+      legislation/questions:
+        one: "Soru"
+        other: "Sorular"
+      legislation/question_options:
+        one: "Soru seçeneği"
+        other: "Soru seçenekleri"
+      legislation/answers:
+        one: "Yanıt"
+        other: "Yanıtlar"
+      documents:
+        one: "Belge"
+        other: "Belgeler"
+      images:
+        one: "Görsel"
+        other: "Görseller"
+      tenant:
+        one: "kiracı"
+        other: "kiracı"
+      topic:
+        one: "Konu"
+        other: "Konular"
+      poll:
+        one: "Oylama"
+        other: "Oylamalar"
+      proposal_notification:
+        one: "Önerge bildirimi"
+        other: "Önerge bildirimleri"
+      dashboard/action:
+        one: Önerge panosu işlemi
+        other: Önerge panosu işlemleri
+      dashboard/administrator_task:
+        one: Görev
+        other: Görevler
+      link:
+        one: Bağlantı
+        other: Bağlantılar
+      local_census_record:
+        one: Yerel seçmen bilgi sistemi kaydı
+        other: Yerel seçmen bilgi sistemi kayıtları
+      votation_type:
+        one: Oylama türü
+        other: Oylama türleri
+    attributes:
+      budget:
+        name: "Ad"
+        description_accepting: "Onay aşamasındaki açıklama"
+        description_reviewing: "Onaylama aşamasındaki açıklama"
+        description_selecting: "Seçilme aşamasındaki açıklama"
+        description_valuating: "Değerlendirme aşamasındaki açıklama"
+        description_balloting: "Oylama aşamasındaki açıklama"
+        description_reviewing_ballots: "Oyların gözden geçirilme aşamasındaki açıklama"
+        description_finished: "Bütçe tamamlandığındaki açıklama"
+        phase: "Bulunulan aşama"
+        currency_symbol: "Para birimi"
+        voting_style: "Son oylama şekli"
+        voting_style_knapsack: "Sırt çantası"
+        voting_style_approval: "Onay"
+        hide_money: "Bu bütçenin tutarı gizlensin"
+      budget/translation:
+        main_link_text: "Bağlantıdaki metin"
+        main_link_url: "Bağlantı sizi şuraya götürür (bağlantı ekle)"
+        name: "Ad"
+      budget/investment:
+        heading_id: "Bütçe kalemi"
+        title: "Başlık"
+        description: "Açıklama"
+        external_url: "Ek belgeler bağlantısı"
+        administrator_id: "Yönetici"
+        location: "Ek konum bilgileri"
+        organization_name: "Bir topluluk ya da kuruluş adına veya birden fazla kişi adına önerge sunuyorsanız, adınızı yazın"
+        image: "Önergenin açıklayıcı görseli"
+        image_title: "Görsel adı"
+        duration: "Zaman aralığı"
+        feasibility_feasible: "Uygulanabilir bulunmuş"
+        feasibility_undecided: "Tanımlanmamış"
+        feasibility_unfeasible: "Uygulanabilir bulunmamış"
+        incompatible: "Uyumsuz olarak işaretle"
+        milestone_tag_list: "Aşama etiketleri"
+        price_explanation: "Fiyat açıklaması"
+        selected: "Seçilmiş olarak işaretle"
+        selected_true: "Seçilmiş"
+        selected_false: "Seçilmemiş"
+        unfeasibility_explanation: "Uygunlanabilir bulunma açıklaması"
+        valuation_finished: "Değerlendirme tamamlandı"
+        valuator_ids: "Gruplar"
+        valuation_tag_list: "Etiketler"
+      budget/investment/translation:
+        title: "Başlık"
+        description: "Açıklama"
+      geozone:
+        name: Ad
+        external_code: "Dış kod (isteğe bağlı)"
+        color: "Renk (isteğe bağlı)"
+        census_code: "Seçmen bilgi sistemi kodu (isteğe bağlı)"
+        geojson: "GeoJSON verileri (isteğe bağlı)"
+        html_map_coordinates: "HTML <map> koordinatları (isteğe bağlı)"
+      milestone:
+        status_id: "Güncel durum (isteğe bağlı)"
+        title: "Başlık"
+        description: "Açıklama (isteğe bağlı, bir durum belirtilmiş ise)"
+        publication_date: "Yayın tarihi"
+      milestone/translation:
+        description: "Açıklama"
+      milestone/status:
+        name: "Ad"
+        description: "Açıklama (isteğe bağlı)"
+      progress_bar:
+        kind: "Tür"
+        title: "Başlık"
+        percentage: "Geçerli ilerleme"
+      progress_bar/kind:
+        primary: "Birincil"
+        secondary: "İkincil"
+      budget/group:
+        max_votable_headings: "Bir kullanıcının projeleri seçebileceği en fazla bütçe kalemi sayısı"
+      budget/group/translation:
+        name: "Grup adı"
+      budget/heading:
+        allow_custom_content: "İçerik bloğu kullanılabilsin"
+        latitude: "Enlem (isteğe bağlı)"
+        longitude: "Boylam (isteğe bağlı)"
+        name: "Bütçe kalemi adı"
+        price: "Bütçe"
+        population: "Nüfus (isteğe bağlı)"
+        max_ballot_lines: "İzin verilen oy sayısı"
+      budget/heading/translation:
+        name: "Bütçe kalemi adı"
+      budget/phase:
+        enabled: "Aşama açıldı"
+        ends_at: "Bitiş tarihi"
+        starts_at: "Başlangıç tarihi"
+      budget/phase/translation:
+        name: "Ad"
+        description: "Açıklama"
+        summary: "Özet"
+        main_link_text: "Bağlantıdaki metin"
+        main_link_url: "Bağlantı sizi şuraya götürür (bağlantı ekle)"
+      comment:
+        body: "Yorum"
+        user: "Kullanıcı"
+      debate:
+        author: "Sahibi"
+        description: "Görüş"
+        tag_list: "Konular"
+        terms_of_service: "Hizmet şartları"
+        title: "Başlık"
+      debate/translation:
+        title: "Tartışma başlığı"
+        description: "İlk tartışma metni"
+      proposal:
+        author: "Sahibi"
+        title: "Başlık"
+        question: "Soru"
+        description: "Açıklama"
+        responsible_name: "Önergeyi sunan kişinin tam adı"
+        retired_reason: "Önergenin geri çekilme nedeni"
+        selected: "Seçilmiş olarak işaretle"
+        terms_of_service: "Hizmet koşulları"
+        video_url: "Dış video adresi"
+      proposal/translation:
+        title: "Önerge başlığı"
+        description: "Önerge metni"
+        summary: "Önerge özeti"
+        retired_explanation: "Açıklama"
+      user:
+        login: "E-posta ya da kullanıcı adı"
+        email: "E-posta"
+        username: "Kullanıcı adı"
+        password_confirmation: "Parola onayı"
+        password: "Parola"
+        current_password: "Geçerli parola"
+        email_digest: "Önerge bildirimlerinin özeti bana e-posta ile bildirilsin"
+        email_on_comment: "Önergelerime ya da tartışmalarıma yapılan yorumlar bana e-posta ile bildirilsin"
+        email_on_comment_reply: "Yorumlarıma verilen yanıtlar bana e-posta ile bildirilsin"
+        email_on_direct_message: "Doğrudan iletiler e-posta ile bildirilsin"
+        newsletter: "İlgili bilgiler bana e-posta ile bildirilsin"
+        official_position: "Resmi görev"
+        official_position_badge: "Resmi görev unvanı görüntülensin"
+        official_level: "Resmi düzey"
+        phone_number: "Telefon numarası"
+        public_activity: "İşlem listem herkese açık olsun"
+        public_interests: "İzlediğim bileşenler herkese açık olsun"
+        recommended_debates: "Bana tartışmalar önerilsin"
+        recommended_proposals: "Bana önergeler önerilsin"
+        redeemable_code: "Doğrulama kodu e-posta ile alındı"
+      direct_message:
+        title: "Başlık"
+        body: "İleti"
+      organization:
+        name: "Kuruluş adı"
+        responsible_name: "Gruptan sorumlu kişi"
+      poll:
+        name: "Ad"
+        title: "Ad"
+        starts_at: "Başlangıç tarihi"
+        ends_at: "Kapanış tarihi"
+        geozone_restricted: "Geozone tarafından kısıtlanmış"
+        summary: "Özet"
+        description: "Açıklama"
+      active_poll/translation:
+        description: "Açıklama"
+      poll/booth:
+        name: "Ad"
+        location: "Konum"
+      poll/translation:
+        name: "Ad"
+        summary: "Özet"
+        description: "Açıklama"
+      poll/question:
+        poll_id: "Oylama"
+        title: "Soru"
+        summary: "Özet"
+        description: "Açıklama"
+        external_url: "Ek belgeler bağlantısı"
+      poll/question/translation:
+        title: "Soru"
+      poll/ballot_sheet:
+        data: CSV verileri
+        poll_id: Oylama
+        officer_assignment_id: Görevli görevlendirme
+      poll/shift:
+        task: "Görev"
+      proposal_notification:
+        body: "İleti"
+        title: "Başlık"
+      signature_sheet:
+        title: "Başlık"
+        signable_type: "İmzalanabilen tür"
+        signable_id: "İmzalanabilen kimlik"
+        document_numbers: "Belgelerin numaraları"
+      sdg/goal:
+        code: "Kod"
+        title: "Başlık"
+        description: "Açıklama"
+      sdg/local_target:
+        code: "Kod"
+        target_id: "Hedef"
+        title: "Başlık"
+      sdg/local_target/translation:
+        title: "Başlık"
+        description: "Açıklama"
+      sdg/phase/kind:
+        sensitization: "Duyarlılık"
+        planning: "Planlama"
+        monitoring: "İzleme"
+      sdg/target:
+        code: "Kod"
+        title: "Başlık"
+      site_customization/page:
+        content: İçerik
+        created_at: Oluşturulma
+        subtitle: Alt yazı
+        slug: Kısaltma
+        status: Durum
+        status_draft: "Taslak"
+        status_published: "Yayınlanmış"
+        title: Başlık
+        updated_at: Güncellenme
+        more_info_flag: Yardım sayfasında görüntülensin
+        print_content_flag: İçeriği yazdır düğmesi
+        locale: Dil
+      site_customization/page/translation:
+        title: Başlık
+        subtitle: Alt yazı
+        content: İçerik
+      site_customization/image:
+        name: Ad
+        image: Görsel
+      site_customization/content_block:
+        name: Ad
+        locale: dil
+        body: İçerik
+      tag:
+        name: "Konunun adını yazın"
+      tenant:
+        domain: "Etki alanı"
+        schema: "Etki alanı / alt etki alanı"
+        subdomain: "Alt etki alanı"
+        url: "Adres"
+      topic:
+        title: "Başlık"
+        description: "İlk metin"
+      banner:
+        background_color: Arka plan rengi
+        font_color: Yazı rengi
+        post_ended_at: "İleti bitişi"
+        post_started_at: "İleti başlangıcı"
+        target_url: "Bağlantı"
+      banner/translation:
+        title: "Başlık"
+        description: "Açıklama"
+      legislation/process:
+        title: Süreç başlığı
+        summary: Özet
+        description: Açıklama
+        additional_info: Ek bilgiler
+        start_date: Başlangıç
+        end_date: Bitiş
+        debate_start_date: Başlangıç
+        debate_end_date: Bitiş
+        draft_start_date: Başlangıç
+        draft_end_date: Bitiş
+        draft_publication_date: Taslak yayınlanma tarihi
+        allegations_start_date: Başlangıç
+        allegations_end_date: Bitiş
+        proposals_phase_start_date: Başlangıç
+        proposals_phase_end_date: Bitiş
+        result_publication_date: Son sonucun yayınlanma tarihi
+        background_color: Arka plan rengi
+        font_color: Yazı rengi
+        homepage_enabled: "Giriş açıldı"
+      legislation/process/translation:
+        title: Süreç başlığı
+        summary: Özet
+        description: Açıklama
+        additional_info: Ek bilgiler
+        homepage: "Açıklama"
+        milestones_summary: Özet
+      legislation/proposal:
+        description: "Önerge metni"
+        summary: "Önerge özeti"
+        title: "Önerge başlığı"
+        video_url: "Dış video bağlantısı"
+      legislation/draft_version:
+        title: Sürüm başlığı
+        body: Metin
+        changelog: Değişiklikler
+        status: Durum
+        status_draft: "Taslak"
+        status_published: "Yayınlanmış"
+        final_version: Son sürüm
+      legislation/draft_version/translation:
+        title: Sürüm başlığı
+        body: Metin
+        changelog: Değişiklikler
+      legislation/question:
+        title: Başlık
+        question_options: Seçenekler
+      legislation/question/translation:
+        title: Soru
+      legislation/question_option:
+        value: Değer
+      legislation/annotation:
+        text: Yorum
+      document:
+        title: Başlık
+        attachment: "Belge seçin"
+      image:
+        title: Başlık
+        attachment: "Görsel seçin"
+      newsletter:
+        segment_recipient: Alıcılar
+        subject: Konu
+        from: "Bültenin göndericisi olarak görüntülenecek e-posta adresi"
+        body: E-posta içeriği
+      admin_notification:
+        segment_recipient: Alıcılar
+        title: Başlık
+        link: Bağlantı
+        body: Metin
+      admin_notification/translation:
+        title: Başlık
+        body: Metin
+      widget/card:
+        label: Etiket (isteğe bağlı)
+        title: Başlık
+        description: Açıklama
+        link_text: Bağlantı metni
+        link_url: Bağlantı adresi
+        columns: Sütun sayısı
+        order: Konum
+      widget/card/translation:
+        label: Etiket (isteğe bağlı)
+        title: Başlık
+        description: Açıklama
+        link_text: Bağlantı metni
+      widget/feed:
+        limit: Öge sayısı
+      dashboard/action:
+        title: Başlık
+        short_description: Kısa açıklama
+        description: Açıklama
+        link: Dış bağlantı
+        request_to_administrators: Kaynağa, yöneticilerden kaynak isteme düğmesi ekleyin
+        day_offset: Önergenin oluşturulmasından kaç gün sonra etkinleştirilmesini istersiniz?
+        required_supports: Önergenin etkinleştirilmesi için ne kadar destek alması gerekir?
+        order: Bu işlemin kullanıcıya işlemler listesinde görüntüleneceği konumu yazabilirsiniz
+        active: Etkin
+        action_type: Tür
+        action_type_proposed_action: "Önerilen işlem"
+        action_type_resource: "Kaynak"
+        published_proposal: "Yayınlanmış önergeler için mi?"
+      dashboard/administrator_task:
+        source: Kaynak
+        user: Yürüten
+      link:
+        label: Başlık
+        url: Adres
+      valuator:
+        description: Açıklama
+        valuator_group_id: Bilirkişi grubu
+        can_comment: Yorumlar oluşturabilir
+        can_edit_dossier: Dosyaları düzenleyebilir
+      valuator_group:
+        name: "Grup adı"
+      local_census_record:
+        document_type: Belge türü
+        document_number: Belge numarası
+        date_of_birth: Doğum tarihi
+        postal_code: Posta kodu
+      votation_type:
+        max_votes: En fazla oy sayısı
+        vote_type: Oylama türü
+      votation_type/vote_type:
+        unique: Eşsiz yanıt
+        multiple: Birden çok yanıt
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              password_already_set: "Bu kullanıcının zaten bir parolası var"
+        debate:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "etiketler %{count} taneden küçük veya eşit olmalı"
+        direct_message:
+          attributes:
+            max_per_day:
+              invalid: "Günlük gönderilebilecek en fazla özel ileti sayısı sınırına ulaştınız"
+        geozone:
+          attributes:
+            geojson:
+              invalid: "Belirtilen GeoJSON verilerinin biçimi doğru değil. \"Polygon\" ya da \"MultiPolygon\" tür biçimini izlemeli."
+        image:
+          attributes:
+            attachment:
+              min_image_width: "Görsel genişliği en az %{required_min_width} piksel olmalıdır"
+              min_image_height: "Görsel yüksekliği en az %{required_min_height} piksel olmalıdır"
+        newsletter:
+          attributes:
+            segment_recipient:
+              invalid: "Kullanıcı alıcıları bölümü geçersiz"
+        admin_notification:
+          attributes:
+            segment_recipient:
+              invalid: "Kullanıcı alıcıları bölümü geçersiz"
+        poll/voter:
+          attributes:
+            document_number:
+              not_in_census: "Belge seçmen bilgi sistemi üzerinde yok"
+            user_id:
+              has_voted: "Kullanıcı zaten oy kullanmış"
+        legislation/process:
+          attributes:
+            end_date:
+              invalid_date_range: başlangıç tarihinde veya sonrasında olmalı
+            debate_end_date:
+              invalid_date_range: tartışma başlangıç tarihinde veya sonrasında olmalı
+            draft_end_date:
+              invalid_date_range: taslak başlangıç tarihinde veya sonrasında olmalı
+            allegations_end_date:
+              invalid_date_range: yorumların başlama tarihinde veya sonrasında olmalı
+        local_census_record:
+          attributes:
+            document_type:
+              inclusion: listede yok. İzin verilen değerler, kimlik kartı için 1, pasaport için 2, ikamet belgesi için 3.
+        proposal:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "etiketler %{count} taneden az veya eşit olmalı"
+        budget/investment:
+          attributes:
+            tag_list:
+              less_than_or_equal_to: "etiketler %{count} taneden az veya eşit olmalı"
+        proposal_notification:
+          attributes:
+            minimum_interval:
+              invalid: "Bildirimler arasında en az %{interval} gün beklemelisiniz"
+        signature:
+          attributes:
+            document_number:
+              not_in_census: "Seçmen bilgi sistemi tarafından doğrulanmadı"
+              already_voted: "Bu önergeye zaten oy vermişsiniz"
+        site_customization/page:
+          attributes:
+            slug:
+              slug_format: "harfler, rakamlar, _ ve - karakterleri olmalı"
+        site_customization/image:
+          attributes:
+            image:
+              image_width: "Genişlik %{required_width}px olmalı"
+              image_height: "Yükseklik %{required_height}px olmalı"
+        comment:
+          attributes:
+            valuation:
+              cannot_comment_valuation: "Bir değerlendirmeye yorum yapamazsınız"
+        remote_translation:
+          attributes:
+            locale:
+              already_translated: Kaynağın çevirisi zaten yapılmış
+        sdg/local_target:
+          attributes:
+            code:
+              invalid: "hedefindeki kod ile başlamalı, bir nokta ile ilerlemeli ve bir numara ile bitmeli"
+      messages:
+        translations_too_short: En az bir çeviri sağlanması zorunludur
+        record_invalid: "Doğrulanamadı: %{errors}"
+        another_poll_active: Belirtilen aralıkta etkin olan başka bir oylama var
+        restrict_dependent_destroy:
+          has_one: "%{record} bağlı kayıt bulunduğundan kayıt silinemez"
+          has_many: "%{record} bağlı kayıt bulunduğundan kayıt silinemez"

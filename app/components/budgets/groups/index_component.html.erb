@@ -1,0 +1,8 @@
+<% provide :main_class, "budget-groups-index" %>
+
+<% content_for :canonical do %>
+  <%= render "shared/canonical", href: budget_groups_url %>
+<% end %>
+
+<%= header(before: back_link_to(budget_path(budget))) %>
+<%= render Budgets::GroupsAndHeadingsComponent.new(budget) %>

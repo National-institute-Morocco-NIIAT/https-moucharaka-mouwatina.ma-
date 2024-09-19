@@ -1,0 +1,44 @@
+.public .groups-and-headings {
+  $spacing: $line-height * 0.5;
+
+  .headings-list {
+    @include flex-with-gap($spacing);
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+  .heading {
+    @include brand-color;
+    @include card;
+    border: 2px solid $border;
+    border-radius: rem-calc(6);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: calc(#{$line-height} / 2);
+    margin-top: calc(#{$line-height} / 4);
+    padding: calc(#{$line-height} / 2);
+    width: 100%;
+
+    @include breakpoint(medium) {
+      width: calc(100% / 3 - #{$spacing});
+    }
+
+    @include breakpoint(large) {
+      width: calc(100% / 6 - #{$spacing});
+    }
+
+    a {
+      font-weight: bold;
+
+      &:hover::before {
+        background: $light;
+        z-index: -1;
+      }
+    }
+
+    span {
+      display: block;
+      font-size: $small-font-size;
+      padding-top: calc(#{$line-height} / 2);
+    }
+  }
+}

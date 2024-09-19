@@ -1,0 +1,9 @@
+<h2><%= t("management.budgets.print_investments") %></h2>
+
+<% if @budgets.any? %>
+  <%= render Management::Budgets::PrintInvestments::TableComponent.new(@budgets) %>
+<% else %>
+  <div class="callout primary">
+    <%= t("management.budgets.no_budgets") %>
+  </div>
+<% end %>

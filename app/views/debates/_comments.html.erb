@@ -1,0 +1,6 @@
+<%= render Shared::CommentsComponent.new(@debate, @comment_tree) do %>
+  <h3>
+    <%= t("debates.show.comments_title") %>
+    <span class="js-comments-count">(<%= @debate.comments_count %>)</span>
+  </h3>
+<% end %>

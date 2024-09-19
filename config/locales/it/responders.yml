@@ -1,0 +1,33 @@
+it:
+  flash:
+    actions:
+      create:
+        notice: "%{resource_name} creato con successo."
+        debate: "Dibattito creato correttamente."
+        direct_message: "Il messaggio è stato inviato correttamente."
+        poll: "Sondaggio creato correttamente."
+        poll_booth: "Seggio creato correttamente."
+        proposal: "Proposta creata correttamente."
+        proposal_notification: "Il tuo messaggio è stato inviato correttamente."
+        budget_investment: "Proposta di investimento creata correttamente."
+        signature_sheet: "Foglio per le firme creato correttamente"
+        support: "Investimento supportato correttamente"
+        topic: "Argomento creato con successo."
+        valuator_group: "Gruppo di stimatori creato con successo"
+      save_changes:
+        notice: Modifiche salvate
+      update:
+        notice: "%{resource_name} aggiornato con successo."
+        debate: "Dibattito creato correttamente."
+        poll: "Sondaggio creato correttamente."
+        poll_booth: "Seggio creato correttamente."
+        active_poll: "Descrizione dei voti aggiornata correttamente."
+        proposal: "Proposta aggiornata correttamente."
+        budget_investment: "Progetto d'investimento aggiornato correttamente."
+        topic: "Argomento aggiornato con successo."
+        valuator_group: "Gruppo di stimatori aggiornato con successo"
+        translation: "Traduzione caricata con successo"
+      destroy:
+        budget_investment: "Progetto d'investimento eliminato."
+        topic: "Argomento eliminato con successo."
+        valuator_group: "Gruppo di stimatori eliminato con successo"

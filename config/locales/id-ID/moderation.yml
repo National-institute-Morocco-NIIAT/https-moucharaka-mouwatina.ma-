@@ -1,0 +1,105 @@
+id:
+  moderation:
+    comments:
+      index:
+        block_authors: Blokir penulis
+        filter: Penyaring
+        filters:
+          all: Semua
+          pending_flag_review: Tertunda
+          with_ignored_flag: Ditandai seperti yang dilihat
+        headers:
+          comment: Komentar
+          moderate: Moderat
+        hide: Sembunyikan komentar
+        ignore_flags: Tandai seperti yang dilihat
+        orders:
+          flags: Paling ditandai
+          newest: Terbaru
+        title: Komentar
+    dashboard:
+      index:
+        title: Moderasi
+    debates:
+      index:
+        block_authors: Blokir penulis
+        filter: Penyaring
+        filters:
+          all: Semua
+          pending_flag_review: Tertunda
+          with_ignored_flag: Ditandai seperti yang dilihat
+        headers:
+          debate: Perdebatan
+          moderate: Moderat
+        hide: Sembunyikan perdebatan
+        ignore_flags: Tandai seperti yang dilihat
+        orders:
+          created_at: Terbaru
+          flags: Paling ditandai
+        title: Perdebatan
+    header:
+      title: Moderasi
+    menu:
+      flagged_comments: Komentar
+      flagged_debates: Perdebatan
+      flagged_investments: Anggaran investasi
+      proposals: Proposal
+      proposal_notifications: Pemberitahuan proposal
+      users: Memblokir pengguna
+    proposals:
+      index:
+        block_authors: Blokir penulis
+        filter: Penyaring
+        filters:
+          all: Semua
+          pending_flag_review: Tinjauan tertunda
+          with_ignored_flag: Tandai seperti yang dilihat
+        headers:
+          moderate: Moderat
+          proposal: Usulan
+        hide: Sembunyikan usulan
+        ignore_flags: Tandai seperti yang dilihat
+        orders:
+          created_at: Terbaru
+          flags: Paling ditandai
+        title: Proposal
+    budget_investments:
+      index:
+        block_authors: Blokir penulis
+        filter: Penyaring
+        filters:
+          all: Semua
+          pending_flag_review: Tertunda
+          with_ignored_flag: Ditandai seperti yang dilihat
+        headers:
+          moderate: Moderat
+          budget_investment: Anggaran investasi
+        hide: Penetapan anggaran investasi
+        ignore_flags: Tandai seperti yang dilihat
+        orders:
+          created_at: Terbaru
+          flags: Paling ditandai
+        title: Anggaran investasi
+    proposal_notifications:
+      index:
+        block_authors: Blokir penulis
+        filter: Penyaring
+        filters:
+          all: Semua
+          pending_review: Tinjauan tertunda
+          ignored: Tandai seperti yang dilihat
+        headers:
+          moderate: Moderat
+          proposal_notification: Proposal pemberitahuan
+        hide: Sembunyikan usulan
+        ignore_flags: Tandai seperti yang dilihat
+        orders:
+          created_at: Terbaru
+          moderated: Dimoderasi
+        title: Pemberitahuan proposal
+    users:
+      index:
+        hide: Blokir
+        search_placeholder: surel atau nama pengguna
+        title: Blokir pengguna
+      notice_hide: Pengguna yang diblokir. Semua ini pengguna perdebatan dan komentar yang telah disembunyikan.

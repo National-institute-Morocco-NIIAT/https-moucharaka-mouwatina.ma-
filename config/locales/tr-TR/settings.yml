@@ -1,0 +1,228 @@
+tr:
+  settings:
+    comments_body_max_length: "Yorum uzunluğu sınırı"
+    comments_body_max_length_description: "Karakter sayısı olarak"
+    official_level_1_name: "1. düzey kamu memuru"
+    official_level_1_name_description: "Resmi konumu 1. düzey olarak işaretlenmiş kullanıcılarda görüntülenecek etiket"
+    official_level_2_name: "2. düzey kamu memuru"
+    official_level_2_name_description: "Resmi konumu 2. düzey olarak işaretlenmiş kullanıcılarda görüntülenecek etiket"
+    official_level_3_name: "3. düzey kamu memuru"
+    official_level_3_name_description: "Resmi konumu 3. düzey olarak işaretlenmiş kullanıcılarda görüntülenecek etiket"
+    official_level_4_name: "4. düzey kamu memuru"
+    official_level_4_name_description: "Resmi konumu 4. düzey olarak işaretlenmiş kullanıcılarda görüntülenecek etiket"
+    official_level_5_name: "5. düzey kamu memuru"
+    official_level_5_name_description: "Resmi konumu 5. düzey olarak işaretlenmiş kullanıcılarda görüntülenecek etiket"
+    max_ratio_anon_votes_on_debates: "Her bir tartışmadaki en fazla anonim oy oranı"
+    max_ratio_anon_votes_on_debates_description: "Anonim oylar hesabı doğrulanmamış kullanıcılarındır"
+    max_votes_for_proposal_edit: "Bir önergenin düzenlenemeyecek duruma geçmesi için alması gereken destek sayısı"
+    max_votes_for_proposal_edit_description: "Bu sayıda destek alan önergelerin sahipleri artık önergelerini düzenleyemez"
+    max_votes_for_debate_edit: "Bir tartışmanın düzenlenemeyecek duruma geçmesi için alması gereken oy sayısı"
+    max_votes_for_debate_edit_description: "Bu sayıda oy alan tartışmaların sahipleri artık tartışmalarını düzenleyemez"
+    proposal_code_prefix: "Önerge kodları ön eki"
+    proposal_code_prefix_description: "Bu ön ek, önerge oluşturma tarihinin ve kimliğinin önünde görüntülenir"
+    featured_proposals_number: "Öne çıkarılmış önerge sayısı"
+    featured_proposals_number_description: "Önergeler öne çıkarılsın özelliği etkinleştirildiğinde, görüntülenecek öne çıkarılmış önergelerin sayısı"
+    votes_for_proposal_success: "Bir önergenin onaylanması için alması gereken destek sayısı"
+    votes_for_proposal_success_description: "Bir önerge bu sayıda destek aldığında, daha fazla destek alamaz ve başarılı sayılır"
+    months_to_archive_proposals: "Önergelerin arşivleneceği aylar"
+    months_to_archive_proposals_description: "Bu aylardan sonra Önergeler arşivlenecek ve artık destek alamayacak"
+    email_domain_for_officials: "Kamu görevlileri için e-posta etki alanı"
+    email_domain_for_officials_description: "Bu etki alanı ile kaydedilmiş tüm kullanıcılar açarken hesaplarını doğrulayacak"
+    twitter_handle: "Twitter bağlantısı"
+    twitter_handle_description: "Yazılırsa alt bilgide görüntülenir"
+    twitter_hashtag: "Twitter etiketi"
+    twitter_hashtag_description: "Twitter üzerinde içerik paylaşırken görüntülenecek etiket"
+    facebook_handle: "Facebook bağlantısı"
+    facebook_handle_description: "Yazılırsa alt bilgide görüntülenir"
+    youtube_handle: "YouTube bağlantısı"
+    youtube_handle_description: "Yazılırsa alt bilgide görüntülenir"
+    telegram_handle: "Telegram bağlantısı"
+    telegram_handle_description: "Yazılırsa alt bilgide görüntülenir"
+    instagram_handle: "Instagram bağlantısı"
+    instagram_handle_description: "Yazılırsa alt bilgide görüntülenir"
+    org_name: "Site adı"
+    org_name_description: "Bu ad gönderilen e-postaların konusunda ve yardım sayfalarında görüntülenir..."
+    related_content_score_threshold: "İlgili içerik puanı eşiği"
+    related_content_score_threshold_description: "İlgili bir içerikteki oyların sayısına göre, kullanıcıların ilgisiz olarak işaretledikleri içeriği gizler"
+    hot_score_period_in_days: "'En etkin' süzgecinin kullandığı aralık (gün)"
+    hot_score_period_in_days_description: "Birden fazla bölümde kullanılan 'en etkin' süzgeci son X gündeki oylara göre belirlenir"
+    mailer_from_name: "Göndericinin e-posta adı"
+    mailer_from_name_description: "Uygulamadan gönderilen e-postalarda görüntülenecek gönderici adı"
+    mailer_from_address: "Göndericinin e-posta adresi"
+    mailer_from_address_description: "Uygulamadan gönderilen e-postalarda görüntülenecek göndericinin e-posta adresi"
+    meta_title: "Site başlığı (SEO)"
+    meta_title_description: "Site <title> üst verisi. SEO geliştirme amacıyla kullanılır"
+    meta_description: "Site açıklaması (SEO)"
+    meta_description_description: 'Site <meta name="description"> üst verisi. SEO geliştirme amacıyla kullanılır'
+    meta_keywords: "Anahtar sözcükler (SEO)"
+    meta_keywords_description: 'Site <meta name="keywords"> üst verisi, SEO geliştirme amacıyla kullanılır'
+    min_age_to_participate: Katılabilmek için gereken en küçük yaş
+    min_age_to_participate_description: "Bu yaşın üzerindeki kullanıcılar, bir kullanıcı tarafından doğrulanmış bir hesabın gerektiği tüm süreçlere katılabilir"
+    postal_codes: "Posta kodları"
+    postal_codes_description: "Geçerli posta kodlarının virgül ile ayrılmış listesi. Ayrıca, iki nokta üst üste işareti ile ayrılmış aralıkları da kullanabilirsiniz. Örneğin: 00001:00010, 00024, AB3 45FG, 00031:00035, \n00001 ile 00010 arasındaki posta kodlarına, 00024 posta koduna, AB3 45FG posta koduna ve 00031 ile 00035 arasındaki posta kodlarına izin verir. Boş bırakılırsa, tüm posta kodları geçerli olur."
+    proposals:
+      successful_proposal_id: Başarılı önerge
+      successful_proposal_id_description: Bu önerge, yeterli sayıda destek alan bir önerge için referans olarak kullanıldı ve pano çizelgesinde görüntülenecek.
+      poll_short_title: Oylamalar
+      poll_short_title_description: Oylama özelliğinin kısa açıklaması. Kullanıcıların bir önerge ile ilgili oylama oluşturmasını sağlar
+      poll_description: Oylama açıklaması
+      poll_description_description: Oylama özelliğinin ayrıntılı açıklaması
+      poll_link: Ek bilgiler bağlantısı
+      poll_link_description: Oylama özelliğine ek bilgiler bağlantısı ekler
+      email_short_title: E-posta
+      email_short_title_description: 'E-posta özelliğinin kısa açıklaması. Kullanıcıların önergelerini tanıtmak için e-posta göndermelerini sağlar. Bu e-postanın tüm içeriğini "/app/views/dashboard/mailer/forward.html.erb" adresinde bulabilirsiniz'
+      email_description: E-posta açıklaması
+      email_description_description: E-posta özelliğinin ayrıntılı açıklaması
+      poster_short_title: Poster
+      poster_short_title_description: 'Poster özelliğinin kısa açıklaması. Kullanıcıların, önergelerinin tanıtımını yapmaları için PDF biçiminde bir poster indirmelerini sağlar. Bu posterin tüm içeriğini "/app/views/dashboard/poster/index.pdf.erb" adresinde bulabilirsiniz'
+      poster_description: Poster açıklaması
+      poster_description_description: Poster özelliğinin ayrıntılı açıklaması
+    analytics_url: "İstatistik adresi"
+    proposal_notification_minimum_interval_in_days: "Önerge sahiplerinin yeni önerge bildirimleri gönderebileceği en kısa aralık (gün)"
+    proposal_notification_minimum_interval_in_days_description: "Kullanıcı önergesinin tüm takipçilerine bildirim gönderebileceği gün sayısı"
+    direct_message_max_per_day: "Günlük en fazla doğrudan ileti sayısı"
+    direct_message_max_per_day_description: "Bir kullanıcının günlük gönderebileceği en fazla doğrudan ileti sayısı"
+    feature:
+      twitter_login: "Twitter ile oturum açma"
+      twitter_login_description: "Kullanıcılar Twitter hesapları ile hesap açabilsin"
+      facebook_login: "Facebook ile oturum açma"
+      facebook_login_description: "Kullanıcılar Facebook hesapları ile hesap açabilsin"
+      google_login: "Google ile oturum açma"
+      google_login_description: "Kullanıcılar Google hesapları ile hesap açabilsin"
+      wordpress_login: "Wordpress ile oturum açma"
+      wordpress_login_description: "Kullanıcılar WordPress hesapları ile hesap açabilsin"
+      featured_proposals: "Öne çıkarılmış önergeler"
+      featured_proposals_description: "Önerge dizini sayfasında öne çıkarılmış önergeleri gösterir"
+      signature_sheets: "İmza toplama sayfaları"
+      signature_sheets_description: "Yönetim panosundan sitede toplanan imzaların, önergelere ve katılımcı bütçelerin yatırım projelerine eklenmesini sağlar"
+      user:
+        recommendations: "Öneriler"
+        recommendations_description: "Kullanıcılara giriş sayfasında takip ettikleri ögelerin etiketlerine göre öneriler görüntüler"
+        skip_verification: "Kullanıcı doğrulaması atlansın"
+        skip_verification_description: "Bu seçenek etkinleştirildiğinde, kullanıcı doğrulaması kapatılır ve hesap açmış tüm kullanıcılar tüm süreçlere katılabilir"
+        recommendations_on_debates: "Tartışmalarla ilgili öneriler"
+        recommendations_on_debates_description: "Kullanıcılara tartışmalar sayfasında takip edilen ögelerin etiketlerine göre öneriler görüntüler"
+        recommendations_on_proposals: "Önergelerle ilgili öneriler"
+        recommendations_on_proposals_description: "Kullanıcılara önergeler sayfasında, takip ettikleri ögelerin etiketlerine göre öneriler gösterir"
+      community: "Önergeler ve yatırımlar topluluğu"
+      community_description: "Önergelerde ve katılımcı bütçelerin yatırım projelerinde topluluk bölümünü açar"
+      machine_learning: "Yapay Zeka / Makine Öğrenmesi"
+      machine_learning_description: "İçeriği otomatik olarak zenginleştirecek Python betiklerinin yürütülmesi için Yapay Zeka / Makine Öğrenmesi bölümünü açın."
+      map: "Önergelerin ve bütçe yatırımlarının coğrafi konumu"
+      map_description: "Önergelerin ve yatırım projelerinin coğrafi konumunu açar"
+      allow_images: "Yüklemeye izin ver ve görselleri görüntüle"
+      allow_images_description: "Kullanıcıların önergeler ve katılımcı bütçelerin yatırım projelerini oluştururken görseller yüklemesini sağlar"
+      allow_attached_documents: "Yüklemeye izin ver ve ekli belgeleri görüntüle"
+      allow_attached_documents_description: "Kullanıcıların önergeler ve katılımcı bütçelerin yatırım projelerini oluştururken belgeler yüklemesini sağlar"
+      guides: "Önergeler veya yatırım projeleri oluşturma rehberleri"
+      guides_description: "Etkin bir katılımcı bütçe varsa, önergeler ve yatırım projeleri arasındaki farklılıkları anlatan bir rehber görüntüler"
+      help_page: "Yardım sayfası"
+      help_page_description: 'Açılan her özellik hakkında bilgi veren bir sayfa içeren bir Yardım menüsü görüntüler. Ayrıca "Özel sayfalar" ve "Özel içerik blokları" bölümlerinden özel sayfalar ve menüler oluşturulabilir'
+      remote_translations: "Uzaktan çeviri"
+      remote_translations_description: "Kullanıcıların, dillerinde içerik olmadığında çeviri isteğinde bulunmalarını sağlayan bir düğme görüntüler."
+      translation_interface: "Çeviri arayüzü"
+      translation_interface_description: "Kullanıcıların, içerikleri var olan tüm uygulama dillerinde yazmalarını sağlayan el ile çeviri arayüzünü görüntüler. Bu seçenek yalnızca kullanıcı başvuru formlarını etkiler ve yönetim panosunda bağımsız olarak her zaman etkin olur."
+      remote_census: "Uzak seçmen bilgi sistemi bağlantısını yapılandır (SOAP)"
+      remote_census_description: "Her kurumun uzak seçmen bilgi sistemi bağlantısını yapılandırmasını sağlar"
+      valuation_comment_notification: "Değerlendirme yorumu bildirimi"
+      valuation_comment_notification_description: "Yeni bir değerlendirme yorumu yapıldığında, bütçe yatırımı değerlendirme yorumlayıcısı dışındaki tüm ilgili kullanıcılara bir e-posta gönderilir"
+      graphql_api: "GraphQL API"
+      dashboard:
+        notification_emails: "Pano bildirimi e-postaları"
+        notification_emails_description: "Pano bildirimi e-postaları önerge sahiplerine gönderilsin"
+      remove_investments_supports: "Bütçe yatırımı destekleri geri çekilebilsin"
+      remove_investments_supports_description: "Projelerin seçilmesi aşamasında kullanıcılar katılımcı bütçe yatırımlarına desteklerini geri çekebilsin."
+      sdg: SKA
+      sdg_description: Yönetim menüsünde ve genel ayarlarda Sürdürülebilir Kalkınma Amaçları bölümlerini açın.
+    remote_census:
+      general:
+        endpoint: "Uç nokta"
+        endpoint_description: "Seçmen bilgi sistemi hizmeti sunucusunun adı (wsdl)"
+      request:
+        method_name: "İstek yönteminin adı"
+        method_name_description: "Seçmen bilgi sistemi internet hizmeti tarafından kabul edilen istek yönteminin adı."
+        structure: "İstek yapısı"
+        structure_description: 'Belediye il meclisinin seçmen bilgi sistemi internet hizmetine göndereceği isteğin yapısı. Bu isteğin "sabit" değerleri doldurulmalıdır. Belge türü, Belge numarası, Doğum tarihi ve Posta kodu ile ilgili değerler boş bırakılmalıdır. Geçerli biçim örneği: { "request": { "codigo_institucion": 1, "codigo_portal": 1, "codigo_usuario": 1, "documento": null, "tipo_documento": null, "codigo_idioma": 102, "nivel": 3 } }'
+        document_type: "Belge türünün yolu"
+        document_type_description: "İstek yapısında belge türünü gönderen yol. İnternet hizmeti bir kullanıcıyı doğrulamak için belge türüne gerek duymuyorsa DOLDURMAYIN."
+        document_number: "Belge numarasının yolu"
+        document_number_description: "İstek yapısında belge numarasını gönderen yol. İnternet hizmeti bir kullanıcıyı doğrulamak için belge numarasına gerek duymuyorsa DOLDURMAYIN."
+        date_of_birth: "Doğum tarihinin yolu"
+        date_of_birth_description: "İstek yapısında doğum tarihini gönderen yol. İnternet hizmeti bir kullanıcıyı doğrulamak için doğum tarihine gerek duymuyorsa DOLDURMAYIN."
+        postal_code: "Posta kodunun yolu"
+        postal_code_description: "İstek yapısında posta kodunu gönderen yol. İnternet hizmeti bir kullanıcıyı doğrulamak için posta koduna gerek duymuyorsa DOLDURMAYIN."
+      response:
+        date_of_birth: "Doğum tarihininin yolu"
+        date_of_birth_description: "Yanıtta kullanıcının doğum tarihinin yolu."
+        postal_code: "Posta kodunun yolu"
+        postal_code_description: "Yanıtta kullanıcının posta kodunun yolu."
+        district: "Bölgenin yolu"
+        district_description: "Yanıtta kullanıcının bölgesinin yolu."
+        gender: "Cinsiyetin yolu"
+        gender_description: "Yanıtta kullanıcının cinsiyetinin yolu."
+        name: "Adın yolu"
+        name_description: "Yanıtta kullanıcının adının yolu."
+        surname: "Soyadın yolu"
+        surname_description: "Yanıtta kullanıcının soyadının yolu."
+        valid: "Geçerli bir yanıtı belirleme koşulu"
+        valid_description: "Yanıtta kullanıcının doğrulandığı ve yanıtın geçerli olduğunun bildirildiği yol."
+    map:
+      feature:
+        marker_clustering: "İşaret kümeleme"
+        marker_clustering_description: "Harita işaretlerini kümeler. Görüntülenecek çok sayıda işaret olduğunda kullanışlıdır."
+      latitude: "Enlem"
+      latitude_description: "Haritada konumun görüntüleneceği enlem"
+      longitude: "Boylam"
+      longitude_description: "Haritada konumun görüntüleneceği boylam"
+      zoom: "Yakınlaştırma"
+      zoom_description: "Harita konumunun görüntüleneceği yakınlaştırma düzeyi"
+    process:
+      debates: "Tartışmalar"
+      debates_description: "Yurttaş tartışma alanı, onları ilgilendiren konuları sunabilen ve görüşlerini başkalarıyla paylaşmak isteyen herkese açıktır"
+      proposals: "Önergeler"
+      proposals_description: "Yurttaş önergeleri, yeterli desteği alıp yurttaşların oylamasından geçerek, komşuların ve toplulukların, toplumlarının nasıl olmasını istedikleri hakkında doğrudan karar vermelerini sağlar"
+      polls: "Oylamalar"
+      polls_description: "Yurttaş oylamaları, oy kullanma hakkı olan yurttaşların doğrudan karar verebilecekleri bir katılım yöntemidir"
+      budgets: "Katılımcı bütçeleme"
+      budgets_description: "Katılımcı bütçeler ile yurttaşlar, komşuları tarafından sunulan hangi projelerin bütçenin bir parçasını alacağına karar verir"
+      legislation: "Katılımcı mevzuat"
+      legislation_description: "Katılımcı süreçlerde yurttaşlara, toplumu etkileyecek düzenlemelerin hazırlanmasına ve değiştirilmesine katılma ve yapılması planlanan belirli işlemler hakkında fikirlerini bildirme olanağı sunulur"
+    html:
+      per_page_code_head: "Her sayfaya eklenecek kod (<head>)"
+      per_page_code_head_description: "Bu kod <head> kod iminin içine eklenir. Özel betikler, istatistikler vb eklemek için kullanışlıdır."
+      per_page_code_body: "Her sayfaya eklenecek kod (<body>)"
+      per_page_code_body_description: "Bu kod <body> kod iminin içine eklenir. Özel betikler, istatistikler vb eklemek için kullanışlıdır."
+    uploads:
+      images:
+        min_width: "En az görsel genişliği"
+        min_width_description: "Yüklenen bir görselin olabileceği en az genişlik (piksel)"
+        min_height: "En az görsel yüksekliği"
+        min_height_description: "Yüklenen bir görselin olabileceği en az yükseklik (piksel)"
+        max_size: "En büyük görsel boyutu"
+        max_size_description: "Yüklenen bir görselin olabileceği en büyük boyut (Megabayt/MB)"
+        content_types: "Kabul edilecek görsel türleri"
+        content_types_description: "Yüklenen bir görselin olabileceği tüm içerik türlerini seçin"
+        title:
+          min_length: "En az görsel başlığı uzunluğu"
+          min_length_description: "Yüklenen bir görselin kullanıcı tarafından belirtilen başlığının en az uzunluğu (alt HTML özniteliği)"
+          max_length: "En fazla görsel başlığı uzunluğu"
+          max_length_description: "Yüklenen bir görselin kullanıcı tarafından belirtilen başlığının en fazla uzunluğu (alt HTML özniteliği)"
+      documents:
+        max_amount: "En fazla belge sayısı"
+        max_amount_description: "Bir önergeye, yatırıma vb. eklenebilecek en fazla belge sayısı"
+        max_size: "En büyük belge boyutu"
+        max_size_description: "Yüklenen bir belgenin olabileceği en büyük boyut (Megabayt/MB)"
+        content_types: "Kabul edilecek belge türleri"
+        content_types_description: "Yüklenen bir belgenin olabileceği tüm içerik türlerini seçin"
+    sdg:
+      process:
+        debates: Tartışmalarla ilgili SKA
+        debates_description: Tartışmalar Sürdürülebilir Kalkınma Amaçları ile ilişkilendirilebilsin
+        proposals: Önergelerle ilgili SKA
+        proposals_description: Önergeler Sürdürülebilir Kalkınma Amaçları ile ilişkilendirilebilsin
+        polls: Oylamalarla ilgili SKA
+        polls_description: Oylamalar Sürdürülebilir Kalkınma Amaçları ile ilişkilendirilebilsin
+        budgets: Katılımcı bütçelerle ilgili SKA
+        budgets_description: Katılımcı bütçeler Sürdürülebilir Kalkınma Amaçları ile ilişkilendirilebilsin
+        legislation: Katılımcı mevzuatlarla ilgili SKA
+        legislation_description: Katılımcı mevzuatlar Sürdürülebilir Kalkınma Amaçları ile ilişkilendirilebilsin

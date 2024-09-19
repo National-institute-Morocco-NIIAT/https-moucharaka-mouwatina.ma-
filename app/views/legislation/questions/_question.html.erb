@@ -1,0 +1,15 @@
+<div class="debate-block">
+  <div class="debate-type">
+    <%= t("legislation.questions.question.debate") %> <span class="icon-debates" aria-hidden="true"></span>
+  </div>
+  <div class="debate-title">
+    <h4><%= link_to question.title, legislation_process_question_path(question.process, question) %></h4>
+  </div>
+  <div class="debate-meta">
+    <%= render Shared::CommentsCountComponent.new(
+      question.comments.count,
+      url: legislation_process_question_path(question.process, question, anchor: "comments")
+    ) %>
+    · <span class="debate-date"><%= l question.created_at.to_date %></span>
+  </div>
+</div>

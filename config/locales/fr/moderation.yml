@@ -1,0 +1,111 @@
+fr:
+  moderation:
+    actions:
+      confirm_action: "Etes vous sur? %{action}"
+    comments:
+      index:
+        block_authors: Bloquer un auteur
+        filter: Filtre
+        filters:
+          all: Toutes
+          pending_flag_review: Indécis
+          with_ignored_flag: Marqué comme vu
+        headers:
+          comment: Commentaire
+          moderate: Modérer
+        hide: Masquer les commentaires
+        ignore_flags: Marqué comme vu
+        orders:
+          flags: Les plus signalés
+          newest: Les plus récents
+        title: Commentaires
+    dashboard:
+      index:
+        title: Modération
+    debates:
+      index:
+        block_authors: Bloquer un auteur
+        filter: Filtre
+        filters:
+          all: Toutes
+          pending_flag_review: Indécis
+          with_ignored_flag: Marqué comme vu
+        headers:
+          debate: Débat
+          moderate: Modérer
+        hide: Masquer les débats
+        ignore_flags: Marqué comme vu
+        orders:
+          created_at: Les plus récents
+          flags: Les plus signalés
+        title: Débats
+    header:
+      title: Modération
+    menu:
+      flagged_comments: Commentaires
+      flagged_debates: Débats
+      flagged_investments: Propositions d'investissement
+      proposals: Propositions
+      proposal_notifications: Notifications des propositions
+      users: Bloquer les utilisateurs
+    proposals:
+      index:
+        block_authors: Bloquer un auteur
+        filter: Filtre
+        filters:
+          all: Toutes
+          pending_flag_review: En attente de revue
+          with_ignored_flag: Marqué comme vu
+        headers:
+          moderate: Modérer
+          proposal: Proposition
+        hide: Masquer les propositions
+        ignore_flags: Marqué comme vu
+        orders:
+          created_at: Les plus récents
+          flags: Les plus signalés
+        title: Propositions
+    budget_investments:
+      index:
+        block_authors: Bloquer un auteur
+        filter: Filtre
+        filters:
+          all: Toutes
+          pending_flag_review: Indécis
+          with_ignored_flag: Marqué comme vu
+        headers:
+          moderate: Modérer
+          budget_investment: Proposition d'investissement
+        hide: Cacher les propositions d'investissement
+        ignore_flags: Marqué comme vu
+        orders:
+          created_at: Les plus récents
+          flags: Les plus signalés
+        title: Propositions d'investissement
+    proposal_notifications:
+      index:
+        block_authors: Bloquer un auteur
+        filter: Filtre
+        filters:
+          all: Toutes
+          pending_review: En attente de revue
+          ignored: Marqué comme vu
+        headers:
+          moderate: Modérer
+          proposal_notification: Notification de proposition
+        hide: Masquer les propositions
+        ignore_flags: Marqué comme vu
+        orders:
+          created_at: Les plus récents
+          moderated: Modéré
+        title: Notifications des propositions
+    users:
+      index:
+        block: Bloqué
+        confirm_block: "Êtes-vous sûr ? Cela masquera \"%{name}\" ainsi que tout son contenu."
+        confirm_hide: "Êtes-vous sûr ? Cela masquera \"%{name}\" sans masquer son contenu."
+        hide: masquer
+        search_placeholder: courriel ou nom de l'utilisateur
+        title: Bloquer les utilisateurs
+      notice_block: utilisateur bloqué. Tout son contenu et ses commentaires ont été masqués.
+      notice_hide: Utilisateur bloqué. Tous les débats et les propositions de cet utilisateur ont été masqués.

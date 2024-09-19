@@ -1,0 +1,17 @@
+<div class="in-favor-against">
+  <div class="in-favor">
+    <%= render Shared::VoteButtonComponent.new(votable,
+                                               value: "yes",
+                                               "aria-label": agree_aria_label,
+                                               title: t("votes.agree")) %>
+    <span class="percentage"><%= votes_percentage("likes", votable) %></span>
+  </div>
+
+  <div class="against">
+    <%= render Shared::VoteButtonComponent.new(votable,
+                                               value: "no",
+                                               "aria-label": disagree_aria_label,
+                                               title: t("votes.disagree")) %>
+    <span class="percentage"><%= votes_percentage("dislikes", votable) %></span>
+  </div>
+</div>

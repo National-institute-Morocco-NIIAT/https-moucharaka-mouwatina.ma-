@@ -1,0 +1,66 @@
+#Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+tr:
+  devise:
+    password_expired:
+      expire_password: "Parolanın süresi dolmuş"
+      change_required: "Parolanızın süresi dolmuş"
+      change_password: "Parolanızı değiştirin"
+      new_password: "Yeni parola"
+      updated: "Parola güncellendi"
+    confirmations:
+      confirmed: "Hesabınız onaylandı."
+      send_instructions: "Birkaç dakika içinde parolanızı nasıl sıfırlayacağınızı açıklayan yönergelerin bulunduğu bir e-posta alacaksınız."
+      send_paranoid_instructions: "E-posta adresiniz veri tabanımızda bulunuyorsa, birkaç dakika içinde parolanızı nasıl sıfırlayacağınızı açıklayan yönergelerin bulunduğu bir e-posta alacaksınız."
+    failure:
+      already_authenticated: "Zaten oturum açmışsınız."
+      inactive: "Hesabınız henüz etkinleştirilmemiş."
+      invalid: "%{authentication_keys} ya da parola geçersiz."
+      locked: "Hesabınız kilitlendi."
+      last_attempt: "Hesabınız engellenmeden önce bir deneme hakkınız daha var."
+      not_found_in_database: "%{authentication_keys} ya da parola geçersiz."
+      timeout: "Oturumunuzun süresi doldu. İlerlemek için lütfen yeniden oturum açın."
+      unauthenticated: "İlerlemek için oturum ya da hesap açmalısınız."
+      unconfirmed: "İlerlemek için, lütfen size e-posta ile gönderdiğimiz onay bağlantısına tıklayın"
+    mailer:
+      confirmation_instructions:
+        subject: "Onaylama yönergeleri"
+      reset_password_instructions:
+        subject: "Hesabınızı sıfırlama yönergeleri"
+      unlock_instructions:
+        subject: "Kilit açma yönergeleri"
+    omniauth_callbacks:
+      failure: "\"%{reason}\" nedeniyle %{kind} olarak yetkilendirilemediniz."
+      success: "%{kind} olarak tanımlandı."
+    passwords:
+      no_token: "Bu sayfaya ancak parola değiştirme bağlantısını kullanarak erişebilirsiniz. Parola değiştirme bağlantısını kullanarak eriştiyseniz, lütfen adresin tam olup olmadığını denetleyin."
+      send_instructions: "Birkaç dakika içinde parolanızı yeniden oluşturmanız için gereken açıklamaların bulunduğu bir e-posta alacaksınız."
+      send_paranoid_instructions: "E-posta adresiniz veri tabanımızda bulunuyorsa, birkaç dakika içinde parolanızı sıfırlamak için bir bağlantı alacaksınız."
+      updated: "Parolanız değiştirildi. Kimlik doğrulandı."
+      updated_not_active: "Parolanız değiştirildi."
+    registrations:
+      destroyed: "Hoşçakalın! Hesabınız iptal edildi. Sizi en kısa sürede yeniden aramızda görmeyi umarız."
+      signed_up: "Hoş geldiniz! Kimliğiniz doğrulandı."
+      signed_up_but_inactive: "Hesabınız açıldı, ancak etkin olmadığından oturum açamadınız."
+      signed_up_but_locked: "Hesabınız açıldı, ancak kilitli olduğundan oturum açamadınız."
+      signed_up_but_unconfirmed: "İçinde doğrulama bağlantısı bulunan bir ileti gönderildi. Hesabınızı etkinleştirmek için lütfen bu bağlantıya tıklayın."
+      update_needs_confirmation: "Hesabınız başarıyla güncellendi; ancak yeni e-posta adresinizi doğrulamamız gerekiyor. Lütfen yeni e-posta adresinizin onayını tamamlamak için e-postanızı kontrol edin ve bağlantıya tıklayın."
+      updated: "Hesabınız güncellendi."
+    sessions:
+      signed_in: "Oturumunuz açıldı."
+      signed_out: "Oturumunuz kapatıldı."
+      already_signed_out: "Oturumunuz kapatıldı."
+    unlocks:
+      send_instructions: "Birkaç dakika içinde, hesabınızın kilidini açma yönergelerinin bulunduğu bir e-posta alacaksınız."
+      send_paranoid_instructions: "Bir hesabınız varsa, birkaç dakika içinde hesabınızın kilidini açma yönergelerinin bulunduğu bir e-posta alacaksınız."
+      unlocked: "Hesabınızın kilidi açıldı. İlerlemek için lütfen oturum açın."
+  errors:
+    messages:
+      already_confirmed: "Hesabınızı zaten doğrulamışsınız. Lütfen oturum açmayı deneyin."
+      confirmation_period_expired: "Hesabınızın %{period} içinde doğrulanmış olması gerekiyordu. Lütfen yeniden istekte bulunun."
+      expired: "süresi dolmuş. Lütfen yeniden istekte bulunun."
+      not_found: "bulunamadı."
+      not_locked: "kilitlenmemiş."
+      not_saved:
+        one: "1 hata, %{resource} kaynağının kaydedilmesini engelledi. Lütfen sorunun nasıl çözüleceğini öğrenmek için işaretli alanları denetleyin:"
+        other: "%{count} hata %{resource} kaynağının kaydedilmesini engelledi. Lütfen sorunun nasıl çözüleceğini öğrenmek için işaretli alanları denetleyin:"
+      equal_to_current_password: "geçerli paroladan farklı olmalıdır."

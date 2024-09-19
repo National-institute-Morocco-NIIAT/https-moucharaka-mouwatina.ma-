@@ -1,0 +1,35 @@
+tr:
+  flash:
+    actions:
+      create:
+        notice: "%{resource_name} oluşturuldu."
+        debate: "Tartışma oluşturuldu."
+        direct_message: "İletiniz gönderildi."
+        poll: "Oylama oluşturuldu."
+        poll_booth: "Kabin oluşturuldu."
+        proposal: "Önerge oluşturuldu."
+        proposal_notification: "İletiniz doğru şekilde gönderildi."
+        budget_investment: "Yatırım bütçesi oluşturuldu."
+        signature_sheet: "İmza sayfası oluşturuldu"
+        support: "Yatırım desteklendi"
+        topic: "Konu oluşturuldu."
+        valuator_group: "Bilirkişi grubu oluşturuldu"
+        vote: "Oy eklendi"
+      save_changes:
+        notice: Değişiklikler kaydedildi
+      update:
+        notice: "%{resource_name} güncellendi."
+        debate: "Tartışma güncellendi."
+        poll: "Oylama güncellendi."
+        poll_booth: "Kabin güncellendi."
+        active_poll: "Oylama açıklaması güncellendi."
+        proposal: "Önerge güncellendi."
+        budget_investment: "Yatırım projesi güncellendi."
+        topic: "Konu güncellendi."
+        valuator_group: "Bilirkişi grubu güncellendi"
+        translation: "Çeviri güncellendi"
+      destroy:
+        budget_investment: "Yatırım projesi silindi."
+        topic: "Konu silindi."
+        valuator_group: "Bilirkişi grubu silindi"
+        vote: "Oy silindi"

@@ -1,0 +1,87 @@
+name: tests
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches-ignore:
+      - i18n_master
+
+permissions:
+  contents: read
+
+env:
+  TEST_COVERAGE: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' && 1 || '' }}
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    services:
+      postgres:
+        image: postgres:10.10
+        ports: ["5432:5432"]
+        options: --health-cmd pg_isready --health-interval 10s --health-timeout 5s --health-retries 5
+        env:
+          POSTGRES_USER: consul
+          POSTGRES_PASSWORD: ""
+    env:
+      PGUSER: consul
+      POSTGRES_HOST: postgres
+      RAILS_ENV: test
+    strategy:
+      fail-fast: false
+      matrix:
+        ci_node_total: [5]
+        ci_node_index: [0, 1, 2, 3, 4]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - name: Setup NPM
+        uses: actions/setup-node@v4
+        with:
+          cache: "npm"
+          node-version-file: ".node-version"
+      - name: Install node packages
+        run: npm clean-install
+      - name: Copy secrets and database files
+        run: for i in config/*.example; do cp "$i" "${i/.example}"; done
+      - name: Setup database
+        run: bundle exec rake db:setup
+      - name: Compile assets
+        run: bundle exec rake assets:precompile > /dev/null 2>&1
+      - name: Run test suite
+        env:
+          KNAPSACK_PRO_TEST_SUITE_TOKEN_RSPEC: ${{ secrets.KNAPSACK_PRO_TEST_SUITE_TOKEN_RSPEC }}
+          KNAPSACK_PRO_CI_NODE_TOTAL: ${{ matrix.ci_node_total }}
+          KNAPSACK_PRO_CI_NODE_INDEX: ${{ matrix.ci_node_index }}
+          KNAPSACK_PRO_FIXED_QUEUE_SPLIT: true
+          KNAPSACK_PRO_LOG_LEVEL: info
+        run: bin/knapsack_pro_rspec
+      - name: Coveralls Parallel
+        if: ${{ env.TEST_COVERAGE == 1 }}
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          flag-name: run-${{ matrix.ci_node_index }}
+          parallel: true
+      - name: Upload screenshots
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots-${{ matrix.ci_node_index }}
+          path: tmp/capybara/
+  coveralls:
+    permissions:
+      contents: none
+    runs-on: ubuntu-latest
+    needs: tests
+    steps:
+      - name: Finish coveralls
+        if: ${{ env.TEST_COVERAGE == 1 }}
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          parallel-finished: true
