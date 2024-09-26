@@ -274,9 +274,10 @@ en:
         summary: "Proposal summary"
         retired_explanation: "Explanation"
       user:
-        login: "Email or username"
+        login: "Email or ID Number"
         email: "Email"
-        username: "Username"
+        username: "Full Name"
+        document_number: "Identity Card Number"
         password_confirmation: "Password confirmation"
         password: "Password"
         current_password: "Current password"
@@ -551,7 +552,7 @@ en:
         geozone:
           attributes:
             geojson:
-              invalid: "The GeoJSON provided does not follow the correct format. It must follow the \"Polygon\" or \"MultiPolygon\" type format."
+              invalid: 'The GeoJSON provided does not follow the correct format. It must follow the "Polygon" or "MultiPolygon" type format.'
         image:
           attributes:
             attachment:
