@@ -4,7 +4,7 @@
   Keywords: democracy, citizen participation, eparticipation, debates, proposals, voting, consultations, crowdlaw, participatory budgeting.
 -->
 
-![CONSUL DEMOCRACY logo](https://raw.githubusercontent.com/consuldemocracy/consuldemocracy/master/public/consul_logo.png)
+![CONSUL DEMOCRACY logo](https://raw.githubusercontent.com/National-institute-Morocco-NIIAT/https-moucharaka-mouwatina.ma-/refs/heads/main/public/NIIAT%20logo.jpeg)
 
 # CONSUL DEMOCRACY
 
