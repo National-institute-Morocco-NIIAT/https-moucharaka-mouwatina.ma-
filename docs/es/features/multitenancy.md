@@ -219,7 +219,7 @@ En este caso, para conseguir que multientidad funcione con ambos dominios, es ne
 
 El panel de administración de Consul Democracy contiene una sección llamada "Personalizar imágenes", donde es posible personalizar algunas (aunque no todas) de las imágenes que aparecen en la aplicación. Usar esta interfaz permite tener imágenes distintas para cada entidad.
 
-A veces, sin embargo, es útil incluir ciertas imágenes bajo control de versiones. Por ejemplo, si quisiéramos usar un logo distinto para una entidad en el subdominio `neptuno`, pondríamos ese archivo en `app/assets/images/custom/tenants/neptuno/logo_header.png`.
+A veces, sin embargo, es útil incluir ciertas imágenes bajo control de versiones. Por ejemplo, si quisiéramos usar un logo distinto para una entidad en el subdominio `neptuno`, pondríamos ese archivo en `app/assets/images/custom/tenants/neptuno/NIIAT logo1.jpeg`.
 
 Este sistema tiene una limitación y es que solamente funcionará para imágenes que se pueden cambiar desde la interfaz de administración. Si quieres personalizar otra imagen, tendrás que cambiar el código que la renderiza. Por ejemplo, para que sea posible personalizar la imagen `avatar_admin.png`, cambia el código `image_tag("avatar_admin.png")` por `image_tag(image_path_for("avatar_admin.png"))`.
 
