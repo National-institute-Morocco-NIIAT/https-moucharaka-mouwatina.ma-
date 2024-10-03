@@ -3,21 +3,29 @@
     <div class="float-right text-right">
       <%= link_to t("account.show.change_credentials_link"), edit_user_registration_path, class: "button hollow" %>
       <br>
-      <%= link_to t("account.show.activate_account"), class: "button hollow" %>
-      <br>
+      <% if @account.id_card_verified_at.nil? %>
+        <%= link_to t("account.show.activate_account"), upload_id_card_user_path(current_user), class: "button hollow" %>
+        <br>
+      <% end %>
       <%= link_to t("account.show.erase_account_link"), users_registrations_delete_form_path, class: "delete" %>
     </div>
 
     <%= render Shared::AvatarComponent.new(@account, size: 100, class: "margin-bottom") %>
 
-    <h1 class="inline-block"><%= t("account.show.title") %></h1>
-
+    <div class="inline-block">
+      <h1 ><%= @account.username %></h1>
+      <% if @account.id_card_verified_at.nil? %>
+        <p> Account not verified, please verify your account.</p>
+      <% else %>
+        <p> Account verified </p>
+      <% end %>
+    </div>
     <%= render Account::SignInInfoComponent.new(@account) %>
 
     <%= form_for @account, as: :account, url: account_path do |f| %>
       <%= render "shared/errors", resource: @account %>
 
-      <div class="row">
+      <div class="row inline-block">
         <div class="small-12 medium-7 column">
 
           <h2><%= t("account.show.personal") %></h2>

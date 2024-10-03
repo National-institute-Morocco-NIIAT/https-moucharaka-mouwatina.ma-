@@ -1,0 +1,16 @@
+<%= back_link_to %>
+    <h2><%= t("devise_views.users.id_verification.title") %></h2>
+
+    <%= form_with model: @user, url: submit_id_card_user_path(@user), local: true, method: :patch do |f| %>
+    <div>
+        <%= f.label :front_id_card, "Upload Front of ID Card" %>
+        <%= f.file_field :front_id_card %>
+    </div>
+
+    <div>
+        <%= f.label :back_id_card, "Upload Back of ID Card" %>
+        <%= f.file_field :back_id_card %>
+    </div>
+
+    <%= f.submit "Submit ID Card for Verification" %>
+ <% end %>
