@@ -7,6 +7,9 @@ module Abilities
 
       can [:read, :update], User, id: user.id
 
+      can :upload_id_card, User, id: user.id
+      can :submit_id_card, User, id: user.id
+
       can :read, Debate
       can :update, Debate do |debate|
         debate.editable_by?(user)

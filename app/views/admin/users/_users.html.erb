@@ -2,7 +2,7 @@
 
 <% if @users.any? %>
   <h3><%= page_entries_info @users %></h3>
-
+  <%= link_to t("admin.users.verify_users"), class: "button hollow" %>
   <table>
     <thead>
       <tr>
@@ -14,7 +14,7 @@
           <th scope="col"><%= t("admin.users.columns.email") %></th>
           <th scope="col"><%= t("admin.users.columns.document_number") %></th>
           <th scope="col"><%= t("admin.users.columns.roles") %></th>
-          <th scope="col"><%= t("admin.users.columns.verification_level") %></th>
+          <th scope="col"><%= t("admin.users.columns.id_card_verification_status") %></th>
           <th scope="col"><%= t("admin.users.columns.activation_status") %></th>
         <% end %>
       </tr>
@@ -29,8 +29,18 @@
             <td><%= link_to user.name, user_path(user) %></td>
             <td><%= user.email %></td>
             <td><%= user.document_number %></td>
-            <td><%= display_user_roles(user) %></td>
-            <td><%= user.user_type %></td>
+            <td><%= display_user_roles(user) == "admin" ? "Admin" : "User" %></td>
+            <% if display_user_roles(user) == "admin" %>
+              <td><%= "Verified" %></td>
+            <% else%>
+              <td>
+                <% if user.id_card_verified_at.nil? %>
+                  <%= link_to t("admin.users.verify"), verify_id_card_admin_user_path(user), class: "button hollow" %>
+                <% else %>
+                  Verified
+                <% end %>
+              </td>
+            <% end %>
             <td><%= user.confirmed_at? ? t("admin.users.account.active_status") : t("admin.users.account.inactive_status") %></td>
           <% end %>
         </tr>

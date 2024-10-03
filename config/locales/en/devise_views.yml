@@ -78,6 +78,9 @@ en:
         submit: Re-send unlocking instructions
         title: Re-sent unlocking instructions
     users:
+      id_verification:
+        title: ID Verification
+
       registrations:
         delete_form:
           erase_reason_label: Reason

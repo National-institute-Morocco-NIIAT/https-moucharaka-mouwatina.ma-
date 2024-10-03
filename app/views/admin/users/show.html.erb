@@ -1,0 +1,27 @@
+<h1><%= @user.username %>'s Details</h1>
+
+<% if @user.front_id_card.present? %>
+  <div>
+    <h2>Front ID Card:</h2>
+    <%= image_tag @user.front_id_card.url if @user.front_id_card.attached? %>
+  </div>
+<% else %>
+  <div>
+    <h2>No Front ID Card Uploaded</h2>
+  </div>
+<% end %>
+
+<% if @user.back_id_card.present? %>
+  <div>
+    <h2>Back ID Card:</h2>
+    <%= image_tag @user.back_id_card.url if @user.back_id_card.attached? %>
+  </div>
+<% else %>
+  <div>
+    <h2>No Back ID Card Uploaded</h2>
+  </div>
+<% end %>
+
+<% if current_user.admin? %>
+  <%= link_to 'Verify ID Card', verify_id_card_admin_user_path(@user), method: :patch, data: { confirm: 'Are you sure you want to verify this user\'s ID card?' } %>
+<% end %>
