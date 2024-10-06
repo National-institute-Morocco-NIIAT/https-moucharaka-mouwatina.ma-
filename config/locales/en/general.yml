@@ -3,7 +3,6 @@ en:
     show:
       last_sign_in: "Last login: %{last_sign_in_at} from IP %{last_sign_in_ip}"
       change_credentials_link: Change my login details
-      activate_account: Activate my account
       erase_account_link: Erase my account
       finish_verification: Complete verification
       notifications: Notifications
@@ -688,10 +687,10 @@ en:
         destroy:
           notice: "You have stopped following this investment project! <br> You will no longer receive notifications related to this project."
       proposal:
-        create:
-          notice: "Now you are following this citizen proposal! <br> We will notify you of changes as they occur so that you are up-to-date."
-        destroy:
-          notice: "You have stopped following this citizen proposal! <br> You will no longer receive notifications related to this proposal."
+          create:
+            notice: "Now you are following this citizen proposal! <br> We will notify you of changes as they occur so that you are up-to-date."
+          destroy:
+            notice: "You have stopped following this citizen proposal! <br> You will no longer receive notifications related to this proposal."
     print:
       print_button: Print this info
     search: Search
@@ -737,9 +736,9 @@ en:
       cards: Cards
       list: List
     recommended_index:
-      title: Recommendations
-      see_more: See more recommendations
-      hide: Hide recommendations
+        title: Recommendations
+        see_more: See more recommendations
+        hide: Hide recommendations
     translations:
       select_language_prompt: Choose language
       remove_language: Remove language

@@ -21,8 +21,6 @@
       <%= f.text_field :username,  autofocus: true, maxlength: User.username_max_length,
                                    hint: t("devise_views.users.registrations.new.username_note") %>
 
-      <%= f.text_field :document_number %>
-
       <%= f.invisible_captcha :address %>
 
       <%= f.email_field :email %>

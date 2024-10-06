@@ -79,7 +79,8 @@ class User < ApplicationRecord
   belongs_to :geozone
 
   validates :username, presence: true, if: :username_required?
-  validates :document_number, uniqueness: { scope: :document_type }, allow_nil: false
+  validates :username, uniqueness: { scope: :registering_with_oauth }, if: :username_required?
+  validates :document_number, uniqueness: { scope: :document_type }, allow_nil: true
 
   validate :validate_username_length
 
@@ -321,11 +322,6 @@ class User < ApplicationRecord
     @username_max_length ||= columns.find { |c| c.name == "username" }.limit || 60
   end
 
-  def self.document_number_max_length
-    @document_number_max_length ||= columns.find { |c| c.name == "document_number" }.limit || 8
-  end
-
-
   def self.minimum_required_age
     (Setting["min_age_to_participate"] || 16).to_i
   end
@@ -406,9 +402,8 @@ class User < ApplicationRecord
   def self.find_for_database_authentication(warden_conditions)
     conditions = warden_conditions.dup
     login = conditions.delete(:login)
-    where(conditions).where(
-      ["lower(document_number) = :value OR lower(email) = :value", { value: login.strip.downcase }]
-    ).first
+    where(conditions.to_hash).find_by(["lower(email) = ?", login.downcase]) ||
+      where(conditions.to_hash).find_by(["username = ?", login])
   end
 
   def self.find_by_manager_login(manager_login)

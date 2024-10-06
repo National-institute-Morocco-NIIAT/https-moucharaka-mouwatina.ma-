@@ -13,7 +13,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
 
   def create
     build_resource(sign_up_params)
-    resource.registering_from_web = false
+    resource.registering_from_web = true
 
     if resource.valid?
       super
@@ -75,7 +75,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
       [
         :username, :email, :password,
         :password_confirmation, :terms_of_service, :locale,
-        :redeemable_code, :document_number
+        :redeemable_code
       ]
     end
 
