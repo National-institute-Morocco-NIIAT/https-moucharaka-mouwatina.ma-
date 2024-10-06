@@ -75,7 +75,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
       [
         :username, :email, :password,
         :password_confirmation, :terms_of_service, :locale,
-        :redeemable_code, :document_number
+        :redeemable_code
       ]
     end
 
