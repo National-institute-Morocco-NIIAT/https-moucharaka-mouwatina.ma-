@@ -3,10 +3,6 @@
     <div class="float-right text-right">
       <%= link_to t("account.show.change_credentials_link"), edit_user_registration_path, class: "button hollow" %>
       <br>
-      <% if @account.id_card_verified_at.nil? %>
-        <%= link_to t("account.show.activate_account"), upload_id_card_user_path(current_user), class: "button hollow" %>
-        <br>
-      <% end %>
       <%= link_to t("account.show.erase_account_link"), users_registrations_delete_form_path, class: "delete" %>
     </div>
 
