@@ -13,22 +13,14 @@ class Management::UsersController < Management::BaseController
     end
 
     @user.terms_of_service = "1"
-    # @user.residence_verified_at = Time.current
-    # @user.verified_at = Time.current
-    @user.id_card_verification_status = "Pending"
+    @user.residence_verified_at = Time.current
+    @user.verified_at = Time.current
 
     if @user.save
       render :show
     else
       render :new
     end
-  end
-
-  def update_verification
-    user = User.find(params[:id])
-    update_id_verification(user)
-
-    redirect_to users_path, notice: 'User verification status updated successfully.'
   end
 
   def erase
@@ -52,7 +44,7 @@ class Management::UsersController < Management::BaseController
     end
 
     def allowed_params
-      [:document_type, :document_number, :username, :email, :date_of_birth, :id_card_verification_status]
+      [:document_type, :document_number, :username, :email, :date_of_birth]
     end
 
     def destroy_session
@@ -68,7 +60,6 @@ class Management::UsersController < Management::BaseController
 
       @user.email = nil
       @user.confirmed_at = Time.current
-      @user.id_card_verification_status = "pending"
 
       @user.newsletter = false
       @user.email_digest = false

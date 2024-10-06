@@ -8,20 +8,14 @@
 
     <%= render Shared::AvatarComponent.new(@account, size: 100, class: "margin-bottom") %>
 
-    <div class="inline-block">
-      <h1 ><%= @account.username %></h1>
-      <% if @account.id_card_verified_at.nil? %>
-        <p> Account not verified, please verify your account.</p>
-      <% else %>
-        <p> Account verified </p>
-      <% end %>
-    </div>
+    <h1 class="inline-block"><%= t("account.show.title") %></h1>
+
     <%= render Account::SignInInfoComponent.new(@account) %>
 
     <%= form_for @account, as: :account, url: account_path do |f| %>
       <%= render "shared/errors", resource: @account %>
 
-      <div class="row inline-block">
+      <div class="row">
         <div class="small-12 medium-7 column">
 
           <h2><%= t("account.show.personal") %></h2>

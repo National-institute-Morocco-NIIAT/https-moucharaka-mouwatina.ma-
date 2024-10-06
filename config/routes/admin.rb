@@ -142,12 +142,7 @@ namespace :admin do
     get :search, on: :collection
   end
 
-  resources :users, only: [:index, :show] do
-    member do
-      get :verify_id_card
-      patch :verify_id_card, action: :verify_id_card_update
-    end
-  end
+  resources :users, only: [:index, :show]
 
   scope module: :poll do
     resources :polls do

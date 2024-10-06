@@ -20,12 +20,6 @@
     <% else %>
       <%= render_user_partial current_filter %>
     <% end %>
-
-    <!-- Verification Button for Users -->
-    <% if current_user.admin? %>
-      <%= link_to 'Verify ID Card', verify_user_id_card_path(user), method: :patch, data: { confirm: 'Are you sure you want to verify this user\'s ID card?' }, class: "button hollow" %>
-    <% end %>
-
   <% else %>
     <div class="callout primary">
       <%= t("users.show.no_activity") %>

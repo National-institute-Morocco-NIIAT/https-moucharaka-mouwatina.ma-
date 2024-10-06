@@ -1639,6 +1639,11 @@ ActiveRecord::Schema[7.0].define(version: 2024_05_13_135357) do
     t.integer "failed_attempts", default: 0, null: false
     t.datetime "locked_at", precision: nil
     t.string "unlock_token"
+    t.string "id_card_file"
+    t.datetime "id_card_verified_at"
+    t.string "id_card_verification_status"
+    t.string "front_id_card"
+    t.string "back_id_card"
     t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true
     t.index ["date_of_birth"], name: "index_users_on_date_of_birth"
     t.index ["email"], name: "index_users_on_email", unique: true

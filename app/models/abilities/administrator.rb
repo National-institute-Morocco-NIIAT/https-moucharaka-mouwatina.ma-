@@ -61,8 +61,6 @@ module Abilities
       can [:search, :index], ::User
 
       can :manage, Dashboard::Action
-      can :manage, User
-      can :verify_id_card, User 
 
       can [:index, :read, :create, :update, :destroy], Budget
       can :publish, Budget, id: Budget.drafting.ids

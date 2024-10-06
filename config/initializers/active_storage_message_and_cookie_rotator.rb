@@ -11,12 +11,6 @@ Rails.application.config.after_initialize do |app|
   app.message_verifier("ActiveStorage").rotate(key_generator.generate_key("ActiveStorage"))
 end
 
-Rails.application.config.after_initialize do
-  Administrator.includes(:user).find_each do |admin|
-    admin.user.update(id_card_verification_status: "verified") if admin.user.present?
-  end
-end
-
 # This code was copied from:
 # https://guides.rubyonrails.org/v7.0/upgrading_ruby_on_rails.html#key-generator-digest-class-changing-to-use-sha256
 # TODO: safe to remove after upgrading to Rails 7.1 or releasing a new
