@@ -512,6 +512,19 @@ body > header,
   }
 }
 
+h1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Adjust the logo size for bigger screens */
+@media only screen and (min-width: 800px) {
+  h1 img {
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
+  }
+}
+
 .public > .wrapper > header,
 .proposal-dashboard > header {
   @include full-width-border(bottom, 1px solid $border);

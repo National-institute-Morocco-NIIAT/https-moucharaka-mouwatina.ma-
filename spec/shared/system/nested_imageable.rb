@@ -81,7 +81,7 @@ shared_examples "nested imageable" do |imageable_factory_name, path, imageable_p
       do_login_for user, management: management
       visit send(path, arguments)
 
-      imageable_attach_new_file(file_fixture("NIIAT logo1.jpeg"), false)
+      imageable_attach_new_file(file_fixture("logo_moucharaka.png"), false)
 
       expect(page).to have_css ".loading-bar.errors"
     end
@@ -105,7 +105,7 @@ shared_examples "nested imageable" do |imageable_factory_name, path, imageable_p
       do_login_for user, management: management
       visit send(path, arguments)
 
-      imageable_attach_new_file(file_fixture("NIIAT logo1.jpeg"), false)
+      imageable_attach_new_file(file_fixture("logo_moucharaka.png"), false)
 
       cached_attachment_field = find("input[name$='[cached_attachment]']", visible: :hidden)
 

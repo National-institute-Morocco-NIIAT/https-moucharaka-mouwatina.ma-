@@ -21,7 +21,7 @@ describe SiteCustomization::Image do
     it "is valid with a 223x80 image" do
       image = build(:site_customization_image,
                     name: "logo_header",
-                    image: fixture_file_upload("NIIAT logo1.jpeg"))
+                    image: fixture_file_upload("logo_moucharaka.png"))
 
       expect(image).to be_valid
     end
@@ -37,7 +37,7 @@ describe SiteCustomization::Image do
     it "dynamically validates the valid images" do
       stub_const("#{SiteCustomization::Image}::VALID_IMAGES", { "custom" => [223, 80] })
 
-      custom = build(:site_customization_image, name: "custom", image: fixture_file_upload("NIIAT logo1.jpeg"))
+      custom = build(:site_customization_image, name: "custom", image: fixture_file_upload("logo_moucharaka.png"))
       expect(custom).to be_valid
 
       map = build(:site_customization_image, name: "map", image: fixture_file_upload("custom_map.jpg"))
@@ -55,7 +55,7 @@ describe SiteCustomization::Image do
 
     png = build(:site_customization_image,
                 name: "logo_header",
-                image: fixture_file_upload("NIIAT logo1.jpeg"))
+                image: fixture_file_upload("logo_moucharaka.png"))
     expect(png).not_to be_valid
   end
 end

@@ -49,8 +49,8 @@ ALTER EXTENSION unaccent SET SCHEMA shared_extensions;
 
 There are two possible ways to enable multitenancy:
 
-* Adding `config.multitenancy = true` inside the `class Application < Rails::Application` class in the `config/application_custom.rb` file
-* Replacing the line `multitenancy: false` with `multitenancy: true` (or adding it if it isn't already there) in the `config/secrets.yml` file
+- Adding `config.multitenancy = true` inside the `class Application < Rails::Application` class in the `config/application_custom.rb` file
+- Replacing the line `multitenancy: false` with `multitenancy: true` (or adding it if it isn't already there) in the `config/secrets.yml` file
 
 The difference between these options is that the first one uses a file under version control while the second one uses a file which isn't under version control. Choose the first option if you'd like to have this change in your git repository; otherwise, use the second one.
 
@@ -125,7 +125,7 @@ production:
         :password: <password>
         :authentication: "plain"
         :enable_starttls_auto: true
-   # (...) Other secrets
+    # (...) Other secrets
 ```
 
 After editing this file, restart the application.
@@ -153,7 +153,7 @@ production:
       wordpress_oauth2_key: <wordpress_key>
       wordpress_oauth2_secret: <wordpress_secret>
       wordpress_oauth2_site: <wordpress_site>
-   # (...) Other secrets
+    # (...) Other secrets
 ```
 
 After editing this file, restart the application.
@@ -219,7 +219,7 @@ In this case, the source code needs to be changed a little so multitenancy works
 
 The administration panel in Consul Democracy contains a "Custom images" section, where you can customize some (but not all) images appearing in the application. Using this interface allows having different images per tenant.
 
-Sometimes it's useful to have a certain image under version control, though. For instance, if we'd like to use a different logo for a tenant with the `neptune` subdomain, we'd put that file under `app/assets/images/custom/tenants/neptune/NIIAT logo1.jpeg`.
+Sometimes it's useful to have a certain image under version control, though. For instance, if we'd like to use a different logo for a tenant with the `neptune` subdomain, we'd put that file under `app/assets/images/custom/tenants/neptune/logo_moucharaka.png`.
 
 However, this will only work for images which can already be configured through the administration interface. If you'd like to customize a different image, you'll have to change the code rendering it. For instance, to make it possible to customize the `avatar_admin.png` image, replace the code `image_tag("avatar_admin.png")` with `image_tag(image_path_for("avatar_admin.png"))`.
 

@@ -10,12 +10,12 @@ describe "Admin custom images", :admin do
     end
 
     within("tr#image_logo_header") do
-      attach_file "site_customization_image_image", file_fixture("NIIAT logo1.jpeg")
+      attach_file "site_customization_image_image", file_fixture("logo_moucharaka.png")
       click_button "Update"
     end
 
-    expect(page).to have_css("tr#image_logo_header img[src*='NIIAT logo1.jpeg']")
-    expect(page).to have_css("img[src*='NIIAT logo1.jpeg']", count: 1)
+    expect(page).to have_css("tr#image_logo_header img[src*='logo_moucharaka.png']")
+    expect(page).to have_css("img[src*='logo_moucharaka.png']", count: 1)
   end
 
   scenario "Upload valid jpg image" do
@@ -93,7 +93,7 @@ describe "Admin custom images", :admin do
     visit admin_site_customization_images_path
 
     within("tr#image_social_media_icon") do
-      attach_file "site_customization_image_image", file_fixture("NIIAT logo1.jpeg")
+      attach_file "site_customization_image_image", file_fixture("logo_moucharaka.png")
       click_button "Update"
     end
 

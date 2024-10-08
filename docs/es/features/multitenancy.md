@@ -49,8 +49,8 @@ ALTER EXTENSION unaccent SET SCHEMA shared_extensions;
 
 Existen dos posibles maneras de habilitar multientidad:
 
-* Añadiendo `config.multitenancy = true` dentro de la clase `class Application < Rails::Application` del fichero `config/application_custom.rb`
-* Cambiando la línea `multitenancy: false` por `multitenancy: true` (o añadiéndola si no está ya ahí) en el fichero `config/secrets.yml`
+- Añadiendo `config.multitenancy = true` dentro de la clase `class Application < Rails::Application` del fichero `config/application_custom.rb`
+- Cambiando la línea `multitenancy: false` por `multitenancy: true` (o añadiéndola si no está ya ahí) en el fichero `config/secrets.yml`
 
 La diferencia entre ambas opciones está en que la primera utiliza un fichero que se encuentra bajo control de versiones y la segunda un fichero que no se encuentra bajo control de versiones. Elige la primera opción si deseas este cambio en el código de tu repositorio git y la segunda opción en caso contrario.
 
@@ -125,7 +125,7 @@ production:
         :password: <contraseña>
         :authentication: "plain"
         :enable_starttls_auto: true
-   # (...) Otros secretos
+    # (...) Otros secretos
 ```
 
 Tras editar el fichero, reinicia la aplicación.
@@ -153,7 +153,7 @@ production:
       wordpress_oauth2_key: <clave_wordpress>
       wordpress_oauth2_secret: <secreto_wordpress>
       wordpress_oauth2_site: <sitio_wordpress>
-   # (...) Otros secretos
+    # (...) Otros secretos
 ```
 
 Tras editar el fichero, reinicia la aplicación.
@@ -219,7 +219,7 @@ En este caso, para conseguir que multientidad funcione con ambos dominios, es ne
 
 El panel de administración de Consul Democracy contiene una sección llamada "Personalizar imágenes", donde es posible personalizar algunas (aunque no todas) de las imágenes que aparecen en la aplicación. Usar esta interfaz permite tener imágenes distintas para cada entidad.
 
-A veces, sin embargo, es útil incluir ciertas imágenes bajo control de versiones. Por ejemplo, si quisiéramos usar un logo distinto para una entidad en el subdominio `neptuno`, pondríamos ese archivo en `app/assets/images/custom/tenants/neptuno/NIIAT logo1.jpeg`.
+A veces, sin embargo, es útil incluir ciertas imágenes bajo control de versiones. Por ejemplo, si quisiéramos usar un logo distinto para una entidad en el subdominio `neptuno`, pondríamos ese archivo en `app/assets/images/custom/tenants/neptuno/logo_moucharaka.png`.
 
 Este sistema tiene una limitación y es que solamente funcionará para imágenes que se pueden cambiar desde la interfaz de administración. Si quieres personalizar otra imagen, tendrás que cambiar el código que la renderiza. Por ejemplo, para que sea posible personalizar la imagen `avatar_admin.png`, cambia el código `image_tag("avatar_admin.png")` por `image_tag(image_path_for("avatar_admin.png"))`.
 
