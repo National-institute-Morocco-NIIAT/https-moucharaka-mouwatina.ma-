@@ -112,10 +112,34 @@
     border: 1px solid $border;
     margin-bottom: $line-height;
     padding: calc(#{$line-height} / 2);
+    border-radius: 20px;
+
+    p {
+      font-weight: bold;
+      text-align: center;
+    }
 
     &.light {
       background: #ecf0f1;
       border: 0;
     }
+
+    .button {
+      background: #F58F21;
+      color: white;
+    }
+
+    .button:hover {
+      background: #ff9019;
+    }
   }
+}
+
+.link_text {
+  background-color: #EBAD6B;
+  transition: all 0.3s ease-in-out;
+}
+
+.link_text:hover {
+  background-color: #F58F20;
 }

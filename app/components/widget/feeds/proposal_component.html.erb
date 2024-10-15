@@ -1,17 +1,64 @@
-<div class="proposal">
-  <div class="feed-description small-12 column
-             <%= "medium-6 large-9" if proposal.image.present? %>">
-    <strong><%= link_to proposal.title, url_for(proposal) %></strong><br>
-    <p><%= proposal.summary %></p>
-    <%= render SDG::TagListComponent.new(proposal, limit: 5) %>
-  </div>
+<style>
+.widget-feed {
+  font-size: medium;
+  padding: $line-height; 
+  border-radius: 0;
+  
+  .proposal {
+    display: flex; 
+    flex-wrap: wrap; 
+    margin-bottom: $line-height; 
 
-  <% if proposal.image.present? %>
-    <div class="small-12 medium-6 large-3 column">
-      <div class="feed-image">
-        <%= image_tag proposal.image.variant(:thumb),
-                      alt: proposal.image.title.unicode_normalize %>
-      </div>
+    .feed-description {
+      width: 100%; 
+      margin-bottom: $line-height; 
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      p {
+        font-size: $small-font-size;
+        margin-bottom: 0;
+      }
+    }
+
+    .feed-image {
+      width: 100%;
+      margin-bottom: $line-height;
+      
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .curve {
+      display: none;
+    }
+  }
+}
+
+</style>
+
+<div class="widget-feed">
+  <div class="proposal">
+    <div class="feed-description small-12 column <%= "medium-6 large-9" if proposal.image.present? %>">
+      <strong><%= link_to proposal.title, url_for(proposal) %></strong><br>
+      <p><%= proposal.summary %></p>
+      <%= render SDG::TagListComponent.new(proposal, limit: 5) %>
     </div>
-  <% end %>
+
+    <% if proposal.image.present? %>
+      <div class="small-12 medium-6 large-3 column">
+        <div class="feed-image">
+          <%= image_tag proposal.image.variant(:thumb),
+                        alt: proposal.image.title.unicode_normalize %>
+        </div>
+      </div>
+    <% end %>
+
+    <div class="curve"></div>
+  </div>
 </div>

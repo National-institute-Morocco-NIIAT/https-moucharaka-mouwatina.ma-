@@ -1,3 +1,53 @@
+<style>
+.debates-list,
+.proposals-list,
+.budget-investments-list {
+  @include breakpoint(medium) {
+    margin-bottom: rem-calc(32); 
+  }
+}
+
+%panel {
+  border: 1px solid #ddd;  
+  box-shadow: none;  
+  padding: rem-calc(12);  
+  margin-bottom: rem-calc(16);  
+  background-color: #f9f9f9;  
+}
+
+// Minimalist headers
+.help-header,
+.section-header {
+  background: #fafafa;
+  padding: rem-calc(24) 0;
+  border-bottom: 1px solid #eee;
+
+  h1 {
+    font-size: rem-calc(20);  
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+}
+
+.button {
+  background-color: #F68E1F;
+  color: #fff;  =
+  border: none;
+  padding: rem-calc(8) rem-calc(16);
+  font-size: rem-calc(14);
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #ddd;  // Subtle hover effect
+  }
+
+  &:active {
+    opacity: 0.9;  // Slight opacity change on click
+  }
+}
+
+</style>
 <%= translatable_form_for [namespace, budget], html: { class: "budgets-form" } do |f| %>
   <%= render Admin::BudgetsWizard::ModeFieldComponent.new %>
 

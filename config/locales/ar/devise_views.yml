@@ -34,7 +34,7 @@ ar:
       login_items:
         login: تسجيل الدخول
         logout: تسجيل الخروج
-        signup: سجل
+        signup: إنشاء حساب
     organizations:
       registrations:
         new:

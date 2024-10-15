@@ -41,7 +41,6 @@
       }
 
       &.is-active {
-        @include brand-color;
         border-bottom: 2px solid;
         margin-bottom: 1px;
       }

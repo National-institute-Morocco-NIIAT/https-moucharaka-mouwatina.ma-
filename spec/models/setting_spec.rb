@@ -126,7 +126,7 @@ describe Setting do
 
   describe ".default_org_name" do
     it "returns the main org name for the default tenant" do
-      expect(Setting.default_org_name).to eq "CONSUL DEMOCRACY"
+      expect(Setting.default_org_name).to eq "MOUCHARAKA MOUWATINA"
     end
 
     it "returns the tenant name for other tenants" do

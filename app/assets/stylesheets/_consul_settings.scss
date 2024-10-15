@@ -62,8 +62,8 @@ $tiny-font-size:      rem-calc(12) !default;
 
 $font-family-serif: Georgia, "Times New Roman", Times, serif !default;
 
-$brand:             #004a83 !default;
-$brand-secondary:   darken($brand, 10%) !default;
+$brand:             white !default;
+$brand-secondary:   black !default;
 
 $text-medium:       #515151 !default;
 $text-light:        #bfbfbf !default;
@@ -84,7 +84,7 @@ $proposals-dark:    #794500 !default;
 $budget:            #7e328a !default;
 $budget-hover:      #7571bf !default;
 
-$highlight:         #e7f2fc !default;
+$highlight:         #ffffff !default;
 $highlight-soft:    #f3f8fd !default;
 $light:             #f5f7fa !default;
 $featured:          #ffdc5c !default;
@@ -153,7 +153,7 @@ $sdg-colors: (
 // 3. Foundation overrides depending on CONSUL DEMOCRACY variables
 // ---------------------------------------------------------------
 
-$anchor-color: $brand !default;
+$anchor-color: $brand-secondary !default;
 $anchor-color-hover: darken($anchor-color, 20%) !default;
 
 $tab-background-active: $white !default;
@@ -162,4 +162,4 @@ $tab-item-font-size: $base-font-size !default;
 $tab-item-padding: $line-height * 0.5  0 !default;
 $tab-content-border: $border !default;
 
-$tooltip-background-color: $brand !default;
+$tooltip-background-color: $brand-secondary !default;

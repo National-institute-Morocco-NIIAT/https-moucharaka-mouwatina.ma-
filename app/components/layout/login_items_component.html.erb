@@ -20,12 +20,14 @@
                 destroy_user_session_path, rel: "nofollow", method: :delete %>
   </li>
 <% else %>
-  <li>
-    <%= link_to t("devise_views.menu.login_items.login"),
-                new_user_session_path, rel: "nofollow" %>
-  </li>
-  <li>
-    <%= link_to t("devise_views.menu.login_items.signup"),
-                new_user_registration_path, rel: "nofollow", class: "button" %>
-  </li>
+  <div class="auth-buttons header-auth-buttons">
+    <li>
+      <%= link_to t("devise_views.menu.login_items.login"),
+                  new_user_session_path, rel: "nofollow", class: "button login" %>
+    </li>
+    <li>
+      <%= link_to t("devise_views.menu.login_items.signup"),
+                  new_user_registration_path, rel: "nofollow", class: "button register" %>
+    </li>
+  </div>
 <% end %>

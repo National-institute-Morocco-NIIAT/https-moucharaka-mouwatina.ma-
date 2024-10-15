@@ -1,7 +1,44 @@
+<style>
+  .button {
+    background: #f68e1f;
+    color: #fff;
+    padding: 0.75rem 1.25rem; 
+    text-align: center;
+    border: none;
+    border-radius: 5px; 
+    font-size: 1rem;
+    transition: background 0.3s ease; 
+    text-decoration: none; 
+    display: inline-block;
+  }
+
+  .button:hover {
+    background: gold;
+  }
+
+  .investments-list {
+    padding: 1.5rem;
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+
+  header h2 {
+    margin-bottom: 1rem; 
+    font-size: 1.5rem;
+    color: #343a40;
+  }
+</style>
+
 <% if investments.any? %>
   <section id="investments_list" class="investments-list">
     <header>
-      <h2><%= t("budgets.investments_list.title") %></h2>
+      <% if I18n.locale == :ar %>
+        <h2 style="text-align: right;">قائمة الاستثمارات</h2>
+      <% else %>
+        <h2><%= t("budgets.investments_list.title") %></h2>
+      <% end %>
     </header>
 
     <% investments.each do |investment| %>
@@ -13,9 +50,9 @@
 <% if budget.single_heading? && !budget.informing? || investments.any? %>
   <div class="row margin-top">
     <div class="small-12 medium-6 large-4 small-centered column margin-top">
-      <%= link_to t("budgets.investments_list.see_all"),
-                  see_all_path,
-                  class: "button expanded" %>
+      <%= link_to (I18n.locale == :ar ? "قائمة الاستثمارات" : t("budgets.investments_list.see_all")),
+                see_all_path,
+                class: "button expanded" %>
     </div>
   </div>
 <% end %>
