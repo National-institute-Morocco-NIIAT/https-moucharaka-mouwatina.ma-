@@ -1,4 +1,6 @@
 .account-menu.menu {
+  display: flex;
+  gap: 4px;
 
   @include breakpoint(small only) {
     margin-top: calc(#{$line-height} / 2);
@@ -24,6 +26,11 @@
     margin-bottom: 0;
   }
 
+  ul {
+    display: flex;
+    gap: 4px;
+  }
+
   li {
     display: block;
     width: 100%;
@@ -38,27 +45,91 @@
       padding-left: 0;
 
       @include breakpoint(medium) {
-        font-size: $small-font-size;
+        font-size: $base-font-size;
         padding: rem-calc(8) rem-calc(16);
       }
     }
 
     .button {
-      background: none;
-      text-align: left;
-
       @include breakpoint(medium) {
         @include brand-color;
-        background: $body-background;
+        background: #078F43;
         text-align: center;
+      }
+
+      &:hover {
+        background: #0df772;
+        color: black;
       }
     }
   }
 
   .has-submenu {
-
     &.is-active a {
       font-weight: bold;
+    }
+  }
+}
+
+.auth-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  .button {
+    padding: 0.75rem 1.5rem;
+    font-size: $base-font-size;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .register_button {
+    background-color: #078F43;
+    color: #fff;
+
+    &:hover {
+      background-color: #056b32;
+      transform: translateY(-3px);
+    }
+  }
+
+  .login_button {
+    background-color: transparent;
+    border: 2px solid #078F43;
+    color: #078F43;
+
+    &:hover {
+      background-color: #078F43;
+      color: #fff;
+      transform: translateY(-3px);
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header-auth-buttons {
+    display: flex;
+    flex-direction: column;
+
+    .button,
+    .login_button,
+    .register_button {
+      background-color: transparent;
+      color: inherit;
+      border: none;
+      box-shadow: none;
+      padding: 0;
+      font-size: inherit;
+      text-transform: none;
+
+      &:hover {
+        background-color: transparent;
+        color: inherit;
+        transform: none;
+      }
     }
   }
 }

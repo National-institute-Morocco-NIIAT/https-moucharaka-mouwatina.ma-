@@ -135,7 +135,7 @@ class Setting < ApplicationRecord
         "max_votes_for_debate_edit": 1000,
         "max_votes_for_proposal_edit": 1000,
         "comments_body_max_length": 1000,
-        "proposal_code_prefix": "CONSUL",
+        "proposal_code_prefix": "MOUCHARAKA",
         "votes_for_proposal_success": 10000,
         "months_to_archive_proposals": 12,
         # Users with this email domain will automatically be marked as level 1 officials
@@ -191,11 +191,15 @@ class Setting < ApplicationRecord
     end
 
     def default_main_org_name
-      "CONSUL DEMOCRACY"
+      if I18n.locale == :ar
+        "مشاركة مواطنة"
+      else
+        "MOUCHARAKA MOUWATINA"
+      end
     end
 
     def default_mailer_from_address
-      "noreply@#{Tenant.current_host.presence || "consuldemocracy.dev"}"
+      "noreply@#{Tenant.current_host.presence || "moucharaka.mouwatina.ma"}"
     end
 
     def reset_defaults

@@ -1,64 +1,115 @@
-<nav>
-  <ul>
-    <%= raw content_block("subnavigation_left") %>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
 
-    <% if feature?(:debates) %>
-      <li>
-        <%= layout_menu_link_to t("layouts.header.debates"),
-                                debates_path,
-                                controller_name == "debates",
-                                accesskey: "1" %>
-      </li>
-    <% end %>
-    <% if feature?(:proposals) %>
-      <li>
-        <%= layout_menu_link_to t("layouts.header.proposals"),
-                                proposals_path,
-                                controller.class == ProposalsController,
-                                accesskey: "2" %>
-      </li>
-    <% end %>
-    <% if feature?(:polls) %>
-      <li>
-        <%= layout_menu_link_to t("layouts.header.poll_questions"),
-                                polls_path,
-                                controller_name == "polls" || (controller_name == "questions" && controller.class.module_parent == Polls),
-                                accesskey: "3" %>
-      </li>
-    <% end %>
-    <% if feature?(:legislation) %>
-      <li>
-        <%= layout_menu_link_to t("layouts.header.collaborative_legislation"),
-                                legislation_processes_path,
-                                controller.class.module_parent == Legislation,
-                                accesskey: "4" %>
-      </li>
-    <% end %>
-    <% if feature?(:budgets) %>
-      <li>
-        <%= layout_menu_link_to t("layouts.header.budgets"),
-                                budgets_path,
-                                controller_name == "budgets" || controller_name == "investments",
-                                accesskey: "5" %>
-      </li>
-    <% end %>
-    <% if feature?(:sdg) %>
-      <li>
-        <%= layout_menu_link_to t("layouts.header.sdg"),
-                                sdg_goals_path,
-                                controller_path == "sdg/goals" && action_name != "help",
-                                accesskey: "6" %>
-      </li>
-    <% end %>
-    <% if feature?(:help_page) %>
-      <li>
-        <%= layout_menu_link_to t("layouts.header.help"),
-                                help_path,
-                                current_page?(help_path),
-                                accesskey: "7" %>
-      </li>
-    <% end %>
+  nav {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    padding: 10px 0;
+  }
 
-    <%= raw content_block("subnavigation_right") %>
-  </ul>
-</nav>
+  .subnavigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .subnavigation li {
+    margin: 0 10px;
+  }
+
+  .subnavigation li a {
+    color: #495057;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .subnavigation li a:hover,
+  .subnavigation li a.active {
+    background-color: #e9ecef;
+    color: #212529;
+  }
+
+  @media (max-width: 636) {
+    .subnavigation {
+      flex-direction: column;
+    }
+
+    .subnavigation li {
+      margin: 5px 0;
+    }
+  }
+</style>
+
+<body>
+  <nav>
+    <ul class="subnavigation">
+      <%= raw content_block("subnavigation_left") %>
+      <% if feature?(:debates) %>
+        <li>
+          <%= layout_menu_link_to t("layouts.header.debates"),
+                                  debates_path,
+                                  controller_name == "debates",
+                                  accesskey: "1" %>
+        </li>
+      <% end %>
+      <% if feature?(:proposals) %>
+        <li>
+          <%= layout_menu_link_to t("layouts.header.proposals"),
+                                  proposals_path,
+                                  controller.class == ProposalsController,
+                                  accesskey: "2" %>
+        </li>
+      <% end %>
+      <% if feature?(:polls) %>
+        <li>
+          <%= layout_menu_link_to t("layouts.header.poll_questions"),
+                                  polls_path,
+                                  controller_name == "polls" || (controller_name == "questions" && controller.class.module_parent == Polls),
+                                  accesskey: "3" %>
+        </li>
+      <% end %>
+      <% if feature?(:legislation) %>
+        <li>
+          <%= layout_menu_link_to t("layouts.header.collaborative_legislation"),
+                                  legislation_processes_path,
+                                  controller.class.module_parent == Legislation,
+                                  accesskey: "4" %>
+        </li>
+      <% end %>
+      <% if feature?(:budgets) %>
+        <li>
+          <%= layout_menu_link_to t("layouts.header.budgets"),
+                                  budgets_path,
+                                  controller_name == "budgets" || controller_name == "investments",
+                                  accesskey: "5" %>
+        </li>
+      <% end %>
+      <% if feature?(:sdg) %>
+        <li>
+          <%= layout_menu_link_to t("layouts.header.sdg"),
+                                  sdg_goals_path,
+                                  controller_path == "sdg/goals" && action_name != "help",
+                                  accesskey: "6" %>
+        </li>
+      <% end %>
+      <% if feature?(:help_page) %>
+        <li>
+          <%= layout_menu_link_to t("layouts.header.help"),
+                                  help_path,
+                                  current_page?(help_path),
+                                  accesskey: "7" %>
+        </li>
+      <% end %>
+      <%= raw content_block("subnavigation_right") %>
+    </ul>
+  </nav>
+</body>

@@ -1,3 +1,95 @@
+<style>
+  p {
+    font-size: medium;
+  }
+
+  .proposals-list {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+
+  .featured-proposals {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+
+    h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+      color: #007bff;
+    }
+
+    .proposal-card {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .sidebar {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+    .button {
+      margin-bottom: 1rem;
+    }
+
+    .sidebar-divider {
+      border-top: 1px solid #ddd;
+      margin: 1.5rem 0;
+    }
+
+    .sidebar-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      color: #343a40;
+    }
+
+    .small {
+      font-size: 1rem; 
+      color: #6c757d;
+    }
+  }
+
+  #section_help {
+    background-color: #eef2f7;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+
+    p.lead {
+      font-size: 1.5rem; 
+      color: #343a40;
+    }
+
+    p {
+      font-size: 1.125rem; 
+      color: #495057;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .proposals-list {
+      padding: 1rem;
+    }
+
+    .featured-proposals {
+      padding: 0.75rem;
+    }
+
+    .sidebar {
+      padding: 0.75rem;
+    }
+  }
+</style>
+
+
 <% provide :title, t("proposals.index.title") %>
 <% content_for :header_addon do %>
   <%= render "shared/search_form",

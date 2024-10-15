@@ -1,27 +1,134 @@
-<% if header.present? %>
-  <div class="header-card jumbo highlight">
-    <div class="row">
-      <div class="small-12 medium-6 column <%= "medium-9 small-centered text-center" if header.image.blank? %>">
-        <span><%= header.label %></span>
-        <h1><%= header.title %></h1>
+<!DOCTYPE html>
+<html lang="<%= I18n.locale %>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Styles</title>
+    <style>
+        body {
+            background-color: #fefefe;
+            font-family: Arial, sans-serif;
+        }
 
-        <p class="lead"><%= header.description %></p>
+        .header-card {
+            position: relative;
+            padding: 5rem 1rem;
+            text-align: center;
+            box-shadow: 0 15px 30px rgba(91, 75, 226, 0.2);
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 20px;
+        }
 
-        <% if header.link_text.present? && header.link_url.present? %>
-          <div class="small-12 medium-6 large-4 <%= "small-centered" if header.image.blank? %>">
-            <%= link_to header.link_text, header.link_url, class: "button expanded large" %>
-          </div>
-        <% end %>
-      </div>
+        .header-card .row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: relative;
+            z-index: 1;
+        }
 
-      <% if header.image.present? %>
-        <div class="small-12 medium-6 column">
-          <%= image_tag(header.image.variant(:large),
-                        class: "margin",
-                        alt: header.image.title) %>
+        .header-card span {
+            font-size: 1.5rem;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 1rem;
+            color: #F58F20;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .header-card h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .header-card p.lead {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .header-card .hero_image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 1.5rem;
+        }
+
+        .header-card .background-header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('/assets/hero-background.jpg') no-repeat center center;
+            background-size: cover;
+            opacity: 0.05;
+            z-index: 0;
+        }
+
+        @media (max-width: 768px) {
+            .header-card h1 {
+                font-size: 2.5rem;
+            }
+
+            .header-card p.lead {
+                font-size: 1rem;
+            }
+
+            .header-card .link_text, .auth-buttons .button {
+                font-size: 1rem;
+                padding: 0.6rem 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <% if header.present? %>
+        <div class="header-card jumbo highlight">
+            <div class="row">
+                <div class="small-12 medium-6 column <%= "medium-9 small-centered text-center" if header.image.blank? %>">
+                    <span>
+                        <% if I18n.locale == :ar %>
+                            مرحبًا بكم في
+                        <% else %>
+                            <%= header.label %>
+                        <% end %>
+                    </span>
+
+                    <h1>
+                        <% if I18n.locale == :ar %>
+                            مشاركة مواطنة، منصة المشاركة المدنية لمدينة الدار البيضاء
+                        <% else %>
+                            <%= header.title %>
+                        <% end %>
+                    </h1>
+
+                    <p class="lead">
+                        <% if I18n.locale == :ar %>
+                            في "مشاركة مواطنة" يمكنك تقديم المقترحات، التصويت في الاستشارات المدنية، طرح، دعم أو التصويت على مشاريع بميزانيات تشاركية، اتخاذ القرارات المتعلقة بالتشريعات المحلية وفتح النقاشات لتبادل الآراء مع الآخرين.
+                        <% else %>
+                            <%= header.description %>
+                        <% end %>
+                    </p>
+
+                    <div class="auth-buttons">
+                        <%= link_to t("devise_views.menu.login_items.login"), new_user_session_path, class: "button login_button" %>
+                        <%= link_to t("devise_views.menu.login_items.signup"), new_user_registration_path, class: "button register_button" %>
+                    </div>
+                </div>
+
+                <% if header.image.present? %>
+                    <div class="small-12 medium-6 column">
+                        <%= image_tag('team_work.png', class: "margin hero_image", alt: header.image.title) %>
+                    </div>
+                <% end %>
+            </div>
+            <div class="background-header"></div>
         </div>
-      <% end %>
-    </div>
-  </div>
-  <div class="background-header"></div>
-<% end %>
+    <% end %>
+</body>
+</html>
