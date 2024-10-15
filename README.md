@@ -4,7 +4,7 @@
   Keywords: democracy, citizen participation, eparticipation, debates, proposals, voting, consultations, crowdlaw, participatory budgeting.
 -->
 
-![MOUCHARAKA MOUWATINA logo](https://raw.githubusercontent.com/National-institute-Morocco-NIIAT/https-moucharaka-mouwatina.ma-/refs/heads/main/public/NIIAT%20logo.jpeg)
+![MOUCHARAKA MOUWATINA logo](https://github.com/National-institute-Morocco-NIIAT/https-moucharaka-mouwatina.ma-/blob/frontend-frontend/app/assets/images/logo_moucharaka.png)
 
 # MOUCHARAKA MOUWATINA
 
@@ -62,13 +62,13 @@ Note: running the whole test suite on your machine might take more than an hour,
 
 You can use the default admin user from the seeds file:
 
- **user:** admin@consul.dev
- **pass:** 12345678
+**user:** admin@consul.dev
+**pass:** 12345678
 
 But for some actions like voting, you will need a verified user, the seeds file also includes one:
 
- **user:** verified@consul.dev
- **pass:** 12345678
+**user:** verified@consul.dev
+**pass:** 12345678
 
 ## Configuration for production environments
 
