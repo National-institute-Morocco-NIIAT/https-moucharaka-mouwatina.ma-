@@ -265,7 +265,7 @@ fr:
         summary: "Résumé de la proposition"
         retired_explanation: "Explication"
       user:
-        login: "Email ou nom d’utilisateur"
+        login: "Email ou numéro de document"
         email: "Email"
         username: "Nom d'utilisateur"
         password_confirmation: "Confirmation du mot de passe"

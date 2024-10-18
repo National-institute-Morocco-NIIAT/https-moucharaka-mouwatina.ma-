@@ -398,9 +398,9 @@ ar:
         summary: "ملخص المقترح"
         retired_explanation: "تفسير"
       user:
-        login: "البريد الإلكتروني أو اسم المستخدم"
-        email: "البريد الإلكتروني"
-        username: "اسم المستخدم"
+        login: "البريد الإلكتروني أو رقم البطاقة"
+        email: "البريد الإلكتروني أو رقم البطاقة"
+        username: "الاسم الكامل"
         password_confirmation: "تأكيد كلمة المرور"
         password: "كلمة المرور"
         current_password: "كلمة المرور الحالية"

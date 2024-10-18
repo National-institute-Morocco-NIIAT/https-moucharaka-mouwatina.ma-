@@ -101,7 +101,7 @@ ar:
           organization_signup_link: قم بتسجيل الدخول هنا
           password_confirmation_label: تأكيد كلمة المرور
           submit: سجل
-          terms: من خلال التسجبل فانك توافق على%{terms}
+          terms: من خلال التسجبل فانك توافق على %{terms}
           terms_link: شروط واستراطات الاستخدام
           title: سجل
           username_is_available: اسم المستخدم متاح
