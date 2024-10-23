@@ -1324,20 +1324,17 @@ table {
     color: #2f2f33;
   }
 }
-
 // 14. Verification
 // ----------------
 
 .verification {
-
   @include breakpoint(medium) {
-    .left + .left {
+    .left+.left {
       margin-left: calc(#{$line-height} / 2);
     }
   }
 
   .date-of-birth {
-
     select {
       float: left;
       width: 30%;
@@ -1363,14 +1360,19 @@ table {
   .verification-step {
     background: #f6f6f6;
     font-weight: bold;
-    line-height: rem-calc(20);
-    padding-top: calc(#{$line-height} / 4);
     text-transform: uppercase;
-    vertical-align: top;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    color: #555;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 1rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
 
     @include breakpoint(medium) {
       line-height: $line-height * 2;
-      padding: 0;
+      padding: 1rem;
     }
 
     .number {
@@ -1394,7 +1396,7 @@ table {
     }
   }
 
-  .button + form {
+  .button+form {
     display: inline-block;
     margin-left: calc(#{$line-height} / 2);
   }
@@ -1409,49 +1411,55 @@ table {
       min-width: $line-height * 12;
     }
   }
-}
 
-.verification-step .completed {
-  background: #43ac6a;
-  color: rgba(255, 255, 255, 0.5);
+  .verification-step .completed {
+    background: #43ac6a;
+    color: rgba(255, 255, 255, 0.5);
 
-  .number {
-    opacity: 0.5;
-  }
-}
-
-.verify {
-  margin-bottom: $line-height * 2;
-  margin-top: $line-height;
-
-  h1 {
-    color: $check;
-
-    .icon-check {
-      line-height: rem-calc(30);
-      vertical-align: middle;
+    .number {
+      opacity: 0.5;
     }
   }
 
-  .letter-divider {
-    border-top: 1px solid #ddd;
-    clear: both;
-    height: 0;
-    margin: rem-calc(24) 0;
-    position: relative;
+  .verify {
+    margin-bottom: $line-height * 2;
+    margin-top: $line-height;
 
-    .icon-letter {
-      background: $body-background;
-      color: $color-info;
-      font-size: rem-calc(24);
-      margin-left: -27px;
-      padding: 0 calc(#{$line-height} / 2);
-      position: absolute;
-      top: -12px;
+    h1 {
+      color: $check;
+
+      .icon-check {
+        line-height: rem-calc(30);
+        vertical-align: middle;
+      }
+    }
+
+    .letter-divider {
+      border-top: 1px solid #ddd;
+      clear: both;
+      height: 0;
+      margin: rem-calc(24) 0;
+      position: relative;
+
+      .icon-letter {
+        background: $body-background;
+        color: $color-info;
+        font-size: rem-calc(24);
+        margin-left: -27px;
+        padding: 0 calc(#{$line-height} / 2);
+        position: absolute;
+        top: -12px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 522px) {
+    .verification {
+      padding: none;
+      background-color: red;
     }
   }
 }
-
 // 15. Comments
 // ------------
 
