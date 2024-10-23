@@ -399,7 +399,8 @@ ar:
         retired_explanation: "تفسير"
       user:
         login: "البريد الإلكتروني أو رقم البطاقة"
-        email: "البريد الإلكتروني أو رقم البطاقة"
+        email: "البريد الإلكتروني"
+        id_number: "رقم البطاقة"
         username: "الاسم الكامل"
         password_confirmation: "تأكيد كلمة المرور"
         password: "كلمة المرور"

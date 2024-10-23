@@ -51,8 +51,8 @@ class Users::RegistrationsController < Devise::RegistrationsController
     end
   end
 
-  def check_username
-    if User.find_by username: params[:username]
+  def check_document_number
+    if User.find_by document_number: params[:document_number]
       render json: { available: false,
                      message: t("devise_views.users.registrations.new.username_is_not_available") }
     else

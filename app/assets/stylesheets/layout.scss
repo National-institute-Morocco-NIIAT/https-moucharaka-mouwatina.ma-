@@ -26,7 +26,6 @@
 // 01. Global styles
 // -----------------
 
-
 html {
   font-size: calc(0.25em + Max(0.75em, 0.75vw));
 }
@@ -117,16 +116,18 @@ button,
 }
 
 .button {
-  @extend %button;
+  background-color: #F28E20;
 
   &.medium {
     font-size: $small-font-size;
   }
 }
 
+.button:hover {
+  background-color: #f47f02;
+}
+
 .button.hollow {
-  @include normal-selection;
-  @include anchor-color;
   border: 1px solid;
 
   &:hover,
@@ -618,9 +619,6 @@ h1 img {
   font-size: $base-font-size;
   padding: 8px;
 
-  > :first-child {
-    flex-grow: 1;
-  }
 
   a {
     color: inherit;

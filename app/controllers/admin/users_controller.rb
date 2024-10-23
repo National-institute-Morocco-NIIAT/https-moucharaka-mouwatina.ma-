@@ -5,7 +5,7 @@ class Admin::UsersController < Admin::BaseController
 
   def index
     @users = @users.send(@current_filter)
-    @users = @users.by_username_email_or_document_number(params[:search]) if params[:search]
+    @users = @users.by_email_or_document_number(params[:search]) if params[:search]
     @users = @users.page(params[:page])
     respond_to do |format|
       format.html
