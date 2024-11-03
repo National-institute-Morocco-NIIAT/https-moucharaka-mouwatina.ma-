@@ -101,7 +101,7 @@ zh-TW:
         title: 關於辯論的說明
         description: 開始一個辯論，與別人分享您關注的主題的意見。
         help_text_1: "這片公民辯論空間的對象是任何能夠揭露他們關注的問題，以及想要與別人分享意見的人。"
-        help_text_2: '要開始一個辯論，您需要在%{org} 登記。 用戶還可以對公開辯論發表評論，並使用其中的“我同意”或“我不同意”按鈕來評分。'
+        help_text_2: "要開始一個辯論，您需要在%{org} 登記。 用戶還可以對公開辯論發表評論，並使用其中的“我同意”或“我不同意”按鈕來評分。"
     new:
       form:
         submit_button: 開始一個辯論
@@ -160,9 +160,9 @@ zh-TW:
     footer:
       accessibility: 無障礙功能
       conditions: 使用條款及條件
-      consul: CONSUL DEMOCRACY 應用程式
+      consul: Moucharaka Mouwatina 應用程式
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: 此入口網頁使用%{consul}，即是%{open_source}。
       open_source: 開源軟件
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html

@@ -1,8 +1,8 @@
 # Local installation
 
-Before installing Consul Democracy and having it up and running make sure you have all [prerequisites](prerequisites.md) installed.
+Before installing Moucharaka Mouwatina and having it up and running make sure you have all [prerequisites](prerequisites.md) installed.
 
-1. First, clone the [Consul Democracy Github repository](https://github.com/consuldemocracy/consuldemocracy/) and enter the project folder:
+1. First, clone the [Moucharaka Mouwatina Github repository](https://github.com/consuldemocracy/consuldemocracy/) and enter the project folder:
 
 ```bash
 git clone https://github.com/consuldemocracy/consuldemocracy.git
@@ -73,7 +73,7 @@ bin/rspec
 bin/rails s
 ```
 
-Congratulations! Your local Consul Democracy application will be running now at `http://localhost:3000`.
+Congratulations! Your local Moucharaka Mouwatina application will be running now at `http://localhost:3000`.
 
 In case you want to access the local application as admin, a default user verified and with admin permissions was created by the seed files with **username** `admin@consul.dev` and **password** `12345678`.
 

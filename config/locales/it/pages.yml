@@ -30,13 +30,13 @@ it:
         description: "Nella sezione %{link} è possibile avanzare proposte da far realizzare dal Consiglio Comunale. Le proposte necessitano di sostegno e, se viene raggiunto un sostegno sufficiente, vengono ammesse al voto pubblico. Le proposte così approvate dal voto dei cittadini sono accettate dal Consiglio Comunale e realizzate."
         link: "proposte dei cittadini"
         image_alt: "Pulsante per appoggiare una proposta"
-        figcaption: 'Pulsante per “Sostenere” una proposta.'
+        figcaption: "Pulsante per “Sostenere” una proposta."
       budgets:
         title: "Bilancio partecipativo"
         description: "La sezione %{link} aiuta le persone a contribuire in maniera diretta alle decisioni relative a parte della spesa del bilancio comunale."
         link: "bilanci partecipativi"
         image_alt: "Le fasi del bilancio partecipativo"
-        figcaption: 'Le fasi di appoggio e di voto dei bilanci partecipativi.'
+        figcaption: "Le fasi di appoggio e di voto dei bilanci partecipativi."
       polls:
         title: "Votazioni"
         description: "La sezione %{link} si attiva ogni volta che una proposta raggiunge l’1% del sostegno e va al voto o quando il Consiglio Comunale pone una questione sulla quale i cittadini debbano decidere."
@@ -64,9 +64,9 @@ it:
         text: |-
           Usalo nella tua amministrazione locale o aiutaci a migliorarlo, è un software gratuito.
 
-          Questo Portale per l’Amministrazione Aperta usa la [app CONSUL DEMOCRACY](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') che è un software gratuito, con [licenza AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), il che significa in parole povere che chiunque può utilizzare il codice liberamente, copiarlo, esaminarlo nei particolari, modificarlo e ridistribuirlo nel mondo con le modifiche che desidera (consentendo ad altri di fare lo stesso). Perché crediamo che la cultura sia migliore e più ricca quando è libera.
+          Questo Portale per l’Amministrazione Aperta usa la [app Moucharaka Mouwatina](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github') che è un software gratuito, con [licenza AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), il che significa in parole povere che chiunque può utilizzare il codice liberamente, copiarlo, esaminarlo nei particolari, modificarlo e ridistribuirlo nel mondo con le modifiche che desidera (consentendo ad altri di fare lo stesso). Perché crediamo che la cultura sia migliore e più ricca quando è libera.
 
-          Se sei un programmatore, puoi vedere il codice e aiutarci a migliorarlo sulla [app CONSUL DEMOCRACY](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          Se sei un programmatore, puoi vedere il codice e aiutarci a migliorarlo sulla [app Moucharaka Mouwatina](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: Utilizzalo nel tuo comune
     privacy:
@@ -91,23 +91,17 @@ it:
           key_header: Tasto
           page_header: Pagina
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Homepage
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Dibattiti
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Proposte
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Voti
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Bilanci partecipativi
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Procedimenti legislativi
         browser_table:
           description: "A seconda del sistema operativo e del browser utilizzato, la combinazione di tasti sarà la seguente:"
@@ -115,20 +109,15 @@ it:
           browser_header: Browser
           key_header: Combinazione di tasti
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               key_column: ALT + scelta rapida poi INVIO
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + MAIUSC + scelta rapida
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + scelta rapida (CTRL + ALT + tasti di scelta rapida per MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + scelta rapida (CMD + scelta rapida per MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: MAIUSC + ESC + scelta rapida
       textsize:
         title: Dimensione testo
@@ -137,29 +126,22 @@ it:
           browser_header: Browser
           action_header: Azione da intraprendere
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: Visualizza > Dimensione testo
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Visualizza > Dimensione
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Impostazioni (icona) > Opzioni > Avanzate > Contenuto Web > Dimensione testo
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Visualizza > Zoom In/Zoom out
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Visualizza > scala
         browser_shortcuts_table:
           description: "Un altro modo per modificare la dimensione del testo consiste nell'utilizzare le scorciatoie da tastiera definite dai browser, in particolare la combinazione di tasti:"
           rows:
-            - 
-              shortcut_column: CTRL e + (CMD e + su MAC)
+            - shortcut_column: CTRL e + (CMD e + su MAC)
               description_column: Aumenta le dimensioni del testo
-            - 
-              shortcut_column: CTRL e - (CMD e - su MAC)
+            - shortcut_column: CTRL e - (CMD e - su MAC)
               description_column: Riduci le dimensioni del testo
       compatibility:
         title: Compatibilità con gli standard e design visivo

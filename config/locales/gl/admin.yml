@@ -5,8 +5,8 @@ gl:
     actions:
       actions: Accións
       block_author: "Bloquear autor"
-      confirm_action: "Estás seguro/a? %{action} \"%{name}\""
-      confirm_delete: "Estás seguro/a? Esta acción vai eliminar \"%{name}\" e non se pode desfacer."
+      confirm_action: 'Estás seguro/a? %{action} "%{name}"'
+      confirm_delete: 'Estás seguro/a? Esta acción vai eliminar "%{name}" e non se pode desfacer.'
       confirm_hide: Confirmar moderación
       delete: "Borrar"
       hide: Agochar
@@ -201,7 +201,7 @@ gl:
         unable_notice: "Non se pode eliminar unha partida con proxectos asociados"
       form:
         geozone_info: "Cando se asocia unha partida a unha zona, esta aparecerá no mapa deste orzamento se a zona inclúe datos de GeoJSON."
-        max_ballot_lines_info: 'Número máximo de proxectos que un usuario pode votar nesta partida durante a fase «Votación final». Soamente se aplica a orzamentos con votación por aprobación.'
+        max_ballot_lines_info: "Número máximo de proxectos que un usuario pode votar nesta partida durante a fase «Votación final». Soamente se aplica a orzamentos con votación por aprobación."
         population_info: "O campo poboación das partidas do orzamento utilízase unicamente con fins estatísticos, co obxectivo de amosar a porcentaxe de votos de cada partida que represente unha área con poboación. É un campo opcional, así que podes deixalo en branco se non o aplicas."
         coordinates_info: "Se se indican a latitude e lonxitude, a páxina de investimentos para esta partida incluirá un mapa. Este mapa estará centrado segundo estas coordenadas."
         content_blocks_info: "Se o permiso de bloque de contido está activado, poderás crear contido propio para esta partida desde a sección Configuración -> Contido de bloques personalizado. Este contido amosarase na páxina de investimentos desta partida."
@@ -454,19 +454,19 @@ gl:
         info: |-
           <p>Este é o lugar onde ti, como administrador/a, implementas e supervisas o proceso de participación cidadá na túa localidade ou rexión.</p>
 
-          <p>Xa formas parte dos centos de gobernos e entidades locais de todo o mundo que utilizan a plataforma CONSUL DEMOCRACY para poñer en práctica a participación cidadá. Parabéns!</p>
+          <p>Xa formas parte dos centos de gobernos e entidades locais de todo o mundo que utilizan a plataforma Moucharaka Mouwatina para poñer en práctica a participación cidadá. Parabéns!</p>
 
-          <p>A Fundación CONSUL DEMOCRACY é o corazón da comunidade global de usuarios. Gustaríanos pedirche que te poñas en contacto connosco para saber quen está a utilizar o software e ver como podemos axudar na posta en marcha ou na súa xestión. Estamos ansiosos por darche a benvida á comunidade.</p>
+          <p>A Fundación Moucharaka Mouwatina é o corazón da comunidade global de usuarios. Gustaríanos pedirche que te poñas en contacto connosco para saber quen está a utilizar o software e ver como podemos axudar na posta en marcha ou na súa xestión. Estamos ansiosos por darche a benvida á comunidade.</p>
 
           <p>Feliz administración!</p>
 
-          <p>Un cordial saúdo do equipo da Fundación CONSUL DEMOCRACY</p>
+          <p>Un cordial saúdo do equipo da Fundación Moucharaka Mouwatina</p>
       actions:
         index:
           description: "Cando os usuarios crean propostas poden acceder a un panel de progreso da súa proposta, onde se lle poden facilitar recursos e consellos para conseguir apoios para a súa idea."
           create: Crear un recurso ou unha acción
-          active: 'Si'
-          inactive: 'Non'
+          active: "Si"
+          inactive: "Non"
           title: Recursos e accións
           action_title: Título
           action_type: Tipo
@@ -686,7 +686,7 @@ gl:
           notice: Pregunta borrada correctamente
         edit:
           back: Volver
-          title: "Editar \"%{question_title}\""
+          title: 'Editar "%{question_title}"'
           submit_button: Gardar so cambios
         form:
           add_option: Engadir unha opción
@@ -1341,15 +1341,15 @@ gl:
             update: A configuración do mapa gardouse correctamente.
           form:
             submit: Actualizar
-          how_to_enable: 'Para amosar o mapa aos usuarios hai que activar «Xeolocalización de propostas e proxectos de gasto» na lapela «Funcionalidades».'
+          how_to_enable: "Para amosar o mapa aos usuarios hai que activar «Xeolocalización de propostas e proxectos de gasto» na lapela «Funcionalidades»."
         dashboard:
           title: Panel de progreso de propostas
         remote_census:
           title: Configuración do censo remoto
-          how_to_enable: 'Para configurar a conexión co Censo Remoto (SOAP) hai que activar «Configurar a conexión ao censo remoto (SOAP)» na lapela «Funcionalidades».'
+          how_to_enable: "Para configurar a conexión co Censo Remoto (SOAP) hai que activar «Configurar a conexión ao censo remoto (SOAP)» na lapela «Funcionalidades»."
         sdg:
           title: Configuración ODS
-          how_to_enable: 'Para amosar as opcións de configuración dos Obxectivos de Desenvolvemento Sostible hai que activar «SDG» na lapela «Funcionalidades».'
+          how_to_enable: "Para amosar as opcións de configuración dos Obxectivos de Desenvolvemento Sostible hai que activar «SDG» na lapela «Funcionalidades»."
       remote_census_general_name: Información xeral
       remote_census_request_name: Datos petición
       remote_census_response_name: Datos resposta
@@ -1677,7 +1677,7 @@ gl:
         enable: "Activar a entidade %{tenant}"
         enabled: Activada
       new:
-        admin_information: "Cando creas unha entidade, o teu usuario actual <strong>\"%{username}\"</strong> xunto co enderezo de correo <strong>\"%{email}\"</strong> e o teu contrasinal serán copiados na nova base de datos da entidade, e vanse conceder permisos de administración na nova entidade de xeito automático. É imporante destacar que as contas de usuario estarán almacenadas en bases de datos completamente independentes, polo que se modificas o contrasinal nunha entidade, as contas que teñas noutras entidades permanecerán intactas."
+        admin_information: 'Cando creas unha entidade, o teu usuario actual <strong>"%{username}"</strong> xunto co enderezo de correo <strong>"%{email}"</strong> e o teu contrasinal serán copiados na nova base de datos da entidade, e vanse conceder permisos de administración na nova entidade de xeito automático. É imporante destacar que as contas de usuario estarán almacenadas en bases de datos completamente independentes, polo que se modificas o contrasinal nunha entidade, as contas que teñas noutras entidades permanecerán intactas.'
         title: Nova entidade
       restore:
         notice: Entidade activada correctamente
@@ -1766,10 +1766,10 @@ gl:
       help:
         title_1: "Que é IA / Machine Learning?"
         description_1: "Tradicionalmente, os programas informáticos deséñanse establecendo regras precisas sobre o que debe facer o programa en cada situación, e como procesar a información dispoñible en cada momento. O que comunmente se coñece como IA/Machine Learning é un tipo de programa no que se establece con precisión cal é a tarefa a realizar, e o xeito de avaliar se a tarefa se realiza mellor ou peor. Pero a diferenza do primeiro, o sistema descobre, ou aprende, cal sería o método máis axeitado para realizar a tarefa."
-        title_2: "Que fai o módulo de IA / Machine Learning en CONSUL DEMOCRACY?"
-        description_2: "Este módulo permite implantar calquera tipo de programas de IA/Machine Learning en CONSUL DEMOCRACY. Os programas poden procesar a información dispoñible en CONSUL DEMOCRACY e producir resultados que axuden tanto aos usuarios como aos administradores a levar a cabo unha participación cidadá máis eficaz e intelixente. O módulo foi desenvolvido para facilitar a implantación e execución de novos programas, mantendo independentes entre si o código xeral de CONSUL DEMOCRACY e o código destes novos programas."
+        title_2: "Que fai o módulo de IA / Machine Learning en Moucharaka Mouwatina?"
+        description_2: "Este módulo permite implantar calquera tipo de programas de IA/Machine Learning en Moucharaka Mouwatina. Os programas poden procesar a información dispoñible en Moucharaka Mouwatina e producir resultados que axuden tanto aos usuarios como aos administradores a levar a cabo unha participación cidadá máis eficaz e intelixente. O módulo foi desenvolvido para facilitar a implantación e execución de novos programas, mantendo independentes entre si o código xeral de Moucharaka Mouwatina e o código destes novos programas."
         title_3: "Como usar este módulo"
-        description_3: "Para utilizalo por primeira vez é necesario seguir as instrucións dispoñibles na documentación de CONSUL DEMOCRACY para activar correctamente este módulo. Unha vez activado correctamente o módulo, os programas execútanse dende a lapela «Executar guións». Antes de executalo, podemos ver na mesma lapela unha estimación do tempo de execución e outra información relevante. Ao finalizar a execución, podemos activar o contido que se amosará en CONSUL DEMOCRACY desde a lapela «Configuración», así como descargar outros ficheiros xerados que nos poidan ser útiles."
+        description_3: "Para utilizalo por primeira vez é necesario seguir as instrucións dispoñibles na documentación de Moucharaka Mouwatina para activar correctamente este módulo. Unha vez activado correctamente o módulo, os programas execútanse dende a lapela «Executar guións». Antes de executalo, podemos ver na mesma lapela unha estimación do tempo de execución e outra información relevante. Ao finalizar a execución, podemos activar o contido que se amosará en Moucharaka Mouwatina desde a lapela «Configuración», así como descargar outros ficheiros xerados que nos poidan ser útiles."
         title_4: "Como poñer en funcionamento novos guións de IA / Machine Learning"
         description_4: "Usa guións anteriores como exemplos."
         description_4b: "Os novos guións deben estar situados no cartafol <code>public/machine_learning/scripts</code>"

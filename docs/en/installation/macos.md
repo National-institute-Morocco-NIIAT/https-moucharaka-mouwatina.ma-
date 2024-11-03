@@ -47,7 +47,7 @@ source ~/.zprofile
 brew install postgresql
 ```
 
-Now we're going to configure some things related to the *default user*. First we start postgres server with:
+Now we're going to configure some things related to the _default user_. First we start postgres server with:
 
 ```bash
 brew services start postgresql
@@ -85,4 +85,4 @@ In order to run the system tests, we need to install Chrome or Chromium.
 brew install google-chrome
 ```
 
-Now you're ready to go [get Consul Democracy installed](local_installation.md)!
+Now you're ready to go [get Moucharaka Mouwatina installed](local_installation.md)!

@@ -92,24 +92,33 @@
             <div class="row">
                 <div class="small-12 medium-6 column <%= "medium-9 small-centered text-center" if header.image.blank? %>">
                     <span>
-                        <% if I18n.locale == :ar %>
+                        <% case I18n.locale
+                            when :ar %>
                             مرحبًا بكم في
+                        <% when :fr %>
+                            Bienvenue à
                         <% else %>
                             <%= header.label %>
                         <% end %>
                     </span>
 
                     <h1>
-                        <% if I18n.locale == :ar %>
+                        <% case I18n.locale
+                            when :ar %>
                             مشاركة مواطنة، منصة المشاركة المدنية لمدينة الدار البيضاء
+                        <% when :fr %>
+                            Moucharaka Mouwatina, plateforme de participation citoyenne pour la ville de Casablanca
                         <% else %>
                             <%= header.title %>
                         <% end %>
                     </h1>
 
                     <p class="lead">
-                        <% if I18n.locale == :ar %>
+                        <% case I18n.locale
+                            when :ar %>
                             في "مشاركة مواطنة" يمكنك تقديم المقترحات، التصويت في الاستشارات المدنية، طرح، دعم أو التصويت على مشاريع بميزانيات تشاركية، اتخاذ القرارات المتعلقة بالتشريعات المحلية وفتح النقاشات لتبادل الآراء مع الآخرين.
+                        <% when :fr %>
+                            Sur "Moucharaka Mouwatina", vous pouvez faire des propositions, voter dans les consultations civiles, soutenir ou voter sur des projets de budget participatif, prendre des décisions locales et ouvrir des débats pour échanger des opinions avec les autres.
                         <% else %>
                             <%= header.description %>
                         <% end %>

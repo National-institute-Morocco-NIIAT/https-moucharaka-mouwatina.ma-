@@ -33,7 +33,9 @@ class Admin::SystemEmailsController < Admin::BaseController
     when "email_verification"
       load_sample_user
     when "user_invite"
-      @subject = t("mailers.user_invite.subject", org_name: Setting["org_name"])
+      @subject = t("mailers.user_invite.subject", org_name: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina"))
     when "evaluation_comment"
       load_sample_valuation_comment
     end
@@ -69,7 +71,9 @@ class Admin::SystemEmailsController < Admin::BaseController
 
     def load_sample_proposal_notifications
       @notifications = Notification.where(notifiable_type: "ProposalNotification").limit(2)
-      @subject = t("mailers.proposal_notification_digest.title", org_name: Setting["org_name"])
+      @subject = t("mailers.proposal_notification_digest.title", org_name: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina"))
     end
 
     def load_sample_investment

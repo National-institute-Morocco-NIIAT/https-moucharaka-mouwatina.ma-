@@ -1,6 +1,6 @@
 # Instalación manual en producción
 
-**AVISO:** Recomendamos *no usar* este sistema, para el que no damos soporte oficial, ya que siempre que sea posible debe utilizarse el [instalador](https://github.com/consuldemocracy/installer). Utiliza este método si usar el instalador no es una opción y si tienes experiencia configurando PostgreSQL, puma o passenger, NGNIX y SSL (con letsencrypt, por ejemplo).
+**AVISO:** Recomendamos _no usar_ este sistema, para el que no damos soporte oficial, ya que siempre que sea posible debe utilizarse el [instalador](https://github.com/consuldemocracy/installer). Utiliza este método si usar el instalador no es una opción y si tienes experiencia configurando PostgreSQL, puma o passenger, NGNIX y SSL (con letsencrypt, por ejemplo).
 
 Esta guía asume que ya has [instalado todas las dependencias necesarias](prerequisites.md) en tu sistema.
 
@@ -20,7 +20,7 @@ mkdir -p shared/public/assets shared/public/system shared/public/ckeditor_assets
 
 ## Versión inicial
 
-Crea una primera carpeta en "releases" a partir del repositorio, junto con un enlace simbólico a la versión actual (sustituye `<latest_consul_stable_version>` por el número de la última versión estable de Consul Democracy, como 1.3.1 o 1.4.1):
+Crea una primera carpeta en "releases" a partir del repositorio, junto con un enlace simbólico a la versión actual (sustituye `<latest_consul_stable_version>` por el número de la última versión estable de Moucharaka Mouwatina, como 1.3.1 o 1.4.1):
 
 ```bash
 cd repo
@@ -31,7 +31,7 @@ ln -s releases/first current
 
 ## Instalación de gemas
 
-Instala las gemas de las que depende Consul Democracy:
+Instala las gemas de las que depende Moucharaka Mouwatina:
 
 ```bash
 cd releases/first
@@ -65,8 +65,8 @@ cd ..
 Copia la clave generada y edita el fichero `shared/config/secrets.yml`; en la sección `production`, cambia los siguientes datos:
 
 ```yaml
-  secret_key_base: introduce_la_clave_secreta_que_acabas_de_generar
-  server_name: introduce_tu_dominio
+secret_key_base: introduce_la_clave_secreta_que_acabas_de_generar
+server_name: introduce_tu_dominio
 ```
 
 Si no tienes un certificado SSL, cambia además `force_ssl: true` por `force_ssl: false`.

@@ -38,7 +38,7 @@ sudo apt install git
 
 ## Ruby version manager
 
-Ruby versions packaged in official repositories are not suitable to work with Consul Democracy, so we'll have to install it manually.
+Ruby versions packaged in official repositories are not suitable to work with Moucharaka Mouwatina, so we'll have to install it manually.
 
 First, we need to install Ruby's development dependencies:
 
@@ -100,4 +100,4 @@ In order to run the system tests, we need to install Chrome or Chromium.
 sudo apt install chromium
 ```
 
-Now you're ready to go [get Consul Democracy installed](local_installation.md)!
+Now you're ready to go [get Moucharaka Mouwatina installed](local_installation.md)!

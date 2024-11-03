@@ -22,7 +22,7 @@ id:
         info: Di sini anda dapat mengatur pengguna melalui semua tindakan yang tercantum di menu sebelah kiri.
     document_verifications:
       already_verified: Akun pengguna ini sudah diverifikasi.
-      link: CONSUL DEMOCRACY
+      link: Moucharaka Mouwatina
       in_census_has_following_permissions: "Pengguna ini dapat berpartisipasi dalam situs web dengan izin berikut:"
       not_in_census: Dokumen ini tidak terdaftar.
       not_in_census_info: "Warga negara yang tidak berada dalam Sensus dapat berpartisipasi dalam situs web dengan izin berikut:"
@@ -47,9 +47,9 @@ id:
       support_proposals: Dukung proposal
       create_budget_investment: Buat anggaran investasi
     print:
-      proposals_info: 'Buat proposal anda di http: //url.consul'
+      proposals_info: "Buat proposal anda di http: //url.consul"
       proposals_title: "Proposal:"
-      budget_investments_info: 'Berpartisipasi di http: //url.consul'
+      budget_investments_info: "Berpartisipasi di http: //url.consul"
     print_info: Cetak info ini
     proposals:
       alert:

@@ -24,7 +24,7 @@ fr:
         feature: "Vous pouvez ouvrir des débats, les commenter et les évaluer avec les boutons <strong>Je suis d'accord</strong> ou <strong>Je ne suis pas d’accord</strong>. Pour cela, vous devez %{link}."
         feature_link: "s’inscrire à %{org}"
         image_alt: "Boutons pour noter les débats"
-        figcaption: 'Les boutons ''Je suis d''accord'' et ''Je ne suis pas d''accord'' pour noter les débats.'
+        figcaption: "Les boutons 'Je suis d'accord' et 'Je ne suis pas d'accord' pour noter les débats."
       proposals:
         title: "Propositions"
         description: "Dans la section %{link}, vous pouvez faire des propositions que la mairie pourrait réaliser. Les propositions ont besoin de soutiens, et si elles atteignent un nombre suffisant, elles sont soumises à un vote public. Les propositions approuvées par ces votes citoyens sont acceptées par le conseil municipal et réalisées."
@@ -64,9 +64,9 @@ fr:
         text: |-
           Utilisez-le pour votre administration locale ou aidez-nous à l'améliorer, il s'agit d'un logiciel libre.
 
-          Ce Portail Gouvernement Ouvert est basé sur l'application [CONSUL DEMOCRACY](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github'), un logiciel libre publié sous [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), ce qui signifie que n'importe qui peut utiliser le code librement, le copier, le parcourir, le modifier et le redistribuer (pour permettre à d'autres d'en faire autant). Parce que nous croyons en une culture qui s'enrichit et se renforce quand elle est ouverte à tous.
+          Ce Portail Gouvernement Ouvert est basé sur l'application [Moucharaka Mouwatina](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github'), un logiciel libre publié sous [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), ce qui signifie que n'importe qui peut utiliser le code librement, le copier, le parcourir, le modifier et le redistribuer (pour permettre à d'autres d'en faire autant). Parce que nous croyons en une culture qui s'enrichit et se renforce quand elle est ouverte à tous.
 
-          Si vous êtes un développeur, vous pouvez accéder au code et nous aider à l'améliorer à [CONSUL DEMOCRACY](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          Si vous êtes un développeur, vous pouvez accéder au code et nous aider à l'améliorer à [Moucharaka Mouwatina](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: Utilisez-le pour votre gouvernement
     privacy:
@@ -91,23 +91,17 @@ fr:
           key_header: Touche
           page_header: Page
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Accueil
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Débats
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Propositions
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Votes
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Budgets participatifs
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Processus législatifs
         browser_table:
           description: "Selon le système d'exploitation et le navigateur utilisé, la combinaison de touches sera la suivante :"
@@ -115,20 +109,15 @@ fr:
           browser_header: Navigateur
           key_header: Combinaison de touches
           rows:
-            - 
-              browser_column: IE
+            - browser_column: IE
               key_column: ALT + raccourci puis Entrée
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + MAJ + raccourci
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + raccourci (CTRL + ALT + raccourci pour Mac)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + raccourci (CMD + raccourci sur Mac)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: MAJ + ESC + raccourci
       textsize:
         title: Taille du texte
@@ -137,29 +126,22 @@ fr:
           browser_header: Navigateur
           action_header: Action à réaliser
           rows:
-            - 
-              browser_column: IE
+            - browser_column: IE
               action_column: Affichage > Taille du texte
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Affichage > Taille
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Paramètres (icône) > Options > Avancé > Contenu Web > Taille du texte
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Affichage > Zoom avant/Zoom arrière
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Affichage > échelle
         browser_shortcuts_table:
           description: "Une autre manière de modifier la taille du texte est d'utiliser les raccourcis clavier définis dans le navigateur, en particulier la combinaison de touches :"
           rows:
-            - 
-              shortcut_column: CTRL et + (CMD et + sur Mac)
+            - shortcut_column: CTRL et + (CMD et + sur Mac)
               description_column: Augmente la taille du texte
-            - 
-              shortcut_column: CTRL et - (CMD et - sur Mac)
+            - shortcut_column: CTRL et - (CMD et - sur Mac)
               description_column: Diminue la taille du texte
       compatibility:
         title: Compatibilité avec les normes et la conception visuelle

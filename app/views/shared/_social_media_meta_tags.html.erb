@@ -15,6 +15,8 @@
 <meta property="og:type" content="article" />
 <meta id="ogurl" property="og:url" content="<%= social_url %>" />
 <meta id="ogimage" property="og:image" content="<%= root_url + (local_assigns[:og_image_url] || "social_media_icon.png") %>" />
-<meta property="og:site_name" content="<%= setting["org_name"] %>" />
+<meta property="og:site_name" content="<%= (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") %>" />
 <meta id="ogdescription" property="og:description" content="<%= description %>" />
 <meta property="fb:app_id" content="<%= Tenant.current_secrets.facebook_key %>" />

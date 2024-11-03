@@ -94,10 +94,10 @@ sv:
       recommendations:
         without_results: Det finns inga debatter som rör dina intressen
         without_interests: Följ förslag så vi kan ge dig rekommendationer
-        disable: "Debattrekommendationer visas inte längre om du avaktiverar dem. Du kan aktivera funktionen igen under \"Mitt konto\""
+        disable: 'Debattrekommendationer visas inte längre om du avaktiverar dem. Du kan aktivera funktionen igen under "Mitt konto"'
         actions:
           success: "Debattrekommendationer har nu inaktiverats för det här kontot"
-          error: "Ett fel har uppstått. Var vänlig och gå till \"Mitt konto\" för att manuellt inaktivera debattrekommendationer"
+          error: 'Ett fel har uppstått. Var vänlig och gå till "Mitt konto" för att manuellt inaktivera debattrekommendationer'
       search_form:
         button: Sök
         placeholder: Sök debatter...
@@ -195,9 +195,9 @@ sv:
     footer:
       accessibility: Tillgänglighet
       conditions: användarvillkoren
-      consul: Programvaran CONSUL DEMOCRACY
+      consul: Programvaran Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Den här webbplatsen använder %{consul} som är %{open_source}.
       open_source: en plattform med öppen källkod
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -334,10 +334,10 @@ sv:
       recommendations:
         without_results: Det finns inga förslag som rör dina intressen
         without_interests: Följ förslag så vi kan ge dig rekommendationer
-        disable: "Rekommenderade förslag upphör att visas om du inaktiverar dem. Du kan aktivera funktionen igen under \"Mitt konto\""
+        disable: 'Rekommenderade förslag upphör att visas om du inaktiverar dem. Du kan aktivera funktionen igen under "Mitt konto"'
         actions:
           success: "Rekommenderade förslag har inaktiverats för kontot"
-          error: "Ett fel har uppstått. Var vänlig och gå till \"Mitt konto\" för att manuellt inaktivera rekommenderade förslag"
+          error: 'Ett fel har uppstått. Var vänlig och gå till "Mitt konto" för att manuellt inaktivera rekommenderade förslag'
       retired_proposals: Förslag som dragits tillbaka
       retired_proposals_link: "Förslag som dragits tillbaka av förslagslämnaren"
       selected_proposals: Valda förslag

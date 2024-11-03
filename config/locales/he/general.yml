@@ -189,7 +189,7 @@ he:
       conditions: כללים ותנאי שימוש
       consul: מערכת ההצבעות של קול העם
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: פורטל זה משתמש בפלטפורמת %{consul} שהיא %{open_source}.
       open_source: תוכנת קוד פתוח
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -259,7 +259,7 @@ he:
       name: פייסבוק
     finish_signup:
       title: "פרטים נוספים"
-      username_warning: "“שם המשתמש/ת שבחרת כבר בשימוש, נא לבחור שם משתמש/ת אחר \""
+      username_warning: '“שם המשתמש/ת שבחרת כבר בשימוש, נא לבחור שם משתמש/ת אחר "'
     google_oauth2:
       sign_in: התחברות באמצעות גוגל
       sign_up: הרשמה באמצעות גוגל
@@ -294,7 +294,7 @@ he:
       show_link: צפייה בהצעה
     retire_form:
       title: להסרת ההצעה
-      warning: "“הסרת ההצעה שלך היא לא מחיקה. ההצעה עדיין תוכל לצבור תמיכה, אך היא תוסר מהרשימה הראשית ולכל המשתמשים שצופים בה תוצג ההודעה שלדעת מציע/ת ההצעה, לא כדאי לתמוך בהצעה הזו יותר.\""
+      warning: '“הסרת ההצעה שלך היא לא מחיקה. ההצעה עדיין תוכל לצבור תמיכה, אך היא תוסר מהרשימה הראשית ולכל המשתמשים שצופים בה תוצג ההודעה שלדעת מציע/ת ההצעה, לא כדאי לתמוך בהצעה הזו יותר."'
       retired_reason_blank: בחר/י אפשרות
       retired_explanation_placeholder: הסבר/י בקיצור מדוע לדעתך לא כדאי לתמוך בהצעה זו כבר
       submit_button: הסרת הצעה
@@ -305,7 +305,7 @@ he:
       done: גמור
       other: אחר
     form:
-      proposal_responsible_name_note: "“(כאדם פרטי או כנציג/ה של התאגדות תושבים. השם יישמר חסוי מפני שאר המשתמשים)\""
+      proposal_responsible_name_note: '“(כאדם פרטי או כנציג/ה של התאגדות תושבים. השם יישמר חסוי מפני שאר המשתמשים)"'
       proposal_summary_note: "(200 תווים לכל היותר)"
       proposal_video_url_note: ניתן להדביק קישור ל-YouTube או Vimeo
       tag_category_label: "תחומים"
@@ -398,7 +398,7 @@ he:
         two: "%{count} הצבעות"
         many: "%{count} הצבעות"
         other: "%{count} הצבעות"
-      supports_necessary: "“נדרשים %{number} תומכים\""
+      supports_necessary: '“נדרשים %{number} תומכים"'
       total_percent: 100%
       archived: "הצעה זו נגנזה ולא תוכל לצבור עוד תמיכה."
       successful: "הצעה זו הגיעה לתמיכה הנדרשת."
@@ -620,7 +620,7 @@ he:
         total_votes: "סך כל ההצבעות הנתונות"
         votes: "הצבעות"
         web: "אינטרנט"
-        mail: "דוא\"ל"
+        mail: 'דוא"ל'
         booth: "דוכן"
         total: "סך הכל"
         valid: "חוקי"
@@ -686,7 +686,7 @@ he:
           two: "יש דיונים עם המונחים '%{query}', אתה יכול להשתתף בהם במקום לפתוח חדשים."
           many: "יש דיונים עם המונחים '%{query}', אתה יכול להשתתף בהם במקום לפתוח חדשים."
           other: "יש דיונים עם המונחים '%{query}', אתה יכול להשתתף בהם במקום לפתוח חדשים."
-        message: "“מציג %{limit} מתוך %{count} דיונים הכוללים את המונח '%{query}'\""
+        message: '“מציג %{limit} מתוך %{count} דיונים הכוללים את המונח ''%{query}''"'
         see_all: "הצג הכל"
       budget_investment:
         found:
@@ -694,7 +694,7 @@ he:
           two: "יש השקעות עם המונח '%{query}', אתה יכול להשתתף בהן במקום לפתוח חדשות."
           many: "יש השקעות עם המונח '%{query}', אתה יכול להשתתף בהן במקום לפתוח חדשות."
           other: "יש השקעות עם המונח '%{query}', אתה יכול להשתתף בהן במקום לפתוח חדשות."
-        message: "“מציג %{limit} מתוך %{count} דיונים הכוללים את המונח '%{query}'\""
+        message: '“מציג %{limit} מתוך %{count} דיונים הכוללים את המונח ''%{query}''"'
         see_all: "הצג הכל"
       proposal:
         found:
@@ -702,7 +702,7 @@ he:
           two: "יש הצעות עם המונחים '%{query}', אתה יכול להשתתף בהם במקום לפתוח חדשים"
           many: "יש הצעות עם המונחים '%{query}', אתה יכול להשתתף בהם במקום לפתוח חדשים"
           other: "יש הצעות עם המונחים '%{query}', אתה יכול להשתתף בהם במקום לפתוח חדשים"
-        message: "“מציג %{limit} מתוך %{count} הצעות הכוללות את המונח '%{query}'\""
+        message: '“מציג %{limit} מתוך %{count} הצעות הכוללות את המונח ''%{query}''"'
         see_all: "הצג הכל"
     tags_cloud:
       tags: נושאים חמים

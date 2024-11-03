@@ -6,7 +6,9 @@ module Header
       [
         (t("#{namespace}.header.title", default: "") unless skip_section_title),
         strip_tags(title),
-        setting["org_name"]
+        (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")
       ].reject(&:blank?).join(" - ")
     end
 

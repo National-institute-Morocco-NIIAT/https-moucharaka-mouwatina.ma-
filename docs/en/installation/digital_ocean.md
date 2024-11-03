@@ -1,6 +1,6 @@
-# Installing Consul Democracy on a Digital Ocean VPS
+# Installing Moucharaka Mouwatina on a Digital Ocean VPS
 
-These instructions will help you register and buy a server in Digital Ocean to install Consul Democracy.
+These instructions will help you register and buy a server in Digital Ocean to install Moucharaka Mouwatina.
 
 First you need to [sign up](https://cloud.digitalocean.com/registrations/new) and provide your personal information.
 
@@ -56,4 +56,4 @@ It will take a few minutes, and at the end you will have a shiny new server. It 
 
 ![Digital Ocean server](../../img/digital_ocean/server.png)
 
-Next to setup Consul Democracy in the server check the [installer's README](https://github.com/consuldemocracy/installer)
+Next to setup Moucharaka Mouwatina in the server check the [installer's README](https://github.com/consuldemocracy/installer)

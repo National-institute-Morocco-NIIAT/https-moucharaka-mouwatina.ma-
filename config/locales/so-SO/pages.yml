@@ -27,7 +27,7 @@ so:
         description: "Qaybta%{link} waxaad samayn kartaa talo soo jeedin ah Golaha Deegaanka si aad u bixiso. Soo jeedinta waxay u baahan tahay taageero, haddii ay gaaraan taageerid ku filan, waxaa lagu dhigaa codeyn dadweyne. Soo jeedimaha la ansixiyay ee codkooda muwaadiniinta waxaa aqbalay Golaha Magaalada waxaana la fuliyay."
         link: "soo jeedinta muwaadiniinta"
         image_alt: "Badhanka si aad u taageerto soo jeedinta"
-        figcaption: 'Badhanka si aad u taageerto soo jeedinta.'
+        figcaption: "Badhanka si aad u taageerto soo jeedinta."
       budgets:
         title: "Misaaniyada kaqayb qadashada"
         description: "Qaybta%{link} waxay ka caawisaa dadka inay sameeyaan go'aan toos ah oo ku saabsan qayb ka mid ah miisaaniyadda degmada."
@@ -59,9 +59,9 @@ so:
         text: |-
           Isticmaal dawladdaada degaankaaga ama naga caawi si aan u hagaajino, waa barnaamij bilaash ah.
 
-          Mashruucan Dawlada furan wuxuu adeegsanayaa [app CONSUL DEMOCRACY app] (https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') oo ah barnaamijka bilaashka ah, [liisanka AGPLv3] (http://www.gnu.org/licenses/ 'agpl-3.0.html' AGPLv3 gnu '), taas macnaheedu waa erayada fudud oo qof walba u isticmaali karo koodka si xor ah, nuqulkiisa, si faahfaahsan u fiiri, u beddelo oo dib ugu cusbooneysiiyo aduunka adoo isbedelaya (u oggolow dadka kale inay sameeyaan isku mid). Sababtoo ah waxaan u maleyneynaa in dhaqanku uu ka fiican yahay oo uu fiicnaan doono marka la sii daayo.
+          Mashruucan Dawlada furan wuxuu adeegsanayaa [app Moucharaka Mouwatina app] (https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github') oo ah barnaamijka bilaashka ah, [liisanka AGPLv3] (http://www.gnu.org/licenses/ 'agpl-3.0.html' AGPLv3 gnu '), taas macnaheedu waa erayada fudud oo qof walba u isticmaali karo koodka si xor ah, nuqulkiisa, si faahfaahsan u fiiri, u beddelo oo dib ugu cusbooneysiiyo aduunka adoo isbedelaya (u oggolow dadka kale inay sameeyaan isku mid). Sababtoo ah waxaan u maleyneynaa in dhaqanku uu ka fiican yahay oo uu fiicnaan doono marka la sii daayo.
 
-          Haddii aad tahay barnaamij, waxaad arki kartaa koodka oo naga caawiya inaanu ku horumarino [app CONSUL DEMOCRACY app] (https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          Haddii aad tahay barnaamij, waxaad arki kartaa koodka oo naga caawiya inaanu ku horumarino [app Moucharaka Mouwatina app] (https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: U adeegso dawladaada hoose
     privacy:
@@ -86,23 +86,17 @@ so:
           key_header: Fuure
           page_header: Boga
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Guriga
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Doodo
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Sojeedino
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Codaad
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Misaaniyadaha kaqayb qadashada
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Nidaamka sharci dejinta
         browser_table:
           description: "Iyada oo ku xidhan nidaamka hirgelinta iyo daaqada loo isticmaalo, isku-dhafka muhiimka ah wuxuu noqon doonaa sidan soo socota:"
@@ -110,20 +104,15 @@ so:
           browser_header: Barowsar
           key_header: Wadajirta muhiimka ah
           rows:
-            - 
-              browser_column: Sahamiso
+            - browser_column: Sahamiso
               key_column: ALT + gaaban kadibna geli
-            - 
-              browser_column: Dab-demiska
+            - browser_column: Dab-demiska
               key_column: ALT + CAPS + gaaban
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + gaaban (CTRL + ALT + gaaban MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + gaaban (CMD + gaaban MAC)
-            - 
-              browser_column: Faan muusik
+            - browser_column: Faan muusik
               key_column: CAPS + ESC + gaaban
       textsize:
         title: Cabirka qoraalka
@@ -132,29 +121,22 @@ so:
           browser_header: Barowsar
           action_header: Tilabada laqadayo
           rows:
-            - 
-              browser_column: Sahamiso
+            - browser_column: Sahamiso
               action_column: View> cabbirka qoraalka
-            - 
-              browser_column: Dab-demiska
+            - browser_column: Dab-demiska
               action_column: Arag> cabbir
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Goobaha (icon)> Options> Advanced> tusmada wabsatydka> Cabirka Qorlka
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Eeg> Ku Dhawaaqa / Soo dhawee
-            - 
-              browser_column: Faan muusik
+            - browser_column: Faan muusik
               action_column: Muuqaal> cabbir
         browser_shortcuts_table:
           description: "Hab kale oo wax looga beddelo qiyaasta qoraalka waa in la isticmaalo gaabnaanta gaaban ee lagu qeexay daalacayaasha, gaar ahaan isugeynta muhiimka ah:"
           rows:
-            - 
-              shortcut_column: CTRL iyo + (CMD iyo + MAC)
+            - shortcut_column: CTRL iyo + (CMD iyo + MAC)
               description_column: Kordhi cabbirka qoraalka
-            - 
-              shortcut_column: CTRL iyo - (CMD iyo - MAC)
+            - shortcut_column: CTRL iyo - (CMD iyo - MAC)
               description_column: Hoos u dhig/ yare cabbirka qoraalka
       compatibility:
         title: U hoggaansanaanta jaangooyooyinka iyo qaabka muuqaalka

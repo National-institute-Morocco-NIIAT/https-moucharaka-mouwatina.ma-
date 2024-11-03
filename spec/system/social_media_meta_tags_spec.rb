@@ -17,7 +17,9 @@ describe "Social media meta tags" do
       Setting["meta_description"] = meta_description
       Setting["twitter_handle"] = twitter_handle
       Setting["facebook_handle"] = facebook_handle
-      Setting["org_name"] = org_name
+      (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = org_name
     end
 
     scenario "Social media meta tags partial render settings content" do

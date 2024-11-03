@@ -60,9 +60,9 @@ sr:
         text: |-
           Користите га за Вашу локалну власт или нам помогните побољшати га, софтвер је бесплатан.
 
-          Овај Отворени Портал Владе користи [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') that is free software, with [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ) , која значи једноставније речи које свако може слободно користити, копирати, детаљно прегледати, модификовати и редистрибуирати их свету с модификацијама које желе (приликом чега и остали могу исто направити). Зато јер ми мислимо да је култура боља и богатија када се дели.
+          Овај Отворени Портал Владе користи [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github') that is free software, with [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ) , која значи једноставније речи које свако може слободно користити, копирати, детаљно прегледати, модификовати и редистрибуирати их свету с модификацијама које желе (приликом чега и остали могу исто направити). Зато јер ми мислимо да је култура боља и богатија када се дели.
 
-          Ако сте програмер можете видети код и помоћи нам побољшати га [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          Ако сте програмер можете видети код и помоћи нам побољшати га [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: Користите га за своје локално јавно тело
     privacy:
@@ -87,23 +87,17 @@ sr:
           key_header: Типка
           page_header: Страница
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Home
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Расправе
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Предлози
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Гласови
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Партиципативни буџети
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Законски оквир
         browser_table:
           description: "Зависно од оперативног система и коришћеног претраживача, комбинација типки биће следећа:"
@@ -111,20 +105,15 @@ sr:
           browser_header: Browser
           key_header: Комбинација типки
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               key_column: ALT + shortcut then ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS + shortcut
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + shortcut (CTRL + ALT + shortcuts for MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + shortcut (CMD + shortcut for MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS + ESC + shortcut
       textsize:
         title: Величина текста
@@ -133,29 +122,22 @@ sr:
           browser_header: Browser
           action_header: Потребно је спровести следећу радњу
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: Види > Величина текста
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Види > Величина
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Подешавања (icon) > Options > Advanced > Web Content > Величина текста
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Види > Zoom In/Zoom out
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: View > scale
         browser_shortcuts_table:
           description: "Други начин за измену величине текста је коришћење пречица на тастатурикоји су дефинисани у претраживачу, посебно комбинације типки:"
           rows:
-            - 
-              shortcut_column: CTRL and + (CMD and + on MAC)
+            - shortcut_column: CTRL and + (CMD and + on MAC)
               description_column: Увећање величине текста
-            - 
-              shortcut_column: CTRL and - (CMD and - on MAC)
+            - shortcut_column: CTRL and - (CMD and - on MAC)
               description_column: Умањење величине текста
       compatibility:
         title: Компатибилно са стандардима и визуелним дизајном

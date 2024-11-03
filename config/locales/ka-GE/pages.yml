@@ -27,7 +27,7 @@ ka:
         description: "%{link} ფუნქციით შეგიძლიათ მოამზადოთ საერთო ინიციატივები და შემდეგ ისინი შესაბამის ორგანიზაციებს წარუდგინოთ (საკრებულო, მერია და სხვა). ინიციატივები საჭიროებს მხარდაჭერას. საკმარისი ხმების მოგროვების შემთხვევაში, ისინი საჯარო კენჭისყრის ფაზაზე გადავა. ამ ეტაპის წარმატებით გავლის შემდეგ, შეირჩევა ის ინიციატივები, რომლებიც წარსადგენად მომზადდება."
         link: "სამოქალაქო ინიციატივების"
         image_alt: "ინიციატივის მხარდაჭერა"
-        figcaption: 'ინიციატივის მხარდაჭერა'
+        figcaption: "ინიციატივის მხარდაჭერა"
       budgets:
         title: "მონაწილეობითი ბიუჯეტირება"
         description: "%{link}ს სექცია მოქალაქეებს ეხმარება მიიღონ გადაწყვეტილება მუნიციპალური ბიუჯეტის ხარჯვითი წილის განაწილების შესახებ."
@@ -60,9 +60,9 @@ ka:
         text: |-
           გამოიყენეთ CONSUL თქვენს თვითმმართველობაში ან დაგვეხმარეთ მის გაუმჯობესებაში.
 
-          ღია მმართველობის პორტალი იყენებს [CONSUL DEMOCRACY-ს] (https://github.com/consuldemocracy/consuldemocracy 'consul democracy github'), რომელიც უფასო პროგრამაა, [ლიცენზია AGPLv3](http://www.gnu.org/licenses/ agpl-3.0.html 'AGPLv3 gnu'), რაც იმას ნიშნავს, რომ ყველას შეუძლია მისი გამოყენება, ასლის შექმნა და მოდიფიცირება.
+          ღია მმართველობის პორტალი იყენებს [Moucharaka Mouwatina-ს] (https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github'), რომელიც უფასო პროგრამაა, [ლიცენზია AGPLv3](http://www.gnu.org/licenses/ agpl-3.0.html 'AGPLv3 gnu'), რაც იმას ნიშნავს, რომ ყველას შეუძლია მისი გამოყენება, ასლის შექმნა და მოდიფიცირება.
 
-          თუ ხარ პროგრამისტი, შეგიძლია დაგვეხმარო [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') გაუმჯობესებაში.
+          თუ ხარ პროგრამისტი, შეგიძლია დაგვეხმარო [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github') გაუმჯობესებაში.
       titles:
         how_to_use: გამოიყენეთ CONSUL თქვენს ქალაქში
     privacy:
@@ -87,23 +87,17 @@ ka:
           key_header: ღილაკი
           page_header: გვერდი
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: მთავარი გვერდი
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: დებატები
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: ინიციატივები
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: ხმები
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: მონაწილეობითი ბიუჯეტები
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: ადვოკატირების პროცესები
         browser_table:
           description: "ოპერაციული სისტემისა და ბრაუზერიდან გამომდინარე, კომბინაცია შემდეგი იქნება:"
@@ -111,20 +105,15 @@ ka:
           browser_header: ბრაუზერი
           key_header: ღილაკთა კომბინაცია
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               key_column: ALT + მალსახმობი და ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS + მალსახმობი
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + მალსახმობი (CTRL + ALT + მალსახმობი MAC-ის შემთხვევაში)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + მალსახმობი (CMD + მალსახმობი MAC-ის შემთხვევაში)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS + ESC + მალსახმობი
       textsize:
         title: ტექსტის ზომა
@@ -133,29 +122,22 @@ ka:
           browser_header: ბრაუზერი
           action_header: განსახორციელებელი მოქმედება
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: ნახვა > ტექსტის ზომა
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: ნახვა > ზომა
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: პარამეტრები (ნიშანი) > ფუნქციები > დეტალურად > ვებ კონტენტი > ტექსტის ზომა
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: ნახვა > მოახლოება/დაშორება
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: ნახვა > მასშტაბი
         browser_shortcuts_table:
           description: "ტექსტის ზომის შესაცვლელად, გამოიყენეთ ბრაუზერის მალსახმობი ღილაკები შემდეგი კომბინაციით:"
           rows:
-            - 
-              shortcut_column: CTRL და + (CMD და + MAC-ზე)
+            - shortcut_column: CTRL და + (CMD და + MAC-ზე)
               description_column: ტექსტის ზომის გაზრდა
-            - 
-              shortcut_column: CTRL და - (CMD და - MAC-ზე)
+            - shortcut_column: CTRL და - (CMD და - MAC-ზე)
               description_column: ტექსტის ზომის შემცირება
       compatibility:
         title: სტანდარტებთან და ვიზუალურ დიზაინთან თავსებადობა

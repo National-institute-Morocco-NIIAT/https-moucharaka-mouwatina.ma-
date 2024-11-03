@@ -5,8 +5,8 @@ cs:
     actions:
       actions: Akce
       block_author: "Blokovat autora"
-      confirm_action: "Jste si jist? %{action} \"%{name}\""
-      confirm_delete: "Jste si jistý? Tato akce odstraní \"%{name}\" a nelze ji vrátit zpět."
+      confirm_action: 'Jste si jist? %{action} "%{name}"'
+      confirm_delete: 'Jste si jistý? Tato akce odstraní "%{name}" a nelze ji vrátit zpět.'
       confirm_hide: Potvrdit moderování
       delete: "Smazat"
       hide: Skrýt
@@ -347,7 +347,7 @@ cs:
           back: "Zpět na úpravu skupiny"
       heading_mode:
         multiple:
-          description: "Vytvoření procesu s více skupinami, oblastmi nebo tématy. Máte něco jako několik pytlů s penězi. Například 25 000 € pro \"Severní čtvrť\", 30 000 € pro \"Střední čtvrť\", 28 000 € pro \"Jižní čtvrť\" a celé město. Nebo na několik témat, jako je sport, kultura nebo zdraví."
+          description: 'Vytvoření procesu s více skupinami, oblastmi nebo tématy. Máte něco jako několik pytlů s penězi. Například 25 000 € pro "Severní čtvrť", 30 000 € pro "Střední čtvrť", 28 000 € pro "Jižní čtvrť" a celé město. Nebo na několik témat, jako je sport, kultura nebo zdraví.'
           link: "Vytvořit rozpočet s více položkami"
           title: "<strong>Vícepoložkový</strong> rozpočet"
         single:
@@ -459,8 +459,8 @@ cs:
         index:
           description: "Když uživatelé vytvářejí návrhy, mají přístup k ovládacímu panelu svého návrhu, kde mohou navrhnout zdroje a doporučení, aby získali podporu pro svůj nápad."
           create: Vytvořit prostředek nebo akci
-          active: 'Ano'
-          inactive: 'Ne'
+          active: "Ano"
+          inactive: "Ne"
           title: Prostředky a akce
           action_title: Název
           action_type: Typ
@@ -680,7 +680,7 @@ cs:
           notice: Otázka byla úspěšně smazána.
         edit:
           back: Zpět
-          title: "Upravit \"%{question_title}\""
+          title: 'Upravit "%{question_title}"'
           submit_button: Uložit změny
         form:
           add_option: Přidat možnost
@@ -1050,7 +1050,7 @@ cs:
     booth_assignments:
       manage_assignments: Spravovat přiřazení
       manage:
-        assignments_list: "Přiřazení pro anketu \"%{poll}\""
+        assignments_list: 'Přiřazení pro anketu "%{poll}"'
         status:
           assign_status: Přiřazení
           assigned: Přiřazeno
@@ -1407,7 +1407,7 @@ cs:
         coordinates: Souřadnice
         coordinates_help: Souřadnice, které vygenerují klikatelnou oblast na obrázkové mapě HTML
         geojson: GeoJSON k dispozici
-        geojson_help: "Musí odpovídat formátu typu \"Polygon\" nebo \"MultiPolygon\"; na mapě rozpočtu se polygon založený na těchto údajích zobrazí, když je k této geozóně přiřazen záhlaví"
+        geojson_help: 'Musí odpovídat formátu typu "Polygon" nebo "MultiPolygon"; na mapě rozpočtu se polygon založený na těchto údajích zobrazí, když je k této geozóně přiřazen záhlaví'
       create:
         notice: "Geozóna úspěšně vytvořena"
       edit:
@@ -1751,10 +1751,10 @@ cs:
       help:
         title_1: "Co je AI / strojové učení?"
         description_1: "Počítačové programy se tradičně navrhují tak, že se stanoví přesná pravidla, co má program v každé situaci dělat a jak má v každém okamžiku zpracovávat dostupné informace. To, co se běžně označuje jako umělá inteligence/strojové učení, je typ programů, u nichž je přesně stanoveno, jaký úkol má být proveden a jak se vyhodnocuje, zda je úkol proveden lépe nebo hůře. Na rozdíl od prvně jmenovaného však systém objevuje nebo se učí, jaká by byla nejvhodnější metoda k provedení úkolu."
-        title_2: "Co dělá modul AI / strojového učení v systému CONSUL DEMOCRACY?"
-        description_2: "Tento modul umožňuje implementovat v CONSULu libovolný typ programů AI/Machine Learning. Tyto programy mohou zpracovávat informace dostupné v systému CONSUL DEMOCRACY a vytvářet výsledky, které pomáhají uživatelům i správcům provádět efektivnější a inteligentnější zapojení občanů. Modul byl vyvinut tak, aby bylo možné snadno implementovat a spouštět nové programy, přičemž obecný kód CONSULu a kód těchto nových programů jsou na sobě nezávislé."
+        title_2: "Co dělá modul AI / strojového učení v systému Moucharaka Mouwatina?"
+        description_2: "Tento modul umožňuje implementovat v CONSULu libovolný typ programů AI/Machine Learning. Tyto programy mohou zpracovávat informace dostupné v systému Moucharaka Mouwatina a vytvářet výsledky, které pomáhají uživatelům i správcům provádět efektivnější a inteligentnější zapojení občanů. Modul byl vyvinut tak, aby bylo možné snadno implementovat a spouštět nové programy, přičemž obecný kód CONSULu a kód těchto nových programů jsou na sobě nezávislé."
         title_3: "Jak používat tento modul"
-        description_3: "Při prvním použití je nutné postupovat podle pokynů uvedených v dokumentaci CONSUL DEMOCRACY a modul správně aktivovat. Po správné aktivaci modulu se programy spouštějí na kartě \"Spustit skripty\". Před spuštěním se nám na téže kartě zobrazí odhad doby spuštění a další důležité informace. Na konci provádění můžeme na kartě \"Nastavení\" aktivovat obsah, který se bude v CONSUL DEMOCRACY zobrazovat, a také stáhnout další vygenerované soubory, které se nám mohou hodit."
+        description_3: 'Při prvním použití je nutné postupovat podle pokynů uvedených v dokumentaci Moucharaka Mouwatina a modul správně aktivovat. Po správné aktivaci modulu se programy spouštějí na kartě "Spustit skripty". Před spuštěním se nám na téže kartě zobrazí odhad doby spuštění a další důležité informace. Na konci provádění můžeme na kartě "Nastavení" aktivovat obsah, který se bude v Moucharaka Mouwatina zobrazovat, a také stáhnout další vygenerované soubory, které se nám mohou hodit.'
         title_4: "Jak implementovat nové skripty AI / strojového učení"
         description_4: "Jako příklady použijte předchozí skripty."
         description_4b: "Nové skripty by měly být umístěny ve složce <code>public/machine_learning/scripts</code>"

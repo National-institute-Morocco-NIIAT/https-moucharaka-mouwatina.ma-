@@ -213,7 +213,9 @@ describe "System Emails" do
     end
 
     scenario "#user_invite" do
-      Setting["org_name"] = "CONSUL"
+      (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = "CONSUL"
       visit admin_system_email_view_path("user_invite")
 
       expect(page).to have_content "Invitation to CONSUL"

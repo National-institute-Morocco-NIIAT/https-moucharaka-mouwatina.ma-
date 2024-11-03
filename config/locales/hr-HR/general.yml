@@ -190,9 +190,9 @@ hr:
     footer:
       accessibility: Pristupačnost
       conditions: Odredbe i uvjeti korištenja
-      consul: CONSUL DEMOCRACY aplikacija
+      consul: Moucharaka Mouwatina aplikacija
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Ovaj portal koristi %{consul} koji je %{open_source}.
       open_source: open-source softver
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -258,7 +258,7 @@ hr:
       name: Facebook
     finish_signup:
       title: "Dodatni detalji"
-      username_warning: "Zbog promjene načina na koji radimo s društvenim mrežama, moguće je da se vaše korisničko ime sada prikazuje kao \"već se koristi\". Ako je to vaš slučaj, odaberite drugo korisničko ime."
+      username_warning: 'Zbog promjene načina na koji radimo s društvenim mrežama, moguće je da se vaše korisničko ime sada prikazuje kao "već se koristi". Ako je to vaš slučaj, odaberite drugo korisničko ime.'
     google_oauth2:
       sign_in: Prijavite se putem Googlea
       sign_up: Registrirajte se putem Googlea
@@ -314,7 +314,7 @@ hr:
       tag_category_label: "Kategorije"
       tags_instructions: "Označi ovaj prijedlog. Možete odabrati od predloženih kategorija ili dodati svoju"
       tags_label: Oznake
-      tags_placeholder: "Unesite oznake koje želite koristiti, odvojene zarezima (\",\")"
+      tags_placeholder: 'Unesite oznake koje želite koristiti, odvojene zarezima (",")'
       map_location: "Lokacija na mapi"
       map_location_instructions: "Pronađi lokaciju na mapi i stavi marker."
       map_remove_marker: "Ukloni marker na mapi"
@@ -706,9 +706,9 @@ hr:
         see_all: "Pogledaj sve"
       proposal:
         found:
-          one: "Postoji prijedlog s izrazom \"%{query}\", možete mu pridonijeti umjesto stvaranja novog"
-          few: "Postoji prijedlozu s izrazom \"%{query}\", možete njima pridonijeti umjesto stvaranja novih"
-          other: "Postoji prijedlozu s izrazom \"%{query}\", možete njima pridonijeti umjesto stvaranja novih"
+          one: 'Postoji prijedlog s izrazom "%{query}", možete mu pridonijeti umjesto stvaranja novog'
+          few: 'Postoji prijedlozu s izrazom "%{query}", možete njima pridonijeti umjesto stvaranja novih'
+          other: 'Postoji prijedlozu s izrazom "%{query}", možete njima pridonijeti umjesto stvaranja novih'
         message: "Vidite %{limit} od %{count} prijedloga koji sadrže pojam '%{query}'"
         see_all: "Pogledaj sve"
     tags_cloud:
@@ -887,7 +887,7 @@ hr:
   annotator:
     help:
       alt: Odaberi tekst koji želiš komentirati i pritisni gumb s olovkom.
-      text: '%{sign_in} ili %{sign_up} da bi ste komentirali ovaj dokument. Tada odaberite tekst koji želite komentirati i pritisnite gumb s olovkom.'
+      text: "%{sign_in} ili %{sign_up} da bi ste komentirali ovaj dokument. Tada odaberite tekst koji želite komentirati i pritisnite gumb s olovkom."
       title: Kako mogu komentirati ovaj dokument?
   links:
     form:

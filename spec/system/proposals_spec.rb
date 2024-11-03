@@ -211,7 +211,9 @@ describe "Proposals" do
     end
 
     scenario "After using the browser's back button, social buttons will have one screen reader" do
-      Setting["org_name"] = "CONSUL"
+      (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = "CONSUL"
       proposal = create(:proposal)
       visit proposal_path(proposal)
       click_link "CONSUL"

@@ -2,8 +2,8 @@
 
 ###### Application monitoring services ######
 #
-# By default Consul Democracy supports the Errbit self-hosted error monitoring
-# service, through the Airbrake gem. That means Consul Democracy also supports
+# By default Moucharaka Mouwatina supports the Errbit self-hosted error monitoring
+# service, through the Airbrake gem. That means Moucharaka Mouwatina also supports
 # using Airbrake as an external service to monitor errors and application
 # performance.
 #

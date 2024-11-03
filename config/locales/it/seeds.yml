@@ -5,7 +5,7 @@ it:
         title: "Stiamo chiudendo il Budget Partecipativo!"
         body: "Sbrigati e crea una proposta prima che termini nei prossimi giorni!"
       help:
-        title: "Aiutaci a traudurre Consul Democracy"
+        title: "Aiutaci a traudurre Moucharaka Mouwatina"
         body: "Se sei competente in una lingua, sei pregato di aiutarci a tradurre Consul!"
       map:
         title: "Puoi ora geolocalizzare proposte e investimenti"
@@ -39,7 +39,7 @@ it:
         link_text: "Di più sui dibattiti"
         label: "Dibattiti"
       header:
-        title: "CONSUL DEMOCRACY"
+        title: "Moucharaka Mouwatina"
         description: "Software gratuito per la partecipazione dei cittadini."
         link_text: "Ulteriori informazioni"
         label: "Benvenuto su"
@@ -66,7 +66,7 @@ it:
       environment: Ambiente
     budgets:
       budget: Bilancio Partecipativo
-      currency: '€'
+      currency: "€"
       groups:
         all_city: Tutta la Città
         districts: Distretti

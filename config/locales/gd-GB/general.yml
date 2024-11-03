@@ -121,7 +121,7 @@ gd:
         title: Cuideachadh le deasbadan
         description: Tòisich deasbad gus beachdan a thoirt do dhaoine eile mu na cuspairean a tha cudromach dhut.
         help_text_1: "Tha an t-àite seo airson deasbadan saoranach ag amas air neach sam bith gus an urrainn dhaibh cùisean a thogail a tha cudromach, agus a tha airson am beachdan a cho-roinn le daoine eile."
-        help_text_2: 'Feumaidh tu clàradh air %{org} gus deasbad fhosgladh. Faodaidh cleachdaichean cuideachd beachdan a thoirt seachad air deasbadan fosgailte agus an rangachadh leis na putanan “Tha mi ag aontachadh” no “Chan eil mi ag aontachadh” a lorgar anns gach fear dhiubh.'
+        help_text_2: "Feumaidh tu clàradh air %{org} gus deasbad fhosgladh. Faodaidh cleachdaichean cuideachd beachdan a thoirt seachad air deasbadan fosgailte agus an rangachadh leis na putanan “Tha mi ag aontachadh” no “Chan eil mi ag aontachadh” a lorgar anns gach fear dhiubh."
     new:
       form:
         submit_button: Tòisich deasbad
@@ -205,9 +205,9 @@ gd:
     footer:
       accessibility: So-ruigsinneachd
       conditions: Teirmichean is cumhaichean cleachdaidh
-      consul: aplacaid CONSUL DEMOCRACY
+      consul: aplacaid Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Cleachdaidh am portal seo an %{consul} a tha na ghoireas %{open_source}.
       open_source: bathar-bog le còd fosgailte
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html

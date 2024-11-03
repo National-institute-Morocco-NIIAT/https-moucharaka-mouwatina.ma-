@@ -69,7 +69,9 @@ class Mailer < ApplicationMailer
 
     with_user(user) do
       mail(to: @email_to,
-           subject: t("mailers.proposal_notification_digest.title", org_name: Setting["org_name"]))
+           subject: t("mailers.proposal_notification_digest.title", org_name: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")))
     end
   end
 
@@ -77,7 +79,9 @@ class Mailer < ApplicationMailer
     @email_to = email
 
     I18n.with_locale(Setting.default_locale) do
-      mail(to: @email_to, subject: t("mailers.user_invite.subject", org_name: Setting["org_name"]))
+      mail(to: @email_to, subject: t("mailers.user_invite.subject", org_name: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")))
     end
   end
 

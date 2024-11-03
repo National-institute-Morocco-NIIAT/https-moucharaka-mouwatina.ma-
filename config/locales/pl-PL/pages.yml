@@ -59,9 +59,9 @@ pl:
         text: |-
           Użyj tego w swoim lokalnym rządzie lub pomóż nam się rozwijać, to darmowe oprogramowanie.
 
-          Ten Open Government Portal używa [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') będącego darmowym oprogramowaniem, z [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), co w prostych słowach oznacza, że ktokolwiek może za darmo używać kodu swobodnie, kopiować go, oglądać w szczegółach, modyfikować i ponownie udostępniać światu wraz z dowolnymi modyfikacjami, których sobie życzy (pozwalając innym robić to samo). Ponieważ uważamy, że kultura jest lepsza i bogatsza, gdy jest wolna.
+          Ten Open Government Portal używa [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github') będącego darmowym oprogramowaniem, z [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), co w prostych słowach oznacza, że ktokolwiek może za darmo używać kodu swobodnie, kopiować go, oglądać w szczegółach, modyfikować i ponownie udostępniać światu wraz z dowolnymi modyfikacjami, których sobie życzy (pozwalając innym robić to samo). Ponieważ uważamy, że kultura jest lepsza i bogatsza, gdy jest wolna.
 
-          Jeśli jesteś programistą, możesz przejrzeć kod i pomóc nam go poprawiać na [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          Jeśli jesteś programistą, możesz przejrzeć kod i pomóc nam go poprawiać na [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: Użyj go w swoim lokalnym rządzie
     privacy:
@@ -84,23 +84,17 @@ pl:
           key_header: Klucz
           page_header: Strona
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Strona Główna
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Debaty
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Wnioski
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Głosów
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Budżety partycypacyjne
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Procesy legislacyjne
         browser_table:
           description: "W zależności od używanego systemu operacyjnego i przeglądarki, kombinacja klawiszy będzie następująca:"
@@ -108,20 +102,15 @@ pl:
           browser_header: Przeglądarka
           key_header: Kombinacje kluczy
           rows:
-            - 
-              browser_column: Wyszukiwarka
+            - browser_column: Wyszukiwarka
               key_column: ALT + skrót, a następnie ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS + skrót
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + skrót (CTRL + ALT + skróty dla MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + skrót (CTRL + ALT + skróty dla MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS + ESC + skrót
       textsize:
         title: Rozmiar tekstu
@@ -130,29 +119,22 @@ pl:
           browser_header: Przeglądarka
           action_header: Działanie, które należy podjąć
           rows:
-            - 
-              browser_column: Wyszukiwarka
+            - browser_column: Wyszukiwarka
               action_column: Widok > rozmiar tekstu
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Widok > rozmiar
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Ustawienia (ikona) > Opcje > Zaawansowane > zawartość www > rozmiar tekstu
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Widok > powiększenie / pomniejszenie
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Widok > skala
         browser_shortcuts_table:
           description: "Innym sposobem na modyfikację rozmiar tekstu jest użycie skrótów klawiaturowych zdefiniowanych w przeglądarkach, w szczególności kombinacji klawiszy:"
           rows:
-            - 
-              shortcut_column: CTRL i + (CMD i + Mac)
+            - shortcut_column: CTRL i + (CMD i + Mac)
               description_column: Zwiększa rozmiar tekstu
-            - 
-              shortcut_column: CTRL i - (CMD - i na komputerze MAC)
+            - shortcut_column: CTRL i - (CMD - i na komputerze MAC)
               description_column: Zmniejsza rozmiar tekstu
       compatibility:
         title: Zgodność z normami i projektowaniem wizualnym

@@ -90,10 +90,10 @@ oc:
       recommendations:
         without_results: I a pas de debats ligats als vòstres interèsses
         without_interests: Seguissètz las proposicions perque vos poscam far de recomandacions
-        disable: "Las recomandacions dels debats quitaràn de se mostrar se las refusatz. Podètz los activar de nòu a la pagina \"Lo mieu compte\""
+        disable: 'Las recomandacions dels debats quitaràn de se mostrar se las refusatz. Podètz los activar de nòu a la pagina "Lo mieu compte"'
         actions:
           success: "Las recomandacions pels debats son ja desactivadas per aquel compte"
-          error: "S'es produsit un error. Vai a la pagina \"Lo mieu compte\" per desactivar manualment las recomandacions dels debats"
+          error: 'S''es produsit un error. Vai a la pagina "Lo mieu compte" per desactivar manualment las recomandacions dels debats'
       search_form:
         button: Cercar
         placeholder: Cercar de debats...
@@ -184,9 +184,9 @@ oc:
     footer:
       accessibility: Accessibilitat
       conditions: De condicions d'usatge
-      consul: CONSUL DEMOCRACY
+      consul: Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Aquel portal es una adaptacion de la plataforma de %{open_source} %{consul} desvolopada per la Comuna de Madrid e adaptada per la Deputacion de Valéncia.
       open_source: logicial liure
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -321,10 +321,10 @@ oc:
       recommendations:
         without_results: I a pas de proposicions ligadas als vòstres interèsses
         without_interests: Seguissètz las proposicions perque vos poscam far de recomandacions
-        disable: "Las recomandacions de las proposicions quitaràn de se mostrar se las refusatz. Podètz los activar de nòu a la pagina \"Lo mieu compte\""
+        disable: 'Las recomandacions de las proposicions quitaràn de se mostrar se las refusatz. Podètz los activar de nòu a la pagina "Lo mieu compte"'
         actions:
           success: "Las recomandacions per las proposicions son desactivadas per aquel compte"
-          error: "S'es produsit un error. Vai a la pagina \"Lo mieu compte\" per desactivar manualment las recomandacions de proposicions"
+          error: 'S''es produsit un error. Vai a la pagina "Lo mieu compte" per desactivar manualment las recomandacions de proposicions'
       retired_proposals: De proposicions retiradas
       retired_proposals_link: "De proposicions retiradas per los sieus autors"
       selected_proposals: De proposicions seleccionadas
@@ -550,7 +550,7 @@ oc:
         share_in: Parteja
         hi: "Adieu!"
         introduction: Vos escrivi per vos informar que participi %{org}, la plataforma que podèm decidir quina vila volèm. E per aquò, creèri la miá pròpria proposicion ciutadana e ai de besonh ara lo vòstre supòrt. Mas vos preocupatz pas perque es fòrça simple.
-        support: "vos Cal solament far clic sul boton que veiràs de contunh \"Supòrt aquela proposicion\" e vos podètz informar abans de la promòure. L’Comuna menarà a tèrme solament las proposicions qu'atengan lo maximal supòrt e ai pensat que vosautres, soi segur que m’ajudatz a o aténher!"
+        support: 'vos Cal solament far clic sul boton que veiràs de contunh "Supòrt aquela proposicion" e vos podètz informar abans de la promòure. L’Comuna menarà a tèrme solament las proposicions qu''atengan lo maximal supòrt e ai pensat que vosautres, soi segur que m’ajudatz a o aténher!'
         share: "E se me fagatz tanben lo grand favor de partejar la miá proposicion amb los vòstres amics, familiales e de contactes, seriá perfièch!"
   polls:
     all: "totes"

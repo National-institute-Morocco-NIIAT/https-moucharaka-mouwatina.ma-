@@ -3,7 +3,9 @@
     <tr>
       <td style="text-align: center; border-top: 1px solid #dadfe1; padding-top: 20px;">
         <p style="<%= css_for_mailer_org %>">
-          <%= setting["org_name"] %>
+          <%= (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") %>
         </p>
 
         <p style="<%= css_for_mailer_footer %>">

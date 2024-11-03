@@ -89,7 +89,7 @@ sq:
         disable: "Debatet e rekomandimeve do të ndalojnë të tregojnë nëse i shkarkoni ato. Mund t'i aktivizosh përsëri në faqen 'Llogaria ime'"
         actions:
           success: "Rekomandimet për debatet tani janë të caktivizuar për këtë llogari"
-          error: "Ka ndodhur një gabim. Shkoni tek faqja \"Llogaria juaj\" për të çaktivizuar manualisht rekomandimet për debatet"
+          error: 'Ka ndodhur një gabim. Shkoni tek faqja "Llogaria juaj" për të çaktivizuar manualisht rekomandimet për debatet'
       search_form:
         button: Kërko
         placeholder: Kërko debate...
@@ -162,9 +162,9 @@ sq:
     footer:
       accessibility: Dispnueshmësia
       conditions: Termat dhe kushtet e përdorimit
-      consul: Aplikacioni CONSUL DEMOCRACY
+      consul: Aplikacioni Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Ky portal përdor %{consul} i cili është %{open_source}.
       open_source: programet open-source
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -226,7 +226,7 @@ sq:
       name: Facebook
     finish_signup:
       title: "Detaje shtese"
-      username_warning: "Për shkak të ndryshimit të mënyrës sesi ndërveprojmë me rrjetet sociale, është e mundur që emri i përdoruesit të shfaqet tashmë si \"tashmë në përdorim\". Nëse ky është rasti juaj, ju lutemi zgjidhni një emër përdoruesi tjetër."
+      username_warning: 'Për shkak të ndryshimit të mënyrës sesi ndërveprojmë me rrjetet sociale, është e mundur që emri i përdoruesit të shfaqet tashmë si "tashmë në përdorim". Nëse ky është rasti juaj, ju lutemi zgjidhni një emër përdoruesi tjetër.'
     google_oauth2:
       sign_in: Identifikohu me Google
       sign_up: Regjistrohuni me Google
@@ -290,7 +290,7 @@ sq:
         disable: "Propozimet e rekomandimeve do të ndalojnë të tregojnë nëse i shkarkoni ato. Mund t'i aktivizosh përsëri në faqen 'Llogaria ime'"
         actions:
           success: "Rekomandimet për propozimet tani janë caktivizuar për këtë llogari"
-          error: "Nje gabim ka ndodhur. Ju lutemi të shkoni te faqja \"Llogaria juaj\" për të çaktivizuar manualisht rekomandimet për propozimet"
+          error: 'Nje gabim ka ndodhur. Ju lutemi të shkoni te faqja "Llogaria juaj" për të çaktivizuar manualisht rekomandimet për propozimet'
       retired_proposals: Propozimet e vecuara
       retired_proposals_link: "Propozimet e vecuara nga autori"
       retired_links:

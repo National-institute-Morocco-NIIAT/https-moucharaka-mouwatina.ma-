@@ -200,7 +200,9 @@ describe "Notifications" do
     end
 
     it "sends pending proposal notifications" do
-      Setting["org_name"] = "CONSUL"
+      (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = "CONSUL"
       Delayed::Worker.delay_jobs = false
       Notification.send_pending
 

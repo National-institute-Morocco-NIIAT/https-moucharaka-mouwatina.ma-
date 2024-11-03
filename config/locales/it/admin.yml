@@ -5,8 +5,8 @@ it:
     actions:
       actions: Azioni
       block_author: "Blocca autore"
-      confirm_action: "Sei sicuro? %{action} \"%{name}\""
-      confirm_delete: "Sei sicuro? Quest'azione eliminerà \"%{name}\" e non è annullabile."
+      confirm_action: 'Sei sicuro? %{action} "%{name}"'
+      confirm_delete: 'Sei sicuro? Quest''azione eliminerà "%{name}" e non è annullabile.'
       confirm_hide: Confermare intervento di moderazione
       delete: "Eliminare"
       hide: Nascondi
@@ -343,7 +343,7 @@ it:
           back: "Torna al gruppo di modifica"
       heading_mode:
         multiple:
-          description: "Crea un processo con più gruppi, distretti o argomenti. Hai molto denaro. Per esempio, €25.000 per il \"Distretto Nord\", €30.000 per il \"Distretto Centrale\", €28.000 per il \"Distretto Sud\" e l'intera città. O per diversi temi, come sport, cultura o salute."
+          description: 'Crea un processo con più gruppi, distretti o argomenti. Hai molto denaro. Per esempio, €25.000 per il "Distretto Nord", €30.000 per il "Distretto Centrale", €28.000 per il "Distretto Sud" e l''intera città. O per diversi temi, come sport, cultura o salute.'
           link: "Crea budget di più titoli"
           title: "Budget di <strong>più titoli</strong>"
         single:
@@ -455,8 +455,8 @@ it:
         index:
           description: "Quando gli utenti creano proposte possono accedere ad un pannello di controllo della loro proposta, dove puoi proporre risorse e consigli per ottenere supporto per la loro idea."
           create: Crea risorsa o azione
-          active: 'Sì'
-          inactive: 'No'
+          active: "Sì"
+          inactive: "No"
           title: Risorse ed azioni
           action_title: Titolo
           action_type: Tipo
@@ -676,7 +676,7 @@ it:
           notice: Domanda cancellata con successo
         edit:
           back: Indietro
-          title: "Modificare \"%{question_title}\""
+          title: 'Modificare "%{question_title}"'
           submit_button: Salva modifiche
         form:
           add_option: Aggiungere l'opzione
@@ -1397,7 +1397,7 @@ it:
         coordinates: Coordinate disponibili
         coordinates_help: Coordinate che genereranno un'area cliccabile su una mappa dell'immagine HTML
         geojson: GeoJSON disponibile
-        geojson_help: "Deve seguire il tipo di formato \"Polygon\" o \"MultiPolygon\"; su una mappa dl bilancio, un poligono basato su questi dati apparirà, quando un'intestazion è associata a questa zona geografica"
+        geojson_help: 'Deve seguire il tipo di formato "Polygon" o "MultiPolygon"; su una mappa dl bilancio, un poligono basato su questi dati apparirà, quando un''intestazion è associata a questa zona geografica'
       create:
         notice: "Zona geografica creata correttamente"
       edit:
@@ -1651,7 +1651,7 @@ it:
         enable: "Abilita il locatario %{tenant}"
         enabled: Abilitato
       new:
-        admin_information: "Quando crei un locatario, il tuo utente corrente <strong>\"%{username}\"</strong> con l'email <strong>\"%{email}\"</strong> e la tua password saranno copiati nel database del nuovo locatario e riceveranno automaticamente le autorizzazioni di amministrazione. Nota che questi profili utente sono memorizzati in database completamente separati, quindi, se modifichi la password del tuo utente in un locatario, i tuoi profili negli altri locatari rimarranno intatti."
+        admin_information: 'Quando crei un locatario, il tuo utente corrente <strong>"%{username}"</strong> con l''email <strong>"%{email}"</strong> e la tua password saranno copiati nel database del nuovo locatario e riceveranno automaticamente le autorizzazioni di amministrazione. Nota che questi profili utente sono memorizzati in database completamente separati, quindi, se modifichi la password del tuo utente in un locatario, i tuoi profili negli altri locatari rimarranno intatti.'
         title: Nuovo locatario
       restore:
         notice: Locatario abilitato correttamente
@@ -1740,10 +1740,10 @@ it:
       help:
         title_1: "Cos'è l'IA/Apprendimento Automatico?"
         description_1: "Tradizionalmente, i programmi informatici sono progettati stabilendo regole precise su cosa il programma dovrebbe fare in ogni situazione e come elaborare le informazioni disponibili in qualsiasi momento. Ciò che è comunemente noto come IA/Apprendimento Automatico è un tipo di programmi per cui ciò che è precisamente stabilito è quale attività eseguire e come valutare se questa sia eseguita meglio o peggio. Ma, a differenza di quanto detto sopra, il sistema scopre o impara quale sarebbe il metodo più adatto per eseguire l'attività."
-        title_2: "A cosa serve il modulo IA / Apprendimento Automatico su CONSUL DEMOCRACY?"
-        description_2: "Questo modulo consente a ogni tipo di programma di IA/Apprendimento Automatico di esser implementato su CONSUL DEMOCRACY. I programmi possono elaborare le informazioni disponibili su CONSUL DEMOCRACY e produrre risultati che aiutino sia gli utenti che gli amministratori a coinvolgere in modo più efficiente e intelligente la partecipazione cittadina. Il modulo è stato sviluppato per rendere facile l'implementazione ed esecuzione di nuovi programmi, mantenendo il codice generale di CONSUL DEMOCRACY e il codice di questi nuovi programmi indipendenti tra loro."
+        title_2: "A cosa serve il modulo IA / Apprendimento Automatico su Moucharaka Mouwatina?"
+        description_2: "Questo modulo consente a ogni tipo di programma di IA/Apprendimento Automatico di esser implementato su Moucharaka Mouwatina. I programmi possono elaborare le informazioni disponibili su Moucharaka Mouwatina e produrre risultati che aiutino sia gli utenti che gli amministratori a coinvolgere in modo più efficiente e intelligente la partecipazione cittadina. Il modulo è stato sviluppato per rendere facile l'implementazione ed esecuzione di nuovi programmi, mantenendo il codice generale di Moucharaka Mouwatina e il codice di questi nuovi programmi indipendenti tra loro."
         title_3: "Come usare questo modulo"
-        description_3: "Per usarlo per la prima volta, è necessario seguire le istruzioni disponibili nella documentazione di CONSUL DEMOCRACY per attivare propriamente questo modulo. Una volta attivato correttamente, i programmi sono eseguiti dalla scheda \"Esegui script\". Prima di eseguirli, possiamo vedere nella stessa scheda una stima del tempo d'esecuzione e altre informazioni rilevanti. Alla fine dell'esecuzione, possiamo attivare i contenuti che saranno mostrati su CONSUL DEMOCRACY dalla scheda delle \"Impostazioni\", nonché scaricare altri file generati che potrebbero esserci utili."
+        description_3: 'Per usarlo per la prima volta, è necessario seguire le istruzioni disponibili nella documentazione di Moucharaka Mouwatina per attivare propriamente questo modulo. Una volta attivato correttamente, i programmi sono eseguiti dalla scheda "Esegui script". Prima di eseguirli, possiamo vedere nella stessa scheda una stima del tempo d''esecuzione e altre informazioni rilevanti. Alla fine dell''esecuzione, possiamo attivare i contenuti che saranno mostrati su Moucharaka Mouwatina dalla scheda delle "Impostazioni", nonché scaricare altri file generati che potrebbero esserci utili.'
         title_4: "Come implementare nuovi script di IA / Apprendimento Automatico"
         description_4: "Sei pregato di usare gli script precedenti come esempi."
         description_4b: "I nuovi script dovrebbero trovarsi nella cartella\n<code>public/machine_learning/scripts</code>"

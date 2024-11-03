@@ -19,7 +19,9 @@ describe "Homepage", :admin do
     scenario "Admin menu links to homepage path" do
       visit new_admin_widget_card_path(header_card: true)
 
-      click_link "#{Setting["org_name"]} Administration"
+      click_link "#{(I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")} Administration"
 
       expect(page).to have_current_path(admin_root_path)
     end

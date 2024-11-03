@@ -1,7 +1,9 @@
 <% provide :main_class, "admin-dashboard-index" %>
 <%= header(skip_section_title: true) %>
 
-<p><%= t("admin.dashboard.index.description", org: setting["org_name"]) %></p>
+<p><%= t("admin.dashboard.index.description", org: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")) %></p>
 
 <%= info %>
 

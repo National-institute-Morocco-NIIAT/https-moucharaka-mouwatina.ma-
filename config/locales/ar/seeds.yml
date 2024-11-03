@@ -1,49 +1,87 @@
-ar:
-  seeds:
-    settings:
-      official_level_1_name: الموقف الرسمي 1
-      official_level_2_name: الموقف الرسمي 2
-      official_level_3_name: الموقف الرسمي 3
-      official_level_4_name: الموقف الرسمي 4
-      official_level_5_name: الموقف الرسمي 5
-    geozones:
-      north_district: المقاطعة الشمالية
-      west_district: المقاطعة الغربية
-      east_district: المقاطعة الشرقية
-      central_district: المقاطعة الوسطى
-    organizations:
-      human_rights: حقوق الانسان
-      neighborhood_association: جمعية الجيران
-    categories:
-      associations: جمعيات
-      culture: ثقافة
-      sports: رياضة
-      social_rights: حقوق اجتماعية
-      economy: الاقتصاد
-      employment: العمالة
-      equity: المساوة
-      sustainability: الاستدامة
-      participation: المشاركة
-      mobility: التنقل
-      media: الاعلام
-      health: الصحة
-      transparency: الشفافية
-      security_emergencies: الأمن و الطوارئ
-      environment: البيئة
-    budgets:
-      budget: الميزانية المشاركة
-      currency: '€'
-      groups:
-        all_city: جميع المدن
-        districts: مقاطعات
-      statuses:
-        studying_project: دراسة المشروع
-        bidding: تقديم العطاءات
-        executing_project: تنفيذ المشروع
-        executed: تم تنفيذه
-    polls:
-      current_poll: "الاستطلاع الحالي"
-      current_poll_geozone_restricted: "الاستطلاع الجغرافي الاحالي مقيد"
-      recounting_poll: "اعادة حساب الاستطلاع"
-      expired_poll_without_stats: "انتهاء مدة صلاحية الاستطلاع دون احصائيات و النتائج"
-      expired_poll_with_stats: "انتهاء مدة صلاحية الاستطلاع مع الاحصائيات و النتائج"
+seeds:
+  admin_notifications:
+    budget:
+      title: "أيام قليلة متبقية لإنشاء مشاريع الميزانية التشاركية"
+      body: "لم يتبق سوى بضعة أيام حتى الموعد النهائي لتقديم مشاريع الاستثمار للميزانية التشاركية!"
+    help:
+      title: "ساعدنا في ترجمة Moucharaka Mouwatina"
+      body: "إذا كنت تتحدث لغة، ساعدنا في إكمال ترجمتها في Moucharaka Mouwatina."
+    map:
+      title: "يمكنك الآن تحديد مواقع الاقتراحات والمشاريع الاستثمارية"
+      body: "عند إنشاء اقتراح أو مشروع استثماري، يمكنك تحديد موقعه على الخريطة"
+    proposal:
+      title: "هل لديك اقتراح؟"
+      body: "لا تنسَ أنه يمكنك إنشاء اقتراحات، وسيتم مناقشتها ودعمها من قبل المواطنين."
+  settings:
+    official_level_1_name: المنصب الرسمي 1
+    official_level_2_name: المنصب الرسمي 2
+    official_level_3_name: المنصب الرسمي 3
+    official_level_4_name: المنصب الرسمي 4
+    official_level_5_name: المنصب الرسمي 5
+  geozones:
+    north_district: القطاع الشمالي
+    west_district: القطاع الجنوبي
+    east_district: القطاع الشرقي
+    central_district: القطاع المركزي
+  organizations:
+    human_rights: حقوق الإنسان
+    neighborhood_association: جمعية الحي
+  cards:
+    budget:
+      title: "كيف تعمل الميزانية التشاركية؟"
+      description: "تتيح الميزانية التشاركية للمواطنين اقتراح وتحديد كيفية إنفاق جزء من الميزانية بشكل مباشر، مع إشراف وتقييم المؤسسة. كفاءة وسيطرة قصوى لتحقيق رضا الجميع."
+      link_text: "تعرف على المزيد حول الميزانية التشاركية"
+      label: "الميزانيات التشاركية"
+    debate:
+      title: "كيف تعمل النقاشات؟"
+      description: "يمكن لأي شخص بدء نقاش حول أي موضوع، مما يخلق مساحة منفصلة لمشاركة وجهات النظر مع الآخرين. النقاشات تحظى بتقدير الجميع لتسليط الضوء على القضايا الأكثر أهمية."
+      link_text: "تعرف على المزيد حول النقاشات"
+      label: "نقاشات"
+    header:
+      description: "برنامج مفتوح المصدر للمشاركة المجتمعية."
+      link_text: "مزيد من المعلومات"
+      label: "مرحبا في"
+    proposal:
+      title: "كيف تعمل المقترحات المجتمعية؟"
+      description: "مساحة للمواطن لإنشاء اقتراح والبحث عن الدعم. المقترحات التي تحصل على الدعم اللازم سيتم التصويت عليها. وبهذا، يمكننا معاً اتخاذ القرارات حول القضايا التي تهمنا."
+      link_text: "تعرف على المزيد حول المقترحات"
+      label: "المقترحات المجتمعية"
+  categories:
+    associations: الجمعيات
+    culture: الثقافة
+    sports: الرياضة
+    social_rights: الحقوق الاجتماعية
+    economy: الاقتصاد
+    employment: التوظيف
+    equity: الإنصاف
+    sustainability: التنمية المستدامة
+    participation: المشاركة
+    mobility: التنقل
+    media: الإعلام
+    health: الصحة
+    transparency: الشفافية
+    security_emergencies: الأمن والطوارئ
+    environment: البيئة
+  budgets:
+    budget: الميزانية التشاركية
+    currency: "€"
+    groups:
+      all_city: جميع المدينة
+      districts: القطاعات
+    phases:
+      description: "الوصف باللغة %{language}"
+      summary: "الملخص باللغة %{language}"
+    statuses:
+      studying_project: دراسة المشروع
+      bidding: تقديم العطاءات
+      executing_project: تنفيذ المشروع
+      executed: تم التنفيذ
+  legislation:
+    draft_versions:
+      body: "المسودة باللغة %{language}"
+  polls:
+    current_poll: "تصويت جاري"
+    current_poll_geozone_restricted: "منطقة التصويت الجارية مقيدة"
+    recounting_poll: "إعادة فرز التصويت"
+    expired_poll_without_stats: "التصويت انتهى بدون إحصائيات أو نتائج"
+    expired_poll_with_stats: "التصويت انتهى مع إحصائيات ونتائج"

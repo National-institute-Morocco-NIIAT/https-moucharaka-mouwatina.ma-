@@ -4,7 +4,9 @@
            url: proposal_url(proposal),
            description: t("proposals.share.message",
                           title: proposal.title,
-                          handle: setting["org_name"]),
+                          handle: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")),
            mobile: t("proposals.share.message",
                      title: proposal.title,
                      handle: setting["twitter_handle"]) %>

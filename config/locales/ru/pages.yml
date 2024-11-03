@@ -59,9 +59,9 @@ ru:
         text: |-
           Используйте его в вашем местном правительстве или помогите нам его усовершенствовать, это программное обеспечение бесплатно.
 
-          Настоящий портал открытого правительства использует [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') являющееся открытым программным обеспечением с [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), что простыми словами обзачает, что любой может использовать код свободно, копировать его, детально рассматривать, изменять и распространять по всему миру с любыми желаемыми модификациями (при условии, что остальные могут делать то же самое с его кодом). Потому как мы считаем, что культура лучше и богаче, когда оно освобождено.
+          Настоящий портал открытого правительства использует [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github') являющееся открытым программным обеспечением с [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), что простыми словами обзачает, что любой может использовать код свободно, копировать его, детально рассматривать, изменять и распространять по всему миру с любыми желаемыми модификациями (при условии, что остальные могут делать то же самое с его кодом). Потому как мы считаем, что культура лучше и богаче, когда оно освобождено.
 
-          Если вы являетесь программистом, вы можете просмотреть код и помочь нам его усовершенствовать на [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          Если вы являетесь программистом, вы можете просмотреть код и помочь нам его усовершенствовать на [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: Используйте его в вашем местном правительстве
     privacy:
@@ -86,23 +86,17 @@ ru:
           key_header: Клавиша
           page_header: Страница
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Домой
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Обсуждения проблем
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Заявки
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Голоса
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Партисипаторные бюджеты
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Законотворческие процессы
         browser_table:
           description: "В зависимости от используемых операционной системы и браузера, комбинация клавиш будет следующей:"
@@ -110,20 +104,15 @@ ru:
           browser_header: Браузер
           key_header: Комбинация клавич
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               key_column: ALT + клавиша, затем ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS + клавиша
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + клавиша (CTRL + ALT + клавиша для MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + клавиша (CMD + клавиша для MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS + ESC + клавиша
       textsize:
         title: Размер текста
@@ -132,29 +121,22 @@ ru:
           browser_header: Браузер
           action_header: Нужное действие
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: Вид > Размер текста
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Вид > Размер
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Настройки (картинка) > Опции > Расширенные > Веб содержимое > Размер текста
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Вид > Приближение/Отдаление
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Вид > масштаб
         browser_shortcuts_table:
           description: "Другой способ изменить размер текста - это использовать горячие клавиши, определенные в браузерах, в частности комбинация клавиш:"
           rows:
-            - 
-              shortcut_column: CTRL и + (CMD и + на MAC)
+            - shortcut_column: CTRL и + (CMD и + на MAC)
               description_column: Увеличивает размер текста
-            - 
-              shortcut_column: CTRL и - (CMD и - на MAC)
+            - shortcut_column: CTRL и - (CMD и - на MAC)
               description_column: Уменьшает размер текста
       compatibility:
         title: Совместимость со стандартами и визуальным дизайном

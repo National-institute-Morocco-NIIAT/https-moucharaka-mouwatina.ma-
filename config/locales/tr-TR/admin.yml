@@ -5,8 +5,8 @@ tr:
     actions:
       actions: İşlemler
       block_author: "Sahibi engelle"
-      confirm_action: "Emin misiniz? %{action} \"%{name}\""
-      confirm_delete: "Emin misiniz? Bu işlem \"%{name}\" ögesini siler ve geri alınamaz."
+      confirm_action: 'Emin misiniz? %{action} "%{name}"'
+      confirm_delete: 'Emin misiniz? Bu işlem "%{name}" ögesini siler ve geri alınamaz.'
       confirm_hide: Değerlendirmeyi onayla
       delete: "Sil"
       hide: Gizle
@@ -343,7 +343,7 @@ tr:
           back: "Grupları düzenlemeye dön"
       heading_mode:
         multiple:
-          description: "Birden çok grup, bölge veya konu içeren bir süreç oluşturun. Birkaç çuval para gibi bir şeyiniz var. Örneğin, \"Kuzey Bölgesi\" için 25.000 ₺, \"Merkez Bölge\" için 30.000 ₺, \"Güney Bölgesi\" ve tüm şehir için 28.000 ₺. Ya da spor, kültür veya sağlık gibi çeşitli temalar için gibi."
+          description: 'Birden çok grup, bölge veya konu içeren bir süreç oluşturun. Birkaç çuval para gibi bir şeyiniz var. Örneğin, "Kuzey Bölgesi" için 25.000 ₺, "Merkez Bölge" için 30.000 ₺, "Güney Bölgesi" ve tüm şehir için 28.000 ₺. Ya da spor, kültür veya sağlık gibi çeşitli temalar için gibi.'
           link: "Birden çok kalemi olan bir bütçe oluştur"
           title: "<strong>Birden çok kalemi olan</strong> bütçe"
         single:
@@ -448,25 +448,25 @@ tr:
         no_hidden_comments: Herhangi bir gizli yorum yok.
     dashboard:
       index:
-        back: '%{org} üzerine dön'
+        back: "%{org} üzerine dön"
         title: Yönetim
-        description: '%{org} yönetim panosuna hoş geldiniz.'
+        description: "%{org} yönetim panosuna hoş geldiniz."
         info: |-
           <p>Yönetici olarak ilinizde veya bölgenizde yurttaş katılımı süreçlerini buradan uygulayayıp ve denetleyebilirsiniz.</p>
 
-          <p>Yurttaş katılımını sağlamak için dünya çapında CONSUL DEMOCRACY platformunu kullanan yüzlerce hükümet ve belediye arasına katıldınız. Tebrikler!</p>
+          <p>Yurttaş katılımını sağlamak için dünya çapında Moucharaka Mouwatina platformunu kullanan yüzlerce hükümet ve belediye arasına katıldınız. Tebrikler!</p>
 
-          <p>CONSUL DEMOCRACY Vakfı küresel kullanıcı topluluğunun merkezinde yer alıyor. Yazılımı kimlerin kullandığını anlamak ve uygulanması ile kullanımı konusunda nasıl yardımcı olabileceğimizi görmek için bizimle iletişim kurmanızı rica ediyoruz. Sizi topluluğumuza davet etmek için sabırsızlanıyoruz.</p>
+          <p>Moucharaka Mouwatina Vakfı küresel kullanıcı topluluğunun merkezinde yer alıyor. Yazılımı kimlerin kullandığını anlamak ve uygulanması ile kullanımı konusunda nasıl yardımcı olabileceğimizi görmek için bizimle iletişim kurmanızı rica ediyoruz. Sizi topluluğumuza davet etmek için sabırsızlanıyoruz.</p>
 
           <p>Yönetiminiz kutlu olsun!</p>
 
-          <p>CONSUL DEMOCRACY Vakfı ekibinden selamlar.</p>
+          <p>Moucharaka Mouwatina Vakfı ekibinden selamlar.</p>
       actions:
         index:
           description: "Kullanıcılar önergeler oluşturduktan sonra önerge panosundan, fikirlerine destek olacak kaynakları ve önerileri öğrenebilir."
           create: Kaynak veya işlem oluştur
-          active: 'Evet'
-          inactive: 'Hayır'
+          active: "Evet"
+          inactive: "Hayır"
           title: Kaynaklar ve işlemler
           action_title: Başlık
           action_type: Tür
@@ -686,7 +686,7 @@ tr:
           notice: Soru silindi
         edit:
           back: Geri
-          title: "\"%{question_title}\" sorusunu düzenle"
+          title: '"%{question_title}" sorusunu düzenle'
           submit_button: Değişiklikleri kaydet
         form:
           add_option: Seçenek ekle
@@ -908,7 +908,7 @@ tr:
     system_emails:
       preview_pending:
         action: Bekleyen ön izlemesi
-        preview_of: '%{name} ön izlemesi'
+        preview_of: "%{name} ön izlemesi"
         pending_to_be_sent: Bu içerik gönderilmeyi bekliyor
         moderate_pending: Bildirim gönderimini değerlendir
         send_pending: Gönderim bekliyor
@@ -1241,7 +1241,7 @@ tr:
         shifts: "Vardiyaları yönet"
     officials:
       edit:
-        destroy: '''Görevli'' durumunu kaldır'
+        destroy: "'Görevli' durumunu kaldır"
         title: "Görevliler: Kullanıcıyı düzenle"
       flash:
         official_destroyed: "Ayrıntılar kaydedildi: Kullanıcı artık bir görevli değil"
@@ -1415,7 +1415,7 @@ tr:
         coordinates: Kullanılabilecek koordinatlar
         coordinates_help: Bir HTML görsel haritasında tıklanabilecek bir alan oluşturacak koordinatlar
         geojson: GeoJSON kullanılabilir
-        geojson_help: "\"Polygon\" ya da \"MultiPolygon\" türündeki biçimlere uygun olmalıdır. Bir bütçe kalemi bu coğrafi bölge ile ilişkilendirildiğinde, bütçenin haritasında bu verilere göre bir çokgen görüntülenir"
+        geojson_help: '"Polygon" ya da "MultiPolygon" türündeki biçimlere uygun olmalıdır. Bir bütçe kalemi bu coğrafi bölge ile ilişkilendirildiğinde, bütçenin haritasında bu verilere göre bir çokgen görüntülenir'
       create:
         notice: "Coğrafi bölge oluşturuldu"
       edit:
@@ -1627,7 +1627,7 @@ tr:
         destroy:
           notice: Sayfa silindi
         edit:
-          title: '%{page_title} düzenleniyor'
+          title: "%{page_title} düzenleniyor"
         form:
           options: Seçenekler
         index:
@@ -1670,7 +1670,7 @@ tr:
         enable: "%{tenant} kiracısını aç"
         enabled: Açıldı
       new:
-        admin_information: "Bir kiracı oluşturduğunuzda, e-posta adresi <strong>\"%{email}\"</strong> olan geçerli <strong>\"%{username}\"</strong> kullanıcınız ve parolanız yeni kiracının veri tabanına kopyalanarak otomatik olarak yönetici yetkileri verilir. Bu kullanıcı hesaplarının tümüyle ayrı veri tabanlarında tutulduğunu unutmayın. Kullanıcınızın bir kiracıdaki parolasını değiştirirseniz, diğer kiracılardaki hesaplarınız değiştirilmeden kalır."
+        admin_information: 'Bir kiracı oluşturduğunuzda, e-posta adresi <strong>"%{email}"</strong> olan geçerli <strong>"%{username}"</strong> kullanıcınız ve parolanız yeni kiracının veri tabanına kopyalanarak otomatik olarak yönetici yetkileri verilir. Bu kullanıcı hesaplarının tümüyle ayrı veri tabanlarında tutulduğunu unutmayın. Kullanıcınızın bir kiracıdaki parolasını değiştirirseniz, diğer kiracılardaki hesaplarınız değiştirilmeden kalır.'
         title: Yeni kiracı
       restore:
         notice: Kiracı açıldı
@@ -1759,10 +1759,10 @@ tr:
       help:
         title_1: "Yapay Zeka / Makine Öğrenmesi nedir?"
         description_1: "Geleneksel olarak bilgisayar programları, programın her durumda ne yapması gerektiği ve her an var olan bilgilerin nasıl işleneceği hakkında kesin kurallar belirlenerek tasarlanır. Yaygın olarak Yapay Zeka /Makine Öğrenmesi olarak bilinen şey, gerçekleştirilecek görevin tam olarak belirlendiği ve görevin nasıl daha iyi ya da daha kötü gerçekleştirildiğinin değerlendirildiği bir program türüdür. Ancak öncekinden farklı olarak sistem, görevi gerçekleştirmek için en uygun yöntemin ne olacağını keşfeder veya öğrenir."
-        title_2: "CONSUL DEMOCRACY üzerinde Yapay Zeka / Makine Öğrenmesi modülü ne yapar?"
-        description_2: "Bu modül, CONSUL DEMOCRACY üzerinde her türlü Yapay Zeka / Makine Öğrenmesi programının uygulanmasını sağlar. Programlar CONSUL DEMOCRACY üzerinde bulunan bilgileri işleyebilir ve hem kullanıcıların hem de yöneticilerin daha etkili ve akıllı yurttaş katılımı sağlamasına yardımcı olan sonuçlar üretebilir. Modül, genel CONSUL DEMOCRACY kodunu ve bu yeni programların kodunu birbirinden bağımsız tutarak, yeni programların uygulanmasını ve çalıştırılmasını kolaylaştırmak için geliştirilmiştir."
+        title_2: "Moucharaka Mouwatina üzerinde Yapay Zeka / Makine Öğrenmesi modülü ne yapar?"
+        description_2: "Bu modül, Moucharaka Mouwatina üzerinde her türlü Yapay Zeka / Makine Öğrenmesi programının uygulanmasını sağlar. Programlar Moucharaka Mouwatina üzerinde bulunan bilgileri işleyebilir ve hem kullanıcıların hem de yöneticilerin daha etkili ve akıllı yurttaş katılımı sağlamasına yardımcı olan sonuçlar üretebilir. Modül, genel Moucharaka Mouwatina kodunu ve bu yeni programların kodunu birbirinden bağımsız tutarak, yeni programların uygulanmasını ve çalıştırılmasını kolaylaştırmak için geliştirilmiştir."
         title_3: "Bu modül nasıl kullanılır"
-        description_3: "İlk kez kullanırken, bu modülü uygun şekilde etkinleştirmek için CONSUL DEMOCRACY belgelerinde bulunan yönergelerin izlenmesi gerekir. Modül doğru şekilde etkinleştirildiğinde, programlar \"Betikleri çalıştır\" sekmesinden yürütülür. Yürütmeden önce, aynı sekmede yürütme süresi öngörüsünü ve diğer ilgili bilgileri görebiliriz. Yürütmenin sonunda, \"Ayarlar\" sekmesinden CONSUL DEMOCRACY üzerinde gösterilecek içeriği etkinleştirebilir ve bizim için yararlı olabilecek diğer üretilmiş dosyaları indirebiliriz."
+        description_3: 'İlk kez kullanırken, bu modülü uygun şekilde etkinleştirmek için Moucharaka Mouwatina belgelerinde bulunan yönergelerin izlenmesi gerekir. Modül doğru şekilde etkinleştirildiğinde, programlar "Betikleri çalıştır" sekmesinden yürütülür. Yürütmeden önce, aynı sekmede yürütme süresi öngörüsünü ve diğer ilgili bilgileri görebiliriz. Yürütmenin sonunda, "Ayarlar" sekmesinden Moucharaka Mouwatina üzerinde gösterilecek içeriği etkinleştirebilir ve bizim için yararlı olabilecek diğer üretilmiş dosyaları indirebiliriz.'
         title_4: "Yeni Yapay Zeka / Makine Öğrenmesi betikleri nasıl uygulanır"
         description_4: "Lütfen örnek olarak önceki betikleri kullanın."
         description_4b: "Yeni betikler <code>public/machine_learning/scripts</code> klasöründe bulunmalıdır"

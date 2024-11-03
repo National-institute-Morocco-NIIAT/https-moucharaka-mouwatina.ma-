@@ -8,7 +8,9 @@ describe Layout::SocialComponent do
       Setting["youtube_handle"] = "my_youtube_handle"
       Setting["telegram_handle"] = "my_telegram_handle"
       Setting["instagram_handle"] = "my_instagram_handle"
-      Setting["org_name"] = "CONSUL"
+      (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = "CONSUL"
 
       render_inline Layout::SocialComponent.new
 

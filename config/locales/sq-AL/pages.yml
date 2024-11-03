@@ -27,7 +27,7 @@ sq:
         description: "Në seksionin %{link} ju mund të bëni propozime për Këshillin Bashkiak për t'i kryer ato. Propozimet kërkojnë mbështetje, dhe nëse arrijnë mbështetje të mjaftueshme, ato bëhen në një votim publik. Propozimet e miratuara në votat e këtyre qytetarëve pranohen nga Këshilli i Qytetit dhe kryhen."
         link: "propozimet e qytetarëve"
         image_alt: "Butoni për të mbështetur një propozim"
-        figcaption: 'Butoni për të mbështetur një propozim'
+        figcaption: "Butoni për të mbështetur një propozim"
       budgets:
         title: "Buxheti  pjesëmarrës"
         description: "Seksioni %{link} ndihmon njerëzit të marrin një vendim të drejtpërdrejtë mbi atë pjesë të buxhetit komunal ku shpenzohen."
@@ -57,9 +57,9 @@ sq:
         how_to_use: "Përdorni %{org_name} në qytetin tuaj"
       how_to_use:
         text: |-
-          Ky Portal i hapur i Qeverisë përdor [aplikacionin CONSUL DEMOCRACY] (https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') që është softuer i lirë, me [licencë AGPLv3] (http://www.gnu.org/licenses/ agpl-3.0.html 'AGPLv3 gnu'), që do të thotë me fjalë të thjeshta se kushdo mund ta përdorë kodin lirisht, ta kopjojë atë, ta shohë atë në detaje, ta modifikojë atë dhe ta rishpërndajë atë me modifikimet që dëshiron (duke lejuar të tjerët të bëjnë të njëjtën gjë). Sepse ne mendojmë se kultura është më e mirë dhe më e pasur kur lirohet.
+          Ky Portal i hapur i Qeverisë përdor [aplikacionin Moucharaka Mouwatina] (https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github') që është softuer i lirë, me [licencë AGPLv3] (http://www.gnu.org/licenses/ agpl-3.0.html 'AGPLv3 gnu'), që do të thotë me fjalë të thjeshta se kushdo mund ta përdorë kodin lirisht, ta kopjojë atë, ta shohë atë në detaje, ta modifikojë atë dhe ta rishpërndajë atë me modifikimet që dëshiron (duke lejuar të tjerët të bëjnë të njëjtën gjë). Sepse ne mendojmë se kultura është më e mirë dhe më e pasur kur lirohet.
 
-          Nëse jeni programues, mund të shihni kodin dhe të na ndihmoni për ta përmirësuar atë në [aplikacionin CONSUL DEMOCRACY] (https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          Nëse jeni programues, mund të shihni kodin dhe të na ndihmoni për ta përmirësuar atë në [aplikacionin Moucharaka Mouwatina] (https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: Përdoreni atë në qeverinë tuaj lokale
     privacy:
@@ -82,23 +82,17 @@ sq:
           key_header: Celës
           page_header: Faqja
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Faqja kryesore
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Debate
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Propozime
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Votim
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Buxhetet  pjesëmarrës
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Proceset legjislative
         browser_table:
           description: "Në varësi të sistemit operativ dhe shfletuesit të përdorur, kombinimi kyç do të jetë si vijon:"
@@ -106,20 +100,15 @@ sq:
           browser_header: Shfletues
           key_header: Kombinim i celsave
           rows:
-            - 
-              browser_column: Eksploro
+            - browser_column: Eksploro
               key_column: ALT + shkurtore pastaj ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS + shkurtore
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + shkurtore (CTRL + ALT + shkurtore për MAC
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + shkurtore (CTRL + shkurtore për MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS + ESC + shkurtore
       textsize:
         title: Madhësia e tekstit
@@ -128,29 +117,22 @@ sq:
           browser_header: Shfletues
           action_header: Veprimi që duhet marrë
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: Shiko> Madhësia e tekstit
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Shiko> Madhësia
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Opsionet (ikona)> Opsionet> Të avancuara> Përmbajtja e uebit> Madhësia e tekstit
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Pamja> Zmadho / Zvogëlo
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Shiko> masë
         browser_shortcuts_table:
           description: "Një mënyrë tjetër për të ndryshuar madhësinë e tekstit është të përdorni shkurtoret e tastierës të përcaktuara në shfletues, në veçanti kombinimin kyç:"
           rows:
-            - 
-              shortcut_column: CTRL dhe + (CMD dhe + në MAC)
+            - shortcut_column: CTRL dhe + (CMD dhe + në MAC)
               description_column: Rrit madhësinë e tekstit
-            - 
-              shortcut_column: CTRL dhe - (CMD dhe - në MAC)
+            - shortcut_column: CTRL dhe - (CMD dhe - në MAC)
               description_column: Zvogëlo madhësinë e tekstit
       compatibility:
         title: Pajtueshmëria me standardet dhe dizajni vizual

@@ -2,7 +2,9 @@ require "rails_helper"
 
 describe Layout::AdminHeaderComponent do
   let(:user) { create(:user) }
-  before { Setting["org_name"] = "CONSUL" }
+  before { (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = "CONSUL" }
 
   around do |example|
     with_request_url("/") { example.run }

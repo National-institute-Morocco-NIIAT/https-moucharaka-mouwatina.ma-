@@ -30,13 +30,13 @@ gd:
         description: "Anns an earrann %{link} faodaidh tu molaidhean a dhèanamh dhan Chomhairle. Feumaidh na molaidhean taic bhon phoball, agus ma gheibh iad taic gu leòr, thèid bhòtadh orra leis a’ phoball. Bidh a’ Chomhairle a’ gabhail ris na molaidhean a chaidh aontachadh ann am bhòtaichean nan saoranach sin agus bidh iad gan cur an gnìomh."
         link: "molaidhean nan saoranach"
         image_alt: "Putan gus taic a thoirt do mholadh"
-        figcaption: 'Putan gus “Taic” a thoirt do mholadh.'
+        figcaption: "Putan gus “Taic” a thoirt do mholadh."
       budgets:
         title: "Buidseat com-pàirteachail"
         description: "Tha an earrann %{link} a’ cuideachadh dhaoine gus co-dhùnadh dìreach a dhèanamh air dè a thèid cuid de bhuidseat na comhairle a chosg air."
         link: "buidseatan com-pàirteachail"
         image_alt: "Ìrean eadar-dhealaichte de bhuidseit com-pàirteachaidh"
-        figcaption: 'Ìrean “Taic” agus “Bhòtaidh” de bhuidseatan com-pàirteachail.'
+        figcaption: "Ìrean “Taic” agus “Bhòtaidh” de bhuidseatan com-pàirteachail."
       polls:
         title: "Cunntasan-bheachd"
         description: "Thèid an earrann %{link} a chur an gnìomh gach turas a ruigeas moladh taic 1% agus a thèid e gu bhòt no nuair a bhios a’ Chomhairle a’ moladh cùis air am faod daoine co-dhùnadh a dhèanamh."
@@ -64,9 +64,9 @@ gd:
         text: |-
           Cleachd e san ùghdarras ionadail agad no cuidich sinn gus a leasachadh, is e bathar-bog an-asgaidh a th’ ann.
 
-          Bidh am Portal Riaghaltas Fosgailte seo a’ cleachdadh an [CONSUL DEMOCRACY app] (https://github.com/consuldemocracy/consuldemocracy ‘consul democracy github’) a tha na bhathar-bog an-asgaidh, le [cead AGPLv3](http://www.gnu.org/licenses/ agpl-3.0.html ‘AGPLv3 gnu’ ), a tha a’ ciallachadh ann am faclan sìmplidh gun urrainn do dhuine sam bith an còd a chleachdadh gu saor, lethbhreac a dhèanamh dheth, fhaicinn gu mionaideach, atharrachadh agus ath-sgaoileadh dhan t-saoghal leis na h-atharrachaidhean a tha iad ag iarraidh (a’ leigeil le daoine eile an aon rud a dhèanamh). Oir tha gu bheil sinn den bheachd gu bheil cultar nas fheàrr agus nas beairtiche nuair a thèid a leigeil ma sgaoil.
+          Bidh am Portal Riaghaltas Fosgailte seo a’ cleachdadh an [Moucharaka Mouwatina app] (https://github.com/consuldemocracy/consuldemocracy ‘Moucharaka Mouwatina github’) a tha na bhathar-bog an-asgaidh, le [cead AGPLv3](http://www.gnu.org/licenses/ agpl-3.0.html ‘AGPLv3 gnu’ ), a tha a’ ciallachadh ann am faclan sìmplidh gun urrainn do dhuine sam bith an còd a chleachdadh gu saor, lethbhreac a dhèanamh dheth, fhaicinn gu mionaideach, atharrachadh agus ath-sgaoileadh dhan t-saoghal leis na h-atharrachaidhean a tha iad ag iarraidh (a’ leigeil le daoine eile an aon rud a dhèanamh). Oir tha gu bheil sinn den bheachd gu bheil cultar nas fheàrr agus nas beairtiche nuair a thèid a leigeil ma sgaoil.
 
-          Mas e prògramadair a th’ annad, chì thu an còd agus faodaidh tu ar cuideachadh gus piseach a thoirt air aig [app CONSUL DEMOCRACY] (https://github.com/consuldemocracy/consuldemocracy ‘consul democracy github’).
+          Mas e prògramadair a th’ annad, chì thu an còd agus faodaidh tu ar cuideachadh gus piseach a thoirt air aig [app Moucharaka Mouwatina] (https://github.com/consuldemocracy/consuldemocracy ‘Moucharaka Mouwatina github’).
       titles:
         how_to_use: Cleachd e airson an ùghdarrais ionadail agad
     privacy:
@@ -91,44 +91,33 @@ gd:
           key_header: Iuchair
           page_header: Taobh-duilleig
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Dachaigh
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Deasbadan
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Molaidhean
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Bhòtaichean
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Buidseatan Com-pàirteachail
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Pròiseasan reachdais
         browser_table:
           description: "A rèir an t-siostam obrachaidh agus a’ bhrabhsair a thathar a’ cleachdadh, bidh òrdugh nan iuchraichean mar a leanas:"
           caption: Òrdugh nan iuchraichean a rèir an t-siostam obrachaidh agus a’ bhrabhsair
           browser_header: Brabhsair
-          key_header: 'Òrdugh nan iuchraichean:'
+          key_header: "Òrdugh nan iuchraichean:"
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               key_column: ALT + ath-ghoirid agus an uair sin ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS + ath-ghoirid
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + ath-ghoirid (CTRL + ALT + ath-ghoirid airson MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + ath-ghoirid (CMD + ath-ghoirid airson MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS + ESC + ath-ghoirid
       textsize:
         title: Meud an teacsa
@@ -137,29 +126,22 @@ gd:
           browser_header: Brabhsair
           action_header: Gnìomh ri ghabhail
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: View > Text size
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: View > Size
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Settings (icon) > Options > Advanced > Web Content > Text size
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: View > Zoom In/Zoom out
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: View > scale
         browser_shortcuts_table:
           description: "Is e dòigh eile air meud an teacsa atharrachadh na h-ath-ghoiridean meur-chlàr a tha air am mìneachadh ann am brabhsairean a chleachdadh, gu sònraichte na h-iuchraichean a leanas:"
           rows:
-            - 
-              shortcut_column: CTRL agus + (CMD agus + air MAC)
+            - shortcut_column: CTRL agus + (CMD agus + air MAC)
               description_column: Meudaichidh seo mead an teacsa
-            - 
-              shortcut_column: CTRL agus - (CMD agus - air MAC)
+            - shortcut_column: CTRL agus - (CMD agus - air MAC)
               description_column: Lùghdaichidh seo meud an teacsa
       compatibility:
         title: Co-chòrdalachd le inbhean agus dealbhadh lèirsinneach

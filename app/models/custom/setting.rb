@@ -6,7 +6,7 @@ class Setting
 
     # Change this code when you'd like to add settings that aren't
     # already present in the database. These settings will be added when
-    # first installing CONSUL DEMOCRACY, when deploying code with Capistrano,
+    # first installing Moucharaka Mouwatina, when deploying code with Capistrano,
     # or when manually executing the `settings:add_new_settings` task.
     #
     # If a setting already exists in the database, changing its value in
@@ -15,7 +15,7 @@ class Setting
     # so will overwrite the values of all existing settings in the
     # database, so use with care.
     #
-    # The tests in the spec/ folder rely on CONSUL DEMOCRACY's default
+    # The tests in the spec/ folder rely on Moucharaka Mouwatina's default
     # settings, so it's recommended not to change the default settings
     # in the test environment.
     def defaults
@@ -23,7 +23,7 @@ class Setting
         consul_defaults
       else
         consul_defaults.merge({
-          # Overwrite default CONSUL DEMOCRACY settings or add new settings here
+          # Overwrite default Moucharaka Mouwatina settings or add new settings here
         })
       end
     end

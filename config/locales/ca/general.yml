@@ -90,10 +90,10 @@ ca:
       recommendations:
         without_results: No hi ha debats relacionats amb els vostres interessos
         without_interests: Seguiu les propostes perquè us puguem fer recomanacions
-        disable: "Les recomanacions dels debats deixaran de mostrar-se si les rebutgeu. Podeu activar-los de nou a la pàgina \"El meu compte\""
+        disable: 'Les recomanacions dels debats deixaran de mostrar-se si les rebutgeu. Podeu activar-los de nou a la pàgina "El meu compte"'
         actions:
           success: "Les recomanacions per als debats ja estan desactivades per a aquest compte"
-          error: "S'ha produït un error. Vés a la pàgina \"El meu compte\" per desactivar manualment les recomanacions dels debats"
+          error: 'S''ha produït un error. Vés a la pàgina "El meu compte" per desactivar manualment les recomanacions dels debats'
       search_form:
         button: Buscar
         placeholder: Cercar debats...
@@ -184,9 +184,9 @@ ca:
     footer:
       accessibility: Accessibilitat
       conditions: Condicions d'ús
-      consul: Aplicació CONSUL DEMOCRACY
+      consul: Aplicació Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Aquest portal és una adaptació de la plataforma de %{open_source} %{consul} desenvolupada per l'Ajuntament de Madrid i adaptada per la Diputació de València.
       open_source: programari lliure
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -321,10 +321,10 @@ ca:
       recommendations:
         without_results: No hi ha propostes relacionades amb els vostres interessos
         without_interests: Seguiu les propostes perquè us puguem fer recomanacions
-        disable: "Les recomanacions de les propostes deixaran de mostrar-se si les rebutgeu. Podeu activar-los de nou a la pàgina \"El meu compte\""
+        disable: 'Les recomanacions de les propostes deixaran de mostrar-se si les rebutgeu. Podeu activar-los de nou a la pàgina "El meu compte"'
         actions:
           success: "Les recomanacions per a les propostes estan desactivades per a aquest compte"
-          error: "S'ha produït un error. Vés a la pàgina \"El meu compte\" per desactivar manualment les recomanacions de propostes"
+          error: 'S''ha produït un error. Vés a la pàgina "El meu compte" per desactivar manualment les recomanacions de propostes'
       retired_proposals: Propostes retirades
       retired_proposals_link: "Propostes retirades pels seus autors"
       selected_proposals: Propostes seleccionades
@@ -550,7 +550,7 @@ ca:
         share_in: Comparteix
         hi: "Hola!"
         introduction: Us escric per informar-vos que participo %{org}, la plataforma que podem decidir quina ciutat volem. I per això, vaig crear la meva pròpia proposta ciutadana i ara necessito el vostre suport. Però no us preocupeu perquè és molt senzill.
-        support: "Només heu de fer clic sobre el botó que veuràs a continuació \"Suport aquesta proposta\" i us podeu informar abans de promocionar-la. L’Ajuntament només portarà a terme les propostes que aconsegueixin el màxim suport i he pensat que vosaltres, estic segur que m’ajudeu a aconseguir-ho!"
+        support: 'Només heu de fer clic sobre el botó que veuràs a continuació "Suport aquesta proposta" i us podeu informar abans de promocionar-la. L’Ajuntament només portarà a terme les propostes que aconsegueixin el màxim suport i he pensat que vosaltres, estic segur que m’ajudeu a aconseguir-ho!'
         share: "I si també em feu el gran favor de compartir la meva proposta amb els vostres amics, familiars i contactes, seria perfecte!"
   polls:
     all: "tots"

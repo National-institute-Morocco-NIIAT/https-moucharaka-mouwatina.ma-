@@ -1,48 +1,48 @@
 # Documentación de la API
 
-* [Características](#caracteristicas)
-* [GraphQL](#graphql)
-* [Haciendo peticiones a la API](#haciendo-peticiones-a-la-api)
-  * [Clientes soportados](#clientes-soportados)
-    * [GraphiQL](#graphiql)
-    * [Postman](#postman)
-    * [Librerías HTTP](#librerias-http)
-* [Información disponible](#informacion-disponible)
-* [Ejemplos de consultas](#ejemplos-de-consultas)
-  * [Recuperar un único elemento de una colección](#recuperar-un-unico-elemento-de-una-coleccion)
-  * [Recuperar una colección completa](#recuperar-una-coleccion-completa)
-    * [Paginación](#paginacion)
-  * [Acceder a varios recursos en una única petición](#acceder-a-varios-recursos-en-una-unica-peticion)
-* [Limitaciones de seguridad](#limitaciones-de-seguridad)
-  * [Ejemplo de consulta demasiado profunda](#ejemplo-de-consulta-demasiado-profunda)
-  * [Ejemplo de consulta demasiado compleja](#ejemplo-de-consulta-demasiado-compleja)
-* [Ejemplos de código](#ejemplos-de-codigo)
+- [Características](#caracteristicas)
+- [GraphQL](#graphql)
+- [Haciendo peticiones a la API](#haciendo-peticiones-a-la-api)
+  - [Clientes soportados](#clientes-soportados)
+    - [GraphiQL](#graphiql)
+    - [Postman](#postman)
+    - [Librerías HTTP](#librerias-http)
+- [Información disponible](#informacion-disponible)
+- [Ejemplos de consultas](#ejemplos-de-consultas)
+  - [Recuperar un único elemento de una colección](#recuperar-un-unico-elemento-de-una-coleccion)
+  - [Recuperar una colección completa](#recuperar-una-coleccion-completa)
+    - [Paginación](#paginacion)
+  - [Acceder a varios recursos en una única petición](#acceder-a-varios-recursos-en-una-unica-peticion)
+- [Limitaciones de seguridad](#limitaciones-de-seguridad)
+  - [Ejemplo de consulta demasiado profunda](#ejemplo-de-consulta-demasiado-profunda)
+  - [Ejemplo de consulta demasiado compleja](#ejemplo-de-consulta-demasiado-compleja)
+- [Ejemplos de código](#ejemplos-de-codigo)
 
 <h2 id="caracteristicas">Características</h2>
 
-* API de sólo lectura
-* Acceso público, sin autenticación
-* Usa GraphQL por debajo
-  * El tamaño máximo (y por defecto) de página está establecido a 25
-  * La profundiad máxima de las consultas es de 8 niveles
-  * Como máximo se pueden solicitar 2 colecciones en una misma consulta
-  * Soporte para peticiones GET (consulta dentro del *query string*) y POST (consulta dentro del *body*, como `application/json` o `application/graphql`).
+- API de sólo lectura
+- Acceso público, sin autenticación
+- Usa GraphQL por debajo
+  - El tamaño máximo (y por defecto) de página está establecido a 25
+  - La profundiad máxima de las consultas es de 8 niveles
+  - Como máximo se pueden solicitar 2 colecciones en una misma consulta
+  - Soporte para peticiones GET (consulta dentro del _query string_) y POST (consulta dentro del _body_, como `application/json` o `application/graphql`).
 
 ## GraphQL
 
-La API de Consul Democracy utiliza GraphQL [http://graphql.org](https://graphql.org), en concreto la [implementación en Ruby](http://graphql-ruby.org/). Si no estás familiarizado con este tipo de APIs, es recomendable investigar un poco sobre GraphQL previamente.
+La API de Moucharaka Mouwatina utiliza GraphQL [http://graphql.org](https://graphql.org), en concreto la [implementación en Ruby](http://graphql-ruby.org/). Si no estás familiarizado con este tipo de APIs, es recomendable investigar un poco sobre GraphQL previamente.
 
-Una de las caracteríticas que diferencian una API REST de una GraphQL es que con esta última es posible construir *consultas personalizadas*, de forma que el servidor nos devuelva únicamente la información en la que estamos interesados.
+Una de las caracteríticas que diferencian una API REST de una GraphQL es que con esta última es posible construir _consultas personalizadas_, de forma que el servidor nos devuelva únicamente la información en la que estamos interesados.
 
 Las consultas en GraphQL están escritas siguiendo un estándar que presenta ciertas similitudes con el formato JSON, por ejemplo:
 
 ```graphql
 {
   proposal(id: 1) {
-    id,
-    title,
+    id
+    title
     public_author {
-      id,
+      id
       username
     }
   }
@@ -68,12 +68,12 @@ Las respuestas son en formato JSON:
 
 ## Haciendo peticiones a la API
 
-Siguiendo las [directrices oficiales](http://graphql.org/learn/serving-over-http/), la API de Consul Democracy soporta los siguientes tipos de peticiones:
+Siguiendo las [directrices oficiales](http://graphql.org/learn/serving-over-http/), la API de Moucharaka Mouwatina soporta los siguientes tipos de peticiones:
 
-* Peticiones GET, con la consulta dentro del *query string*.
-* Peticiones POST
-  * Con la consulta dentro del *body*, con `Content-Type: application/json`
-  * Con la consulta dentro del *body*, con `Content-Type: application/graphql`
+- Peticiones GET, con la consulta dentro del _query string_.
+- Peticiones POST
+  - Con la consulta dentro del _body_, con `Content-Type: application/json`
+  - Con la consulta dentro del _body_, con `Content-Type: application/graphql`
 
 ### Clientes soportados
 
@@ -81,9 +81,9 @@ Al ser una API que funciona a través de HTTP, cualquier herramienta capaz de re
 
 Esta sección contiene unos pequeños ejemplos sobre cómo hacer las peticiones a través de:
 
-* GraphiQL
-* Extensiones de Chrome como Postman
-* Cualquier librería HTTP
+- GraphiQL
+- Extensiones de Chrome como Postman
+- Cualquier librería HTTP
 
 #### GraphiQL
 
@@ -93,17 +93,17 @@ Esta sección contiene unos pequeños ejemplos sobre cómo hacer las peticiones 
 
 Tiene tres paneles principales:
 
-* En el panel de la izquierda se escribe la consulta a realizar.
-* El panel central muestra el resultado de la petición.
-* El panel derecho (ocultable) contiene una documentación autogenerada a partir de la información expuesta en la API.
+- En el panel de la izquierda se escribe la consulta a realizar.
+- El panel central muestra el resultado de la petición.
+- El panel derecho (ocultable) contiene una documentación autogenerada a partir de la información expuesta en la API.
 
 #### Postman
 
-Ejemplo de petición `GET`, con la consulta como parte del *query string*:
+Ejemplo de petición `GET`, con la consulta como parte del _query string_:
 
 ![Postman GET](../../img/graphql/graphql-postman-get.png)
 
-Ejemplo de petición `POST`, con la consulta como parte del *body* y codificada como `application/json`:
+Ejemplo de petición `POST`, con la consulta como parte del _body_ y codificada como `application/json`:
 
 ![Postman POST](../../img/graphql/graphql-postman-post-headers.png)
 
@@ -115,7 +115,7 @@ La consulta debe estar ubicada en un documento JSON válido, como valor de la cl
 
 Por supuesto es posible utilizar cualquier librería HTTP de lenguajes de programación.
 
-**IMPORTANTE**: Debido a los protocolos de seguridad de los servidores del Ayuntamiento de Madrid, es necesario incluir un *User Agent* perteneciente a un navegador para que la petición no sea descartada. Por ejemplo:
+**IMPORTANTE**: Debido a los protocolos de seguridad de los servidores del Ayuntamiento de Madrid, es necesario incluir un _User Agent_ perteneciente a un navegador para que la petición no sea descartada. Por ejemplo:
 
 `User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36`
 
@@ -125,16 +125,16 @@ El fichero [config/api.yml](../../config/api.yml) contiene una lista completa de
 
 La lista de modelos es la siguiente:
 
-| Modelo                  | Descripción                  |
-| ----------------------- | ---------------------------- |
-| `User`                  | Usuarios                     |
-| `Debate`                | Debates                      |
-| `Proposal`              | Propuestas                   |
-| `Comment`               | Comentarios en debates, propuestas y otros comentarios |
-| `Geozone`               | Geozonas (distritos)         |
-| `ProposalNotification`  | Notificaciones asociadas a propuestas |
-| `Tag`                   | Tags en debates y propuestas |
-| `Vote`                  | Información sobre votos      |
+| Modelo                 | Descripción                                            |
+| ---------------------- | ------------------------------------------------------ |
+| `User`                 | Usuarios                                               |
+| `Debate`               | Debates                                                |
+| `Proposal`             | Propuestas                                             |
+| `Comment`              | Comentarios en debates, propuestas y otros comentarios |
+| `Geozone`              | Geozonas (distritos)                                   |
+| `ProposalNotification` | Notificaciones asociadas a propuestas                  |
+| `Tag`                  | Tags en debates y propuestas                           |
+| `Vote`                 | Información sobre votos                                |
 
 ## Ejemplos de consultas
 
@@ -143,8 +143,8 @@ La lista de modelos es la siguiente:
 ```graphql
 {
   proposal(id: 2) {
-    id,
-    title,
+    id
+    title
     comments_count
   }
 }
@@ -219,7 +219,6 @@ Actualmente el número máximo (y por defecto) de elementos que se devuelven en 
     }
   }
 }
-
 ```
 
 La respuesta:
@@ -265,14 +264,14 @@ Esta consulta solicita información relativa a varios modelos distintos en una �
 ```graphql
 {
   proposal(id: 15262) {
-    id,
-    title,
+    id
+    title
     public_author {
       username
-    },
+    }
     geozone {
       name
-    },
+    }
     comments(first: 2) {
       edges {
         node {
@@ -290,9 +289,9 @@ Permitir que un cliente personalice las consultas supone un factor de riesgo imp
 
 Existen tres mecanismos principales para evitar este tipo de abusos:
 
-* Paginación de resultados
-* Limitar la profundidad máxima de las consultas
-* Limitar la cantidad de información que es posible solicitar en una consulta
+- Paginación de resultados
+- Limitar la profundidad máxima de las consultas
+- Limitar la cantidad de información que es posible solicitar en una consulta
 
 ### Ejemplo de consulta demasiado profunda
 
@@ -304,12 +303,12 @@ La profundidad máxima de las consultas está actualmente establecida en 8. Cons
     public_proposals {
       edges {
         node {
-          id,
-          title,
+          id
+          title
           comments {
             edges {
               node {
-                body,
+                body
                 public_author {
                   username
                 }
@@ -350,7 +349,7 @@ El principal factor de riesgo se da cuando se solicitan varias colecciones de re
               title
             }
           }
-        },
+        }
         public_proposals {
           edges {
             node {

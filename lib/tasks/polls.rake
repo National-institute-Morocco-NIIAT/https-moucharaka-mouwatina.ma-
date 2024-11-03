@@ -79,7 +79,7 @@ namespace :polls do
     Tenant.run_on_each do
       questions = Poll::Question.select do |question|
         # Change this if you've added a custom votation type
-        # to your Consul Democracy installation that implies
+        # to your Moucharaka Mouwatina installation that implies
         # choosing among a few given options
         question.unique? || question.multiple?
       end

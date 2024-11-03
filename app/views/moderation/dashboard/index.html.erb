@@ -1,3 +1,5 @@
-<%= link_to t("admin.dashboard.index.back", org: setting["org_name"]), root_path, class: "button float-right" %>
+<%= link_to t("admin.dashboard.index.back", org: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")), root_path, class: "button float-right" %>
 
 <h2 class="inline-block"><%= t("moderation.dashboard.index.title") %></h2>

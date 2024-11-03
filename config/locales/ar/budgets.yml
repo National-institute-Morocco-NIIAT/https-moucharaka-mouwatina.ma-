@@ -37,6 +37,7 @@ ar:
       reviewing_ballots: مراجعة عملية التصويت
       finished: الميزانية النهائية
     index:
+      current_phase: المرحلة الحالية
       title: الميزانيات المشاركة
       empty_budgets: لا يوجد ميزانيات.
       section_header:

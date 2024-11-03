@@ -77,7 +77,7 @@ pt-BR:
       show_link: Ver debate
     form:
       tags_instructions: Marcar este debate.
-      tags_placeholder: "Entre com as marcações que você deseja usar, separadas por vírgulas ('s\")"
+      tags_placeholder: 'Entre com as marcações que você deseja usar, separadas por vírgulas (''s")'
     index:
       featured_debates: Destacado
       orders:
@@ -185,9 +185,9 @@ pt-BR:
     footer:
       accessibility: Acessibilidade
       conditions: Termos e condições de uso
-      consul: Aplicativo CONSUL DEMOCRACY
+      consul: Aplicativo Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Este portal usa o %{consul} que é %{open_source}. De Madrid para o mundo.
       open_source: programa de código aberto
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -250,7 +250,7 @@ pt-BR:
       name: Facebook
     finish_signup:
       title: "Detalhes adicionais"
-      username_warning: "Devido a uma mudança na maneira como interagimos com as redes sociais, é possível que seu nome de usuário apareça como \"já em uso\". Se esse for o seu caso, por favor escolha um nome de usuário diferente."
+      username_warning: 'Devido a uma mudança na maneira como interagimos com as redes sociais, é possível que seu nome de usuário apareça como "já em uso". Se esse for o seu caso, por favor escolha um nome de usuário diferente.'
     google_oauth2:
       sign_in: Iniciar sessão com o Google
       sign_up: Inscrever-se com o Google
@@ -306,7 +306,7 @@ pt-BR:
       tag_category_label: "Categorias"
       tags_instructions: "Marque esta proposta. Você pode escolher entre as categorias propostas ou adicionar a sua própria"
       tags_label: Marcação
-      tags_placeholder: "Entre com as marcações que você deseja usar, separadas por vírgulas ('s\")"
+      tags_placeholder: 'Entre com as marcações que você deseja usar, separadas por vírgulas (''s")'
       map_location: "Localização do mapa"
       map_location_instructions: "Navegue no mapa até o local e fixe o marcador."
       map_remove_marker: "Remover o marcador do mapa"

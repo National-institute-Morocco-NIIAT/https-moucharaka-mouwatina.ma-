@@ -2,12 +2,16 @@
 
   <h1 style="<%= css_for_mailer_heading %>">
     <%= t("mailers.proposal_notification_digest.title",
-          org_name: Setting["org_name"]) %>
+          org_name: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")) %>
   </h1>
 
   <p style="<%= css_for_mailer_text %>">
     <%= t("mailers.proposal_notification_digest.info",
-          org_name: Setting["org_name"]) %>
+          org_name: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")) %>
   </p>
 
   <% @notifications.each do |notification| %>

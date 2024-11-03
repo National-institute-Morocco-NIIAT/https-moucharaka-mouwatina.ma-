@@ -64,9 +64,9 @@ de:
         text: |-
           Verwenden Sie diese Anwendung in Ihrer lokalen Regierung, oder helfen Sie uns sie zu verbessern, die Software ist kostenlos.
 
-          Dieses offene Regierungs-Portal benutzt die [CONSUL DEMOCRACY-App](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github'), die eine freie Software, mit der Lizens [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ) ist. Einfach gesagt, bedeutet das, dass jeder diesen Code frei benutzen, kopieren, detailiert betrachten, modifizieren und Versionen, mit gewünschten Modifikationen neu an die Welt verteilen kann (wobei anderen gestattet wird, dasselbe zu tun). Denn wir glauben, dass Kultur besser und ergiebiger ist, wenn sie öffentlich wird.
+          Dieses offene Regierungs-Portal benutzt die [Moucharaka Mouwatina-App](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github'), die eine freie Software, mit der Lizens [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ) ist. Einfach gesagt, bedeutet das, dass jeder diesen Code frei benutzen, kopieren, detailiert betrachten, modifizieren und Versionen, mit gewünschten Modifikationen neu an die Welt verteilen kann (wobei anderen gestattet wird, dasselbe zu tun). Denn wir glauben, dass Kultur besser und ergiebiger ist, wenn sie öffentlich wird.
 
-          Wenn Sie ein Programmierer sind, können Sie den Code betrachten und uns helfen diesen auf [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') zu verbessern.
+          Wenn Sie ein Programmierer sind, können Sie den Code betrachten und uns helfen diesen auf [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github') zu verbessern.
       titles:
         how_to_use: Verwenden Sie es in Ihrer Kommunalverwaltung
     privacy:
@@ -91,23 +91,17 @@ de:
           key_header: Schlüssel
           page_header: Seite
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Start
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Diskussionen
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Vorschläge
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Stimmen
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Bürgerhaushalte
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Gesetzgebungsverfahren
         browser_table:
           description: "Abhängig vom Betriebssystem und dem verwendeten Browser lautet die Tastenkombination wie folgt:"
@@ -115,20 +109,15 @@ de:
           browser_header: Browser
           key_header: Tastenkombination
           rows:
-            - 
-              browser_column: Internet Explorer
+            - browser_column: Internet Explorer
               key_column: ALT + Tastenkombination dann ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS + Kürzel
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + Kürzel (STRG + ALT + Kürzel für MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + Kürzel (CMD + ALT + Kürzel für MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS + ESC + Kürzel
       textsize:
         title: Textgröße
@@ -137,29 +126,22 @@ de:
           browser_header: Browser
           action_header: Aktion die gemacht werden muss
           rows:
-            - 
-              browser_column: Internet Explorer
+            - browser_column: Internet Explorer
               action_column: Anzeige > Textgröße
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Anzeige > Größe
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Einstellungen (Symbol) > Optionen > Fortschritt > Web Inhalt > Text Größe
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Anzeige > Vergrößern / Verkleinern
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Anzeige > Skala
         browser_shortcuts_table:
           description: "Eine weitere Möglichkeit, die Textgröße zu ändern, besteht darin, die in Browsern definierten Tastenkombinationen zu verwenden, insbesondere die Tastenkombination:"
           rows:
-            - 
-              shortcut_column: CTRL und + (CMD und + on MAC)
+            - shortcut_column: CTRL und + (CMD und + on MAC)
               description_column: Erhöhen sie die Textgröße
-            - 
-              shortcut_column: CTRL und - (CMD und - on MAC)
+            - shortcut_column: CTRL und - (CMD und - on MAC)
               description_column: Verringern sie die Textgröße
       compatibility:
         title: Kompatibilität mit Standards und visueller Gestaltung

@@ -89,10 +89,10 @@ bs:
       recommendations:
         without_results: Nema debata vezanih za vaše interese
         without_interests: Pratite prijedloge kako bi vam dali preporuke
-        disable: "Preporuke za debate se neće pojavljivati ako ih isključite. Možete ih ponovo uključiti na stranici \"Moj nalog\""
+        disable: 'Preporuke za debate se neće pojavljivati ako ih isključite. Možete ih ponovo uključiti na stranici "Moj nalog"'
         actions:
           success: "Preporuke za debate su sad isključene za ovaj nalog"
-          error: "Došlo je do greške. Idite na stranicu \"Moj nalog\" kako bi ručno isključili preporuke za debate"
+          error: 'Došlo je do greške. Idite na stranicu "Moj nalog" kako bi ručno isključili preporuke za debate'
       search_form:
         button: Traži
         placeholder: Pretraga po debatama...
@@ -175,9 +175,9 @@ bs:
     footer:
       accessibility: Pristupačnost
       conditions: Uvjeti korištenja
-      consul: Aplikacija CONSUL DEMOCRACY
+      consul: Aplikacija Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, (godina) %{year}
+      copyright: Moucharaka Mouwatina, (godina) %{year}
       description: Ovaj portal koristi %{consul}, koji je %{open_source} aplikacija.
       open_source: softver otvorenog koda
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -312,10 +312,10 @@ bs:
       recommendations:
         without_results: Nema prijedloga vezanih za vaše interese
         without_interests: Pratite prijedloge kako bi vam dali preporuke
-        disable: "Preporuke za prijedloge se neće pojavljivati ako ih isključite. Možete ih ponovo uključiti na stranici \"Moj nalog\""
+        disable: 'Preporuke za prijedloge se neće pojavljivati ako ih isključite. Možete ih ponovo uključiti na stranici "Moj nalog"'
         actions:
           success: "Preporuke za prijedloge su sad isključene za ovaj nalog"
-          error: "Došlo je do greške. Idite na stranicu \"Moj nalog\" kako bi ručno isključili preporuke za prijedloge"
+          error: 'Došlo je do greške. Idite na stranicu "Moj nalog" kako bi ručno isključili preporuke za prijedloge'
       retired_proposals: Povučeni prijedlozi
       retired_proposals_link: "Prijedlozi povučeni od strane autora"
       retired_links:
@@ -532,7 +532,7 @@ bs:
         share_in: Uključi se
         hi: "Pozdrav!"
         introduction: Želim vas obavijestiti da učestvujem u %{org}, platformi na kojoj možemo odlučiti kakav grad želimo. Kako bi to postigli, izradio sam vlastiti građanski prijedlog i sad mi treba vaša podrška! Ne brinite, nije ništa teško.
-        support: "Samo trebate kliknuti dugme koje vidite dole, \"Podrži ovaj prijedlog\", i možete se informisati prije nego se odlučite promovisati prijedlog. Gradsko vijeće će realizovati samo prijedloge koji dobiju maksimalnu podršku, tako da sam siguran da ćete mi pomoći da to i postignemo!"
+        support: 'Samo trebate kliknuti dugme koje vidite dole, "Podrži ovaj prijedlog", i možete se informisati prije nego se odlučite promovisati prijedlog. Gradsko vijeće će realizovati samo prijedloge koji dobiju maksimalnu podršku, tako da sam siguran da ćete mi pomoći da to i postignemo!'
         share: "Bilo bi super kad bi mi učinili veliku uslugu i podijelili moj prijedlog sa prijateljima, porodicom i poznanicima!"
   polls:
     all: "Sve"
@@ -744,7 +744,7 @@ bs:
           few: "%{count} investicija"
           other: "%{count} investicija"
         follows:
-          one: 'Prati: 1'
+          one: "Prati: 1"
           few: "Prati: %{count}"
           other: "Prati: %{count}"
       no_activity: Korisnik nema javnih aktivnosti

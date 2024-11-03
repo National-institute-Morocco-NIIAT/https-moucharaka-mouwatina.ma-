@@ -93,10 +93,10 @@ da:
       recommendations:
         without_results: Der er ingen debatindlæg, der relatere sig til dit interesseområde
         without_interests: Følg forslagene så vi kan give dig anbefalinger
-        disable: "Anbefalede debatindlæg vil ikke længere blive vist, hvis du deaktiverer dem. Du kan genaktivere dem under \"Min konto\""
+        disable: 'Anbefalede debatindlæg vil ikke længere blive vist, hvis du deaktiverer dem. Du kan genaktivere dem under "Min konto"'
         actions:
           success: "Modtagelse af anbefalede debatindlæg er nu deaktiveret"
-          error: "Der skete en fejl. Gå til \"Min konto\" for manuelt at deaktivere anbefalinger af debatindlæg"
+          error: 'Der skete en fejl. Gå til "Min konto" for manuelt at deaktivere anbefalinger af debatindlæg'
       search_form:
         button: Søg
         placeholder: Søg debatindlæg...
@@ -193,9 +193,9 @@ da:
     footer:
       accessibility: Tilgængelighed
       conditions: Brugervilkår og betingelser
-      consul: CONSUL DEMOCRACY programmet
+      consul: Moucharaka Mouwatina programmet
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Denne portal anvender %{consul}, som er en %{open_source}.
       open_source: open-source software
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -258,7 +258,7 @@ da:
       name: Facebook
     finish_signup:
       title: "Yderligere detaljer"
-      username_warning: "På grund af forandringer i måden vi interagerer med sociale medier, er det muligt, at dit brugernavn nu fremstår som \"allerede i brug\". Hvis dette er tilfældet, skal du vælge et andet brugernavn."
+      username_warning: 'På grund af forandringer i måden vi interagerer med sociale medier, er det muligt, at dit brugernavn nu fremstår som "allerede i brug". Hvis dette er tilfældet, skal du vælge et andet brugernavn.'
     google_oauth2:
       sign_in: Log ind med Google
       sign_up: Tilmeld dig via Google
@@ -331,10 +331,10 @@ da:
       recommendations:
         without_results: Der er ingen forslag, der relaterer sig til dit interesseområde
         without_interests: Følg forslaget så vi kan give dig anbefalinger
-        disable: "Anbefalede forslag vil ikke længere blive vist, hvis du deaktiverer dem. Du kan genaktivere dem under \"Min konto\""
+        disable: 'Anbefalede forslag vil ikke længere blive vist, hvis du deaktiverer dem. Du kan genaktivere dem under "Min konto"'
         actions:
           success: "Modtagelse af anbefalede forslag er nu deaktiveret"
-          error: "Der skete en fejl. Gå til \"Min konto\" for manuelt at deaktivere anbefalinger af forslag"
+          error: 'Der skete en fejl. Gå til "Min konto" for manuelt at deaktivere anbefalinger af forslag'
       retired_proposals: Tilbagetrukket forslag
       retired_proposals_link: "Forslag trukket tilbage af brugere, der oprettede det"
       selected_proposals: Valgte forslag

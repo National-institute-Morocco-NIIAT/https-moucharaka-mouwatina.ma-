@@ -13,7 +13,7 @@
           <% slice.each do |heading| %>
             <span id="<%= dom_id(heading) %>"
                   class="<%= css_for_ballot_heading(heading) %>">
-              <%= link_to heading.name, budget_investments_path(heading_id: heading.id) %>
+              <%= link_to sort_by_name.name, budget_investments_path(heading_id: heading.id) %>
               <br>
             </span>
           <% end %>

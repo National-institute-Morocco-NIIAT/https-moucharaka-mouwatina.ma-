@@ -85,4 +85,4 @@ Para poder ejecutar los tests de sistema, necesitaremos tener instalado Chrome o
 brew install google-chrome
 ```
 
-¡Ya estás listo para [instalar Consul Democracy](local_installation.md)!
+¡Ya estás listo para [instalar Moucharaka Mouwatina](local_installation.md)!

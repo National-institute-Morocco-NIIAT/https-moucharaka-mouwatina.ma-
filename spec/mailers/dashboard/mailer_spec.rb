@@ -62,7 +62,9 @@ describe Dashboard::Mailer do
     end
 
     it "sends emails if new actions detected when creating a proposal" do
-      Setting["org_name"] = "CONSUL"
+      (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = "CONSUL"
       action.update!(published_proposal: false)
       resource.update!(published_proposal: false)
       proposal.save!

@@ -271,7 +271,9 @@ describe "Legislation Draft Versions" do
     end
 
     scenario "When page is restored from browser cache do not duplicate annotation handlers" do
-      Setting["org_name"] = "CONSUL"
+      (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = "CONSUL"
       create(:legislation_annotation, draft_version: draft_version, text: "my annotation")
 
       visit legislation_process_draft_version_path(draft_version.process, draft_version)
@@ -289,7 +291,9 @@ describe "Legislation Draft Versions" do
     end
 
     scenario "When page is restored from browser cache publish comment button keeps working" do
-      Setting["org_name"] = "CONSUL"
+      (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = "CONSUL"
       create(:legislation_annotation, draft_version: draft_version, text: "my annotation")
 
       visit legislation_process_draft_version_path(draft_version.process, draft_version)

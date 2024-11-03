@@ -5,8 +5,8 @@ de:
         title: "Wir schließen den Bürgerhaushalt!"
         body: "Beeilen Sie sich und erstellen Sie einen Vorschlag, bevor die Aktion in den nächsten Tagen endet!"
       help:
-        title: "Helfen Sie uns bei der Übersetzung von Consul Democracy."
-        body: "Wenn Sie eine Sprache gut beherrschen, helfen Sie uns bitte bei der Übersetzung von Consul Democracy!"
+        title: "Helfen Sie uns bei der Übersetzung von Moucharaka Mouwatina."
+        body: "Wenn Sie eine Sprache gut beherrschen, helfen Sie uns bitte bei der Übersetzung von Moucharaka Mouwatina!"
       map:
         title: "Sie können jetzt Vorschläge und Investitionen geolokalisieren."
         body: "Wenn Sie einen Vorschlag oder eine Investition erstellen, können Sie jetzt einen Punkt auf einer Karte angeben."
@@ -39,7 +39,7 @@ de:
         link_text: "Mehr über Debatten"
         label: "Debatten"
       header:
-        title: "CONSUL DEMOCRACY"
+        title: "Moucharaka Mouwatina"
         description: "Freie Software für die Bürgerbeteiligung."
         link_text: "Mehr Informationen"
         label: "Willkommen bei"
@@ -66,7 +66,7 @@ de:
       environment: Umwelt
     budgets:
       budget: Bürgerhaushalt
-      currency: '€'
+      currency: "€"
       groups:
         all_city: Alle Städte
         districts: Bezirke

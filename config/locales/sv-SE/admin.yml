@@ -5,8 +5,8 @@ sv:
     actions:
       actions: Åtgärder
       block_author: "Blockera förslagslämnare"
-      confirm_action: "Är du säker? %{action} \"%{name}\""
-      confirm_delete: "Är du säker? Den här åtgärden kommer att radera \"%{name}\" och kan inte ångras."
+      confirm_action: 'Är du säker? %{action} "%{name}"'
+      confirm_delete: 'Är du säker? Den här åtgärden kommer att radera "%{name}" och kan inte ångras.'
       confirm_hide: Bekräfta moderering
       delete: "Ta bort"
       hide: Dölj
@@ -343,7 +343,7 @@ sv:
           back: "Gå tillbaka för att redigera grupp"
       heading_mode:
         multiple:
-          description: "Skapa en process med flera grupper, distrikt eller ämnen. Du har flera pengasäckar, så att säga. Till exempel, 25 000 € för \"Norra distriktet\", 30 000 € för \"Centrala distriktet\", 28 000 € för \"Södra distriktet\" och hela staden. Eller för flera teman, som sport, kultur och sjukvård."
+          description: 'Skapa en process med flera grupper, distrikt eller ämnen. Du har flera pengasäckar, så att säga. Till exempel, 25 000 € för "Norra distriktet", 30 000 € för "Centrala distriktet", 28 000 € för "Södra distriktet" och hela staden. Eller för flera teman, som sport, kultur och sjukvård.'
           link: "Skapa budget med flera områden"
           title: "Budget med <strong>flera områden</strong>"
         single:
@@ -454,19 +454,19 @@ sv:
         info: |-
           <p>Här kan du som administratör implementera och övervaka processen för medborgardeltagande i din stad eller region.</p>
 
-          <p>Din styrelse är nu en av hundratals i hela världen som använder sig av plattformen CONSUL DEMOCRACY för att omsätta medborgardeltagande i praktiken. Grattis!</p>
+          <p>Din styrelse är nu en av hundratals i hela världen som använder sig av plattformen Moucharaka Mouwatina för att omsätta medborgardeltagande i praktiken. Grattis!</p>
 
-          <p>CONSUL DEMOCRACY-stiftelsen är hjärtat av den globala användargemenskapen. Vi ber dig kontakta oss så vi vet vem som använder programvaran och hur vi kan hjälpa till med implementeringen eller användningen. Vi ser fram emot att välkomna dig till gemenskapen!</p>
+          <p>Moucharaka Mouwatina-stiftelsen är hjärtat av den globala användargemenskapen. Vi ber dig kontakta oss så vi vet vem som använder programvaran och hur vi kan hjälpa till med implementeringen eller användningen. Vi ser fram emot att välkomna dig till gemenskapen!</p>
 
           <p>Lycka till med administrerandet!</p>
 
-          <p>Hälsningar från CONSUL DEMOCRACY-stiftelsens team.</p>
+          <p>Hälsningar från Moucharaka Mouwatina-stiftelsens team.</p>
       actions:
         index:
           description: "När användare skapar förslag kan de använda förslagets dashboard, där du kan föreslå resurser och rekommendationer för att få stöd för deras idé."
           create: Skapa resurs eller åtgärd
-          active: 'Ja'
-          inactive: 'Nej'
+          active: "Ja"
+          inactive: "Nej"
           title: Resurser och åtgärder
           action_title: Titel
           action_type: Typ
@@ -1409,7 +1409,7 @@ sv:
         coordinates: Koordinater
         coordinates_help: Koordinater som skapar ett klickbart område på en HTML-bildkarta
         geojson: GeoJSON tillgänglig
-        geojson_help: "Måste följa format av typen \"Polygon\" eller \"MultiPolygon\". På en budgets karta visas det en polygon baserad på denna data när ett område är förknippat med denna geozon"
+        geojson_help: 'Måste följa format av typen "Polygon" eller "MultiPolygon". På en budgets karta visas det en polygon baserad på denna data när ett område är förknippat med denna geozon'
       create:
         notice: "Geozon har skapats"
       edit:
@@ -1670,7 +1670,7 @@ sv:
         enable: "Aktivera hyresgäst %{tenant}"
         enabled: Aktiverad
       new:
-        admin_information: "När du skapar en hyresgäst kommer din nuvarande användare <strong>\"%{username}\"</strong> med e-postadressen <strong>\"%{email}\"</strong> och ditt lösenord att kopieras till databasen och automatiskt tilldelas administrationsbehörighet. Notera att dessa användarkonton lagras i helt separata databaser, så om du byter din användares lösenord i en hyresgäst förblir dina konton i andra hyresgäster intakta."
+        admin_information: 'När du skapar en hyresgäst kommer din nuvarande användare <strong>"%{username}"</strong> med e-postadressen <strong>"%{email}"</strong> och ditt lösenord att kopieras till databasen och automatiskt tilldelas administrationsbehörighet. Notera att dessa användarkonton lagras i helt separata databaser, så om du byter din användares lösenord i en hyresgäst förblir dina konton i andra hyresgäster intakta.'
         title: Ny hyresgäst
       restore:
         notice: Hyresgäst har aktiverats
@@ -1759,10 +1759,10 @@ sv:
       help:
         title_1: "Vad är AI/maskininlärning?"
         description_1: "Traditionellt utformas datorprogram genom att fastställa precisa regler om vad programmet ska göra i varje situation, och hur det ska behandla tillgänglig information vid varje tillfälle. Det som allmänt kallas AI/maskininlärning är en typ av program för vilket det fastställs exakt vilken uppgift som ska utföras och det bedöms om uppgiften utförs bättre eller sämre. Men till skillnad från den traditionella typen upptäcker, eller lär sig, systemet metoden som är lämpligast för att utföra uppgiften."
-        title_2: "Vad är modulen AI/maskininlärning till för i CONSUL DEMOCRACY?"
-        description_2: "Med den här modulen kan alla typer av AI-/maskininlärningsprogram implementeras i CONSUL DEMOCRACY. Programmen kan bearbeta informationen som är tillgänglig i CONSUL DEMOCRACY och ge resultat som hjälper både användare och administratörer att genomföra medborgardeltagande på ett mer effektivt och intelligent sätt. Modulen har utvecklas för att göra det enkelt att implementera och köra nya program, så att CONSUL DEMOCRACY:s allmänna kod hålls oberoende från dessa nya programs kod."
+        title_2: "Vad är modulen AI/maskininlärning till för i Moucharaka Mouwatina?"
+        description_2: "Med den här modulen kan alla typer av AI-/maskininlärningsprogram implementeras i Moucharaka Mouwatina. Programmen kan bearbeta informationen som är tillgänglig i Moucharaka Mouwatina och ge resultat som hjälper både användare och administratörer att genomföra medborgardeltagande på ett mer effektivt och intelligent sätt. Modulen har utvecklas för att göra det enkelt att implementera och köra nya program, så att Moucharaka Mouwatina:s allmänna kod hålls oberoende från dessa nya programs kod."
         title_3: "Så här används den här modulen"
-        description_3: "Innan du använder det för första gången måste du aktivera denna modul på rätt sätt enligt instruktionerna i CONSUL-dokumentationen. När modulen har aktiverats korrekt körs programmen från fliken \"Kör skript\". Före körningen kan vi på samma flik se uppskattad körtid och annan relevant information. I slutet av körningen kan vi aktivera innehållet som ska visas i CONSUL DEMOCRACY från fliken \"Inställningar\", samt hämta andra genererade filer som kan vara användbara för oss."
+        description_3: 'Innan du använder det för första gången måste du aktivera denna modul på rätt sätt enligt instruktionerna i CONSUL-dokumentationen. När modulen har aktiverats korrekt körs programmen från fliken "Kör skript". Före körningen kan vi på samma flik se uppskattad körtid och annan relevant information. I slutet av körningen kan vi aktivera innehållet som ska visas i Moucharaka Mouwatina från fliken "Inställningar", samt hämta andra genererade filer som kan vara användbara för oss.'
         title_4: "Så här implementeras nya AI-/maskininlärningsskript"
         description_4: "Använd föregående skript som exempel."
         description_4b: "De nya skripten ska placeras i mappen <code>public/machine_learning/scripts</code>"

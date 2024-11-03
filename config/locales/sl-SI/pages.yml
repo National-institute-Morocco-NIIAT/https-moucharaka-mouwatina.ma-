@@ -56,9 +56,9 @@ sl:
         text: |-
           Uporabi orodje v svojem lokalnem okolju ali pa nam ga pomagaj nadgraditi, gre za zastonjsko programsko opremo.
 
-          Ta Open Government Portal uporablja [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github'), ki je zastonj in ima [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), ki preprosto pomeni, da lahko vsakdo prosto uporablja, kopira, si ogleduje, modificira in redistribuira kodo, dokler to počne pod istimi pogoji.
+          Ta Open Government Portal uporablja [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github'), ki je zastonj in ima [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), ki preprosto pomeni, da lahko vsakdo prosto uporablja, kopira, si ogleduje, modificira in redistribuira kodo, dokler to počne pod istimi pogoji.
 
-          Če si programer/-ka, si lahko kodo ogledaš tukaj: [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          Če si programer/-ka, si lahko kodo ogledaš tukaj: [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: Uporabi orodje v svojem lokalnem okolju
     privacy:
@@ -69,14 +69,10 @@ sl:
         navigation_table:
           rows:
             -
-            - 
-              page_column: Razprave
-            - 
-              page_column: Predlogi
-            - 
-              page_column: Glasovi
-            - 
-              page_column: Participatorni proračuni
+            - page_column: Razprave
+            - page_column: Predlogi
+            - page_column: Glasovi
+            - page_column: Participatorni proračuni
             -
     titles:
       help: "Kaj je %{org}? - državljanska participacija"

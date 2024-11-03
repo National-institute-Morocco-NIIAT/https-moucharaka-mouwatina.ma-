@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html <%= common_html_attributes %> data-current-user-id="<%= current_user&.id %>">
   <head>
-    <%= render "layouts/common_head", default_title: setting["org_name"] %>
+    <%= render "layouts/common_head", default_title: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") %>
     <%= render "layouts/meta_tags" %>
     <%= content_for :canonical %>
     <%= favicon_link_tag image_path_for("apple-touch-icon-200.png"),

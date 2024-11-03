@@ -143,7 +143,7 @@ tr:
         poll_started: "Oylama başlatıldıktan sonra değiştirilemez"
         poll_ended: "Oylama bitirildikten sonra değiştirilemez"
   form:
-    accept_terms: '%{policy} ve %{conditions} metinlerini kabul ediyorum'
+    accept_terms: "%{policy} ve %{conditions} metinlerini kabul ediyorum"
     conditions: Kullanım hüküm ve koşulları
     debate: Tartışma
     direct_message: özel ileti
@@ -194,9 +194,9 @@ tr:
     footer:
       accessibility: Erişilebilirlik
       conditions: Kullanım hüküm ve koşulları
-      consul: CONSUL DEMOCRACY uygulaması
+      consul: Moucharaka Mouwatina uygulaması
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Bu site %{open_source} olan %{consul} ile sunuluyor.
       open_source: açık kaynaklı yazılım
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -224,7 +224,7 @@ tr:
         new_notifications:
           zero: "Yeni bildiriminiz yok"
           one: Bir yeni bildiriminiz var
-          other: '%{count} yeni bildiriminiz var'
+          other: "%{count} yeni bildiriminiz var"
         notifications: Bildirimler
       sdg: "SKA"
     skip_to_main_content: "Ana içeriğe git"
@@ -399,7 +399,7 @@ tr:
         one: 1 oy
         other: "%{count} oy"
       supports_necessary: "%{number} destek gerekli"
-      total_percent: '%100'
+      total_percent: "%100"
       archived: "Bu önerge arşivlenmiş olduğundan destek alamaz."
       successful: "Bu önerge gerekli desteği aldı."
       selected: "Seçilmiş önerge"
@@ -504,8 +504,8 @@ tr:
         title: Oylamalar
         create: Oylama oluştur
         count:
-          one: '%{count} oylama oluşturdunuz.'
-          other: '%{count} oylama oluşturdunuz.'
+          one: "%{count} oylama oluşturdunuz."
+          other: "%{count} oylama oluşturdunuz."
         links: Bağlantılar
         additiontal_information: Ek bilgiler
       new:
@@ -552,7 +552,7 @@ tr:
       new:
         title: Paylaşılacak e-posta örneği
       mailing_options:
-        send: '%{address} adresine gönder'
+        send: "%{address} adresine gönder"
         preview: Ön izleme
       create:
         sent: E-posta gönderildi
@@ -771,7 +771,7 @@ tr:
       new:
         direct_messages_bloqued: "Bu kullanıcı doğrudan iletileri almamayı seçmiş"
         submit_button: İleti gönder
-        title: '%{receiver} için özel ileti gönder'
+        title: "%{receiver} için özel ileti gönder"
         verified_only: Bir özel ileti göndermek için %{verify_account}
       show:
         receiver: İleti %{receiver} alıcısına gönderildi
@@ -911,7 +911,7 @@ tr:
     subnav:
       surveys: Anketler
     poll:
-      take_part: '%{from} ile %{to} arasında katılın'
+      take_part: "%{from} ile %{to} arasında katılın"
   remote_translations:
     text: Bu sayfanın içeriği sizin dilinizde hazırlanmamış
     all_remote_translations_enqueued_text: Sayfayı yeniledikten kısa bir süre sonra tüm içeriği dilinizde görebileceksiniz.

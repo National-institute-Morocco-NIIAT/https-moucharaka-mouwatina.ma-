@@ -59,9 +59,9 @@ oc:
         text: |-
           Utilizatz-lo dins lo vòstre govèrn local o ajudatz-nos a lo melhorar, es un logicial gratuit.
 
-          Aquel portal de govèrn dubèrt utiliza çò [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') es a dire, lo logicial liure[licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), aiçò vòl dire, amb paraulas simplas, que qui que siá pòt utilizar lo còdi liurament, lo copiar, lo veire en detalh, lo modificar e redistribuir-lo dins lo mond amb las modificacions que vòlga (en permetent que d'autras fagan lo meteis). Perque pensam que la cultura es melhora e mai rica quand s’estrea.
+          Aquel portal de govèrn dubèrt utiliza çò [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github') es a dire, lo logicial liure[licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), aiçò vòl dire, amb paraulas simplas, que qui que siá pòt utilizar lo còdi liurament, lo copiar, lo veire en detalh, lo modificar e redistribuir-lo dins lo mond amb las modificacions que vòlga (en permetent que d'autras fagan lo meteis). Perque pensam que la cultura es melhora e mai rica quand s’estrea.
 
-          Se sètz un programaire, podètz veire lo còdi e nos ajudar a lo melhorar [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          Se sètz un programaire, podètz veire lo còdi e nos ajudar a lo melhorar [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: Utiliza-o a la tiá municipalitat
     privacy:
@@ -86,23 +86,17 @@ oc:
           key_header: Clau
           page_header: Pàg
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Inici
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: de Debats
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: de Proposicions ciutadanas
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: de Votacions
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: de Budgèts participatius
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: de Procèsses legislatius
         browser_table:
           description: "Segon lo sistèma operatiu e lo navigador utilizat, la combinacion de tecles serà la seguenta:"
@@ -110,20 +104,15 @@ oc:
           browser_header: Navigador
           key_header: Combinacion de claus
           rows:
-            - 
-              browser_column: Combinacion de claus
+            - browser_column: Combinacion de claus
               key_column: ALT + drecera i ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS + Drecera
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + dreceres (CTRL + ALT + dreceres per a MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + dreceres (CMD + dreceres per a MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS + ESC + dreceres
       textsize:
         title: Mesura del tèxt
@@ -132,29 +121,22 @@ oc:
           browser_header: Navegador
           action_header: d'Accions a menar a tèrme
           rows:
-            - 
-              browser_column: Explorador
+            - browser_column: Explorador
               action_column: Veire > Mida del text
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Veire > Mesura
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Configuracion (icòna) > d'Opcions > Avançat > Contengut web > Mesura del tèxt
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Veire > Aluenha / Aluenha
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Veire > escalièr
         browser_shortcuts_table:
           description: "Una autra manièra de modificar la mesura del tèxt es utilizar las dreceres de teclat definidas als navigadors, en particular la combinacion de tecles:"
           rows:
-            - 
-              shortcut_column: CTRL i + (CMD i + endavant MAC)
+            - shortcut_column: CTRL i + (CMD i + endavant MAC)
               description_column: Aumenta la mesura del tèxt
-            - 
-              shortcut_column: CTRL i - (CMD i - endavant MAC)
+            - shortcut_column: CTRL i - (CMD i - endavant MAC)
               description_column: Amendrís la mesura del tèxt
       compatibility:
         title: Compatibilitat amb estandards e dessenh visual

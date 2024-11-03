@@ -259,7 +259,9 @@ describe "Emails" do
 
   context "Proposal notification digest" do
     scenario "notifications for proposals that I'm following", :no_js do
-      Setting["org_name"] = "CONSUL"
+      (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = "CONSUL"
       user = create(:user, email_digest: true)
 
       proposal1 = create(:proposal, followers: [user])
@@ -325,7 +327,9 @@ describe "Emails" do
 
   context "User invites" do
     scenario "Send an invitation" do
-      Setting["org_name"] = "CONSUL"
+      (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = "CONSUL"
       login_as_manager
       visit new_management_user_invite_path
 

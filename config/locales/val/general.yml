@@ -86,10 +86,10 @@ val:
       recommendations:
         without_results: No existeixen debats relacionats amb els teus interessos
         without_interests: Segueix propostes per a que pugam donar-te recomanacions
-        disable: "Les recomanacions sobre debats deixaran de mostrar-se si les descartes. Pots tornar-les a activar a la pàgina \"El meu compte\""
+        disable: 'Les recomanacions sobre debats deixaran de mostrar-se si les descartes. Pots tornar-les a activar a la pàgina "El meu compte"'
         actions:
           success: "Les recomanacions per a debats estàn desabilitades per a aquest compte"
-          error: "S'ha produït un error. Aneu a la pàgina \"El meu compte\" per desactivar manualment les recomanacions per als debats"
+          error: 'S''ha produït un error. Aneu a la pàgina "El meu compte" per desactivar manualment les recomanacions per als debats'
       search_form:
         button: Cercar
         placeholder: Cercar debats...
@@ -165,9 +165,9 @@ val:
     footer:
       accessibility: Accessibilitat
       conditions: Termes i condicions d'us
-      consul: Aplicació CONSUL DEMOCRACY
+      consul: Aplicació Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Este portal utilitza la %{consul} que es %{open_source}.
       open_source: software de codi obert
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -229,7 +229,7 @@ val:
       name: Facebook
     finish_signup:
       title: "Detalls adicionals del teu compte"
-      username_warning: "Degut a que hem canviat la forma en la que ens conectem amb les xarxes socials i es possible que el teu nom ja aparega com \"ya en us\", inclus si abans podies accedir amb ell. Si es el teu cas, si us plau eligeix un nom d'usuari distint."
+      username_warning: 'Degut a que hem canviat la forma en la que ens conectem amb les xarxes socials i es possible que el teu nom ja aparega com "ya en us", inclus si abans podies accedir amb ell. Si es el teu cas, si us plau eligeix un nom d''usuari distint.'
     google_oauth2:
       sign_in: Entra amb Google
       sign_up: Regístrat amb Google
@@ -292,10 +292,10 @@ val:
       recommendations:
         without_results: No existeixen propostes relacionades amb els teus interessos
         without_interests: Segueix propostes per a que pugam donarte recomanacions
-        disable: "Les recomanacions sobre propostes deixaran de mostrar-se si les descartes. Pots tornar-les a activar a la pàgina \"El meu compte\""
+        disable: 'Les recomanacions sobre propostes deixaran de mostrar-se si les descartes. Pots tornar-les a activar a la pàgina "El meu compte"'
         actions:
           success: "Les recomanacions per a propostes estan desabilitades per a aquest compte"
-          error: "S'ha produït un error. Aneu a la pàgina \"El meu compte\" per desactivar manualment les recomanacions per a propostes"
+          error: 'S''ha produït un error. Aneu a la pàgina "El meu compte" per desactivar manualment les recomanacions per a propostes'
       retired_proposals: Propostes retirades
       retired_proposals_link: "Propostes retirades per els seus autors"
       retired_links:

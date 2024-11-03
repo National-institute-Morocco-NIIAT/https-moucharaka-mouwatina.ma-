@@ -18,7 +18,7 @@ uk-UA:
         title: "Обговорення"
         description: "У розділі %{link} ви можете поділитися з іншими людьми своєю думкою з питань, які пов'язані з вашим містом і вас турбують. Також це чудове місце для продукування ідей, які через інші розділи %{org} ведуть до конкретних дій міської ради."
         link: "обговорення громадян"
-        feature: "Ви можете розпочинати обговорення, коментувати та оцінювати їх за допомогою опцій <strong> \"Я погоджуюсь\" </strong> та <strong> \"Я не погоджуюсь\" </strong>. Для цього вам потрібно %{link}."
+        feature: 'Ви можете розпочинати обговорення, коментувати та оцінювати їх за допомогою опцій <strong> "Я погоджуюсь" </strong> та <strong> "Я не погоджуюсь" </strong>. Для цього вам потрібно %{link}.'
         feature_link: "зареєструватися у %{org}"
         image_alt: "Кнопки для оцінки обговорень"
         figcaption: 'Кнопки "Я погоджуюсь" та "Я не погоджуюсь" для оцінки обговорень.'
@@ -60,9 +60,9 @@ uk-UA:
         text: |-
           Використовуйте його у своєму місцевому самоврядуванні або допоможіть нам його вдосконалити, це безкоштовне програмне забезпечення.
 
-          Цей відкритий урядовий портал використовує [CONSUL DEMOCRACY app] (https://github.com/consuldemocracy/consuldemocracy 'consul democracy github'), який є безкоштовним програмним забезпеченням, з [licence AGPLv3] (http://www.gnu.org/licenses/ agpl-3.0.html 'AGPLv3 gnu'). Простими словами це означає, що кожен може вільно користуватися кодом, копіювати його, детально бачити, модифікувати та перерозподіляти по всьому світу з необхідними модифікаціями (дозволяючи іншим робити те саме). Адже ми вважаємо, що культура стає кращою та багатшою, коли вона поширюється.
+          Цей відкритий урядовий портал використовує [Moucharaka Mouwatina app] (https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github'), який є безкоштовним програмним забезпеченням, з [licence AGPLv3] (http://www.gnu.org/licenses/ agpl-3.0.html 'AGPLv3 gnu'). Простими словами це означає, що кожен може вільно користуватися кодом, копіювати його, детально бачити, модифікувати та перерозподіляти по всьому світу з необхідними модифікаціями (дозволяючи іншим робити те саме). Адже ми вважаємо, що культура стає кращою та багатшою, коли вона поширюється.
 
-          Якщо ви програміст, ви можете побачити код і допомогти нам його вдосконалити за допомогою [CONSUL DEMOCRACY app] (https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          Якщо ви програміст, ви можете побачити код і допомогти нам його вдосконалити за допомогою [Moucharaka Mouwatina app] (https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: Використати у місцевому уряді
     privacy:
@@ -87,23 +87,17 @@ uk-UA:
           key_header: Клавіша
           page_header: Сторінка
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Повернутися
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Обговорення
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Пропозиції
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Голоси
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Партисипативні бюджети
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Законодавчі процеси
         browser_table:
           description: "Залежно від операційної системи та використовуваного веб-переглядача, комбінація клавіш буде такою:"
@@ -111,20 +105,15 @@ uk-UA:
           browser_header: Веб-переглядач
           key_header: Комбінація клавіш
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               key_column: Комбінація клавіш ALT +, а потім ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: Комбінація ALT + CAPS +
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: Комбінація ALT + (Комбінація CTRL + ALT + для MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: Комбінація ALT + (Комбінація CMD + для MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: Комбінація CAPS + ESC +
       textsize:
         title: Розмір тексту
@@ -133,29 +122,22 @@ uk-UA:
           browser_header: Веб-переглядач
           action_header: Дія, яку потрібно виконати
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: Переглянути > Розмір тексту
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Переглянути > Розмір
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Налаштування (піктограма)> Опції> Додатково> Веб-вміст> Розмір тексту
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Перегляд> Збільшити / Зменшити
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Переглянути > Масштаб
         browser_shortcuts_table:
           description: "Інший спосіб змінити розмір тексту - це використання комбінацій клавіш, визначених у браузерах, зокрема комбінації клавіш:"
           rows:
-            - 
-              shortcut_column: CTRL і + (CMD і + для MAC)
+            - shortcut_column: CTRL і + (CMD і + для MAC)
               description_column: Збільшує розмір тексту
-            - 
-              shortcut_column: CTRL і - (CMD і - на MAC)
+            - shortcut_column: CTRL і - (CMD і - на MAC)
               description_column: Зменшує розмір тексту
       compatibility:
         title: Сумісність зі стандартами та візуальним дизайном

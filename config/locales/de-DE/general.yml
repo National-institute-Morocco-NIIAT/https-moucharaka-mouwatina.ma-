@@ -193,9 +193,9 @@ de:
     footer:
       accessibility: Barrierefreiheit
       conditions: Allgemeine Nutzungsbedingungen
-      consul: CONSUL DEMOCRACY Anwendung
+      consul: Moucharaka Mouwatina Anwendung
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Die Plattform basiert auf %{consul}, einer %{open_source}.
       open_source: Open-Source Software
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -561,7 +561,7 @@ de:
         share_in: Teilen in
         hi: "Hallo!"
         introduction: Ich schreibe Ihnen, da ich an %{org} teilnehme, der Plattform, auf der wir entscheiden können, welche Stadt wir wollen. Dafür habe ich meinen eigenen Bürgervorschlag erstellt und jetzt werde ich Ihre Unterstützung brauchen! Keine Sorge, es ist sehr einfach.
-        support: "Sie müssen nur auf die Schaltfläche klicken, die unter \"Diesen Vorschlag unterstützen\" angezeigt wird. Sie können sich dort informieren, bevor Sie ihn bewerben. Nur die Vorschläge, die die notwendige Unterstützung erreichen, werden vom Stadtrat ausgeführt. Sie können mir helfen, dies zu erreichen!"
+        support: 'Sie müssen nur auf die Schaltfläche klicken, die unter "Diesen Vorschlag unterstützen" angezeigt wird. Sie können sich dort informieren, bevor Sie ihn bewerben. Nur die Vorschläge, die die notwendige Unterstützung erreichen, werden vom Stadtrat ausgeführt. Sie können mir helfen, dies zu erreichen!'
         share: "Sie würden mir einen großen Gefallen tun, wenn Sie meinen Vorschlag mit Ihren Freunden, Familie und Kontakten teilen - das wäre perfekt!"
   polls:
     all: "Alle"
@@ -696,19 +696,19 @@ de:
         found:
           one: "Es gibt eine Debatte mit dem Begriff '%{query}', Sie können daran teilnehmen, anstatt eine neue zu eröffnen."
           other: "Es gibt Debatten mit dem Begriff '%{query}', Sie können an diesen teilnehmen, anstatt eine neue zu eröffnen."
-        message: "Sie sehen %{limit} %{count} Debatten mit dem Begriff \"%{query}\""
+        message: 'Sie sehen %{limit} %{count} Debatten mit dem Begriff "%{query}"'
         see_all: "Alle anzeigen"
       budget_investment:
         found:
           one: "Es gibt eine Investition mit dem Begriff '%{query}', Sie können daran teilnehmen, anstatt ein neues zu eröffnen."
           other: "Es gibt Investitionen mit dem Begriff '%{query}', Sie können an diesen teilnehmen, anstatt ein neues zu eröffnen."
-        message: "Sie sehen %{limit} %{count} Investitionen mit dem Begriff \"%{query}\""
+        message: 'Sie sehen %{limit} %{count} Investitionen mit dem Begriff "%{query}"'
         see_all: "Alle anzeigen"
       proposal:
         found:
           one: "Es gibt einen Antrag mit dem Begriff '%{query}', Sie können an diesem mitwirken, anstatt einen neuen zu erstellen"
           other: "Es gibt Anträge mit dem Begriff '%{query}', Sie können an diesen mitwirken, anstatt einen neuen zu erstellen"
-        message: "Sie sehen %{limit} %{count} Anträge mit dem Begriff \"%{query}\""
+        message: 'Sie sehen %{limit} %{count} Anträge mit dem Begriff "%{query}"'
         see_all: "Alle anzeigen"
     tags_cloud:
       tags: Beliebt
@@ -818,7 +818,7 @@ de:
     disagree_label: "Ich stimme %{title} nicht zu."
     organizations: Organisationen ist es nicht erlaubt abzustimmen
     supports: Unterstützer*innen
-    verified_only: 'Nur verifizierte Benutzer können Vorschläge bewerten: %{verify_account}.'
+    verified_only: "Nur verifizierte Benutzer können Vorschläge bewerten: %{verify_account}."
     budget_investments:
       not_verified: Nur verifizierte Benutzer können über ein Investitionsprojekt abstimmen; %{verify_account}.
       unfeasible: Undurchführbare Investitionsprojekte können nicht unterstützt werden

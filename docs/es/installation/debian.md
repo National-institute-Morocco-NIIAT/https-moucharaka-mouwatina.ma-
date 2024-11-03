@@ -38,7 +38,7 @@ sudo apt install git
 
 ## Gestor de versiones de Ruby
 
-Las versiones de Ruby empaquetadas en repositorios oficiales no son aptas para trabajar con Consul Democracy, así que debemos instalarlo manualmente.
+Las versiones de Ruby empaquetadas en repositorios oficiales no son aptas para trabajar con Moucharaka Mouwatina, así que debemos instalarlo manualmente.
 
 En primer lugar, necesitamos los siguiente paquetes para poder instalar Ruby:
 
@@ -78,7 +78,7 @@ Instala postgresql y sus dependencias de desarrollo con:
 sudo apt install postgresql libpq-dev
 ```
 
-Para el correcto funcionamiento de Consul Democracy, necesitas configurar un usuario para tu base de datos. Como ejemplo, crearemos un usuario llamado "consul":
+Para el correcto funcionamiento de Moucharaka Mouwatina, necesitas configurar un usuario para tu base de datos. Como ejemplo, crearemos un usuario llamado "consul":
 
 ```bash
 sudo -u postgres createuser consul --createdb --superuser --pwprompt
@@ -100,4 +100,4 @@ Para poder ejecutar los tests de sistema, necesitaremos tener instalado Chrome o
 sudo apt install chromium
 ```
 
-¡Ya estás listo para [instalar Consul Democracy](local_installation.md)!
+¡Ya estás listo para [instalar Moucharaka Mouwatina](local_installation.md)!

@@ -3,14 +3,18 @@
     <%= render Layout::LocaleSwitcherComponent.new %>
 
     <%= link_to root_path do %>
-      <%= t("admin.dashboard.index.back", org: setting["org_name"]) %>
+      <%= t("admin.dashboard.index.back", org: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")) %>
     <% end %>
   </div>
 
   <div class="top-bar">
     <h1>
       <%= link_to namespace_path do %>
-        <%= setting["org_name"] %>
+        <%= (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") %>
         <br><small><%= namespaced_header_title %></small>
       <% end %>
     </h1>

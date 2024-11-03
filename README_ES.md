@@ -1,12 +1,12 @@
 <!--
-  Title: CONSUL DEMOCRACY
+  Title: Moucharaka Mouwatina
   Description: Aplicación de Participación Ciudadana y Gobierno Abierto
   Keywords: democracia, participación ciudadana, participación electrónica, debates, propuestas, votaciones, consultas, legislación colaborativa, presupuestos participativos
 -->
 
-![Logotipo de CONSUL DEMOCRACY](https://raw.githubusercontent.com/consuldemocracy/consuldemocracy/master/public/consul_logo.png)
+![Logotipo de Moucharaka Mouwatina](https://raw.githubusercontent.com/consuldemocracy/consuldemocracy/master/public/consul_logo.png)
 
-# CONSUL DEMOCRACY
+# Moucharaka Mouwatina
 
 Aplicación de Participación Ciudadana y Gobierno Abierto
 
@@ -20,13 +20,13 @@ Aplicación de Participación Ciudadana y Gobierno Abierto
 
 [![Help wanted](https://img.shields.io/badge/help-wanted-brightgreen.svg?style=flat-square)](https://github.com/consuldemocracy/consuldemocracy/issues?q=is%3Aopen+label%3A"help+wanted")
 
-Este es el repositorio de código abierto de la Aplicación de Participación Ciudadana CONSUL DEMOCRACY, creada originariamente por el Ayuntamiento de Madrid.
+Este es el repositorio de código abierto de la Aplicación de Participación Ciudadana Moucharaka Mouwatina, creada originariamente por el Ayuntamiento de Madrid.
 
 ## Documentación
 
 Por favor visita la documentación que está siendo completada en [https://docs.consuldemocracy.org](https://docs.consuldemocracy.org) para conocer más sobre este proyecto, cómo comenzar tu propio fork, instalarlo, personalizarlo y usarlo como administrador/mantenedor.
 
-## Web CONSUL DEMOCRACY Project
+## Web Moucharaka Mouwatina Project
 
 Puedes acceder a la página principal del proyecto en [http://consuldemocracy.org](http://consuldemocracy.org) donde puedes encontrar documentación sobre el uso de la plataforma, videos y enlaces al espacio de la comunidad.
 
@@ -61,13 +61,13 @@ Nota: ejecutar todos los tests en tu máquina puede tardar más de una hora, por
 
 Puedes usar el usuario administrador por defecto del fichero seeds:
 
- **user:** admin@consul.dev
- **pass:** 12345678
+**user:** admin@consul.dev
+**pass:** 12345678
 
 Pero para ciertas acciones, como apoyar, necesitarás un usuario verificado, el fichero seeds proporciona uno:
 
- **user:** verified@consul.dev
- **pass:** 12345678
+**user:** verified@consul.dev
+**pass:** 12345678
 
 ## Estado del proyecto
 

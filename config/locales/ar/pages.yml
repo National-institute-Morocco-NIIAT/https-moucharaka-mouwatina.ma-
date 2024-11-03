@@ -59,9 +59,9 @@ ar:
         text: |-
           استخدمه في حكومتك المحلية أو ساعدنا في تحسينه، فهو برنامج مجاني.
 
-          بوابة الحوكمة المفتوحة هذه تستخدم [CONSUL DEMOCRACY app] (https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') الذي يعد برنامجًا مجانيًا، مع [رخصة AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' )، وهذا يعني بكلمات بسيطة أنه يمكن لأي شخص استخدام البرنامج بحرية، ونسخه،ورؤيته بالتفصيل، وتعديله وإعادة توزيعه على العالم مع التعديلات التي يريدها (مع السماح للآخرين بالقيام بنفس الشيء). لأننا نعتقد أن الثقافة أفضل وأكثر ثراءً عندما يتم نشرها.
+          بوابة الحوكمة المفتوحة هذه تستخدم [Moucharaka Mouwatina app] (https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github') الذي يعد برنامجًا مجانيًا، مع [رخصة AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' )، وهذا يعني بكلمات بسيطة أنه يمكن لأي شخص استخدام البرنامج بحرية، ونسخه،ورؤيته بالتفصيل، وتعديله وإعادة توزيعه على العالم مع التعديلات التي يريدها (مع السماح للآخرين بالقيام بنفس الشيء). لأننا نعتقد أن الثقافة أفضل وأكثر ثراءً عندما يتم نشرها.
 
-          إذا كنت مبرمجًا، يمكنك الاطلاع على الكود ومساعدتنا على تحسينه في [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          إذا كنت مبرمجًا، يمكنك الاطلاع على الكود ومساعدتنا على تحسينه في [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: استخدامه في المؤسسات العامة
     privacy:
@@ -86,23 +86,17 @@ ar:
           key_header: مفتاح
           page_header: الصفحة
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: الصفحة الرئيسية
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: النقاشات
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: إقتراحات
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: اصوات
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: الميزانيات المشاركة
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: العمليات التشريعية
         browser_table:
           description: "حسب نظام التشغيل والمتصفح المستخدم، ستكون تركيبة المفاتيح وفقا لما يلي:"
@@ -110,20 +104,15 @@ ar:
           browser_header: مستعرض
           key_header: تركيبة المفاتيح
           rows:
-            - 
-              browser_column: إكسبلورر
+            - browser_column: إكسبلورر
               key_column: ALT + الاختصار ثم ENTER
-            - 
-              browser_column: فايرفوكس
+            - browser_column: فايرفوكس
               key_column: ALT + CAPS + الاختصار
-            - 
-              browser_column: كروم
+            - browser_column: كروم
               key_column: ALT + الاختصار (CTRL + ALT + اختصارات ل MAC)
-            - 
-              browser_column: سفاري
+            - browser_column: سفاري
               key_column: ALT + الاختصار (CMD + اختصار ل MAC)
-            - 
-              browser_column: أوبرا
+            - browser_column: أوبرا
               key_column: CAPS + ESC + الاختصار
       textsize:
         title: حجم النص
@@ -132,29 +121,22 @@ ar:
           browser_header: مستعرض
           action_header: إجراءات واجب اتخاذها
           rows:
-            - 
-              browser_column: إكسبلورر
+            - browser_column: إكسبلورر
               action_column: عرض > حجم النص
-            - 
-              browser_column: فايرفوكس
+            - browser_column: فايرفوكس
               action_column: عرض > الحجم
-            - 
-              browser_column: كروم
+            - browser_column: كروم
               action_column: إعدادات (رمز) > خيارات > متقدم > محتوى الويب > حجم النص
-            - 
-              browser_column: سفاري
+            - browser_column: سفاري
               action_column: عرض > التكبير/التصغير
-            - 
-              browser_column: أوبرا
+            - browser_column: أوبرا
               action_column: عرض > مقياس
         browser_shortcuts_table:
           description: "طريقة أخرى لتعديل حجم النص استخدام اختصارات لوحة المفاتيح المحددة في المستعرضات:"
           rows:
-            - 
-              shortcut_column: CTRL و + (CMD و + على الماك)
+            - shortcut_column: CTRL و + (CMD و + على الماك)
               description_column: زيادة حجم النص
-            - 
-              shortcut_column: CTRL و - (CMD و - على الماك)
+            - shortcut_column: CTRL و - (CMD و - على الماك)
               description_column: تصغير حجم النص
       compatibility:
         title: التوافق مع المعايير والتصميم المرئي

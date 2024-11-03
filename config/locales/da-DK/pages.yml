@@ -64,9 +64,9 @@ da:
         text: |-
           Anvend portalen i din kommune eller hjælp os med at forbedre den. Det er en gratis software.
 
-          Denne Open Government Portal anvender [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github'), som er en gratis software med [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ). Det betyder kort sagt, at alle kan anvende koden gratis, kopiere den, se detaljer om den, modificere den og redistribuere den til verdenen med de ændringer, man ønsker (og samtidig tillader man andre at gøre det samme). Fordi vi mener, at kultur er bedre og rigere, når den er fri.
+          Denne Open Government Portal anvender [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github'), som er en gratis software med [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ). Det betyder kort sagt, at alle kan anvende koden gratis, kopiere den, se detaljer om den, modificere den og redistribuere den til verdenen med de ændringer, man ønsker (og samtidig tillader man andre at gøre det samme). Fordi vi mener, at kultur er bedre og rigere, når den er fri.
 
-          Hvis du er programmør, kan du se koden og hjælpe os med at forbedre den på [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          Hvis du er programmør, kan du se koden og hjælpe os med at forbedre den på [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: Brug det i din kommune
     privacy:
@@ -91,23 +91,17 @@ da:
           key_header: Tast
           page_header: Side
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Hjem
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Debatforum
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Forslag
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Stemmer
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Deltagerbudgetter
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Borgerdialger
         browser_table:
           description: "Afhængig af styresystem og den anvendte browser vil tastkombinationen se ud som følgende:"
@@ -115,20 +109,15 @@ da:
           browser_header: Browser
           key_header: Tastkombination
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               key_column: ALT + genvej og så ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS + genvej
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + genvej (CTRL + ALT + genvej for MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + genvej (CMD + genvej for MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS + ESC + genvej
       textsize:
         title: Tekststørrelse
@@ -137,29 +126,22 @@ da:
           browser_header: Browser
           action_header: Handlingsplan
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: Se > Tekststørrelse
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Se > Størrelse
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Indstillinger (symbol) > Valgmuligheder > Avanceret > Web Indhold > Tekststørrelse
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Se > Zoom ind/Zoom ud
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Se > skala
         browser_shortcuts_table:
           description: "En anden måde at ændre tekststørrelsen på er at anvende tastaturgenvejene defineret i browseren, specifikt denne tastaturkombinationen:"
           rows:
-            - 
-              shortcut_column: CTRL og + (CMD og + på MAC)
+            - shortcut_column: CTRL og + (CMD og + på MAC)
               description_column: Større tekststørrelse
-            - 
-              shortcut_column: CTRL og - (CMD og - på MAC)
+            - shortcut_column: CTRL og - (CMD og - på MAC)
               description_column: Mindre tekststørrelse
       compatibility:
         title: Kompatibilitet med standarder og visuelt design

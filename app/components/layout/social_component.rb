@@ -22,7 +22,9 @@ class Layout::SocialComponent < ApplicationComponent
     end
 
     def link_text(site_name)
-      t("social.#{site_name}", org: setting["org_name"])
+      t("social.#{site_name}", org: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina"))
     end
 
     def footer_content_block

@@ -90,10 +90,10 @@ nn:
       recommendations:
         without_results: Det finnes ingen debatter relatert til dine interesser
         without_interests: Følg forslag så vi kan gi deg anbefalinger
-        disable: "Anbefalte debatter vil ikke vises vis du deaktiverer de. Du kan aktivere funksjonen igjen under \"Min konto\""
+        disable: 'Anbefalte debatter vil ikke vises vis du deaktiverer de. Du kan aktivere funksjonen igjen under "Min konto"'
         actions:
           success: "Anbefalte debatter er nå deaktivert for denne kontoen"
-          error: "En feil har oppstått. Gå til \"Min konto\" for å manuelt deaktivere anbefalte debatter"
+          error: 'En feil har oppstått. Gå til "Min konto" for å manuelt deaktivere anbefalte debatter'
       search_form:
         button: Søk
         placeholder: Søk debatter...
@@ -175,9 +175,9 @@ nn:
     footer:
       accessibility: Tilgjengelighet
       conditions: Brukervilkår
-      consul: CONSUL DEMOCRACY
+      consul: Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Denne portalen bruker %{consul} som er %{open_source}.
       open_source: open-source software
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -242,7 +242,7 @@ nn:
       name: Facebook
     finish_signup:
       title: "Tilleggsdetaljer"
-      username_warning: "På grunn av endringer i måten vi interagerer med sosiale medier, er det mulig at brukernavnet ditt fremstår som \"allerede i bruk\". Hvis dette er tilfelle, kan du velge et annet brukernavn."
+      username_warning: 'På grunn av endringer i måten vi interagerer med sosiale medier, er det mulig at brukernavnet ditt fremstår som "allerede i bruk". Hvis dette er tilfelle, kan du velge et annet brukernavn.'
     google_oauth2:
       sign_in: Logg på med Google
       sign_up: Registrer deg med Google
@@ -311,10 +311,10 @@ nn:
       recommendations:
         without_results: Det finnes ingen forslag relatert til dine interesser
         without_interests: Følg forslag så vi kan gi deg anbefalinger
-        disable: "Anbefalte forslag vil ikke vises vis du deaktiverer de. Du kan aktivere funksjonen igjen under \"Min konto\""
+        disable: 'Anbefalte forslag vil ikke vises vis du deaktiverer de. Du kan aktivere funksjonen igjen under "Min konto"'
         actions:
           success: "Anbefalte forslag er nå deaktivert for denne kontoen"
-          error: "En feil har oppstått. Gå til \"Min konto\" for å manuelt deaktivere anbefalte forslag"
+          error: 'En feil har oppstått. Gå til "Min konto" for å manuelt deaktivere anbefalte forslag'
       retired_proposals: Trekk tilbake forslag
       retired_proposals_link: "Forslaget er trukket tilbake av forslagsstiller"
       selected_proposals: Valgte forslag

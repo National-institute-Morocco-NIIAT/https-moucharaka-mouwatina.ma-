@@ -6,7 +6,9 @@
           <td style="border-bottom: 1px solid #dadfe1; padding: 20px 0;">
             <%= image_tag(image_path_for("logo_email.png"),
                           style: "border: 0;display: block;width: 100%;max-width: 400px",
-                          alt: setting["org_name"]) %>
+                          alt: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")) %>
           </td>
         </tr>
       </table>

@@ -8,7 +8,9 @@
       <li class="phase-title tabs-title <%= "is-active current-phase-tab" if phase.current? %>">
         <a href="#<%= phase_dom_id(phase) %>">
           <% if phase.current? %>
-            <span class="current-phase-timeline"><%= t("budgets.index.current_phase") %></span>
+            <span class="current-phase-timeline">
+              <%= t("budgets.index.current_phase") %>
+            </span>
           <% end %>
 
           <span class="phase-name"><%= phase.name %></span>

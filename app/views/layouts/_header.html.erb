@@ -11,7 +11,9 @@
   <div class="top-bar">
     <h1>
       <%= link_to root_path, accesskey: "0" do %>
-        <%= image_tag(image_path_for("logo_moucharaka.png"), alt: setting["org_name"]) %>
+        <%= image_tag(image_path_for("logo_moucharaka.png"), alt: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")) %>
       <% end %>
     </h1>
 

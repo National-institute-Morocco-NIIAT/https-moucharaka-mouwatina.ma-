@@ -194,9 +194,9 @@ fr:
     footer:
       accessibility: Accessibilité
       conditions: Conditions légales
-      consul: Application CONSUL DEMOCRACY
+      consul: Application Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Ce portail utiliser %{consul} qui est %{open_source}. De Madrid ouvert sur le monde.
       open_source: logiciel libre
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html

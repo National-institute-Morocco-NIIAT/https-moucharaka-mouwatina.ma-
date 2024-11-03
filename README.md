@@ -21,15 +21,15 @@ Citizen Participation and Open Government Application
 
 [![Help wanted](https://img.shields.io/badge/help-wanted-brightgreen.svg?style=flat-square)](https://github.com/consuldemocracy/consuldemocracy/issues?q=is%3Aopen+label%3A"help+wanted")
 
-This is the opensource code repository of the eParticipation website CONSUL DEMOCRACY, originally developed for the Madrid City government eParticipation website, and currently maintained by the open source software community in collaboration with the CONSUL DEMOCRACY Foundation.
+This is the opensource code repository of the eParticipation website Moucharaka Mouwatina, originally developed for the Madrid City government eParticipation website, and currently maintained by the open source software community in collaboration with the Moucharaka Mouwatina Foundation.
 
 ## Documentation
 
-Check the [ongoing documentation](https://docs.consuldemocracy.org/index) to learn more about how to start your own CONSUL DEMOCRACY fork, install it, customize it and learn to use it as an administrator/maintainer.
+Check the [ongoing documentation](https://docs.consuldemocracy.org/index) to learn more about how to start your own Moucharaka Mouwatina fork, install it, customize it and learn to use it as an administrator/maintainer.
 
-## CONSUL DEMOCRACY Foundation and project website
+## Moucharaka Mouwatina Foundation and project website
 
-You can access the main website of the project at [http://consuldemocracy.org](http://consuldemocracy.org) where you can find information about the use of the platform, the CONSUL DEMOCRACY Foundation, the global community of users and local partners, news, and ways to get more support or get in touch.
+You can access the main website of the project at [http://consuldemocracy.org](http://consuldemocracy.org) where you can find information about the use of the platform, the Moucharaka Mouwatina Foundation, the global community of users and local partners, news, and ways to get more support or get in touch.
 
 ## Configuration for development and test environments
 

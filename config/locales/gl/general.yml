@@ -112,7 +112,7 @@ gl:
         title: Axuda sobre os debates
         description: Comeza un debate para compartir puntos de vista con outras persoas sobre os temas que te preocuparen.
         help_text_1: "O espazo de debates cidadáns está dirixido para que calquera persoa poida expor temas que lle preocupan e sobre os que queira compartir puntos de vista con outras persoas."
-        help_text_2: 'Para abrir un debate é preciso rexistrarse en %{org}. As persoas xa rexistradas tamén poden comentar os debates que estean abertos e valoralos cos botóns de ''Estou de acordo'' ou ''Non estou de acordo'' que se atopan en cada un deles.'
+        help_text_2: "Para abrir un debate é preciso rexistrarse en %{org}. As persoas xa rexistradas tamén poden comentar os debates que estean abertos e valoralos cos botóns de 'Estou de acordo' ou 'Non estou de acordo' que se atopan en cada un deles."
     new:
       form:
         submit_button: Comezar un debate
@@ -195,9 +195,9 @@ gl:
     footer:
       accessibility: Accesibilidade
       conditions: Condicións de uso
-      consul: aplicación CONSUL DEMOCRACY
+      consul: aplicación Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Este portal usa a %{consul} que é %{open_source}. De Madrid, para o mundo enteiro.
       open_source: software libre
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html

@@ -1,26 +1,26 @@
 # Personalización
 
-Puedes modificar Consul Democracy y ponerle tu propia imagen, para esto debes primero [crear tu propio fork](../getting_started/create.md).
+Puedes modificar Moucharaka Mouwatina y ponerle tu propia imagen, para esto debes primero [crear tu propio fork](../getting_started/create.md).
 
-Hemos creado una estructura específica donde puedes sobreescribir y personalizar la aplicación para que puedas actualizar sin que tengas problemas al hacer merge y se sobreescriban por error tus cambios. Intentamos que Consul Democracy sea una aplicación Ruby on Rails lo más plain vanilla posible para facilitar el acceso de nuevas desarrolladoras.
+Hemos creado una estructura específica donde puedes sobreescribir y personalizar la aplicación para que puedas actualizar sin que tengas problemas al hacer merge y se sobreescriban por error tus cambios. Intentamos que Moucharaka Mouwatina sea una aplicación Ruby on Rails lo más plain vanilla posible para facilitar el acceso de nuevas desarrolladoras.
 
 ## Ficheros y directorios especiales
 
-Para adaptar tu fork de Consul Democracy puedes utilizar alguno de los directorios `custom` que están en las rutas:
+Para adaptar tu fork de Moucharaka Mouwatina puedes utilizar alguno de los directorios `custom` que están en las rutas:
 
-* `config/locales/custom/`
-* `app/assets/images/custom/`
-* `app/views/custom/`
-* `app/controllers/custom/`
-* `app/models/custom/`
+- `config/locales/custom/`
+- `app/assets/images/custom/`
+- `app/views/custom/`
+- `app/controllers/custom/`
+- `app/models/custom/`
 
 Aparte de estos directorios también cuentas con ciertos ficheros para:
 
-* `app/assets/stylesheets/custom.css`
-* `app/assets/stylesheets/_custom_settings.css`
-* `app/assets/javascripts/custom.js`
-* `Gemfile_custom`
-* `config/application.custom.rb`
+- `app/assets/stylesheets/custom.css`
+- `app/assets/stylesheets/_custom_settings.css`
+- `app/assets/javascripts/custom.js`
+- `Gemfile_custom`
+- `config/application.custom.rb`
 
 ## Traducciones remotas bajo demanda del usuario
 
@@ -52,23 +52,23 @@ Una vez disponemos de la nueva key en el `secrets.yml` ya podemos proceder a act
 
 1. Ejecutar el siguiente comando `bin/rake settings:create_remote_translations_setting RAILS_ENV=production`
 1. Acceder a través del panel de administración de su aplicación a la sección **Configuración > Funcionalidades** y activar el módulo de **Traducciones Remotas** como se puede ver a continuación:
-  ![Active remote translations](../../img/translations/remote_translations/active-remote-translations-es.png)
+   ![Active remote translations](../../img/translations/remote_translations/active-remote-translations-es.png)
 
 ### Funcionalidad
 
 Una vez tenemos la api key en nuestro `secrets.yml` y el módulo activado, los usuarios ya podrán utilizar la funcionalidad.
 Para aclarar el funcionamiento, se adjuntan unos pantallazos de como interactua la aplicación con nuestros usuarios:
 
-* Cuando un usuario accede a una pantalla en un idioma en el que no están disponibles todas las traducciones, le aparecerá un texto en la parte superior de la pantalla y un botón para poder solicitar la traducción. (**Nota:** *En el caso de acceder con un idioma no soportado por el servicio de traducción no se mostrará ningún texto ni botón de traducción. Ver sección: Idiomas disponibles para la traducción remota*)
+- Cuando un usuario accede a una pantalla en un idioma en el que no están disponibles todas las traducciones, le aparecerá un texto en la parte superior de la pantalla y un botón para poder solicitar la traducción. (**Nota:** _En el caso de acceder con un idioma no soportado por el servicio de traducción no se mostrará ningún texto ni botón de traducción. Ver sección: Idiomas disponibles para la traducción remota_)
   ![Display text and button](../../img/translations/remote_translations/display-text-and-button-es.png)
 
-* Una vez el usuario pulsa el botón de `Traducir página` se encolan las traducciones y se recarga la pantalla con un notice (*informando que se han solicitado correctamente las traducciones*) y un texto informativo en la cabecera (*explicando cuando podrá ver estas traducciones*).
+- Una vez el usuario pulsa el botón de `Traducir página` se encolan las traducciones y se recarga la pantalla con un notice (_informando que se han solicitado correctamente las traducciones_) y un texto informativo en la cabecera (_explicando cuando podrá ver estas traducciones_).
   ![Display notice and text after enqueued translations](../../img/translations/remote_translations/display-notice-and-text-after-enqueued-es.png)
 
-* Si un usuario accede a una pantalla que no dispone de traducciones pero ya han sido solicitadas por otro usuario. La aplicación no le mostrará el botón de traducir, pero si un texto informativo en la cabecera (*explicando cuando podrá ver estas traducciones*).
+- Si un usuario accede a una pantalla que no dispone de traducciones pero ya han sido solicitadas por otro usuario. La aplicación no le mostrará el botón de traducir, pero si un texto informativo en la cabecera (_explicando cuando podrá ver estas traducciones_).
   ![Display text explaining that translations are pending](../../img/translations/remote_translations/display-text-translations-pending-es.png)
 
-* Las peticiones de traducción se delegan a `Delayed Job` y en cuanto haya sido procesada, el usuario después de refrescar su página podrá ver el contenido traducido.
+- Las peticiones de traducción se delegan a `Delayed Job` y en cuanto haya sido procesada, el usuario después de refrescar su página podrá ver el contenido traducido.
   ![Display translated content](../../img/translations/remote_translations/display-translated-content-es.png)
 
 ### Idiomas disponibles para la traducción remota
@@ -76,10 +76,135 @@ Para aclarar el funcionamiento, se adjuntan unos pantallazos de como interactua 
 Actualmente estos son todos los [idiomas disponibles](https://api.cognitive.microsofttranslator.com/languages?api-version=3.0) en el servicio de traducción:
 
 ```yml
-["af", "am", "ar", "as", "az", "ba", "bg", "bn", "bo", "bs", "ca", "cs", "cy", "da", "de", "dv", "el", "en", "es", "et", "eu", "fa", "fi", "fil", "fj", "fo", "fr", "fr-CA", "ga", "gl", "gu", "ha", "he", "hi", "hr", "hsb", "ht", "hu", "hy", "id", "ig", "ikt", "is", "it", "iu", "iu-Latn", "ja", "ka", "kk", "km", "kmr", "kn", "ko", "ku", "ky", "ln", "lo", "lt", "lug", "lv", "lzh", "mg", "mi", "mk", "ml", "mn-Cyrl", "mn-Mong", "mr", "ms", "mt", "mww", "my", "nb", "ne", "nl", "nso", "nya", "or", "otq", "pa", "pl", "prs", "ps", "pt", "pt-PT", "ro", "ru", "run", "rw", "sk", "sl", "sm", "sn", "so", "sq", "sr-Cyrl", "sr-Latn", "st", "sv", "sw", "ta", "te", "th", "ti", "tk", "tlh-Latn", "tlh-Piqd", "tn", "to", "tr", "tt", "ty", "ug", "uk", "ur", "uz", "vi", "xh", "yo", "yua", "yue", "zh-Hans", "zh-Hant", "zu"]
+[
+  "af",
+  "am",
+  "ar",
+  "as",
+  "az",
+  "ba",
+  "bg",
+  "bn",
+  "bo",
+  "bs",
+  "ca",
+  "cs",
+  "cy",
+  "da",
+  "de",
+  "dv",
+  "el",
+  "en",
+  "es",
+  "et",
+  "eu",
+  "fa",
+  "fi",
+  "fil",
+  "fj",
+  "fo",
+  "fr",
+  "fr-CA",
+  "ga",
+  "gl",
+  "gu",
+  "ha",
+  "he",
+  "hi",
+  "hr",
+  "hsb",
+  "ht",
+  "hu",
+  "hy",
+  "id",
+  "ig",
+  "ikt",
+  "is",
+  "it",
+  "iu",
+  "iu-Latn",
+  "ja",
+  "ka",
+  "kk",
+  "km",
+  "kmr",
+  "kn",
+  "ko",
+  "ku",
+  "ky",
+  "ln",
+  "lo",
+  "lt",
+  "lug",
+  "lv",
+  "lzh",
+  "mg",
+  "mi",
+  "mk",
+  "ml",
+  "mn-Cyrl",
+  "mn-Mong",
+  "mr",
+  "ms",
+  "mt",
+  "mww",
+  "my",
+  "nb",
+  "ne",
+  "nl",
+  "nso",
+  "nya",
+  "or",
+  "otq",
+  "pa",
+  "pl",
+  "prs",
+  "ps",
+  "pt",
+  "pt-PT",
+  "ro",
+  "ru",
+  "run",
+  "rw",
+  "sk",
+  "sl",
+  "sm",
+  "sn",
+  "so",
+  "sq",
+  "sr-Cyrl",
+  "sr-Latn",
+  "st",
+  "sv",
+  "sw",
+  "ta",
+  "te",
+  "th",
+  "ti",
+  "tk",
+  "tlh-Latn",
+  "tlh-Piqd",
+  "tn",
+  "to",
+  "tr",
+  "tt",
+  "ty",
+  "ug",
+  "uk",
+  "ur",
+  "uz",
+  "vi",
+  "xh",
+  "yo",
+  "yua",
+  "yue",
+  "zh-Hans",
+  "zh-Hant",
+  "zu",
+]
 ```
 
-De todos los idiomas que actualmente tiene Consul Democracy definidos (`available_locales`) en `config/application.rb` el único que no está en la lista anterior y por lo tanto no se ofrece servicio de traducción es el valenciano `["val"]`.
+De todos los idiomas que actualmente tiene Moucharaka Mouwatina definidos (`available_locales`) en `config/application.rb` el único que no está en la lista anterior y por lo tanto no se ofrece servicio de traducción es el valenciano `["val"]`.
 
 ### Costes
 
@@ -123,25 +248,25 @@ end
 
 ## Interfaz de traducción
 
-Esta funcionalidad permite a los usuarios introducir contenidos dinámicos en diferentes idiomas a la vez. Cualquier usuario administrador de Consul Democracy puede activar o desactivar esta funcionalidad a través del panel de administración de la aplicación. Si desactivas esta funcionalidad (configuración de la funcionalidad por defecto) los usuarios sólo podrán introducir un idioma.
+Esta funcionalidad permite a los usuarios introducir contenidos dinámicos en diferentes idiomas a la vez. Cualquier usuario administrador de Moucharaka Mouwatina puede activar o desactivar esta funcionalidad a través del panel de administración de la aplicación. Si desactivas esta funcionalidad (configuración de la funcionalidad por defecto) los usuarios sólo podrán introducir un idioma.
 
 ### Activar funcionalidad
 
 Para activar la funcionalidad deberá realizar 2 pasos:
 
-1. Ejecutar el siguiente comando `bin/rake settings:create_translation_interface_setting RAILS_ENV=production` (Este paso sólo es necesario para instalaciones de Consul Democracy existentes que incorporan esta funcionalidad, para nuevas instalaciones no es necesario)
+1. Ejecutar el siguiente comando `bin/rake settings:create_translation_interface_setting RAILS_ENV=production` (Este paso sólo es necesario para instalaciones de Moucharaka Mouwatina existentes que incorporan esta funcionalidad, para nuevas instalaciones no es necesario)
 1. Accedediendo como usuario administrador a través del panel de administración de su aplicación a la sección **Configuración > Funcionalidades** y activando el módulo de **Interfaz de traducción** como se puede ver a continuación:
-  ![Active interface translations](../../img/translations/interface_translations/active-interface-translations-es.png)
+   ![Active interface translations](../../img/translations/interface_translations/active-interface-translations-es.png)
 
 ### Casos de uso
 
 Dependiendo de si activamos o desactivamos el módulo de **Interfaz de traducción** veremos los formularios accesibles por el usuario de la siguiente manera:
 
-* Cuando la interfaz de traducción esta activa:
- Como podemos ver en la imagen a continuación la interfaz de traducción tiene 2 selectores, el primero "Seleccionar idioma" permite cambiar entre los lenguajes activos y el segundo selector "Añadir idioma" permite añadir nuevos idiomas al formulario. Los campos traducibles se pueden distinguir fácilmente mediante un fondo azul de los que no lo son. También disponemos de un botón `Eliminar idioma` para eliminar un idioma en caso de necesitarlo. Si un usuario elimina accidentalmente un idioma puede recuperarlo añadiendo dicho idioma otra vez al formulario.
- Esta funcionalidad está visible tanto para las páginas de creación como para las páginas de edición.
- ![Translations inteface enabled](../../img/translations/interface_translations/translations-interface-enabled-es.png)
+- Cuando la interfaz de traducción esta activa:
+  Como podemos ver en la imagen a continuación la interfaz de traducción tiene 2 selectores, el primero "Seleccionar idioma" permite cambiar entre los lenguajes activos y el segundo selector "Añadir idioma" permite añadir nuevos idiomas al formulario. Los campos traducibles se pueden distinguir fácilmente mediante un fondo azul de los que no lo son. También disponemos de un botón `Eliminar idioma` para eliminar un idioma en caso de necesitarlo. Si un usuario elimina accidentalmente un idioma puede recuperarlo añadiendo dicho idioma otra vez al formulario.
+  Esta funcionalidad está visible tanto para las páginas de creación como para las páginas de edición.
+  ![Translations inteface enabled](../../img/translations/interface_translations/translations-interface-enabled-es.png)
 
-* Cuando la interfaz de traducción esta desactivada:
+- Cuando la interfaz de traducción esta desactivada:
   Cuando esta funcionalidad está desactivada los formularios se renderizan sin la interfaz de traducción y sin resaltar los campos traducibles con fondo azul.
   ![Translations inteface enabled](../../img/translations/interface_translations/translations-interface-disabled-es.png)

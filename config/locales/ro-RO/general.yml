@@ -116,7 +116,7 @@ ro:
         title: Ajutor pentru dezbateri
         description: Începeți o dezbatere pentru a împărtăși opinii cu alții despre subiectele care vă preocupă.
         help_text_1: "Spațiul pentru dezbaterile cetățenilor se adresează oricui își poate expune problemele și celor care vor să își împărtășească opiniile cu alte persoane."
-        help_text_2: 'Pentru a deschide o dezbatere, trebuie să vă înscrieți la %{org}. Utilizatorii pot, de asemenea, să comenteze dezbaterile deschise și să le evalueze cu butoanele „Sunt de acord” sau „Nu sunt de acord”.'
+        help_text_2: "Pentru a deschide o dezbatere, trebuie să vă înscrieți la %{org}. Utilizatorii pot, de asemenea, să comenteze dezbaterile deschise și să le evalueze cu butoanele „Sunt de acord” sau „Nu sunt de acord”."
     new:
       form:
         submit_button: Începe o dezbatere
@@ -194,9 +194,9 @@ ro:
     footer:
       accessibility: Accesibilitate
       conditions: Termeni și condiții de utilizare
-      consul: Cerere CONSUL DEMOCRACY
+      consul: Cerere Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Acest portal folosește %{consul} care este %{open_source}.
       open_source: software open-source
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html

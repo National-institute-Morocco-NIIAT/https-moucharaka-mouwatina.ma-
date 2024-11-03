@@ -302,17 +302,25 @@ describe Tenant do
       create(:tenant, schema: "milky-way")
 
       Tenant.run_on_each do
-        Setting["org_name"] = "oh-my-#{Tenant.current_schema}"
+        (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = "oh-my-#{Tenant.current_schema}"
       end
 
-      expect(Setting["org_name"]).to eq "oh-my-public"
+      expect((I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")).to eq "oh-my-public"
 
       Tenant.switch("andromeda") do
-        expect(Setting["org_name"]).to eq "oh-my-andromeda"
+        expect((I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")).to eq "oh-my-andromeda"
       end
 
       Tenant.switch("milky-way") do
-        expect(Setting["org_name"]).to eq "oh-my-milky-way"
+        expect((I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")).to eq "oh-my-milky-way"
       end
     end
   end

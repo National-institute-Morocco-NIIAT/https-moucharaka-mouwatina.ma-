@@ -157,7 +157,7 @@ es-PE:
     footer:
       accessibility: Accesibilidad
       conditions: Condiciones de uso
-      consul: aplicación CONSUL DEMOCRACY
+      consul: aplicación Moucharaka Mouwatina
       description: Este portal usa o %{consul} que é %{open_source}. De Madrid para o mundo.
       open_source: programa de código aberto
       participation_text: Decida como adequar a Madrid que você deseja viver.
@@ -631,7 +631,7 @@ es-PE:
     help:
       alt: Selecciona el texto que quieres comentar y pulsa en el botón con el lápiz.
       text: Para comentar este documento debes %{sign_in} o %{sign_up}. Después selecciona el texto que quieres comentar y pulsa en el botón con el lápiz.
-      title: '¿Cómo puedo comentar este documento?'
+      title: "¿Cómo puedo comentar este documento?"
   links:
     form:
       delete_button: Borrar

@@ -5,8 +5,8 @@ fr:
     actions:
       actions: Statut des votes
       block_author: "Bloquer l'auteur"
-      confirm_action: "Êtes-vous sûr? %{action} \"%{name}\""
-      confirm_delete: "Êtes-vous sûr? Cette action supprimera \"%{name}\" et ne peut pas être annulée."
+      confirm_action: 'Êtes-vous sûr? %{action} "%{name}"'
+      confirm_delete: 'Êtes-vous sûr? Cette action supprimera "%{name}" et ne peut pas être annulée.'
       confirm_hide: Confirmer
       delete: "Supprimer"
       hide: Cacher
@@ -198,7 +198,7 @@ fr:
         success_notice: "Rubrique supprimée avec succès"
         unable_notice: "Vous ne pouvez pas supprimer une rubrique qui est associé à des investissements"
       form:
-        max_ballot_lines_info: 'Nombre maximum de projets qu''un utilisateur peut voter sur cette rubrique lors de la phase « Vote des projets ». Uniquement pour les budgets utilisant le vote d''approbation.'
+        max_ballot_lines_info: "Nombre maximum de projets qu'un utilisateur peut voter sur cette rubrique lors de la phase « Vote des projets ». Uniquement pour les budgets utilisant le vote d'approbation."
         population_info: "Le champ de population pour la tranche du budget est utilisé à des fins statistiques à la fin du budget pour montrer le pourcentage de votants pour chaque tranche qui représente une zone. Le champ est optionnel donc vous pouvez le laissez blanc."
         coordinates_info: "Si la latitude et la longitude sont fournies, la page d’investissements pour cette rubrique comprendra une carte. Cette carte sera centrée en utilisant ces coordonnées."
         content_blocks_info: "Si autoriser le bloc de contenu est coché, vous pourrez créer un contenu personnalisé lié à cette rubrique à partir de la section Paramètres > Blocs de contenu personnalisés. Ce contenu apparaîtra sur la page des investissements de cette rubrique."
@@ -340,7 +340,7 @@ fr:
           back: "Retour au groupe d'édition"
       heading_mode:
         multiple:
-          description: "Créez un processus avec plusieurs groupes, districts ou problèmes. Vous avez quelque chose comme plusieurs sacs d'argent. Par exemple, 25 000 € pour le \"District Nord\", 30 000 € pour le \"District central\", 28 000 € pour \"Quartier Sud\" et toute la ville. Ou pour des sujets divers comme le sport, la culture ou la santé."
+          description: 'Créez un processus avec plusieurs groupes, districts ou problèmes. Vous avez quelque chose comme plusieurs sacs d''argent. Par exemple, 25 000 € pour le "District Nord", 30 000 € pour le "District central", 28 000 € pour "Quartier Sud" et toute la ville. Ou pour des sujets divers comme le sport, la culture ou la santé.'
           link: "Créer un budget à partir de plusieurs éléments"
           title: "Budget <strong>plusieurs éléments de campagne</strong>"
         single:
@@ -452,8 +452,8 @@ fr:
         index:
           description: "Lorsque les utilisateurs créent des propositions il peuvent accéder au tableau de bord de leur proposition, où vous pouvez proposer des ressources et recommandations pour soutenir leur idée."
           create: Créer une ressource ou une action
-          active: 'Oui'
-          inactive: 'Non'
+          active: "Oui"
+          inactive: "Non"
           title: Ressources et actions
           action_title: Titre
           action_type: Type
@@ -1681,10 +1681,10 @@ fr:
       help:
         title_1: "Qu'est-ce que l'IA/l'apprentissage automatique ?"
         description_1: "Traditionnellement, les programmes informatiques sont conçus en établissant des règles précises sur ce que le programme doit faire dans chaque situation, et comment traiter les informations disponibles à chaque instant. Ce que l'on appelle communément l'IA / Machine Learning est un type de programmes pour lequel ce qui est établi précisément, c'est la tâche à réaliser et comment la tâche est mieux ou moins bien réalisée, mais contrairement aux autres, le système découvre ou apprend quelle serait la méthode la plus appropriée pour réaliser ladite tâche."
-        title_2: "Que fait le module IA/Machine Learning dans CONSUL DEMOCRACY?"
-        description_2: "Ce module permet d'implémenter tout type de programmes d'IA / Machine Learning dans CONSUL DEMOCRACY. Les programmes peuvent traiter les informations disponibles dans CONSUL DEMOCRACY et produire des résultats qui aident à la fois les utilisateurs et les administrateurs à mener une participation citoyenne plus efficace et intelligente. Le module a été développé pour faciliter la mise en œuvre et l'exécution de nouveaux programmes, en séparant le code CONSUL DEMOCRACY général et le code de ces nouveaux programmes."
+        title_2: "Que fait le module IA/Machine Learning dans Moucharaka Mouwatina?"
+        description_2: "Ce module permet d'implémenter tout type de programmes d'IA / Machine Learning dans Moucharaka Mouwatina. Les programmes peuvent traiter les informations disponibles dans Moucharaka Mouwatina et produire des résultats qui aident à la fois les utilisateurs et les administrateurs à mener une participation citoyenne plus efficace et intelligente. Le module a été développé pour faciliter la mise en œuvre et l'exécution de nouveaux programmes, en séparant le code Moucharaka Mouwatina général et le code de ces nouveaux programmes."
         title_3: "Comment utiliser le module"
-        description_3: "Pour l'utiliser pour la première fois, il est nécessaire de suivre les instructions disponibles dans la documentation CONSUL DEMOCRACY pour activer correctement ce module. Une fois le module correctement activé, les programmes sont exécutés depuis l'onglet \"Exécuter les scripts\". Avant de l'exécuter, nous pouvons voir dans ce même onglet une estimation du temps d'exécution et d'autres informations pertinentes. À la fin de l'exécution, nous pouvons activer le contenu qui sera affiché dans CONSUL DEMOCRACY à partir de l'onglet \"Configuration\", ainsi que télécharger d'autres fichiers générés qui pourraient nous être utiles."
+        description_3: 'Pour l''utiliser pour la première fois, il est nécessaire de suivre les instructions disponibles dans la documentation Moucharaka Mouwatina pour activer correctement ce module. Une fois le module correctement activé, les programmes sont exécutés depuis l''onglet "Exécuter les scripts". Avant de l''exécuter, nous pouvons voir dans ce même onglet une estimation du temps d''exécution et d''autres informations pertinentes. À la fin de l''exécution, nous pouvons activer le contenu qui sera affiché dans Moucharaka Mouwatina à partir de l''onglet "Configuration", ainsi que télécharger d''autres fichiers générés qui pourraient nous être utiles.'
         title_4: "Comment implémenter de nouveaux scripts d'IA/apprentissage automatique."
         description_4: "Utilisez des scripts existants comme exemple."
         description_4b: "Les nouveaux scripts doivent se trouver dans le dossier <code>public/machine_learning/scripts</code>"

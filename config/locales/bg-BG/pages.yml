@@ -61,9 +61,9 @@ bg:
         text: |-
           Използвайте го във Вашата община или ни помогнете да го подобрим, това е безплатен софтуер.
 
-          Този портал за отворено управление използва [CONSUL app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') , който е безплатен софтуер, с [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), което казано с прости думи означава, че всеки може да използва кода свободно, да го копира, да го преглежда в детайли, да го модифицира и разпространява с модификациите, които иска (разрешавайки на останалите да правят същото). Защото смятаме, че културата е по-добра и по-богата, когато бъде освободена.
+          Този портал за отворено управление използва [CONSUL app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github') , който е безплатен софтуер, с [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), което казано с прости думи означава, че всеки може да използва кода свободно, да го копира, да го преглежда в детайли, да го модифицира и разпространява с модификациите, които иска (разрешавайки на останалите да правят същото). Защото смятаме, че културата е по-добра и по-богата, когато бъде освободена.
 
-          Ако сте програмист, можете да намерите кода и да ни помогнете да го подобрим на [CONSUL app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          Ако сте програмист, можете да намерите кода и да ни помогнете да го подобрим на [CONSUL app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: Използвайте го в местната власт
     privacy:
@@ -88,23 +88,17 @@ bg:
           key_header: Клавиш
           page_header: Страница
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Начало
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Дискусии
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Предложения
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Гласове
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Граждански бюджети
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Законодателно процеси
         browser_table:
           description: "В зависимост от използваната операционна система и браузъра, клавишната комбинация ще бъде следната:"
@@ -112,20 +106,15 @@ bg:
           browser_header: Браузър
           key_header: Комбинация от клавиши
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               key_column: ALT + shortcut then ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS + shortcut
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + shortcut (CTRL + ALT + shortcuts for MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + shortcut (CMD + shortcut for MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS + ESC + shortcut
       textsize:
         title: Размер на текста
@@ -134,29 +123,22 @@ bg:
           browser_header: Браузър
           action_header: Действие, което трябва да се предприеме
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: View > Text size
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: View > Size
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Settings (icon) > Options > Advanced > Web Content > Text size
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: View > Zoom In/Zoom out
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: View > scale
         browser_shortcuts_table:
           description: "Друг начин за промяна на размера на текста е да се използват бързите клавишни комбинации, както са определени в браузърите, по-специално комбинацията:"
           rows:
-            - 
-              shortcut_column: CTRL и + (CMD и + на MAC)
+            - shortcut_column: CTRL и + (CMD и + на MAC)
               description_column: Увеличава размера на текста
-            - 
-              shortcut_column: CTRL и - (CMD и - на MAC)
+            - shortcut_column: CTRL и - (CMD и - на MAC)
               description_column: Намалява размера на текста
       compatibility:
         title: Съвместимост със стандартите и визуалния дизайн

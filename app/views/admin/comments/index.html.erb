@@ -40,6 +40,10 @@
   <%= paginate @comments %>
 <% else %>
   <div class="callout primary margin">
-    <%= t("admin.comments.index.no_comments") %>
+    <% if I18n.locale == :ar %>
+      <%= "لا توجد تعليقات" %>
+    <% else %>
+      <%= t("admin.comments.index.no_comments") %>
+    <% end %>
   </div>
 <% end %>

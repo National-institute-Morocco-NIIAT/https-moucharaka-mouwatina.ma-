@@ -21,19 +21,19 @@ el:
         feature: "Μπορείτε να ανοίξετε συζητήσεις, να σχολιάσετε και να αξιολογήσετε αυτές με το <strong>συμφωνώ</strong> ή <strong>δεν συμφωνώ</strong>. Για αυτό πρέπει να %{link}."
         feature_link: "εγγραφή σε %{org}"
         image_alt: "Κουμπί για την αξιολόγηση των συζητήσεων"
-        figcaption: '«Συμφωνώ» και «Διαφωνώ» κουμπιά για να αξιολογήσετε τις συζητήσεις.'
+        figcaption: "«Συμφωνώ» και «Διαφωνώ» κουμπιά για να αξιολογήσετε τις συζητήσεις."
       proposals:
         title: "Προτάσεις"
         description: "Στην ενότητα %{link} μπορείτε να κάνετε προτάσεις στο Δημοτικό Συμβούλιο για να τις πραγματοποιήσει. Οι προτάσεις απαιτούν υποστήριξη, και αν φτάσουν επαρκή υποστήριξη, τίθενται σε δημόσια ψηφοφορία. Οι προτάσεις που εγκρίθηκαν με ψήφους των πολιτών αυτών γίνονται αποδεκτές από το Δημοτικό Συμβούλιο και πραγματοποιούνται."
         link: "προτάσεις πολιτών"
         image_alt: "Κουμπί για την υποστήριξη μιας πρότασης"
-        figcaption: 'Κουμπί για την ''Υποστήριξη'' μιας πρότασης.'
+        figcaption: "Κουμπί για την 'Υποστήριξη' μιας πρότασης."
       budgets:
         title: "Συμμετοχικός προϋπολογισμός"
         description: "Η ενότητα %{link} βοηθά στη λήψη άμεσης απόφασης σχετικά με ποιο μέρος του δημοτικού προϋπολογισμού δαπανάται."
         link: "συμμετοχικών προϋπολογισμών"
         image_alt: "Διάφορες φάσεις ενός συμμετοχικού προϋπολογισμού"
-        figcaption: 'Φάσεις «υποστήριξης» και «ψηφοφορίας» των συμμετοχικών προϋπολογισμών.'
+        figcaption: "Φάσεις «υποστήριξης» και «ψηφοφορίας» των συμμετοχικών προϋπολογισμών."
       polls:
         title: "Δημοσκοπήσεις"
         description: "Η ενότητα %{link} ενεργοποιείται κάθε φορά που η στήριξη μια πρότασης φτάνει το 1% και πηγαίνει σε ψηφοφορία ή όταν το Δημοτικό Συμβούλιο προτείνει ένα ζήτημα για το οποίο οι χρήστες καλούνται να αποφασίσουν."
@@ -59,9 +59,9 @@ el:
         text: |-
           Χρησιμοποιήστε το στην τοπική σας αυτοδιοίκηση ή βοηθήσετε μας να το βελτιώσουμε. Ελεύθερο λογισμικό.
 
-          Αυτή η Ανοιχτή Πύλη Διακυβέρνησης χρησιμοποιεί το [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') το οποίο είναι ένα ελεύθερο λογισμικό, με [άδεια AGPLv3] (http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu'). Με απλά λόγια, όποιοσδήποτε μπορεί να χρησιμοποιήσει τον κώδικα ελεύθερα, να τον αντιγράψει, να τον δει σε λεπτομέρια, να τον τροποποιήσει και να τον αναδιανέμει με τις τροποποιήσεις που επιθυμεί (επιτρέποντας και στον υπόλοιπο κόσμο να κάνει το ίδιο). Επειδή πιστεύουμε ότι ο πολιτισμός είναι πλουσιότερος όταν είναι ελεύθερος.
+          Αυτή η Ανοιχτή Πύλη Διακυβέρνησης χρησιμοποιεί το [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github') το οποίο είναι ένα ελεύθερο λογισμικό, με [άδεια AGPLv3] (http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu'). Με απλά λόγια, όποιοσδήποτε μπορεί να χρησιμοποιήσει τον κώδικα ελεύθερα, να τον αντιγράψει, να τον δει σε λεπτομέρια, να τον τροποποιήσει και να τον αναδιανέμει με τις τροποποιήσεις που επιθυμεί (επιτρέποντας και στον υπόλοιπο κόσμο να κάνει το ίδιο). Επειδή πιστεύουμε ότι ο πολιτισμός είναι πλουσιότερος όταν είναι ελεύθερος.
 
-          Εάν είστε προγραμματιστής, μπορείτε να δείτε τον κώδικα και να μας βοηθήσετε να τον βελτιώσουμε στο [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          Εάν είστε προγραμματιστής, μπορείτε να δείτε τον κώδικα και να μας βοηθήσετε να τον βελτιώσουμε στο [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: Χρησιμοποιήστε το στην τοπική σας διακυβέρνησή
     privacy:
@@ -86,23 +86,17 @@ el:
           key_header: Κλειδί
           page_header: Σελίδα
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Αρχική σελίδα
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Συζητήσεις
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Προτάσεις
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Ψήφοι
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Συμμετοχικοί προϋπολογισμοί
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Νομοθετικές διαδικασίες
         browser_table:
           description: "Ανάλογα με το λειτουργικό σύστημα και το πρόγραμμα περιήγησης που χρησιμοποιείται, ο συνδυασμός πλήκτρων θα είναι ως εξής:"
@@ -110,20 +104,15 @@ el:
           browser_header: Πρόγραμμα περιήγησης
           key_header: Συνδυασμός πλήκτρων
           rows:
-            - 
-              browser_column: Εξερεύνηση
+            - browser_column: Εξερεύνηση
               key_column: ALT + συντόμευση στη συνέχεια πατήστε ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS + συντόμευση
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + συντόμευση (CTRL + ALT + συντομεύσεις για MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + συντόμευση (CMD + συντόμευση για MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS + ESC + συντόμευση
       textsize:
         title: Μέγεθος κειμένου
@@ -132,29 +121,22 @@ el:
           browser_header: Πρόγραμμα περιήγησης
           action_header: Μέτρα που πρέπει να ληφθούν
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: Προβολή > Μέγεθος κειμένου
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Προβολή > Μέγεθος
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Ρυθμίσεις (εικονίδιο) > Επιλογές > Προχωρημένο > Περιεχόμενο Ιστοσελίδας > Μέγεθος κειμένου
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Προβολή > Μεγέθυνση / Σμίκρυνση
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Προβολή > κλίμακα
         browser_shortcuts_table:
           description: "Ένας άλλος τρόπος για να τροποποιήσετε το μέγεθος του κειμένου είναι να χρησιμοποιήσετε τις συντομεύσεις πληκτρολογίου που ορίζονται στα προγράμματα περιήγησης, ιδίως το συνδυασμό πλήκτρων:"
           rows:
-            - 
-              shortcut_column: CTRL και + (CMD και + σε MAC)
+            - shortcut_column: CTRL και + (CMD και + σε MAC)
               description_column: Αυξάνει το μέγεθος του κειμένου
-            - 
-              shortcut_column: CTRL και - (CMD και - σε MAC)
+            - shortcut_column: CTRL και - (CMD και - σε MAC)
               description_column: Μειώνει το μέγεθος του κειμένου
       compatibility:
         title: Συμβατότητα με τα πρότυπα και την οπτική σχεδίαση

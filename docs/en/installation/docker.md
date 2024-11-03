@@ -1,9 +1,9 @@
 # Using Docker for local development
 
-You can use Docker to have a local Consul Democracy installation for development if:
+You can use Docker to have a local Moucharaka Mouwatina installation for development if:
 
 - You're having troubles having [prerequisites](prerequisites.md) installed.
-- You want to do a quick local installation just to try Consul Democracy or make a demo.
+- You want to do a quick local installation just to try Moucharaka Mouwatina or make a demo.
 - You prefer not to interfere with other rails installations.
 
 ## Prerequisites
@@ -100,7 +100,7 @@ POSTGRES_PASSWORD=password docker-compose run app rake db:dev_seed
 
 Pending to be completed... Contributions Welcome!
 
-## Running local Consul Democracy with Docker
+## Running local Moucharaka Mouwatina with Docker
 
 ### macOS & Linux
 
@@ -133,15 +133,15 @@ Pending to be completed... Contributions Welcome!
 
 ## Having trouble?
 
-Run these commands at **Consul Democracy's directory**, to erase all your previous Consul Democracy's Docker images and containers. Then restart the Docker [installation process](#installation):
+Run these commands at **Moucharaka Mouwatina's directory**, to erase all your previous Moucharaka Mouwatina's Docker images and containers. Then restart the Docker [installation process](#installation):
 
-1. Remove all Consul Democracy images:
+1. Remove all Moucharaka Mouwatina images:
 
 ```bash
 docker-compose down --rmi all -v --remove-orphans
 ```
 
-2. Remove all Consul Democracy containers
+2. Remove all Moucharaka Mouwatina containers
 
 ```bash
 docker-compose rm -f -s -v

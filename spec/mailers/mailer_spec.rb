@@ -68,7 +68,9 @@ describe Mailer do
       create(:tenant, schema: "delay")
 
       Tenant.switch("delay") do
-        Setting["org_name"] = "Delayed tenant"
+        (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = "Delayed tenant"
 
         Mailer.delay.user_invite("test@consul.dev")
       end

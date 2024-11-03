@@ -14,7 +14,7 @@ end
 # This code was copied from:
 # https://guides.rubyonrails.org/v7.0/upgrading_ruby_on_rails.html#key-generator-digest-class-changing-to-use-sha256
 # TODO: safe to remove after upgrading to Rails 7.1 or releasing a new
-# version of Consul Democracy
+# version of Moucharaka Mouwatina
 Rails.application.config.after_initialize do
   Rails.application.config.action_dispatch.cookies_rotations.tap do |cookies|
     authenticated_encrypted_cookie_salt = Rails.application.config.action_dispatch.authenticated_encrypted_cookie_salt

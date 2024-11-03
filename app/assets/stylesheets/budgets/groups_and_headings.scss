@@ -17,6 +17,7 @@
     margin-top: calc(#{$line-height} / 4);
     padding: calc(#{$line-height} / 2);
     width: 100%;
+    color: black;
 
     @include breakpoint(medium) {
       width: calc(100% / 3 - #{$spacing});
@@ -39,6 +40,7 @@
       display: block;
       font-size: $small-font-size;
       padding-top: calc(#{$line-height} / 2);
+      color: black;
     }
   }
 }

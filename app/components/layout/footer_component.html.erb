@@ -1,37 +1,89 @@
+<style>
+
+
+.yellow-bar {
+  width: 100%; 
+  height: 4px; 
+  background-color: yellow;
+  margin-top: 0.5rem;
+  border-radius: 2px;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+</style>
+
 <footer>
   <div class="row">
-    <div class="small-12 large-4 column">
-      <h1 class="logo">
-        <%= link_to t("layouts.header.open_gov"), root_path %>
-      </h1>
-
-      <p class="info">
-        <%= sanitize(t("layouts.footer.description",
-                       open_source: open_source_link,
-                       consul: repository_link),
-                     attributes: allowed_link_attributes) %>
-      </p>
-    </div>
-
-    <div class="footer-sections small-12 large-8 column">
-      <div class="small-12 medium-4 column">
-        <%= link_to t("layouts.footer.participation_title"), root_path, class: "title" %>
-        <p><%= t("layouts.footer.participation_text") %></p>
+    <div class="small-12 column">
+      <!-- Logo section moved outside and above the footer-sections -->
+      <div class="small-12 column text-center">
+        <h1 class="logo">
+          <% if I18n.locale == :ar %>
+            مشاركة مواطنة
+          <% else %>
+            Moucharaka Mouwatina
+          <% end %>
+        </h1>
+        <div class="yellow-bar"></div>
+      </div>
+      
+      <!-- Footer sections now take full width below logo -->
+      <div class="footer-sections small-12 column">
+        <div class="small-12 medium-4 column">
+          <h2 class="title">
+            <% if I18n.locale == :ar %>
+              روابط
+            <% elsif I18n.locale == :fr %>
+              Liens
+            <% elsif I18n.locale == :es %>
+              Enlaces
+            <% else %>
+              Links
+            <% end %>
+          </h2>
+          <ul>
+            <li><%= link_to (I18n.locale == :ar ? "الرئيسية" : I18n.locale == :fr ? "Accueil" : I18n.locale == :es ? "Inicio" : "Home"), root_path %></li>
+            <li><%= link_to (I18n.locale == :ar ? "النقاشات" : I18n.locale == :fr ? "Débats" : I18n.locale == :es ? "Debates" : "Debates"), page_path("debates") %></li>
+            <li><%= link_to (I18n.locale == :ar ? "المقترحات" : I18n.locale == :fr ? "Propositions" : I18n.locale == :es ? "Propuestas" : "Proposals"), page_path("proposals") %></li>
+            <li><%= link_to (I18n.locale == :ar ? "الميزانيات" : I18n.locale == :fr ? "Budgets" : I18n.locale == :es ? "Presupuestos" : "Budgets"), page_path("budgets") %></li>
+          </ul>
+        </div>
+        
+        <div class="small-12 medium-4 column">
+          <h2 class="title">
+            <% if I18n.locale == :ar %>
+              الدعم
+            <% elsif I18n.locale == :fr %>
+              Support
+            <% elsif I18n.locale == :es %>
+              Soporte
+            <% else %>
+              Support
+            <% end %>
+          </h2>
+          <ul>
+            <li><%= link_to (I18n.locale == :ar ? "الأسئلة الشائعة" : I18n.locale == :fr ? "FAQ" : I18n.locale == :es ? "Preguntas Frecuentes" : "FAQ"), page_path("faq") %></li>
+            <li><%= link_to (I18n.locale == :ar ? "مركز المساعدة" : I18n.locale == :fr ? "Centre d'aide" : I18n.locale == :es ? "Centro de ayuda" : "Help Center"), page_path("help") %></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-
+  
   <div class="subfooter row">
     <div class="small-12 medium-8 column">
-      <%= t("layouts.footer.copyright", year: Time.current.year) %>
+      <span class="year"><%= Time.current.year %></span>
       <ul class="legal">
-        <li><%= link_to t("layouts.footer.privacy"), page_path("privacy") %></li>
-        <li><%= link_to t("layouts.footer.conditions"), page_path("conditions") %></li>
-        <li><%= link_to t("layouts.footer.accessibility"), page_path("accessibility") %></li>
+        <li><%= link_to (I18n.locale == :ar ? "سياسة الخصوصية" : I18n.locale == :fr ? "Politique de confidentialité" : I18n.locale == :es ? "Política de privacidad" : "Privacy Policy"), page_path("privacy") %></li>
+        <li><%= link_to (I18n.locale == :ar ? "الشروط والأحكام" : I18n.locale == :fr ? "Conditions générales" : I18n.locale == :es ? "Términos y Condiciones" : "Terms & Conditions"), page_path("conditions") %></li>
+        <li><%= link_to (I18n.locale == :ar ? "إمكانية الوصول" : I18n.locale == :fr ? "Accessibilité" : I18n.locale == :es ? "Accesibilidad" : "Accessibility"), page_path("accessibility") %></li>
         <%= raw footer_legal_content_block %>
       </ul>
     </div>
-
     <%= render Layout::SocialComponent.new %>
   </div>
 </footer>

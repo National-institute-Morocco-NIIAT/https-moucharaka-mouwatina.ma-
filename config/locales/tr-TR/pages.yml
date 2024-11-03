@@ -64,9 +64,9 @@ tr:
         text: |-
           Yerel yönetiminizde kullanın ve geliştirmemize yardım edin. Bu yazılım ücretsizdir.
 
-          Bu Açık Hükümet sitesi, [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ) koşulları altında dağıtılan ve ücretsiz bir yazılım olan [CONSUL DEMOCRACY uygulaması](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') ile çalışıyor. Basit bir anlatımla, isteyen herkes kodu özgürce kullanabilir, kopyalayabilir, ayrıntılı olarak inceleyebilir, değiştirebilir ve yaptığı değişikliklerle dünyaya yeniden dağıtabilir (başkalarının da aynı şeyi yapmasına izin vererek). Biz kültürün, serbest bırakıldığında daha iyi ve zengin olacağını düşünüyoruz.
+          Bu Açık Hükümet sitesi, [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ) koşulları altında dağıtılan ve ücretsiz bir yazılım olan [Moucharaka Mouwatina uygulaması](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github') ile çalışıyor. Basit bir anlatımla, isteyen herkes kodu özgürce kullanabilir, kopyalayabilir, ayrıntılı olarak inceleyebilir, değiştirebilir ve yaptığı değişikliklerle dünyaya yeniden dağıtabilir (başkalarının da aynı şeyi yapmasına izin vererek). Biz kültürün, serbest bırakıldığında daha iyi ve zengin olacağını düşünüyoruz.
 
-          Yazılım geliştirebilen bir kişiyseniz kodu görebilir ve [CONSUL DEMOCRACY uygulaması](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github') için geliştirme çalışmalarımıza yardımcı olabilirsiniz.
+          Yazılım geliştirebilen bir kişiyseniz kodu görebilir ve [Moucharaka Mouwatina uygulaması](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github') için geliştirme çalışmalarımıza yardımcı olabilirsiniz.
       titles:
         how_to_use: Yerel yönetimde kullanın
     privacy:
@@ -91,23 +91,17 @@ tr:
           key_header: Tuş
           page_header: Sayfa
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Giriş
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Tartışmalar
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Önergeler
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Oylar
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Katılımcı bütçeler
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Yasama süreçleri
         browser_table:
           description: "İşletim sistemine ve kullanılan tarayıcıya bağlı olarak, tuş kombinasyonu şu şekilde olur:"
@@ -115,20 +109,15 @@ tr:
           browser_header: Tarayıcı
           key_header: Tuş kombinasyonu
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               key_column: ALT + kısayol sonra ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS + kısayol
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + kısayol (CTRL + ALT + MAC için kısayolları)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + kısayol (CMD + MAC için kısayol)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS + ESC + kısayol
       textsize:
         title: Metin boyutu
@@ -137,29 +126,22 @@ tr:
           browser_header: Tarayıcı
           action_header: Yapılacak işlem
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: Görünüm > Metin boyutu
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Görünüm > Boyut
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Ayarlar (simge) > Seçenekler > Gelişmiş > Web içeriği > Metin boyutu
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Görünüm > Yakınlaştır/Uzaklaştır
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Görünüm > Ölçek
         browser_shortcuts_table:
           description: "Metin boyutunu değiştirmenin başka bir yolu, tarayıcılarda tanımlanan klavye kısayollarını, özellikle de tuş kombinasyonunu kullanmaktır:"
           rows:
-            - 
-              shortcut_column: CTRL ve + (MAC için CMD ve +)
+            - shortcut_column: CTRL ve + (MAC için CMD ve +)
               description_column: Metin boyutunu büyütür
-            - 
-              shortcut_column: CTRL ve - (MAC için CMD ve -)
+            - shortcut_column: CTRL ve - (MAC için CMD ve -)
               description_column: Metin boyutunu küçültür
       compatibility:
         title: Standartlara ve görsel tasarıma uygunluk

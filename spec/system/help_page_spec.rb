@@ -4,7 +4,9 @@ describe "Help page" do
   context "Index" do
     scenario "Help menu and page is visible if feature is enabled" do
       Setting["feature.help_page"] = true
-      Setting["org_name"] = "CONSUL"
+      (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = "CONSUL"
 
       visit root_path
 

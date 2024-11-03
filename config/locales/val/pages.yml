@@ -59,9 +59,9 @@ val:
         text: |-
           Utilíza-ho en el teu municipi lliurement o ajuda'ns a millorar-lo, es software lliure.
 
-          Aquest Portal de Govern Obert usa la [aplicació CONSUL DEMOCRACY] (https://github.com/consuldemocracy/consuldemocracy 'github consul democracy') que és software lliure, amb [llicencia AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), açò significa en paraules senzilles, que quansevol pot lliurement gastar el codi, copiar-lo, vorel en detall, modificar-lo, i redistribuirlo al mon amb les modificacions que vullga (mantenint el que altres puguen a la vegada fer el mateix). Perque creiem que la cultura es millor i més rica quant es libera.
+          Aquest Portal de Govern Obert usa la [aplicació Moucharaka Mouwatina] (https://github.com/consuldemocracy/consuldemocracy 'github Moucharaka Mouwatina') que és software lliure, amb [llicencia AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), açò significa en paraules senzilles, que quansevol pot lliurement gastar el codi, copiar-lo, vorel en detall, modificar-lo, i redistribuirlo al mon amb les modificacions que vullga (mantenint el que altres puguen a la vegada fer el mateix). Perque creiem que la cultura es millor i més rica quant es libera.
 
-          Si eres programador, pots vore el codi i ajudar-nos a millorar-lo en [aplicació CONSUL DEMOCRACY](https://github.com/consuldemocracy/consuldemocracy 'github consul democracy').
+          Si eres programador, pots vore el codi i ajudar-nos a millorar-lo en [aplicació Moucharaka Mouwatina](https://github.com/consuldemocracy/consuldemocracy 'github Moucharaka Mouwatina').
       titles:
         how_to_use: Utilítzal en el teu municipi
     privacy:
@@ -86,23 +86,17 @@ val:
           key_header: Clau
           page_header: Pàgina
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Inici
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Debats
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Propostes
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Vots
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Pressupostos participatius
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Processos legislatius
         browser_table:
           description: "Depenent del sistema operatiu i del navegador que s'utilitze, la combinació de tecles sera la següent:"
@@ -110,20 +104,15 @@ val:
           browser_header: Navegador
           key_header: Combinació de tecles
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               key_column: ALT + Atall i ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + Mayús + Atall
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + atall (CTRL + ALT + atalls per a MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + atall (si es un MAC, CMD + atall)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: MAJÚSCULES + ESC + atall
       textsize:
         title: Tamany del text
@@ -132,29 +121,22 @@ val:
           browser_header: Navegador
           action_header: Acció a realitzar
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: Veure > Tamany del text
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Veure > Tamany
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Ajusts (icona) > Opcions > Avançada > Contingut web > Tamany de la font
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Visualització > ampliar/reduïr
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Veure > escala
         browser_shortcuts_table:
           description: "Un altra forma de modificar el tamany del text es utilitzar els atalls de teclat definits en els navegadors, en particular la combinació de tecles:"
           rows:
-            - 
-              shortcut_column: CTRL i + (CMD i + en MAC)
+            - shortcut_column: CTRL i + (CMD i + en MAC)
               description_column: Incrementa el tamany del text
-            - 
-              shortcut_column: CTRL i - (CMD i - en MAC)
+            - shortcut_column: CTRL i - (CMD i - en MAC)
               description_column: Reduïx el tamany del text
       compatibility:
         title: Compatibilitat amb estàndards i disseny visual

@@ -24,7 +24,7 @@ nl:
     actions:
       delete: "Reactie verwijderen"
     comments_closed: Reageren is niet langer mogelijk
-    verified_only: ' %{verify_account} om deel te nemen'
+    verified_only: " %{verify_account} om deel te nemen"
     comment:
       admin: Beheerder
       author: Auteur
@@ -111,7 +111,7 @@ nl:
         title: Hulp bij debatten
         description: Start een debat om je mening met anderen te delen over onderwerpen die jij belangrijk vindt.
         help_text_1: "De ruimte voor debatten is bedoeld voor het uiten en delen van meningen over alle onderwerpen, kansen of knelpunten die je belangrijk vindt."
-        help_text_2: '''Om een debat te starten moet je aanmelden op %{org}. Deelnemers kunnen reageren op bestaande debatten en deze waarderen met de knoppen ''Eens'' of ''Oneens''.'
+        help_text_2: "'Om een debat te starten moet je aanmelden op %{org}. Deelnemers kunnen reageren op bestaande debatten en deze waarderen met de knoppen 'Eens' of 'Oneens'."
     new:
       form:
         submit_button: Debat starten
@@ -179,9 +179,9 @@ nl:
     footer:
       accessibility: Toegankelijkheid
       conditions: Gebruiksvoorwaarden
-      consul: CONSUL DEMOCRACY
+      consul: Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Deze site gebruikt %{consul}, wat %{open_source} is.
       open_source: open-source software
       open_source_url: https://www.gnu.org/licenses/agpl-3.0.html

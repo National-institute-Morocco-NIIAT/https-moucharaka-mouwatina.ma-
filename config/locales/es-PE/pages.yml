@@ -59,9 +59,9 @@ es-PE:
         text: |-
           Utilízalo en tu gobierno local o ayúdanos a mejorarlo, es software libre.
 
-          Este Portal de Gobierno Público usa la [aplicación CONSUL DEMOCRACY](https://github.com/consuldemocracy/consuldemocracy 'github consul democracy') que es software libre, con [licencia AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), esto significa en palabras sencillas, que cualquiera puede libremente usar el código, copiarlo, verlo en detalle, modificarlo, y redistribuirlo al mundo con las modificaciones que quiera (manteniendo el que otros puedan a su vez hacer lo mismo). Porque creemos que la cultura es mejor y más rica cuando se libera.
+          Este Portal de Gobierno Público usa la [aplicación Moucharaka Mouwatina](https://github.com/consuldemocracy/consuldemocracy 'github Moucharaka Mouwatina') que es software libre, con [licencia AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), esto significa en palabras sencillas, que cualquiera puede libremente usar el código, copiarlo, verlo en detalle, modificarlo, y redistribuirlo al mundo con las modificaciones que quiera (manteniendo el que otros puedan a su vez hacer lo mismo). Porque creemos que la cultura es mejor y más rica cuando se libera.
 
-          Si eres programador, puedes ver el código y ayudarnos a mejorarlo en [aplicación CONSUL DEMOCRACY](https://github.com/consuldemocracy/consuldemocracy 'github consul democracy').
+          Si eres programador, puedes ver el código y ayudarnos a mejorarlo en [aplicación Moucharaka Mouwatina](https://github.com/consuldemocracy/consuldemocracy 'github Moucharaka Mouwatina').
       titles:
         how_to_use: Utilízalo en tu municipio
     privacy:
@@ -86,23 +86,17 @@ es-PE:
           key_header: Tecla
           page_header: Página
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Inicio
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Discusiones
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Propuestas
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Votos
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Presupuestos participativos
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Procesos legislativos
         browser_table:
           description: "Dependiendo del sistema operativo y del navegador que se utilice, la combinación de teclas será la siguiente:"
@@ -110,20 +104,15 @@ es-PE:
           browser_header: Navegador
           key_header: Combinación de teclas
           rows:
-            - 
-              browser_column: Explorador
+            - browser_column: Explorador
               key_column: ALT + atajo y luego ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + MAYÚSCULAS + atajo
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + atajo (CTRL + ALT + atajos para MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + atajo (CMD + atajo para MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: MAYÚSCULAS + ESC + atajo
       textsize:
         title: Tamaño del texto
@@ -132,29 +121,22 @@ es-PE:
           browser_header: Navegador
           action_header: Acción a realizar
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: Ver > Tamaño del texto
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Ver > Tamaño
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Ajustes (icono) > Opciones > Avanzada > Contenido web > Tamaño fuente
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Vista > ampliar/reducir
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Vista > escala
         browser_shortcuts_table:
           description: "Otra manera de cambiar el tamaño de texto es utilizar los atajos de teclado definidos en los navegadores, en particular la combinación de teclas:"
           rows:
-            - 
-              shortcut_column: CTRL y + (CMD y + en MAC)
+            - shortcut_column: CTRL y + (CMD y + en MAC)
               description_column: Para aumentar el tamaño del texto
-            - 
-              shortcut_column: CTRL y - (CMD y - en MAC)
+            - shortcut_column: CTRL y - (CMD y - en MAC)
               description_column: Para reducir el tamaño del texto
       compatibility:
         title: Compatibilidad con estándares y diseño visual

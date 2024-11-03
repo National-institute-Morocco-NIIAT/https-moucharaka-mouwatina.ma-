@@ -64,9 +64,9 @@ cs:
         text: |-
           Použijte tento program ve své lokalitě, nebo nám ho pomozte zlepšit, je to svobodný software.
 
-          Tento otevřený portál používá [CONSUL DEMOCRACY app] (https://github.com/consuldemocracy/consuldemocracy 'consul democracy github), který je svobodným softwarem, s licencí AGPLv3 (http://www.gnu.org/licenses/ agpl-3.0.html 'AGPLv3 gnu'), to znamená prostým slovem, že někdo může tento kód volně použít, zkopírovat jej, podrobně ji prohlédnout, upravit a přenést s modifikacemi, které jsou žádané). Myslíme si, že programy jsou lepší a bohatší, když jsou otevřené.
+          Tento otevřený portál používá [Moucharaka Mouwatina app] (https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github), který je svobodným softwarem, s licencí AGPLv3 (http://www.gnu.org/licenses/ agpl-3.0.html 'AGPLv3 gnu'), to znamená prostým slovem, že někdo může tento kód volně použít, zkopírovat jej, podrobně ji prohlédnout, upravit a přenést s modifikacemi, které jsou žádané). Myslíme si, že programy jsou lepší a bohatší, když jsou otevřené.
 
-          Pokud jste programátor, můžete tento kód nalézt a pomoci nám jej vylepšit v aplikaci [CONSUL DEMOCRACY] (https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          Pokud jste programátor, můžete tento kód nalézt a pomoci nám jej vylepšit v aplikaci [Moucharaka Mouwatina] (https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: Doporučte tento program k využití veřejnou správou v místě Vašeho bydliště
     privacy:
@@ -91,23 +91,17 @@ cs:
           key_header: Klíč
           page_header: Stránka
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Úvod
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Debaty
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Návrhy
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Hlasů
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Participativní rozpočty
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Legislativní procesy
         browser_table:
           description: "V závislosti na operačním systému a použitém prohlížeči bude kombinace kláves následující:"
@@ -115,20 +109,15 @@ cs:
           browser_header: Prohlížeč
           key_header: Kombinace kláves
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               key_column: ALT + zkratka pak ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS + zkratka
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + zkratku (CTRL + ALT + klávesové zkratky pro MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + zkratku (CTRL + ALT + klávesové zkratky pro MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS + ESC + zkratka
       textsize:
         title: Velikost textu
@@ -137,29 +126,22 @@ cs:
           browser_header: Prohlížeč
           action_header: Opatření, které je třeba podniknout
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: Zobrazit > Velikost textu
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Zobrazit > Velikost
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Nastavení (ikona) > možnosti > Rozšířené > Obsah webu > Velikost textu
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Zobrazit > Přiblížit / Oddálit
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Zobrazit > Měřítko
         browser_shortcuts_table:
           description: "Další způsob, jak upravit velikost textu, je použít v prohlížečích, zejména kombinace kláves definované klávesové zkratky:"
           rows:
-            - 
-              shortcut_column: CTRL + (CMD + pro počítače MAC)
+            - shortcut_column: CTRL + (CMD + pro počítače MAC)
               description_column: Zvětší velikost textu
-            - 
-              shortcut_column: CTRL - (CMD - pro počítače MAC)
+            - shortcut_column: CTRL - (CMD - pro počítače MAC)
               description_column: Zmenšit velikost textu
       compatibility:
         title: Kompatibilita se standardy a vizuální design

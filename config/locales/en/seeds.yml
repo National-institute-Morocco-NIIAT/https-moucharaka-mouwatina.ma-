@@ -5,8 +5,8 @@ en:
         title: "We are closing the Participatory Budget!"
         body: "Hurry up and create a proposal before it ends in the next few days!"
       help:
-        title: "Help us translate Consul Democracy"
-        body: "If you are proficient in a language, please help us translate Consul democracy!"
+        title: "Help us translate Moucharaka Mouwatina"
+        body: "If you are proficient in a language, please help us translate Moucharaka Mouwatina!"
       map:
         title: "You can now geolocate proposals and investments"
         body: "When you create a proposal or investment you now can specify a point on a map."
@@ -20,10 +20,31 @@ en:
       official_level_4_name: Official position 4
       official_level_5_name: Official position 5
     geozones:
-      north_district: North District
-      west_district: West District
-      east_district: East District
-      central_district: Central District
+      ain_chock:
+        - Aïn Chock (عين الشق)
+      ain_sebaa_hay_mohammadi:
+        - Aïn Sebaâ (عين السبع)
+        - Hay Mohammadi (الحي المحمدي)
+        - Roches Noires (روش نوار)
+      anfa:
+        - Anfa (أنفا)
+        - Maârif (المعاريف)
+        - Sidi Belyout (سيدي بليوط)
+      ben_msick:
+        - Ben M'Sick (بن مسيك)
+        - Sbata (سباته)
+      sidi_bernoussi:
+        - Sidi Bernoussi (سيدي برنوصي)
+        - Sidi Moumen (سيدي مومن)
+      al_fida_mers_sultan:
+        - Al Fida (الفداء)
+        - Mechouar (المشور) (municipality)
+        - Mers Sultan (مرس السلطان)
+      hay_hassani:
+        - Hay Hassani (الحي الحسني)
+      moulay_rachid:
+        - Moulay Rachid (مولاي رشيد)
+        - Sidi Othmane (سيدي عثمان)
     organizations:
       human_rights: Human Rights
       neighborhood_association: Neighborhood Association

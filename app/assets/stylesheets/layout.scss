@@ -689,18 +689,37 @@ h1 img {
 // 03. Footer
 // ----------
 
-footer {
-  .logo {
-    color: inherit;
+.footer {
+  background-color: #000;
+  color: white;
+  clear: both;
+  margin-top: $line-height * 2;
+  padding-bottom: $line-height;
+  padding-top: $line-height;
+
+  .public & {
+    @include full-width-background;
   }
 
-  .logo a {
-    font-family: "Lato" !important;
-    text-decoration: none;
+  .logo {
+    color: inherit;
+    text-align: center; // Center the logo
 
-    &:hover {
-      text-decoration: underline;
+    a {
+      font-family: "Lato" !important;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
+
+    font-size: 2rem; // Adjusted size for visibility
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: color 0.3s ease;
+    margin-bottom: 1rem; // Space between logo and links
   }
 
   p {
@@ -724,6 +743,7 @@ footer {
 
   .footer-sections {
     padding-left: 0;
+    text-align: center; // Center the content in footer-sections
   }
 
   .title {
@@ -732,23 +752,19 @@ footer {
   }
 }
 
-.footer {
-  background-color: #000;
-  color: white;
-  clear: both;
-  margin-top: $line-height * 2;
-  padding-bottom: $line-height;
-  padding-top: $line-height;
-
-  .public & {
-    @include full-width-background;
-  }
-}
-
 .subfooter {
   border-top: 1px solid $text-light;
   font-size: $small-font-size;
   padding-top: calc(#{$line-height} / 2);
+  text-align: center; // Center content in subfooter
+
+  .yellow-bar {
+    width: 100%;
+    height: 4px;
+    background-color: yellow;
+    margin-top: 0.5rem;
+    border-radius: 2px;
+  }
 
   .legal {
     display: inline-block;
@@ -770,6 +786,12 @@ footer {
         content: none;
       }
     }
+  }
+
+  ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0; // Remove default padding for the list
   }
 }
 

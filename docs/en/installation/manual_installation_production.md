@@ -1,6 +1,6 @@
 # Manual installation for production
 
-**WARNING:** This method is *not recommended* and not officially supported, since you should use the [installer](https://github.com/consuldemocracy/installer) instead. Use this method if the installer isn't an option and you can already deal with PostgreSQL, puma or passenger, NGNIX and SSL (with letsencrypt, for instance).
+**WARNING:** This method is _not recommended_ and not officially supported, since you should use the [installer](https://github.com/consuldemocracy/installer) instead. Use this method if the installer isn't an option and you can already deal with PostgreSQL, puma or passenger, NGNIX and SSL (with letsencrypt, for instance).
 
 This guide assumes you've already [installed all the necessary packages](prerequisites.md) on your system.
 
@@ -32,7 +32,7 @@ ln -s releases/first current
 
 ## Gems installation
 
-Install the gems Consul Democracy depends on:
+Install the gems Moucharaka Mouwatina depends on:
 
 ```bash
 cd releases/first
@@ -66,8 +66,8 @@ cd ..
 Copy that generated key, and edit the `shared/config/secrets.yml` file; under the section `production`, change the following data:
 
 ```yaml
-  secret_key_base: enter_the_secret_key_you_have_just_generated
-  server_name: enter_your_domain
+secret_key_base: enter_the_secret_key_you_have_just_generated
+server_name: enter_your_domain
 ```
 
 If you aren't using a SSL certificate, replace the line saying `force_ssl: true` with `force_ssl: false`.

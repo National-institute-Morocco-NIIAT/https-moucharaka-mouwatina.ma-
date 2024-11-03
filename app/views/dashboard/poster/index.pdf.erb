@@ -16,7 +16,9 @@
       </strong>
     </h1>
     <p class="intro">
-      <%= sanitize(t("dashboard.poster.index.intro_text", org: Setting["org_name"])) %>
+      <%= sanitize(t("dashboard.poster.index.intro_text", org: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina"))) %>
     </p>
     <p class="text-center proposal-code">
       <strong><%= t("dashboard.poster.index.proposal_code", code: proposal.code) %></strong>

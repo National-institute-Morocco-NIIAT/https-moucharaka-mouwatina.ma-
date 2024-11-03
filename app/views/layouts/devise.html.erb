@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html <%= common_html_attributes %>>
   <head>
-    <%= render "layouts/common_head", default_title: setting["org_name"] %>
+    <%= render "layouts/common_head", default_title: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") %>
     <%= render "layouts/meta_tags" %>
     <%= raw setting["html.per_page_code_head"] %>
   </head>
@@ -57,7 +59,9 @@
            style="<%= attached_background_css asset_url(image_path_for("auth_bg.jpg")) %>">
         <h1 class="logo margin">
           <%= link_to root_path do %>
-            <%= image_tag(image_path_for("logo_moucharaka.png"), class: "float-left", alt: setting["org_name"]) %>
+            <%= image_tag(image_path_for("logo_moucharaka.png"), class: "float-left", alt: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")) %>
           <% end %>
         </h1>
       </div>

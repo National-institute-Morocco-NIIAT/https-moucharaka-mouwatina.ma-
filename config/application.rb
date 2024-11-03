@@ -129,7 +129,7 @@ module Consul
 
     config.active_job.queue_adapter = :delayed_job
 
-    # CONSUL DEMOCRACY specific custom overrides
+    # Moucharaka Mouwatina specific custom overrides
     # Read more on documentation:
     # * English: https://github.com/consuldemocracy/consuldemocracy/blob/master/CUSTOMIZE_EN.md
     # * Spanish: https://github.com/consuldemocracy/consuldemocracy/blob/master/CUSTOMIZE_ES.md

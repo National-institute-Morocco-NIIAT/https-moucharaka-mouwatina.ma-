@@ -4,7 +4,7 @@ pl:
       change_credentials_link: Zmień moje referencje
       erase_account_link: Usuń moje konto
       finish_verification: Zakończ weryfikację
-      notifications: 'Informuj mnie drogą mailową:'
+      notifications: "Informuj mnie drogą mailową:"
       personal: Dane osobowe
       public_interests_my_title_list: Tagi elementów, które obserwuję
       public_interests_user_title_list: Tagi elementów, które obserwuje ten użytkownik
@@ -92,10 +92,10 @@ pl:
       recommendations:
         without_results: Brak debat związanych z Twoimi zainteresowaniami
         without_interests: Śledź wnioski, abyśmy mogli przedstawić Ci rekomendacje
-        disable: "Rekomendacje debat zostaną powstrzymane, jeśli je odrzucisz. Możesz je ponownie włączyć na stronie \"Moje konto\""
+        disable: 'Rekomendacje debat zostaną powstrzymane, jeśli je odrzucisz. Możesz je ponownie włączyć na stronie "Moje konto"'
         actions:
           success: "Zalecenia dotyczące debat są teraz wyłączone dla tego konta"
-          error: "Wystąpił błąd. Przejdź na stronę \"Twoje konto\", aby ręcznie wyłączyć rekomendacje debat"
+          error: 'Wystąpił błąd. Przejdź na stronę "Twoje konto", aby ręcznie wyłączyć rekomendacje debat'
       search_form:
         button: Szukaj
         placeholder: Szukaj debat...
@@ -172,9 +172,9 @@ pl:
     footer:
       accessibility: Ułatwienia dostępu
       conditions: Regulamin
-      consul: Aplikacja CONSUL DEMOCRACY
+      consul: Aplikacja Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Ten portal używa %{consul}, który jest %{open_source}.
       open_source: oprogramowanie open-source
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -245,7 +245,7 @@ pl:
       name: Facebook
     finish_signup:
       title: "Dodatkowe szczegóły"
-      username_warning: "Ze względu na zmiany w sposób interakcji z sieciami społecznymi, jest możliwe że Twoja nazwa użytkownika wyświetla się jako \"już w użyciu\". Jeśli jest to Twój przypadek, wybierz inną nazwę użytkownika."
+      username_warning: 'Ze względu na zmiany w sposób interakcji z sieciami społecznymi, jest możliwe że Twoja nazwa użytkownika wyświetla się jako "już w użyciu". Jeśli jest to Twój przypadek, wybierz inną nazwę użytkownika.'
     google_oauth2:
       sign_in: Zaloguj się przez Google
       sign_up: Zarejestruj się przez Google
@@ -306,10 +306,10 @@ pl:
       recommendations:
         without_results: Brak wniosków związanych z Twoimi zainteresowaniami
         without_interests: Śledź propozycje, abyśmy mogli przedstawić Ci rekomendacje
-        disable: "Rekomendacje wniosków przestaną się wyświetlać, jeśli je odrzucisz. Możesz je ponownie włączyć na stronie \"Moje konto\""
+        disable: 'Rekomendacje wniosków przestaną się wyświetlać, jeśli je odrzucisz. Możesz je ponownie włączyć na stronie "Moje konto"'
         actions:
           success: "Rekomendacje wniosków są teraz wyłączone dla tego konta"
-          error: "Wystąpił błąd. Przejdź na stronę \"Twoje konto\", aby ręcznie wyłączyć rekomendacje wniosków"
+          error: 'Wystąpił błąd. Przejdź na stronę "Twoje konto", aby ręcznie wyłączyć rekomendacje wniosków'
       retired_proposals: Wnioski wycofane
       retired_proposals_link: "Wnioski wycofane przez autora"
       retired_links:

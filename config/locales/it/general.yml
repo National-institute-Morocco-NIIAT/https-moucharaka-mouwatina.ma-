@@ -193,9 +193,9 @@ it:
     footer:
       accessibility: Accessibilità
       conditions: Termini e condizioni d'uso
-      consul: app CONSUL DEMOCRACY
+      consul: app Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Questo portale utilizza %{consul} che è %{open_source}.
       open_source: software open-source
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -560,7 +560,7 @@ it:
         support_button: Sostieni questa proposta
         share_in: Condividi su
         hi: "Ciao!"
-        introduction: 'Ti sto scrivendo per farti sapere che sto partecipando a %{org}, la piattaforma che ci permette di decidere sulla città che vogliamo. E per farlo, ho creato la mia proposta cittadina e, ora, ho bisogno del tuo supporto! Ma non preoccuparti: è molto semplice.'
+        introduction: "Ti sto scrivendo per farti sapere che sto partecipando a %{org}, la piattaforma che ci permette di decidere sulla città che vogliamo. E per farlo, ho creato la mia proposta cittadina e, ora, ho bisogno del tuo supporto! Ma non preoccuparti: è molto semplice."
         support: "Devi solo cliccare sul pulsante seguente 'Supporta questa proposta' e puoi informarti prima di promuoverla. Solo le proposte che ricevono il massimo supporto arriveranno in Comune e ho pensato che tu potessi aiutarmi a farcela!"
         share: "E se mi facessi anche il grande favore di condividere la mia proposta coi tuoi amici, la tua famiglia e i tuoi contatti, sarebbe perfetto!"
   polls:

@@ -5,8 +5,8 @@ gl:
         title: "Últimos días para crear proxectos de Orzamentos Participativos!"
         body: "Date présa e crea unha proposta antes de que acabe o prazo!"
       help:
-        title: "Axúdanos coa tradución de Consul Democracy"
-        body: "Se dominas un idioma, axúdanos coa tradución de Consul Democracy!"
+        title: "Axúdanos coa tradución de Moucharaka Mouwatina"
+        body: "Se dominas un idioma, axúdanos coa tradución de Moucharaka Mouwatina!"
       map:
         title: "Agora xa podes xeolocalizar propostas e investimentos"
         body: "Agora cando creas unha proposta ou un investimento podes indicar un punto no mapa."
@@ -39,7 +39,7 @@ gl:
         link_text: "Máis información sobre os debates"
         label: "Debates"
       header:
-        title: "CONSUL DEMOCRACY"
+        title: "Moucharaka Mouwatina"
         description: "Software libre para a participación cidadá."
         link_text: "Máis información"
         label: "Benvido/a a"
@@ -66,7 +66,7 @@ gl:
       environment: Medio Ambiente
     budgets:
       budget: Orzamento participativo
-      currency: '€'
+      currency: "€"
       groups:
         all_city: Toda a Cidade
         districts: Zonas

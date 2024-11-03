@@ -56,7 +56,9 @@ describe EmailDigest do
     let(:user) { create(:user) }
 
     it "delivers email if notifications pending" do
-      Setting["org_name"] = "CONSUL"
+      (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = "CONSUL"
       create(:notification, :for_proposal_notification, user: user)
 
       reset_mailer

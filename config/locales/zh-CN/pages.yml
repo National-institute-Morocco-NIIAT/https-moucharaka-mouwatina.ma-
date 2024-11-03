@@ -21,19 +21,19 @@ zh-CN:
         feature: "您可以打开辩论，评论和评估，使用<strong>我同意</strong>或<strong>我不同意</strong>。为此您必须%{link}。"
         feature_link: "在%{org} 注册"
         image_alt: "为辩论评分的按钮"
-        figcaption: '为辩论评分的“我同意”和“我不同意”按钮'
+        figcaption: "为辩论评分的“我同意”和“我不同意”按钮"
       proposals:
         title: "提议"
         description: "在此%{link} 部分，您可以向市政局提出希望可以被他们实行的提议。这些提议需要得到支持，如果它们得到足够的支持，将可以得到公众投票。在公民投票中被确认的提议将被市政局接受并实行。"
         link: "公民提议"
         image_alt: "支持提议的按钮"
-        figcaption: '用于“支持”提议的按钮'
+        figcaption: "用于“支持”提议的按钮"
       budgets:
         title: "参与性预算编制"
         description: "%{link} 部分帮助人们直接决定如何使用市政预算的部分支出。"
         link: "参与性预算"
         image_alt: "参与性预算的不同阶段"
-        figcaption: '参与性预算的“支持”和“投票”阶段。'
+        figcaption: "参与性预算的“支持”和“投票”阶段。"
       polls:
         title: "投票"
         description: "每当提议取得1%的支持并进入投票，或者市政局提议问题给人们决定的时候，%{link} 部分就会被激活。"
@@ -59,9 +59,9 @@ zh-CN:
         text: |-
           在您本地政府中使用它或者帮助我们改善它，它是免费的软件。
 
-          此开放政府门户网站使用[CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github')，这是免费的软件，使用[licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' )。简单来说，就是任何人都可以自由使用此原代码，复制它，查看其细节，修改它，以及把他想要的修改重新发布到全球（允许其他人也可以这么做）。因为我们认为文化在发布后会更好，更丰富。
+          此开放政府门户网站使用[Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github')，这是免费的软件，使用[licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' )。简单来说，就是任何人都可以自由使用此原代码，复制它，查看其细节，修改它，以及把他想要的修改重新发布到全球（允许其他人也可以这么做）。因为我们认为文化在发布后会更好，更丰富。
 
-          如果您是程序员，您可以在[CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github')查看原代码并帮助我们改善它。
+          如果您是程序员，您可以在[Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github')查看原代码并帮助我们改善它。
       titles:
         how_to_use: 在您本地政府中使用它
     privacy:
@@ -86,23 +86,17 @@ zh-CN:
           key_header: 键
           page_header: 页
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: 主页
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: 辩论
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: 提议
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: 投票
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: 参与性预算
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: 立法进程
         browser_table:
           description: "根据操作系统和使用的浏览器，组合键如下所示："
@@ -110,20 +104,15 @@ zh-CN:
           browser_header: 浏览器
           key_header: 组合键
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               key_column: ALT + 快捷键，然后回车键
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS + 快捷键
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + 快捷键 (MAC使用CTRL + ALT + 快捷键)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT +快捷键 (MAC使用CMD + 快捷键)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS + ESC + 快捷键
       textsize:
         title: 字体大小
@@ -132,29 +121,22 @@ zh-CN:
           browser_header: 浏览器
           action_header: 要采取的行动
           rows:
-            - 
-              browser_column: Explorer
+            - browser_column: Explorer
               action_column: 查看> 字体大小
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: 查看 > 大小
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: 设置（图标）>选项>高级>网页内容>字体大小
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: 查看>放大／缩小
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: 查看>比例
         browser_shortcuts_table:
           description: "另一种修改字体大小的方法是使用浏览器中定义的键盘快捷键，尤其是组合键："
           rows:
-            - 
-              shortcut_column: CTRL 和 + (在MAC上用CMD 和 +)
+            - shortcut_column: CTRL 和 + (在MAC上用CMD 和 +)
               description_column: 增加字体大小
-            - 
-              shortcut_column: CTRL 和 - (在MAC上用CMD 和 -)
+            - shortcut_column: CTRL 和 - (在MAC上用CMD 和 -)
               description_column: 减小字体大小
       compatibility:
         title: 与标准和视觉设计兼容

@@ -1,4 +1,6 @@
-<% provide :title, t("pages.titles.help", org: setting["org_name"]) %>
+<% provide :title, t("pages.titles.help", org: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")) %>
 <% content_for :canonical do %>
   <%= render "shared/canonical", href: help_url %>
 <% end %>
@@ -8,10 +10,11 @@
 <div class="jumbo light">
   <div class="row">
     <div class="small-12 medium-9 column">
-      <h2><%= t("pages.help.title", org: setting["org_name"]) %></h2>
-      <p><%= t("pages.help.guide", org: setting["org_name"]) %></p>
+      <h2><%= (I18n.locale == :ar ? "مشاركة مواطنة" : I18n.locale == :fr ? "Moucharaka Mouwatina" : "Moucharaka Mouwatina") %></h2>
+<p><%= (I18n.locale == :ar ? "هذا الدليل مخصص لمشاركة مواطنة، حيث يوضح كيفية المساهمة في المشروع." : I18n.locale == :fr ? "Ce guide est dédié à Moucharaka Mouwatina, expliquant comment participer au projet." : "This guide is dedicated to Moucharaka Mouwatina, explaining how to contribute to the project.") %></p>
     </div>
   </div>
+
 
   <%= render "pages/help/menu" %>
 </div>

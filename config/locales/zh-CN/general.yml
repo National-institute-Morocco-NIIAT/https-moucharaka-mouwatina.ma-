@@ -101,7 +101,7 @@ zh-CN:
         title: 关于辩论的帮助
         description: 开始一个辩论，与他人分享您所关心主题的意见。
         help_text_1: "公民辩论空间是针对任何能够揭露他们关心的问题和哪些想和他人分享意见的人。"
-        help_text_2: '要开始一个辩论，您需要在%{org} 上注册。用户也可以对公开辩论做出评论，并用每个辩论上面找到的“我同意”或者“我不同意”按钮来评分。'
+        help_text_2: "要开始一个辩论，您需要在%{org} 上注册。用户也可以对公开辩论做出评论，并用每个辩论上面找到的“我同意”或者“我不同意”按钮来评分。"
     new:
       form:
         submit_button: 开始辩论
@@ -160,9 +160,9 @@ zh-CN:
     footer:
       accessibility: 无障碍功能
       conditions: 使用条款及条件
-      consul: CONSUL DEMOCRACY应用程序
+      consul: Moucharaka Mouwatina应用程序
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: 此门户网站使用%{consul}，其是%{open_source}。
       open_source: 开源软件
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html

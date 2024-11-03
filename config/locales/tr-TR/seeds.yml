@@ -5,8 +5,8 @@ tr:
         title: "Katılımcı bütçeyi kapatıyoruz!"
         body: "Acele edin ve birkaç gün içinde başvuru süresi bitmeden önce bir önerge oluşturun!"
       help:
-        title: "Consul Democracy uygulamasını dilinize çevirmemize yardımcı olun"
-        body: "Bir dili iyi biliyorsanız, Consul Democracy uygulamasını çevirmemize yardımcı olun!"
+        title: "Moucharaka Mouwatina uygulamasını dilinize çevirmemize yardımcı olun"
+        body: "Bir dili iyi biliyorsanız, Moucharaka Mouwatina uygulamasını çevirmemize yardımcı olun!"
       map:
         title: "Artık önerge ve yatırımların coğrafi konumunu belirtebilirsiniz"
         body: "Oluşturacağınız önerge veya yatırımlar için harita üzerinde bir nokta belirtebilirsiniz."
@@ -39,7 +39,7 @@ tr:
         link_text: "Tartışmalar hakkında ayrıntılı bilgi"
         label: "Tartışmalar"
       header:
-        title: "CONSUL DEMOCRACY"
+        title: "Moucharaka Mouwatina"
         description: "Yurttaş katılımı için ücretsiz yazılım."
         link_text: "Ayrıntılı bilgi"
         label: "Hoş geldiniz"
@@ -66,7 +66,7 @@ tr:
       environment: Çevre
     budgets:
       budget: Katılımcı bütçe
-      currency: '€'
+      currency: "€"
       groups:
         all_city: Tüm şehir
         districts: Bölgeler

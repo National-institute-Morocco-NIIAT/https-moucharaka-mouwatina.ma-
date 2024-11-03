@@ -1,10 +1,10 @@
-![Logotipo de CONSUL DEMOCRACY](../img/consul_logo.png)
+![Logotipo de Moucharaka Mouwatina](../img/consul_logo.png)
 
-# CONSUL DEMOCRACY
+# Moucharaka Mouwatina
 
 Aplicación de Participación Ciudadana y Gobierno Abierto
 
-## Web CONSUL DEMOCRACY Project
+## Web Moucharaka Mouwatina Project
 
 Puedes acceder a la página principal del proyecto en [http://consuldemocracy.org](http://consuldemocracy.org) donde puedes encontrar documentación sobre el uso de la plataforma, videos y enlaces al espacio de la comunidad.
 
@@ -39,13 +39,13 @@ Nota: ejecutar todos los tests en tu máquina puede tardar más de una hora, por
 
 Puedes usar el usuario administrador por defecto del fichero seeds:
 
- **user:** admin@consul.dev
- **pass:** 12345678
+**user:** admin@consul.dev
+**pass:** 12345678
 
 Pero para ciertas acciones, como apoyar, necesitarás un usuario verificado, el fichero seeds proporciona uno:
 
- **user:** verified@consul.dev
- **pass:** 12345678
+**user:** verified@consul.dev
+**pass:** 12345678
 
 ## Licencia
 

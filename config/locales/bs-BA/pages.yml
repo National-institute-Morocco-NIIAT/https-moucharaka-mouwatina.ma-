@@ -18,7 +18,7 @@ bs:
         title: "Debate"
         description: "U dijelu %{link} možete predočiti i podijeliti svoje stavove s drugima, u vezi pitanja koja se tiču vas i vašeg grada. To je i prostor za osmišljavanje ideja koje putem drugih dijelova %{org} dovode do konkretnog djelovanja od strane gradskog vijeća."
         link: "građanske debate"
-        feature: "Možete pokrenuti debate, davati komentare i ocijenjivati ih sa <strong>\"Slažem se\"</strong> ili <strong> \"Ne slažem se\" </strong>. Kako bi to uradili, morate ići na %{link}."
+        feature: 'Možete pokrenuti debate, davati komentare i ocijenjivati ih sa <strong>"Slažem se"</strong> ili <strong> "Ne slažem se" </strong>. Kako bi to uradili, morate ići na %{link}.'
         feature_link: "registrujte se u %{org}"
         image_alt: "Dugmad za ocjenjivanje debata"
         figcaption: 'Tasteri "Slažem se" i "Ne slažem se" za ocjenjivanje debata.'
@@ -59,9 +59,9 @@ bs:
         text: |-
           Koristite ovaj besplatni softver u vašoj lokalnoj vladi, ili nam pomozite da ga poboljšamo.
 
-          Ovaj Portal otvorene vlade koristi [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github'), besplatni softver, sa [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ). Pojednostavljeno, to znači da svako može besplatno koristiti kod, kopirati ga, proučavati, mijenjati i redistribuirati globalno, te unositi izmjene kakve želi (i dozvoliti drugima da urade isto). Zato što mislimo da je kultura bolja i bogatija ako je slobodna.
+          Ovaj Portal otvorene vlade koristi [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github'), besplatni softver, sa [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ). Pojednostavljeno, to znači da svako može besplatno koristiti kod, kopirati ga, proučavati, mijenjati i redistribuirati globalno, te unositi izmjene kakve želi (i dozvoliti drugima da urade isto). Zato što mislimo da je kultura bolja i bogatija ako je slobodna.
 
-          Ako ste programer, pogledajte kod i pomozite nam da ga poboljšamo na [CONSUL DEMOCRACY app](https://github.com/consuldemocracy/consuldemocracy 'consul democracy github').
+          Ako ste programer, pogledajte kod i pomozite nam da ga poboljšamo na [Moucharaka Mouwatina app](https://github.com/consuldemocracy/consuldemocracy 'Moucharaka Mouwatina github').
       titles:
         how_to_use: Koristite ga u svojoj lokalnoj vladi
     privacy:
@@ -86,23 +86,17 @@ bs:
           key_header: Tipka
           page_header: Strana
           rows:
-            - 
-              key_column: 0
+            - key_column: 0
               page_column: Početna strana
-            - 
-              key_column: 1
+            - key_column: 1
               page_column: Debate
-            - 
-              key_column: 2
+            - key_column: 2
               page_column: Prijedlozi
-            - 
-              key_column: 3
+            - key_column: 3
               page_column: Glasanja
-            - 
-              key_column: 4
+            - key_column: 4
               page_column: Participativni budžeti
-            - 
-              key_column: 5
+            - key_column: 5
               page_column: Izrada zakona
         browser_table:
           description: "Ovisno o operativnom sistemu i pregledniku koji se koristi, kombinacija tipki je kako slijedi:"
@@ -110,20 +104,15 @@ bs:
           browser_header: Preglednik
           key_header: Kombinacija tipki
           rows:
-            - 
-              browser_column: Pretraživač
+            - browser_column: Pretraživač
               key_column: ALT + prečica, onda ENTER
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               key_column: ALT + CAPS (velika slova) + prečica
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               key_column: ALT + prečica (CTRL + ALT + prečice za MAC)
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               key_column: ALT + prečica (CMD + prečica za MAC)
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               key_column: CAPS (velika slova) + ESC + prečica
       textsize:
         title: Veličina slova
@@ -132,29 +121,22 @@ bs:
           browser_header: Preglednik
           action_header: Radnja koja će se poduzeti
           rows:
-            - 
-              browser_column: Pretraživač
+            - browser_column: Pretraživač
               action_column: Vidi > Veličina slova
-            - 
-              browser_column: Firefox
+            - browser_column: Firefox
               action_column: Vidi > Veličina
-            - 
-              browser_column: Chrome
+            - browser_column: Chrome
               action_column: Postavke (ikonica) > Opcije > Napredno > Web-sadržaj > Veličina slova
-            - 
-              browser_column: Safari
+            - browser_column: Safari
               action_column: Vidi > Povećaj/Smanji
-            - 
-              browser_column: Opera
+            - browser_column: Opera
               action_column: Vidi > omjer
         browser_shortcuts_table:
           description: "Drugi način da se promijeni veličina slova je da se koriste prečice za tastaturu u preglednicima, naročito ova kombinacija tipki:"
           rows:
-            - 
-              shortcut_column: CTRL i + (CMD i + na Mac-u)
+            - shortcut_column: CTRL i + (CMD i + na Mac-u)
               description_column: Povećava slova
-            - 
-              shortcut_column: CTRL i - (CMD i - na Mac-u)
+            - shortcut_column: CTRL i - (CMD i - na Mac-u)
               description_column: Smanjuje slova
       compatibility:
         title: Usklađenost sa standardima i vizuelni dizajn

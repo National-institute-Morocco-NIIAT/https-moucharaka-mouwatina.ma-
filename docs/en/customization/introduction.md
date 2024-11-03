@@ -1,26 +1,26 @@
 # Customization
 
-You can modify your own Consul Democracy to have your custom visual style, but first you'll have to [create your own fork from](../getting_started/create.md).
+You can modify your own Moucharaka Mouwatina to have your custom visual style, but first you'll have to [create your own fork from](../getting_started/create.md).
 
-We've created an specific structure where you can overwrite and customize the application in a way that will let you keep updating it from Consul Democracy's main repository, without having conflicts on code merging or risking loosing your customization changes. We try to make Consul Democracy as vanilla as possible to help other developers onboard the codebase.
+We've created an specific structure where you can overwrite and customize the application in a way that will let you keep updating it from Moucharaka Mouwatina's main repository, without having conflicts on code merging or risking loosing your customization changes. We try to make Moucharaka Mouwatina as vanilla as possible to help other developers onboard the codebase.
 
 ## Special Folders and Files
 
-In order to customize your Consul Democracy fork, you'll make use of some `custom` folders on the following paths:
+In order to customize your Moucharaka Mouwatina fork, you'll make use of some `custom` folders on the following paths:
 
-* `config/locales/custom/`
-* `app/assets/images/custom/`
-* `app/views/custom/`
-* `app/controllers/custom/`
-* `app/models/custom/`
+- `config/locales/custom/`
+- `app/assets/images/custom/`
+- `app/views/custom/`
+- `app/controllers/custom/`
+- `app/models/custom/`
 
 Also these are the files where you can apply some customization:
 
-* `app/assets/stylesheets/custom.css`
-* `app/assets/stylesheets/_custom_settings.css`
-* `app/assets/javascripts/custom.js`
-* `Gemfile_custom`
-* `config/application.custom.rb`
+- `app/assets/stylesheets/custom.css`
+- `app/assets/stylesheets/_custom_settings.css`
+- `app/assets/javascripts/custom.js`
+- `Gemfile_custom`
+- `config/application.custom.rb`
 
 ## Remote translations on demand by the user
 
@@ -52,23 +52,23 @@ Once we have the new key in the `secrets.yml` we can now proceed to activate the
 
 1. Execute the following command `bin/rake settings:create_remote_translations_setting RAILS_ENV=production`
 1. Accessing through the administration panel of your application to the section **Configuración > Funcionalidades** and activate module **Traducciones Remotas** as shown below:
-  ![Active remote translations](../../img/translations/remote_translations/active-remote-translations-en.png)
+   ![Active remote translations](../../img/translations/remote_translations/active-remote-translations-en.png)
 
 ### Use Cases
 
 Once we have the api key in our `secrets.yml` and the activated module, users will already be able to use the functionality.
 We attach some screenshots of how the application interacts with our users:
 
-* When a user visits a page in a language without translated content, an informative text will appear at the top of the page and a button to request the translation. (**Note:** *If user visit page with a language not supported by the translation service, no text or translation button will be displayed. See section: Available languages for remote translation*)
+- When a user visits a page in a language without translated content, an informative text will appear at the top of the page and a button to request the translation. (**Note:** _If user visit page with a language not supported by the translation service, no text or translation button will be displayed. See section: Available languages for remote translation_)
   ![Display text and button](../../img/translations/remote_translations/display-text-and-button-en.png)
 
-* Once the user click the `Translate page` button, the translations are enqueued and the page is reloaded with a notice (*Informing that the translations have been requested correctly*) and an informative text in the header (*explaining when you will be able to see these translations*).
+- Once the user click the `Translate page` button, the translations are enqueued and the page is reloaded with a notice (_Informing that the translations have been requested correctly_) and an informative text in the header (_explaining when you will be able to see these translations_).
   ![Display notice and text after enqueued translations](../../img/translations/remote_translations/display-notice-and-text-after-enqueued-en.png)
 
-* If an user visit a page that does not have translations but have already been requested by another user. The application will not show you the translate button, but an informative text in the header (*explaining when you will be able to see these translations*).
+- If an user visit a page that does not have translations but have already been requested by another user. The application will not show you the translate button, but an informative text in the header (_explaining when you will be able to see these translations_).
   ![Display text explaining that translations are pending](../../img/translations/remote_translations/display-text-translations-pending-en.png)
 
-* The translation request, response processing and data saving are delegated to `Delayed Jobs` and as soon as they are processed, the user will be able to read them after page refresh.
+- The translation request, response processing and data saving are delegated to `Delayed Jobs` and as soon as they are processed, the user will be able to read them after page refresh.
   ![Display translated content](../../img/translations/remote_translations/display-translated-content-en.png)
 
 ### Available languages for remote translation
@@ -76,10 +76,135 @@ We attach some screenshots of how the application interacts with our users:
 Currently these are all the [available languages](https://api.cognitive.microsofttranslator.com/languages?api-version=3.0) in the translation service:
 
 ```yml
-["af", "am", "ar", "as", "az", "ba", "bg", "bn", "bo", "bs", "ca", "cs", "cy", "da", "de", "dv", "el", "en", "es", "et", "eu", "fa", "fi", "fil", "fj", "fo", "fr", "fr-CA", "ga", "gl", "gu", "ha", "he", "hi", "hr", "hsb", "ht", "hu", "hy", "id", "ig", "ikt", "is", "it", "iu", "iu-Latn", "ja", "ka", "kk", "km", "kmr", "kn", "ko", "ku", "ky", "ln", "lo", "lt", "lug", "lv", "lzh", "mg", "mi", "mk", "ml", "mn-Cyrl", "mn-Mong", "mr", "ms", "mt", "mww", "my", "nb", "ne", "nl", "nso", "nya", "or", "otq", "pa", "pl", "prs", "ps", "pt", "pt-PT", "ro", "ru", "run", "rw", "sk", "sl", "sm", "sn", "so", "sq", "sr-Cyrl", "sr-Latn", "st", "sv", "sw", "ta", "te", "th", "ti", "tk", "tlh-Latn", "tlh-Piqd", "tn", "to", "tr", "tt", "ty", "ug", "uk", "ur", "uz", "vi", "xh", "yo", "yua", "yue", "zh-Hans", "zh-Hant", "zu"]
+[
+  "af",
+  "am",
+  "ar",
+  "as",
+  "az",
+  "ba",
+  "bg",
+  "bn",
+  "bo",
+  "bs",
+  "ca",
+  "cs",
+  "cy",
+  "da",
+  "de",
+  "dv",
+  "el",
+  "en",
+  "es",
+  "et",
+  "eu",
+  "fa",
+  "fi",
+  "fil",
+  "fj",
+  "fo",
+  "fr",
+  "fr-CA",
+  "ga",
+  "gl",
+  "gu",
+  "ha",
+  "he",
+  "hi",
+  "hr",
+  "hsb",
+  "ht",
+  "hu",
+  "hy",
+  "id",
+  "ig",
+  "ikt",
+  "is",
+  "it",
+  "iu",
+  "iu-Latn",
+  "ja",
+  "ka",
+  "kk",
+  "km",
+  "kmr",
+  "kn",
+  "ko",
+  "ku",
+  "ky",
+  "ln",
+  "lo",
+  "lt",
+  "lug",
+  "lv",
+  "lzh",
+  "mg",
+  "mi",
+  "mk",
+  "ml",
+  "mn-Cyrl",
+  "mn-Mong",
+  "mr",
+  "ms",
+  "mt",
+  "mww",
+  "my",
+  "nb",
+  "ne",
+  "nl",
+  "nso",
+  "nya",
+  "or",
+  "otq",
+  "pa",
+  "pl",
+  "prs",
+  "ps",
+  "pt",
+  "pt-PT",
+  "ro",
+  "ru",
+  "run",
+  "rw",
+  "sk",
+  "sl",
+  "sm",
+  "sn",
+  "so",
+  "sq",
+  "sr-Cyrl",
+  "sr-Latn",
+  "st",
+  "sv",
+  "sw",
+  "ta",
+  "te",
+  "th",
+  "ti",
+  "tk",
+  "tlh-Latn",
+  "tlh-Piqd",
+  "tn",
+  "to",
+  "tr",
+  "tt",
+  "ty",
+  "ug",
+  "uk",
+  "ur",
+  "uz",
+  "vi",
+  "xh",
+  "yo",
+  "yua",
+  "yue",
+  "zh-Hans",
+  "zh-Hant",
+  "zu",
+]
 ```
 
-Of all the languages that Consul Democracy currently has defined (`available_locales`) in `config/application.rb` the only one that is not listed above and therefore no translation service is offered is Valencian `["val"]`.
+Of all the languages that Moucharaka Mouwatina currently has defined (`available_locales`) in `config/application.rb` the only one that is not listed above and therefore no translation service is offered is Valencian `["val"]`.
 
 ### Pricing
 
@@ -129,17 +254,17 @@ The aim of this feature is to allow users the introduction of dynamic contents i
 
 To activate this feature you must follow 2 steps:
 
-1. Execute the following command `bin/rake settings:create_translation_interface_setting RAILS_ENV=production` (This is only required for already existing intallations, for new Consul Democracy installations this step is not needed).
-2. Accessing as administrator user to the administration panel of your Consul Democracy application to the section **Configuration > Features** and activating the feature called **Translation Interface** as you can see next:
-  ![Active interface translations](../../img/translations/interface_translations/active-interface-translations-en.png)
+1. Execute the following command `bin/rake settings:create_translation_interface_setting RAILS_ENV=production` (This is only required for already existing intallations, for new Moucharaka Mouwatina installations this step is not needed).
+2. Accessing as administrator user to the administration panel of your Moucharaka Mouwatina application to the section **Configuration > Features** and activating the feature called **Translation Interface** as you can see next:
+   ![Active interface translations](../../img/translations/interface_translations/active-interface-translations-en.png)
 
 ### Use Cases
 
-* When the translation interface is active:
+- When the translation interface is active:
   As you can see in the image below translation interface has two selectors, the firt one "Select language" is to switch between enabled languages and the second one "Add language" is to add new languages to the form. Translatable fields appears with a blue background to facilitate users to distinguish between translatable and not translatable fields. Additionally interface provides a link `Remove language` to delete the current language shown at "Select language". If a user accidentally removes a translation he can recover it re-adding it to the form.
   This feature is visible during creation and edition of translatable resources.
   ![Translations inteface enabled](../../img/translations/interface_translations/translations-interface-enabled-en.png)
 
-* When the translation interface is disabled:
+- When the translation interface is disabled:
   When this feature is deactivated users will see standard forms without translation interface and without translation highlight.
   ![Translations inteface enabled](../../img/translations/interface_translations/translations-interface-disabled-en.png)

@@ -7,7 +7,13 @@
   <div class="row">
     <div class="small-12 column text-center">
       <span class="budget-title"><%= t("budgets.index.title") %></span>
-      <h1><%= budget.name %></h1>
+      <h1>
+        <% if I18n.locale == :ar %>
+          الميزانية التشاركية
+        <% else %>
+          <%= budget.name %>
+        <% end %>
+      </h1>
 
       <% if budget.main_link_text.present? && budget.main_link_url.present? %>
         <%= link_to budget.main_link_text, budget.main_link_url, class: "main-link" %>

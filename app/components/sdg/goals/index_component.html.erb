@@ -5,7 +5,11 @@
   <%= render "shared/header", header: header %>
 <% else %>
   <header class="section-header">
-    <h1><%= title %></h1>
+    <% if I18n.locale == :ar %>
+      <h1>أهداف الإبتكار</h1>
+    <% else %>
+      <h1><%= title %></h1>
+    <% end %>
   </header>
 <% end %>
 

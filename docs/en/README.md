@@ -1,10 +1,10 @@
-![CONSUL DEMOCRACY logo](../img/consul_logo.png)
+![Moucharaka Mouwatina logo](../img/consul_logo.png)
 
-# CONSUL DEMOCRACY
+# Moucharaka Mouwatina
 
 Citizen Participation and Open Government Application
 
-## CONSUL DEMOCRACY Project main website
+## Moucharaka Mouwatina Project main website
 
 You can access the main website of the project at [http://consuldemocracy.org](http://consuldemocracy.org) where you can find documentation about the use of the platform, videos, and links to the community space.
 
@@ -39,13 +39,13 @@ Note: running the whole test suite on your machine might take more than an hour,
 
 You can use the default admin user from the seeds file:
 
- **user:** admin@consul.dev
- **pass:** 12345678
+**user:** admin@consul.dev
+**pass:** 12345678
 
 But for some actions like voting, you will need a verified user, the seeds file also includes one:
 
- **user:** verified@consul.dev
- **pass:** 12345678
+**user:** verified@consul.dev
+**pass:** 12345678
 
 ## Configuration for production environments
 

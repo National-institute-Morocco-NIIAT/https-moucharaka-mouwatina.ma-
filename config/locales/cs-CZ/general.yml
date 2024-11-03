@@ -206,9 +206,9 @@ cs:
     footer:
       accessibility: Přístupnost
       conditions: Podmínky používání
-      consul: aplikace CONSUL DEMOCRACY
+      consul: aplikace Moucharaka Mouwatina
       consul_url: https://github.com/consuldemocracy/consuldemocracy
-      copyright: CONSUL DEMOCRACY, %{year}
+      copyright: Moucharaka Mouwatina, %{year}
       description: Tento portál software %{consul}, což je %{open_source}.
       open_source: open source software
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
@@ -592,7 +592,7 @@ cs:
         share_in: Sdílet v
         hi: "Dobrý den!"
         introduction: Píšu vám, abych vám oznámil, že se účastním %{org}, platformy, na které se můžeme rozhodnout, jaké město si přejeme tvořit. A za tímto účelem jsem vytvořil vlastní občanský návrh a nyní budu potřebovat vaši podporu! Ale nebojte se, protože je to velmi jednoduché.
-        support: "Stačí kliknout na tlačítko, které se zobrazí pod \"Podpořte tento návrh\", a můžete se informovat před jeho podporou. Pouze návrhy, které získají maximální podporu, budou městskou radou realizovány, a já si myslím, že mi k tomu určitě pomůžete!"
+        support: 'Stačí kliknout na tlačítko, které se zobrazí pod "Podpořte tento návrh", a můžete se informovat před jeho podporou. Pouze návrhy, které získají maximální podporu, budou městskou radou realizovány, a já si myslím, že mi k tomu určitě pomůžete!'
         share: "A pokud mi také prokážete velkou laskavost a podělíte se o můj návrh se svými přáteli, rodinou a kontakty, bude to perfektní!"
   polls:
     all: "Vše"
@@ -784,7 +784,7 @@ cs:
   unauthorized:
     default: Nemáte oprávnění k přístupu na tuto stránku.
     manage:
-      all: "Nemáte oprávnění k provedení akce \"%{action}\" subjektu %{subject}."
+      all: 'Nemáte oprávnění k provedení akce "%{action}" subjektu %{subject}.'
   users:
     login_to_comment: "Chcete-li zanechat komentář, musíte se %{signin} nebo %{signup}."
     login_to_continue: "Chcete-li pokračovat, musíte se %{signin} nebo %{signup}."

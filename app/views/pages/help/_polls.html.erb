@@ -6,7 +6,9 @@
   <ul class="features">
     <li>
       <%= sanitize(t("pages.help.polls.feature_1",
-                     link: link_to(t("pages.help.polls.feature_1_link", org_name: setting["org_name"]),
+                     link: link_to(t("pages.help.polls.feature_1_link", org_name: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina")),
                                    new_user_registration_path))) %>
     </li>
   </ul>

@@ -58,7 +58,9 @@ describe "Moderation" do
   end
 
   scenario "Access as a moderator is authorized" do
-    Setting["org_name"] = "OrgName"
+    (I18n.locale == :ar ? "مشاركة مواطنة" : 
+                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+                                                                                      "Moucharaka Mouwatina") = "OrgName"
     create(:moderator, user: user)
 
     login_as(user)
