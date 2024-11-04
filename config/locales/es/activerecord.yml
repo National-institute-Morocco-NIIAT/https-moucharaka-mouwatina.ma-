@@ -274,9 +274,9 @@ es:
         summary: "Resumen de la propuesta"
         retired_explanation: "Explicación"
       user:
-        login: "Email o nombre de usuario"
+        login: "Email o número de documento"
         email: "Email"
-        username: "Nombre de usuario"
+        username: "nombre completo"
         password_confirmation: "Confirmación de contraseña"
         password: "Contraseña"
         current_password: "Contraseña actual"
@@ -502,8 +502,8 @@ es:
         description: Descripción
         link: Enlace externo
         request_to_administrators: Incluir en el recurso un botón para solicitar el recurso a los administradores
-        day_offset: '¿En cuántos días tras la creación de la propuesta quieres que se active?'
-        required_supports: '¿Cuántos apoyos tiene que conseguir la propuesta para que se active?'
+        day_offset: "¿En cuántos días tras la creación de la propuesta quieres que se active?"
+        required_supports: "¿Cuántos apoyos tiene que conseguir la propuesta para que se active?"
         order: Puedes introducir la posición en la que se mostrará al usuario esta acción en la lista de acciones
         active: Activa
         action_type: Tipo
@@ -551,7 +551,7 @@ es:
         geozone:
           attributes:
             geojson:
-              invalid: "Los datos GeoJSON proporcionados no tienen el formato correcto. Deben tener un tipo del formato \"Polygon\" o \"MultiPolygon\"."
+              invalid: 'Los datos GeoJSON proporcionados no tienen el formato correcto. Deben tener un tipo del formato "Polygon" o "MultiPolygon".'
         image:
           attributes:
             attachment:

@@ -192,7 +192,7 @@ es-PE:
         summary: "Resumen de la propuesta"
         retired_explanation: "Explicación"
       user:
-        login: "Email o nombre de usuario"
+        login: "Email o número de documento"
         email: "Tu correo electrónico"
         username: "Nombre de usuario"
         password_confirmation: "Confirmación de contraseña"
