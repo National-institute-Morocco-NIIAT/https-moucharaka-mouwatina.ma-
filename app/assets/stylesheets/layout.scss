@@ -2133,14 +2133,9 @@ table {
   .cards-container {
     display: flex;
     flex-wrap: wrap;
-
-    .card a {
-      height: 100%;
-    }
   }
 
   .card {
-    border: 0;
     flex-grow: 0;
     overflow: visible;
 

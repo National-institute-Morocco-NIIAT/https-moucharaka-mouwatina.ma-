@@ -72,7 +72,38 @@
 }
 
 .feed-proposals {
-  background-color: #F58F20;
+  border: #F58F20 solid 2px;
+  background-color: #EEBB83;
+  padding: 20px;
+
+  .widget-feed {
+    padding: 10px;
+  }
+
+  .feed-content {
+    display: flex;
+    gap: 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .feed-content {
+      flex-direction: column;
+    }
+  }
+
+  .feeds-list a.see-all {
+    background-color: #F58F20;
+    color: #F58F20;
+    border-radius: 10px;
+
+    &:hover {
+      background-color: #DB7A11;
+    }
+  }
+}
+
+.widget-feed {
+  overflow-x: hidden;
 }
 
 .feed-debates {

@@ -1,3 +1,72 @@
+<style>
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .cards-container {
+    justify-content: center;
+  }
+} 
+
+.card-info {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  flex: 1 1 300px; 
+  max-width: 400px;
+  //width: 90%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #0CA24E;
+  background-color: #73B385;
+  direction: <%= I18n.locale == :ar ? 'rtl' : 'ltr' %>;
+  position: relative;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.card h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #0CA24E; 
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: #056B32;
+  color: white;
+}
+</style>
+
 <% content_for :body_class, "home-page" %>
 
 <% content_for :canonical do %>
@@ -7,8 +76,7 @@
 <%= render Shared::BannerComponent.new("homepage") %>
 
 <% provide :social_media_meta_tags do %>
-  <%= render "shared/social_media_meta_tags",
-             social_url: root_url %>
+  <%= render "shared/social_media_meta_tags", social_url: root_url %>
 <% end %>
 
 <%= render "shared/header", header: @header %>
@@ -16,13 +84,46 @@
 <%= render "feeds" %>
 
 <div class="row">
-  <% if @cards.any? %>
-    <div class="small-12 column <%= "large-8" if feed_processes_enabled? %>">
-      <h2 class="title"><%= t("welcome.cards.title") %></h2>
+  <div class="small-12 column large-8">
+    <h2 class="title">
+      <% if I18n.locale == :ar %>
+        عن مشاركة مواطنة
+      <% elsif I18n.locale == :fr %>
+        À propos de Mouchaaraka Mouwatina
+      <% else %>
+        About Mouchaaraka Mouwatina
+      <% end %>
+    </h2>
+    <div class="cards-container">
+      <div class="card card-info">
+        <h3><%= case I18n.locale when :ar then 'نقاشات' when :fr then 'Débats' else 'Debates' end %></h3>
+        <h4><%= case I18n.locale when :ar then 'كيف تعمل النقاشات؟' when :fr then 'Comment fonctionnent les débats ?' else 'How do debates work?' end %></h4>
+        <p><%= case I18n.locale when :ar then 'يمكن لأي شخص فتح مواضيع نقاش حول أي موضوع، مما يتيح للناس مناقشة الموضوع المطروح وتقديره من قبل الجميع لتسليط الضوء على القضايا المهمة.' when :fr then 'Tout le monde peut ouvrir des discussions sur n\'importe quel sujet, permettant aux gens de discuter du sujet proposé. Les débats sont appréciés par tout le monde pour mettre en lumière les questions importantes.' else 'Anyone can open threads on any subject, creating separate spaces where people can discuss the proposed topic. Debates are valued by everybody, to highlight the most important issues.' end %></p>
+        <a href="#" class="btn"><%= case I18n.locale when :ar then 'المزيد حول النقاشات' when :fr then 'En savoir plus sur les débats' else 'More about debates' end %></a>
+      </div>
 
-      <%= render "shared/cards", cards: @cards %>
+      <div class="card card-info">
+        <h3><%= case I18n.locale when :ar then 'مقترحات المواطنين' when :fr then 'Propositions citoyennes' else 'Citizen proposals' end %></h3>
+        <h4><%= case I18n.locale when :ar then 'كيف تعمل مقترحات المواطنين؟' when :fr then 'Comment fonctionnent les propositions citoyennes ?' else 'How do citizen proposals work?' end %></h4>
+        <p><%= case I18n.locale when :ar then 'مكان يتيح للجميع إنشاء مقترح مواطن والسعي للحصول على الدعم. المقترحات التي تحصل على دعم كافٍ سيتم التصويت عليها حتى نتمكن معًا من اتخاذ القرارات حول القضايا التي تهمنا.' when :fr then 'Un espace pour que tout le monde puisse créer une proposition citoyenne et rechercher des soutiens. Les propositions qui atteignent un soutien suffisant seront votées, afin que nous puissions ensemble décider des questions qui nous importent.' else 'A space for everyone to create a citizen\'s proposal and seek supports. Proposals which reach enough supports will be voted and so, together we can decide the issues that matter to us.' end %></p>
+        <a href="#" class="btn"><%= case I18n.locale when :ar then 'المزيد حول المقترحات' when :fr then 'En savoir plus sur les propositions' else 'More about proposals' end %></a>
+      </div>
+
+      <div class="card card-info">
+        <h3><%= case I18n.locale when :ar then 'الميزانيات التشاركية' when :fr then 'Budgets participatifs' else 'Participatory budgets' end %></h3>
+        <h4><%= case I18n.locale when :ar then 'كيف تعمل الميزانيات التشاركية؟' when :fr then 'Comment fonctionnent les budgets participatifs ?' else 'How do participatory budgets work?' end %></h4>
+        <p><%= case I18n.locale when :ar then 'تسمح الميزانيات التشاركية للمواطنين باقتراح واتخاذ قرارات مباشرة حول كيفية إنفاق جزء من الميزانية، مع متابعة وتقييم صارم من قبل المؤسسة لضمان أقصى قدر من الفعالية.' when :fr then 'Les budgets participatifs permettent aux citoyens de proposer et de décider directement de la manière de dépenser une partie du budget, avec un suivi et une évaluation rigoureuse des propositions par l\'institution.' else 'Participatory budgets allow citizens to propose and decide directly how to spend part of the budget, with monitoring and rigorous evaluation of proposals by the institution.' end %></p>
+        <a href="#" class="btn"><%= case I18n.locale when :ar then 'المزيد حول الميزانيات التشاركية' when :fr then 'En savoir plus sur les budgets participatifs' else 'More about participatory budgets' end %></a>
+      </div>
+
+      <div class="card card-info">
+        <h3><%= case I18n.locale when :ar then 'مشاركة مواطنة' when :fr then 'Participation citoyenne' else 'Citizen participation' end %></h3>
+        <h4><%= case I18n.locale when :ar then 'كيف تعمل المشاركة المدنية؟' when :fr then 'Comment fonctionne la participation citoyenne ?' else 'How does citizen participation work?' end %></h4>
+        <p><%= case I18n.locale when :ar then 'يمكن للمواطنين المشاركة بنشاط في عملية صنع القرار والتأثير المباشر على القضايا التي تؤثر على مجتمعهم.' when :fr then 'Les citoyens peuvent participer activement au processus de prise de décision et avoir un impact direct sur les questions qui touchent leur communauté.' else 'Citizens can actively participate in the decision-making process and have a direct impact on the issues that affect their community.' end %></p>
+        <a href="#" class="btn"><%= case I18n.locale when :ar then 'المزيد حول المشاركة المدنية' when :fr then 'En savoir plus sur la participation citoyenne' else 'More about citizen participation' end %></a>
+      </div>
     </div>
-  <% end %>
+  </div>
 
   <% if feed_processes_enabled? %>
     <div class="small-12 large-4 column">
@@ -32,7 +133,5 @@
 </div>
 
 <% if feature?("user.recommendations") && (@recommended_debates.present? || @recommended_proposals.present?) %>
-  <%= render "recommended",
-             recommended_debates: @recommended_debates,
-             recommended_proposals: @recommended_proposals %>
+  <%= render "recommended", recommended_debates: @recommended_debates, recommended_proposals: @recommended_proposals %>
 <% end %>

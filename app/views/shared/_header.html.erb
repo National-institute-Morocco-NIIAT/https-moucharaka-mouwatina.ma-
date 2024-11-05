@@ -12,7 +12,7 @@
 
         .header-card {
             position: relative;
-            padding: 5rem 1rem;
+            padding: 2rem 1rem;
             text-align: center;
             box-shadow: 0 15px 30px rgba(91, 75, 226, 0.2);
             border-radius: 15px;
@@ -103,24 +103,24 @@
                     </span>
 
                     <h1>
-                        <% case I18n.locale
-                            when :ar %>
+                        <% case I18n.locale %>
+                            <% when :ar %>
                             مشاركة مواطنة، منصة المشاركة المدنية لمدينة الدار البيضاء
-                        <% when :fr %>
+                            <% when :fr %>
                             Moucharaka Mouwatina, plateforme de participation citoyenne pour la ville de Casablanca
-                        <% else %>
-                            <%= header.title %>
+                            <% else %>
+                            Moucharaka Mouwatina, a platform for civic engagement in the city of Casablanca
                         <% end %>
                     </h1>
 
                     <p class="lead">
-                        <% case I18n.locale
-                            when :ar %>
+                        <% case I18n.locale %>
+                            <% when :ar %>
                             في "مشاركة مواطنة" يمكنك تقديم المقترحات، التصويت في الاستشارات المدنية، طرح، دعم أو التصويت على مشاريع بميزانيات تشاركية، اتخاذ القرارات المتعلقة بالتشريعات المحلية وفتح النقاشات لتبادل الآراء مع الآخرين.
-                        <% when :fr %>
+                            <% when :fr %>
                             Sur "Moucharaka Mouwatina", vous pouvez faire des propositions, voter dans les consultations civiles, soutenir ou voter sur des projets de budget participatif, prendre des décisions locales et ouvrir des débats pour échanger des opinions avec les autres.
-                        <% else %>
-                            <%= header.description %>
+                            <% else %>
+                            On "Moucharaka Mouwatina," you can submit proposals, vote in civic consultations, propose, support, or vote on participatory budget projects, make decisions on local legislation, and open discussions to exchange opinions with others.
                         <% end %>
                     </p>
 

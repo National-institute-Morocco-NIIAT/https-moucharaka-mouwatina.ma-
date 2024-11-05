@@ -833,8 +833,8 @@ fr:
   welcome:
     feed:
       most_active:
-        debates: "Discussions les plus actives"
-        proposals: "Propositions les plus actives"
+        debates: "Discussions actives"
+        proposals: "Propositions actives"
         processes: "Processus ouverts"
       see_all:
         debates: Voir toutes les discussions
