@@ -350,8 +350,8 @@ ca:
         index:
           description: "Quan els usuaris creen propostes poden accedir a un quadre de comandament de la seva proposta, on podeu proposar recursos i recomanacions per obtenir suport per a la seva idea."
           create: Crear recurs o acció
-          active: 'Sí'
-          inactive: 'No'
+          active: "Sí"
+          inactive: "No"
           title: Recursos i accions
           action_title: Títol
           action_type: Tipus
@@ -571,7 +571,7 @@ ca:
           notice: Pregunta eliminada correctament
         edit:
           back: Tornar
-          title: "Edita \"%{question_title}\""
+          title: 'Edita "%{question_title}"'
           submit_button: Guardar canvis
         form:
           add_option: + Afegir resposta tancada

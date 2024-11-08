@@ -445,9 +445,11 @@ fr:
         no_hidden_comments: il n'y a pas de commentaires masqués.
     dashboard:
       index:
-        back: Retourner au %{org}
+        back: Retourner à %{org}
         title: Administration
-        description: Bienvenue sur le page d’administration de %{org}.
+        description: Bienvenue sur la page d’administration de %{org}.
+        info: |-
+          <p>Voici l'endroit où vous, en tant qu'administrateur, mettez en œuvre et supervisez le processus de participation citoyenne dans votre ville ou région.</p> <p>Vous faites désormais partie des centaines de gouvernements et de municipalités à travers le monde qui utilisent la plateforme Consul Democracy pour mettre en pratique la participation citoyenne. Félicitations !</p> <p>La Fondation Consul Democracy est au cœur de la communauté mondiale d'utilisateurs. Nous vous invitons à nous contacter pour savoir qui utilise le logiciel et voir comment nous pouvons vous aider dans son déploiement ou son utilisation. Nous avons hâte de vous accueillir dans la communauté.</p> <p>Bonne gestion !</p> <p>Cordialement, l'équipe de la Fondation Consul Democracy.</p>
       actions:
         index:
           description: "Lorsque les utilisateurs créent des propositions il peuvent accéder au tableau de bord de leur proposition, où vous pouvez proposer des ressources et recommandations pour soutenir leur idée."
@@ -697,6 +699,11 @@ fr:
       milestones:
         index:
           title: Suivent
+    locales:
+      default_help_text: "Changer la langue par défaut <strong>affectera tous les utilisateurs</strong> qui visitent la page pour la première fois."
+      enabled_help_text: "La langue par défaut, sélectionnée précédemment, sera automatiquement activée."
+      update:
+        notice: "Langues mises à jour avec succès"
     managers:
       index:
         title: Responsables

@@ -5,8 +5,8 @@ da:
     actions:
       actions: Handlinger
       block_author: "Bloker bruger"
-      confirm_action: "Er du sikker? %{action} \"%{name}\""
-      confirm_delete: "Er du sikker? Denne handling vil slette \"%{name}\" og kan ikke fortrydes."
+      confirm_action: 'Er du sikker? %{action} "%{name}"'
+      confirm_delete: 'Er du sikker? Denne handling vil slette "%{name}" og kan ikke fortrydes.'
       confirm_hide: Bekræft moderation
       delete: "Slet"
       hide: Skjul
@@ -363,8 +363,8 @@ da:
         index:
           description: "Når brugere opretter borgerforslag, kan de tilgå dashboardet for deres forslag, hvor du kan foreslå funktioner og anbefale, hvordan de bedst muligt får opbakning til deres idéer."
           create: Opret funktion eller handling
-          active: 'Ja'
-          inactive: 'Nej'
+          active: "Ja"
+          inactive: "Nej"
           title: Funktioner og handlinger
           action_title: Titel
           action_type: Type
@@ -583,7 +583,7 @@ da:
           notice: Spørgsmålet blev slettet
         edit:
           back: Tilbage
-          title: "Rediger \"%{question_title}\""
+          title: 'Rediger "%{question_title}"'
           submit_button: Gem ændringer
         form:
           add_option: Tilføj valgmulighed

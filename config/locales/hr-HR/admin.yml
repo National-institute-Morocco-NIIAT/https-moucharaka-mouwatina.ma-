@@ -350,8 +350,8 @@ hr:
         index:
           description: "Kada korisnik stvori prijedlog može mu pristupiti kroz glavni izbornik svojih prijedloga, tamo može predložiti resurse i preporuke kako bi dobili potporu za svoju ideju."
           create: Stvori resurs ili djelovanje
-          active: 'Da'
-          inactive: 'Ne'
+          active: "Da"
+          inactive: "Ne"
           title: Resursi i djelovanja
           action_title: Naziv
           action_type: Tip
@@ -571,7 +571,7 @@ hr:
           notice: Pitanje uspješno obrisano
         edit:
           back: Nazad
-          title: "Uredi \"%{question_title}\""
+          title: 'Uredi "%{question_title}"'
           submit_button: Spremi promjene
         form:
           add_option: Dodaj opciju

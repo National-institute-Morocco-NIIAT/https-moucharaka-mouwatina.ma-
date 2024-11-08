@@ -2,46 +2,49 @@ fr:
   activemodel:
     models:
       verification:
-        residence: "Lieu de résidence"
+        residence: "Résidence"
         sms: "SMS"
       local_census_records/import:
-        one: Importation des données du recensement local
-        other: Importations des données du recensement local
+        one: "Importation de dossiers de recensement local"
+        other: "Importations de dossiers de recensement local"
     attributes:
       verification:
         residence:
           document_type: "Type de document"
-          document_number: "Numéro du document (incluant les lettres)"
+          document_number: "Numéro de document (y compris la lettre)"
           date_of_birth: "Date de naissance"
           postal_code: "Code postal"
         sms:
           phone: "Téléphone"
           confirmation_code: "Code de confirmation"
         email:
-          recipient: "Email"
+          recipient: "E-mail"
       verification/letter:
-        email: "Email"
+        email: "E-mail"
         password: "Mot de passe"
-        verification_code: "Code que vous avez reçu par lettre"
+        verification_code: "Code que vous avez reçu dans votre lettre"
       verification/management/document:
-        document_type: "Type de document :"
+        document_type: "Type de document"
         document_number: "Numéro de document"
       verification/residence:
         date_of_birth: "Date de naissance"
         document_type: "Type de document"
         postal_code: "Code postal"
       verification/sms:
-        confirmation_code: "Entrez le code que vous avez reçu sur votre portable"
+        confirmation_code: "Entrez le code que vous avez reçu sur votre mobile"
       officing/residence:
         document_type: "Type de document"
-        document_number: "Numéro du document (incluant les lettres)"
+        document_number: "Numéro de document (y compris la lettre)"
         year_of_birth: "Année de naissance"
       local_census_records/import:
-        file: Fichier
+        file: "Fichier"
+      setting/locales_settings:
+        default: "Langue par défaut"
+        enabled: "Langues activées"
     errors:
       models:
         local_census_records/import:
           attributes:
             file:
-              extension: "Le format du fichier est incorrect. Le format attendu est: %{valid_extensions}."
-              headers: "L'entête du fichier est incorrecte. L'entête doit comporter les noms suivants: %{required_headers}."
+              extension: "Le format du fichier est incorrect. Le format de fichier autorisé est : %{valid_extensions}."
+              headers: "Les en-têtes du fichier sont incorrects. Les en-têtes du fichier doivent porter les noms suivants : %{required_headers}."

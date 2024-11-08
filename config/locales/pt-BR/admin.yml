@@ -143,9 +143,9 @@ pt-BR:
         unable_notice: "Não é possível excluir um título com investimentos associados"
       form:
         max_ballot_lines_info: 'Número máximo de projetos em que um usuário pode votar neste título durante a fase de "Votação de projetos". Apenas para orçamentos com votação aprovada.'
-        population_info: "O campo \"população\" do Título do Orçamento é usado para fins Estatísticos ao final do Orçamento, para mostrar a porcentagem votante da população da área de cada Título. O campo é opcional, então você pode deixá-lo vazio se não se aplicar."
+        population_info: 'O campo "população" do Título do Orçamento é usado para fins Estatísticos ao final do Orçamento, para mostrar a porcentagem votante da população da área de cada Título. O campo é opcional, então você pode deixá-lo vazio se não se aplicar.'
         coordinates_info: "Se houver dados de latitude e longitude, aparecerá um mapa na página de investimentos deste título, cujo centro estará ajustado a essas coordenadas."
-        content_blocks_info: "Se a opção de \"bloquear conteúdo\" estiver marcada, haverá a possibilidade de criar conteúdo personalizado na seção Configurações > Personalizar blocos de conteúdo. Esse conteúdo aparecerá na página de projetos dessa rubrica."
+        content_blocks_info: 'Se a opção de "bloquear conteúdo" estiver marcada, haverá a possibilidade de criar conteúdo personalizado na seção Configurações > Personalizar blocos de conteúdo. Esse conteúdo aparecerá na página de projetos dessa rubrica.'
         create: "Criar novo título"
         edit: "Editar Títulos"
         submit: "Salvar título"
@@ -354,8 +354,8 @@ pt-BR:
         index:
           description: "Quando os usuários criam propostas, eles podem acessar um painel com o progresso da sua proposta, no qual é possível propor-lhes recursos y recomendações para conseguir apoios para as suas ideias."
           create: Criar recurso ou ação
-          active: 'Sim'
-          inactive: 'Não'
+          active: "Sim"
+          inactive: "Não"
           title: Recursos e ações
           action_title: Título
           action_type: Tipo
@@ -575,7 +575,7 @@ pt-BR:
           notice: Questão excluída com sucesso
         edit:
           back: Voltar
-          title: "Editar \"%{question_title}\""
+          title: 'Editar "%{question_title}"'
           submit_button: Salvar alterações
         form:
           add_option: Adicionar opção

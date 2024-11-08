@@ -345,8 +345,8 @@ oc:
         index:
           description: "Quand los usatgièrs crèan de proposicions pòdon accedir a un quadre de comandament de la siá proposicion, ont podètz prepausar de recorses e de recomandacions per obténer supòrt per la siá idèa."
           create: Crear recors o accion
-          active: 'Òc'
-          inactive: 'Pas'
+          active: "Òc"
+          inactive: "Pas"
           title: de Recorses e d'accions
           action_title: Títol
           action_type: Tipe
@@ -565,7 +565,7 @@ oc:
           notice: Question eliminada corrèctament
         edit:
           back: Tornar
-          title: "Edita \"%{question_title}\""
+          title: 'Edita "%{question_title}"'
           submit_button: Gardar de cambiaments
         form:
           add_option: + Apondre responsa barrada

@@ -356,8 +356,8 @@ he:
         index:
           description: "כאשר משתמשים יוצרים הצעות הם יכולים לגשת למרכז השליטה של ​​ההצעה שלהם, היכן שניתן להציע משאבים והמלצות כדי לקבל תמיכה עבור הרעיון שלהם."
           create: צור משאב או פעולה
-          active: 'כן'
-          inactive: 'לא'
+          active: "כן"
+          inactive: "לא"
           title: משאבים ופעולות
           action_title: כותרת
           action_type: סוג
@@ -497,7 +497,7 @@ he:
           orders:
             id: "מזהה"
             title: "כותרת"
-            supports: "סה\"כ תומכים"
+            supports: 'סה"כ תומכים'
         process:
           title: תהליך
           comments: הערות
@@ -576,7 +576,7 @@ he:
           notice: השאלה נמחקה בהצלחה
         edit:
           back: חזרה
-          title: "עריכת \"%{question_title}\""
+          title: 'עריכת "%{question_title}"'
           submit_button: שמירת שינויים
         form:
           add_option: הוסף אפשרות
@@ -781,7 +781,7 @@ he:
         body: טקסט
         link: קישור
         segment_recipient: נמענים
-        preview_guide: "כך המשתמשים יראו את הדוא\"ל:"
+        preview_guide: 'כך המשתמשים יראו את הדוא"ל:'
         sent_guide: "כך המשתמשים יראו את התראה:"
         send_alert: האם אתה בטוח שברצונך לשלוח את הידיעון הזה אל %{n} משתמשים?
     system_emails:
@@ -794,7 +794,7 @@ he:
         send_pending_notification: ההודעה שהמתינה לאישור נשלחה בהצלחה
       proposal_notification_digest:
         title: "התראות להצעות"
-        description: "אוסף את כל הודעות ההצעות עבור המשתמש בהודעה אחת, כדי למנוע הודעות דוא\"ל רבות מדי."
+        description: 'אוסף את כל הודעות ההצעות עבור המשתמש בהודעה אחת, כדי למנוע הודעות דוא"ל רבות מדי.'
         preview_detail: "משתמשים יקבלו רק הודעות מהצעות שהם עוקבים אחריהם"
       budget_investment_created:
         title: "תקציב להשקעה נוצר"
@@ -1220,7 +1220,7 @@ he:
         label:
           booths: "חיפוש דוכן לפי שם"
           debates: "חיפוש דיונים על פי כותרת או תיאור"
-          organizations: "שם, דוא\"ל או מספר טלפון"
+          organizations: 'שם, דוא"ל או מספר טלפון'
           poll_officers: "חפש סקר לפי נושא משרה"
           poll_questions: "חפש שאלות סקר"
           proposals: "חיפוש הצעות לפי כותרת, קוד, תיאור או שאלה"

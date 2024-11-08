@@ -1,20 +1,21 @@
 <header class="header">
   <div class="top-links">
     <%= render Layout::LocaleSwitcherComponent.new %>
-
-    <%= link_to root_path do %>
-      <%= t("admin.dashboard.index.back", org: (I18n.locale == :ar ? "مشاركة مواطنة" : 
-                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
-                                                                                      "Moucharaka Mouwatina")) %>
-    <% end %>
+    <div class="go-back">
+      <%= link_to root_path do %>
+        <%= t("admin.dashboard.index.back", org: (I18n.locale == :ar ? "مشاركة مواطنة" : 
+          I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+          "Moucharaka Mouwatina")) %>
+      <% end %>
+    </div>
   </div>
 
   <div class="top-bar">
     <h1>
       <%= link_to namespace_path do %>
         <%= (I18n.locale == :ar ? "مشاركة مواطنة" : 
-                                                                                      I18n.locale == :fr ? "Moucharaka Mouwatina" : 
-                                                                                      "Moucharaka Mouwatina") %>
+          I18n.locale == :fr ? "Moucharaka Mouwatina" : 
+          "Moucharaka Mouwatina") %>
         <br><small><%= namespaced_header_title %></small>
       <% end %>
     </h1>
@@ -26,3 +27,26 @@
     <% end %>
   </div>
 </header>
+
+<style>
+  .header {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-links {
+  display: flex;
+  justify-content: space-between; /* This pushes .go-back to the right */
+  align-items: center;
+}
+
+.go-back {
+  margin-left: auto; /* Ensures it aligns to the right */
+}
+
+.top-bar {
+  text-align: center;
+  margin-top: 1em;
+}
+
+</style>

@@ -4,7 +4,7 @@ ro:
       title: Administrare
     actions:
       actions: Acțiuni
-      confirm_delete: "Sunteți sigur? Această acțiune va șterge \"%{name}\" și nu se poate reveni."
+      confirm_delete: 'Sunteți sigur? Această acțiune va șterge "%{name}" și nu se poate reveni.'
       confirm_hide: Confirmați modificarea
       delete: "Șterge"
       hide: Ascunde
@@ -176,7 +176,7 @@ ro:
         success_notice: "Rubrică ștearsă cu succes"
         unable_notice: "Nu puteți șterge o Rubrică care are investiții asociate"
       form:
-        max_ballot_lines_info: 'Numărul maxim de proiecte pe care un utilizator le poate vota din această rubrică în timpul fazei „Votarea proiectelor”. Numai pentru bugetele care utilizează votul de aprobare.'
+        max_ballot_lines_info: "Numărul maxim de proiecte pe care un utilizator le poate vota din această rubrică în timpul fazei „Votarea proiectelor”. Numai pentru bugetele care utilizează votul de aprobare."
         population_info: "Rubrica de buget al populației este utilizată în scopuri statistice la sfârșitul bugetului pentru a arăta pentru fiecare rubrică care reprezintă o zonă cu populație ce procent votat. Acest câmp este opțional, așa că îl puteți lăsa gol dacă nu se aplică."
         coordinates_info: "Dacă latitudinea și longitudinea sunt precizate, pagina de investiții pentru această rubrică va include o hartă. Această hartă va fi centrată folosind acele coordonate."
         content_blocks_info: "Dacă este selectată opțiunea permite blocarea conținutului, veți putea crea conținut personalizat aferent acestei rubrici din secțiunea Setări> Blocuri de conținut personalizat. Acest conținut va apărea în pagina de investiții pentru această rubrică."
@@ -413,8 +413,8 @@ ro:
         index:
           description: "Când utilizatorii creează propuneri, pot accesa un tablou de bord al propunerii lor, unde se pot propune resurse și recomandări pentru a obține sprijin pentru ideea lor."
           create: Crează resursă sau acțiune
-          active: 'Da'
-          inactive: 'Nu'
+          active: "Da"
+          inactive: "Nu"
           title: Resurse și acțiuni
           action_title: Titlu
           action_type: Tip
@@ -1266,12 +1266,12 @@ ro:
             update: Configurarea hărții actualizată cu succes.
           form:
             submit: Actualizează
-          how_to_enable: 'Pentru a afișa harta utilizatorilor, trebuie să activați „Localizarea propunerilor și investițiilor bugetare” din fila „Caracteristici”.'
+          how_to_enable: "Pentru a afișa harta utilizatorilor, trebuie să activați „Localizarea propunerilor și investițiilor bugetare” din fila „Caracteristici”."
         dashboard:
           title: Tablou de bord propuneri
         remote_census:
           title: Configurarea recensământului de la distanță
-          how_to_enable: 'Pentru a configura recensământul la distanță (SOAP), trebuie să activați „Configurarea conexiunii la recensământul la distanță (SOAP)” din fila „Caracteristici”.'
+          how_to_enable: "Pentru a configura recensământul la distanță (SOAP), trebuie să activați „Configurarea conexiunii la recensământul la distanță (SOAP)” din fila „Caracteristici”."
         sdg:
           title: Configurarea obiectivelor de dezvoltare durabilă
           how_to_enable: 'Pentru a afișa opțiunile de configurare pentru Obiectivele de dezvoltare durabilă trebuie să activați "ODD" din fila de "Caracteristici".'

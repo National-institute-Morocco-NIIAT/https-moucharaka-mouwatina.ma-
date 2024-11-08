@@ -2,43 +2,49 @@ ar:
   activemodel:
     models:
       verification:
-        residence: "الإقامة"
-        sms: "الرسائل القصيرة"
+        residence: "إقامة"
+        sms: "رسائل نصية"
+      local_census_records/import:
+        one: "استيراد سجلات التعداد المحلي"
+        other: "استيرادات سجلات التعداد المحلي"
     attributes:
       verification:
         residence:
           document_type: "نوع الوثيقة"
-          document_number: "رقم المستند (بما في ذلك الاحرف)"
+          document_number: "رقم الوثيقة (مرفقة بالحرف)"
           date_of_birth: "تاريخ الميلاد"
           postal_code: "الرمز البريدي"
         sms:
-          phone: "رقم الهاتف"
+          phone: "الهاتف"
           confirmation_code: "رمز التأكيد"
         email:
           recipient: "البريد الإلكتروني"
       verification/letter:
         email: "البريد الإلكتروني"
         password: "كلمة المرور"
-        verification_code: "الكود الذي وصل في الرسالة"
+        verification_code: "الرمز الذي تلقيته في رسالتك"
       verification/management/document:
-        document_type: "نوع الوثيقة:"
+        document_type: "نوع الوثيقة"
         document_number: "رقم الوثيقة"
       verification/residence:
         date_of_birth: "تاريخ الميلاد"
         document_type: "نوع الوثيقة"
         postal_code: "الرمز البريدي"
       verification/sms:
-        confirmation_code: "أدخل الرمز الذي وصلك على هاتفك"
+        confirmation_code: "أدخل الرمز الذي تلقيته على هاتفك المحمول"
       officing/residence:
         document_type: "نوع الوثيقة"
-        document_number: "رقم المستند (بما في ذلك الاحرف)"
-        year_of_birth: "عام الولادة"
+        document_number: "رقم الوثيقة (مرفقة بالحرف)"
+        year_of_birth: "سنة الميلاد"
       local_census_records/import:
-        file: مِلَفّ
+        file: "ملف"
+      setting/locales_settings:
+        default: "اللغة الافتراضية"
+        enabled: "اللغات المفعلة"
     errors:
       models:
         local_census_records/import:
           attributes:
             file:
-              extension: "نموذج الملف المعطى خاطئ. النموذج المسموح به هو: %{valid_extensions}."
-              headers: "العناوين الرئيسية للملف خاطئة, إذ أنها يجب أن تتوفر على الأسماء التالية: %{required_headers}."
+              extension: "تنسيق الملف غير صحيح. تنسيق الملف المسموح به هو: %{valid_extensions}."
+              headers: "رؤوس الملف غير صحيحة. يجب أن تحتوي رؤوس الملف على الأسماء التالية: %{required_headers}."
